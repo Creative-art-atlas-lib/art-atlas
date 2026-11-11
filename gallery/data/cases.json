@@ -516,25 +516,77 @@
         "程序化视觉细节"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 25075,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 344,
+          "unrelated": 557,
+          "uncertain": 99,
+          "positive": 234,
+          "negative": 35,
+          "mixed": 29,
+          "neutral": 46,
+          "unclear": 0,
+          "positive_rate": 68.02,
+          "uncertain_rate": 9.9
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 921,
+          "related": 318,
+          "unrelated": 511,
+          "uncertain": 92,
+          "positive": 210,
+          "negative": 35,
+          "mixed": 28,
+          "neutral": 45,
+          "unclear": 0,
+          "positive_rate": 66.04,
+          "uncertain_rate": 9.99
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "好看",
+          "url": "https://steamcommunity.com/profiles/76561199116673429/recommended/2198150/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "画风很治愈",
+          "url": "https://steamcommunity.com/profiles/76561198731825841/recommended/2198150/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "很唯美的游戏",
+          "url": "https://steamcommunity.com/profiles/76561199070566552/recommended/2198150/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "每天涂十分钟，解压的美丽小废物",
+          "url": "https://steamcommunity.com/profiles/76561198905416552/recommended/2198150/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "好可愛，中世纪风情令我代暈了。",
+          "url": "https://steamcommunity.com/profiles/76561198986317964/recommended/2198150/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -1087,25 +1139,67 @@
         "三维场景"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 15566,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 147,
+          "unrelated": 817,
+          "uncertain": 36,
+          "positive": 108,
+          "negative": 9,
+          "mixed": 7,
+          "neutral": 23,
+          "unclear": 0,
+          "positive_rate": 73.47,
+          "uncertain_rate": 3.6
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 909,
+          "related": 133,
+          "unrelated": 742,
+          "uncertain": 34,
+          "positive": 98,
+          "negative": 9,
+          "mixed": 6,
+          "neutral": 20,
+          "unclear": 0,
+          "positive_rate": 73.68,
+          "uncertain_rate": 3.74
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "比一代画面舒服太多了,立体布局支持更复杂的工厂设计,还有奶奶都能看懂的新手教程,总之我目前玩了三个小时还没发现什么缺点.神",
+          "url": "https://steamcommunity.com/profiles/76561198421853401/recommended/2162800/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "很纯粹的流水线建造类游戏，原料无限，你只需要专注于优化你的产线，二代比一代精美，也更加易懂上手，难度比较简单，目前4分图形6分图形全通，希望后续更新丰富内容把！",
+          "url": "https://steamcommunity.com/profiles/76561198035564564/recommended/2162800/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "自动化游戏标杆\r\n美术精美，耐看，这对一个需要长时间泡在里面的游戏来说很重要\r\n自动化方面更不用说，前代便是神中神\r\n这代对传送带有一些优化，操作便捷也能更快达到自己想要的结果",
+          "url": "https://steamcommunity.com/profiles/76561198325498354/recommended/2162800/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -3664,23 +3758,49 @@
         "中央构图"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 20619,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 124,
+          "unrelated": 813,
+          "uncertain": 63,
+          "positive": 76,
+          "negative": 24,
+          "mixed": 8,
+          "neutral": 16,
+          "unclear": 0,
+          "positive_rate": 61.29,
+          "uncertain_rate": 6.3
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 867,
+          "related": 111,
+          "unrelated": 705,
+          "uncertain": 51,
+          "positive": 66,
+          "negative": 23,
+          "mixed": 7,
+          "neutral": 15,
+          "unclear": 0,
+          "positive_rate": 59.46,
+          "uncertain_rate": 5.88
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
       "semantic_quotes": [],
       "gallery_media": [
@@ -6206,25 +6326,77 @@
         "手绘动画"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 16272,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 372,
+          "unrelated": 535,
+          "uncertain": 93,
+          "positive": 292,
+          "negative": 16,
+          "mixed": 35,
+          "neutral": 29,
+          "unclear": 0,
+          "positive_rate": 78.49,
+          "uncertain_rate": 9.3
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 935,
+          "related": 345,
+          "unrelated": 500,
+          "uncertain": 90,
+          "positive": 271,
+          "negative": 13,
+          "mixed": 33,
+          "neutral": 28,
+          "unclear": 0,
+          "positive_rate": 78.55,
+          "uncertain_rate": 9.63
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "冲着美术就值这个价，同时也不开汉化当练英语了",
+          "url": "https://steamcommunity.com/profiles/76561199880651641/recommended/2416450/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "画风好\n然后没什么优点了\n关卡设计越往后越烂",
+          "url": "https://steamcommunity.com/profiles/76561198100823517/recommended/2416450/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "有失真唱片机音效和噪点画面设置绝对是复古游戏的画龙点睛之笔",
+          "url": "https://steamcommunity.com/profiles/76561198203373014/recommended/2416450/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "很好玩，画风、音乐、游戏性都非常棒。就是结合时事、打破第四面墙的地方略有点多。",
+          "url": "https://steamcommunity.com/profiles/76561198011767503/recommended/2416450/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "非常出色的类DOOM射击游戏，画风非常别致，价格不贵，量足管饱，剧情也挺有意思的，除了打击感一般以外基本没什么缺点，非常推荐！",
+          "url": "https://steamcommunity.com/profiles/76561198240007504/recommended/2416450/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -6769,25 +6941,77 @@
         "柔光"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 50786,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 256,
+          "unrelated": 649,
+          "uncertain": 95,
+          "positive": 215,
+          "negative": 9,
+          "mixed": 15,
+          "neutral": 17,
+          "unclear": 0,
+          "positive_rate": 83.98,
+          "uncertain_rate": 9.5
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 857,
+          "related": 211,
+          "unrelated": 569,
+          "uncertain": 77,
+          "positive": 180,
+          "negative": 8,
+          "mixed": 9,
+          "neutral": 14,
+          "unclear": 0,
+          "positive_rate": 85.31,
+          "uncertain_rate": 8.98
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "新出的兔兔史莱姆太可爱了",
+          "url": "https://steamcommunity.com/profiles/76561198401205310/recommended/1657630/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "真好玩，场景相比一代好看很多",
+          "url": "https://steamcommunity.com/profiles/76561199618737801/recommended/1657630/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "史萊姆比普丁跟維尼可愛多了：）",
+          "url": "https://steamcommunity.com/profiles/76561198069848365/recommended/1657630/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "wuuuuu，ye，又好看，又好玩，",
+          "url": "https://steamcommunity.com/profiles/76561199239091210/recommended/1657630/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "好萌的史莱姆们，完全无法拒绝啊！！！！",
+          "url": "https://steamcommunity.com/profiles/76561199188493763/recommended/1657630/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -9206,25 +9430,67 @@
         "平涂"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 186458,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 129,
+          "unrelated": 806,
+          "uncertain": 65,
+          "positive": 109,
+          "negative": 2,
+          "mixed": 5,
+          "neutral": 13,
+          "unclear": 0,
+          "positive_rate": 84.5,
+          "uncertain_rate": 6.5
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 945,
+          "related": 125,
+          "unrelated": 759,
+          "uncertain": 61,
+          "positive": 106,
+          "negative": 2,
+          "mixed": 5,
+          "neutral": 12,
+          "unclear": 0,
+          "positive_rate": 84.8,
+          "uncertain_rate": 6.46
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "這遊戲真馬的法克正點，好喜歡\n(而且有奶子...和屌)",
+          "url": "https://steamcommunity.com/profiles/76561198407537120/recommended/2592160/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "前六集不错，第八集剧情一坨屎，太低能了。音乐全程拉跨，动画无敌。无敌少侠看着这经费馋哭了。瑕不掩瑜勉强给个赞，还是好游戏。\n",
+          "url": "https://steamcommunity.com/profiles/76561199161035817/recommended/2592160/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "emmmm,还不错\n结构上是比较经典的，人物性格有很好的体现，演出表现也不俗套，对于核心命题的演绎也是可圈可点\n虽然对不上我个人的电波，或许我应该等半价的时候再买",
+          "url": "https://steamcommunity.com/profiles/76561198126593484/recommended/2592160/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -11128,25 +11394,77 @@
         "像素美术"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 24843,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 194,
+          "unrelated": 732,
+          "uncertain": 74,
+          "positive": 152,
+          "negative": 10,
+          "mixed": 12,
+          "neutral": 20,
+          "unclear": 0,
+          "positive_rate": 78.35,
+          "uncertain_rate": 7.4
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 929,
+          "related": 175,
+          "unrelated": 684,
+          "uncertain": 70,
+          "positive": 140,
+          "negative": 9,
+          "mixed": 10,
+          "neutral": 16,
+          "unclear": 0,
+          "positive_rate": 80.0,
+          "uncertain_rate": 7.53
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "完美的解谜游戏！！把像素风做到了极致，是今年最爱的独游",
+          "url": "https://steamcommunity.com/profiles/76561199403890945/recommended/813230/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "像素艺术品，居然只有33M大小，不懂怎么做到的有点太强了",
+          "url": "https://steamcommunity.com/profiles/76561198845622819/recommended/813230/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "很喜欢这个游戏的画面，很漂亮\n各种小道具的谜题设计也很棒，\n",
+          "url": "https://steamcommunity.com/profiles/76561198840022097/recommended/813230/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "這款遊戲精美到一個程度\n他不紅是因為多數玩家無法跟上作者 \n",
+          "url": "https://steamcommunity.com/profiles/76561198218106055/recommended/813230/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "有趣的解密过程，自由的探险历程，还有这游戏实在是太美了吧！！！",
+          "url": "https://steamcommunity.com/profiles/76561199422120529/recommended/813230/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -14340,25 +14658,77 @@
         "大留白"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 14693,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 104,
+          "unrelated": 896,
+          "uncertain": 0,
+          "positive": 93,
+          "negative": 5,
+          "mixed": 6,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 89.42,
+          "uncertain_rate": 0.0
+        },
+        "sample_method": "原批次采集快照样本，保留原抽取口径",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 883,
+          "related": 87,
+          "unrelated": 796,
+          "uncertain": 0,
+          "positive": 79,
+          "negative": 4,
+          "mixed": 4,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 90.8,
+          "uncertain_rate": 0.0
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "简洁且优秀的美术",
+          "url": "https://steamcommunity.com/profiles/76561199079247281/recommended/858210/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "畫面的表現上也很不錯",
+          "url": "https://steamcommunity.com/profiles/76561198893054645/recommended/858210/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "画风简约却炫目",
+          "url": "https://steamcommunity.com/profiles/76561198376725582/recommended/858210/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "無論是可玩性或者畫面美術都是",
+          "url": "https://steamcommunity.com/profiles/76561198295949243/recommended/858210/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "这个画风",
+          "url": "https://steamcommunity.com/profiles/76561198057944182/recommended/858210/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -14914,25 +15284,57 @@
         "像素美术"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 200850,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 32,
+          "unrelated": 958,
+          "uncertain": 10,
+          "positive": 25,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 6,
+          "unclear": 0,
+          "positive_rate": 78.12,
+          "uncertain_rate": 1.0
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 831,
+          "related": 28,
+          "unrelated": 795,
+          "uncertain": 8,
+          "positive": 22,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 5,
+          "unclear": 0,
+          "positive_rate": 78.57,
+          "uncertain_rate": 0.96
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "好玩，希望多一些这种游戏，画面也舒服",
+          "url": "https://steamcommunity.com/profiles/76561198114681219/recommended/2379780/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -15511,25 +15913,67 @@
         "二维/三维混合呈现"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 19987,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 160,
+          "unrelated": 748,
+          "uncertain": 92,
+          "positive": 130,
+          "negative": 7,
+          "mixed": 8,
+          "neutral": 15,
+          "unclear": 0,
+          "positive_rate": 81.25,
+          "uncertain_rate": 9.2
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 788,
+          "related": 132,
+          "unrelated": 587,
+          "uncertain": 69,
+          "positive": 109,
+          "negative": 4,
+          "mixed": 6,
+          "neutral": 13,
+          "unclear": 0,
+          "positive_rate": 82.58,
+          "uncertain_rate": 8.76
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "画风不错",
+          "url": "https://steamcommunity.com/profiles/76561199733974667/recommended/1574820/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "刚过第一章，已经忍不住打好评了！这像素风演出，美术风格赞到飞起！",
+          "url": "https://steamcommunity.com/profiles/76561199034598458/recommended/1574820/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "一开始有点无聊，可越到后面前面的铺垫使得丰满起来，没想到像素风格的表现力有这么强，音乐和人物的塑造非常优秀。",
+          "url": "https://steamcommunity.com/profiles/76561198136194897/recommended/1574820/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -21344,25 +21788,77 @@
         "像素外观"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 19041,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 96,
+          "unrelated": 849,
+          "uncertain": 55,
+          "positive": 77,
+          "negative": 4,
+          "mixed": 6,
+          "neutral": 9,
+          "unclear": 0,
+          "positive_rate": 80.21,
+          "uncertain_rate": 5.5
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 920,
+          "related": 86,
+          "unrelated": 785,
+          "uncertain": 49,
+          "positive": 71,
+          "negative": 3,
+          "mixed": 4,
+          "neutral": 8,
+          "unclear": 0,
+          "positive_rate": 82.56,
+          "uncertain_rate": 5.33
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "小品级游戏，美术风格我很喜欢",
+          "url": "https://steamcommunity.com/profiles/76561198991727001/recommended/3862670/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "休闲小品游戏，过程很爽升级很丝滑，美术也很有味道",
+          "url": "https://steamcommunity.com/profiles/76561198142522677/recommended/3862670/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "很上头，游戏性高，美术优秀，15快爽玩四个小时，值得",
+          "url": "https://steamcommunity.com/profiles/76561198280065588/recommended/3862670/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "这游戏画风不错，肉鸽玩法平衡的挺好的，当个短程游戏是十分优秀的",
+          "url": "https://steamcommunity.com/profiles/76561199488493060/recommended/3862670/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "太爽了，好久没玩过这种不怎么动脑纯爽而且音乐清新画风可爱的像素小游戏了",
+          "url": "https://steamcommunity.com/profiles/76561198299299842/recommended/3862670/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -21938,12 +22434,12 @@
         "snapshot": "2026-11-10"
       },
       "library_selection": {
-        "visible": false,
-        "decision": "excluded",
+        "visible": true,
+        "decision": "requested_import",
         "reasons": [
-          "美术相关评论数不足500条"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
+        "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
       },
       "semantic_quotes": [
@@ -22538,25 +23034,77 @@
         "俯视"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 21537,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 124,
+          "unrelated": 858,
+          "uncertain": 18,
+          "positive": 76,
+          "negative": 23,
+          "mixed": 7,
+          "neutral": 18,
+          "unclear": 0,
+          "positive_rate": 61.29,
+          "uncertain_rate": 1.8
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 766,
+          "related": 100,
+          "unrelated": 650,
+          "uncertain": 16,
+          "positive": 61,
+          "negative": 19,
+          "mixed": 6,
+          "neutral": 14,
+          "unclear": 0,
+          "positive_rate": 61.0,
+          "uncertain_rate": 2.09
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "优美的画面",
+          "url": "https://steamcommunity.com/profiles/76561199056779680/recommended/2444750/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "非常好玩的肉鸽+moba游戏，画面也很好",
+          "url": "https://steamcommunity.com/profiles/76561199756053004/recommended/2444750/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "动作丝滑，画面和音乐都很棒！就是内容再多些就更好玩了 ~",
+          "url": "https://steamcommunity.com/profiles/76561199800774659/recommended/2444750/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "好玩，强推。在传说法师2的模式上更进一步缝了不少系统！画面音效也很棒",
+          "url": "https://steamcommunity.com/profiles/76561198077197737/recommended/2444750/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "肉鸽类型玩得很爽，里面的美术资源非常精美，还有功夫国风地图，爽死我了",
+          "url": "https://steamcommunity.com/profiles/76561199728523650/recommended/2444750/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -24491,25 +25039,77 @@
         "精灵动画"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 46804,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 292,
+          "unrelated": 658,
+          "uncertain": 50,
+          "positive": 231,
+          "negative": 8,
+          "mixed": 19,
+          "neutral": 34,
+          "unclear": 0,
+          "positive_rate": 79.11,
+          "uncertain_rate": 5.0
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 867,
+          "related": 243,
+          "unrelated": 585,
+          "uncertain": 39,
+          "positive": 192,
+          "negative": 7,
+          "mixed": 13,
+          "neutral": 31,
+          "unclear": 0,
+          "positive_rate": 79.01,
+          "uncertain_rate": 4.5
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "這遊戲害我變成獸控",
+          "url": "https://steamcommunity.com/profiles/76561198272495675/recommended/1809540/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "美術精美，遊戲好玩，我愛貓咪",
+          "url": "https://steamcommunity.com/profiles/76561199196286424/recommended/1809540/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "小空洞骑士，喜欢国风无脑入，太有文化感了",
+          "url": "https://steamcommunity.com/profiles/76561198849780011/recommended/1809540/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "劇情設計佳，操作流暢，音樂美術皆為上乘，推薦務必遊玩。",
+          "url": "https://steamcommunity.com/profiles/76561199117387254/recommended/1809540/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "直接治好我的电子养胃，完美游戏，好喜欢小猫人设，装杯理科男",
+          "url": "https://steamcommunity.com/profiles/76561198315801324/recommended/1809540/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -26303,25 +26903,67 @@
         "Godot"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 32098,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 151,
+          "unrelated": 804,
+          "uncertain": 45,
+          "positive": 84,
+          "negative": 17,
+          "mixed": 6,
+          "neutral": 44,
+          "unclear": 0,
+          "positive_rate": 55.63,
+          "uncertain_rate": 4.5
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 963,
+          "related": 143,
+          "unrelated": 776,
+          "uncertain": 44,
+          "positive": 78,
+          "negative": 16,
+          "mixed": 5,
+          "neutral": 44,
+          "unclear": 0,
+          "positive_rate": 54.55,
+          "uncertain_rate": 4.57
+        }
       },
       "library_selection": {
         "visible": false,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "連解析度都完美還原...",
+          "url": "https://steamcommunity.com/profiles/76561198103580785/recommended/2218750/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "1、在众多花里胡哨特效满屏同类游戏中，朴素、简约、古典，且偏难度\n2、情怀加持，重温当初的RPG的余温\n3、爽感，成长速度非常快，几秒就一次buff",
+          "url": "https://steamcommunity.com/profiles/76561198132869899/recommended/2218750/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "++有中文了\r\n+角色和武器丰富\r\n+画风很old school 很有味道\r\n---节奏和成长速度极慢（一趟只能拉一件装备作为永久持有，技能进阶需要刷成就，建议局内修改开倍速）",
+          "url": "https://steamcommunity.com/profiles/76561198040990165/recommended/2218750/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -27555,25 +28197,77 @@
         "二维手工美术"
       ],
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 427155,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 97,
+          "unrelated": 889,
+          "uncertain": 14,
+          "positive": 81,
+          "negative": 8,
+          "mixed": 7,
+          "neutral": 1,
+          "unclear": 0,
+          "positive_rate": 83.51,
+          "uncertain_rate": 1.4
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 900,
+          "related": 84,
+          "unrelated": 804,
+          "uncertain": 12,
+          "positive": 72,
+          "negative": 5,
+          "mixed": 6,
+          "neutral": 1,
+          "unclear": 0,
+          "positive_rate": 85.71,
+          "uncertain_rate": 1.33
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "瑕不掩瑜，最后第三幕的演出效果很好。",
+          "url": "https://steamcommunity.com/profiles/76561198288669218/recommended/1030300/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "最后深渊的几幕泪目了，空洞老玩家情怀拉满",
+          "url": "https://steamcommunity.com/profiles/76561198885032556/recommended/1030300/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "绝美的画面和精致的剧情，越玩感觉越少玩的游戏",
+          "url": "https://steamcommunity.com/profiles/76561199871985401/recommended/1030300/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "当看到结局小骑士与大黄蜂的再次相遇，我就知道这场跨越数年的冒险绝对值得！！！！",
+          "url": "https://steamcommunity.com/profiles/76561199194602757/recommended/1030300/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "有攻略之后真的太好玩了说实话，少走十年弯路，美术好手感好机动性强，飞针和漫游者神力",
+          "url": "https://steamcommunity.com/profiles/76561199018246591/recommended/1030300/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -32332,25 +33026,77 @@
       ],
       "classification_version": "2.0",
       "semantic_review": {
+        "status": "complete",
         "version": "V2",
-        "status": "pending",
-        "label": "暂留 · 待新语义分析",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 0,
-        "pending": 57882,
-        "snapshot": "2026-11-10"
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 228,
+          "unrelated": 643,
+          "uncertain": 129,
+          "positive": 192,
+          "negative": 7,
+          "mixed": 5,
+          "neutral": 24,
+          "unclear": 0,
+          "positive_rate": 84.21,
+          "uncertain_rate": 12.9
+        },
+        "sample_method": "从已采集并按作者去重的快照固定种子随机抽取",
+        "source_snapshot": "ART_ATLAS_V2_T24-T38_每款抽样1000_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 839,
+          "related": 189,
+          "unrelated": 545,
+          "uncertain": 105,
+          "positive": 160,
+          "negative": 6,
+          "mixed": 3,
+          "neutral": 20,
+          "unclear": 0,
+          "positive_rate": 84.66,
+          "uncertain_rate": 12.51
+        }
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 待新语义分析"
+          "本次按指定名单收录已完成判读的案例"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "世界美麗，劇情鋪陳不錯",
+          "url": "https://steamcommunity.com/profiles/76561199388683843/recommended/1562430/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "画风玩法故事线我都好喜欢！",
+          "url": "https://steamcommunity.com/profiles/76561198314046668/recommended/1562430/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "我很喜欢，克苏鲁风+捕鱼，好玩",
+          "url": "https://steamcommunity.com/profiles/76561198867124796/recommended/1562430/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "故事說得不錯.美術蠻好看的.特別的小品遊戲",
+          "url": "https://steamcommunity.com/profiles/76561198260497908/recommended/1562430/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "优秀的美术风格和世界观，有趣的玩法，就是流程较短",
+          "url": "https://steamcommunity.com/profiles/76561198151095213/recommended/1562430/"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -33878,13 +34624,2291 @@
         "reason": "用户指定暂时隐藏",
         "updated_at": "2026-11-10"
       }
+    },
+    {
+      "case_id": "STEAM-1055540-ART-20261111",
+      "sequence": 56,
+      "steam_app_id": "1055540",
+      "game_name": "A Short Hike",
+      "game_name_en": "A Short Hike",
+      "game_name_zh": "",
+      "steam_url": "https://store.steampowered.com/app/1055540/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "A Short Hike",
+        "developers": [
+          "adamgryu"
+        ],
+        "publishers": [
+          "adamgryu"
+        ],
+        "store_url": "https://store.steampowered.com/app/1055540/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "30 Jul, 2019",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/1055540/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/1055540/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_f2123fea859e299736a3e99d130238c784d53e75.1920x1080.jpg?t=1777758958",
+          "evidence_id": "1055540-S1",
+          "sha256": "7752ccd6538906721f99bf14ff259a7dadfa463941bce66ae355b3b5999e6764"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/1055540/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_c9c8a8e6062511c5ae9259c68c66754cd09ae971.1920x1080.jpg?t=1777758958",
+          "evidence_id": "1055540-S2",
+          "sha256": "9a1e0666667097f5c44a96e9b85c0bc8ec71e1a13e1be9bba27abf85a6aa1f94"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/1055540/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_56e51b6bc4604ca1231d5a8d534ac9b67449d353.1920x1080.jpg?t=1777758958",
+          "evidence_id": "1055540-S3",
+          "sha256": "4d5c9ad4d715d97dcf0692196bd93ba52e57f5f1cca9cc04c41849d9ed02ed87"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/1055540/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_f2123fea859e299736a3e99d130238c784d53e75.1920x1080.jpg?t=1777758958",
+          "evidence_id": "1055540-S1",
+          "sha256": "7752ccd6538906721f99bf14ff259a7dadfa463941bce66ae355b3b5999e6764"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/1055540/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_c9c8a8e6062511c5ae9259c68c66754cd09ae971.1920x1080.jpg?t=1777758958",
+          "evidence_id": "1055540-S2",
+          "sha256": "9a1e0666667097f5c44a96e9b85c0bc8ec71e1a13e1be9bba27abf85a6aa1f94"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/1055540/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/ss_56e51b6bc4604ca1231d5a8d534ac9b67449d353.1920x1080.jpg?t=1777758958",
+          "evidence_id": "1055540-S3",
+          "sha256": "4d5c9ad4d715d97dcf0692196bd93ba52e57f5f1cca9cc04c41849d9ed02ed87"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "低多边形观感"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "俯视小径把木屋、树林和海岸连成小型地景，暖橙屋顶与蓝色水面形成明显分区。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 259,
+          "unrelated": 741,
+          "uncertain": 0,
+          "positive": 249,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 6,
+          "unclear": 0,
+          "positive_rate": 96.14,
+          "uncertain_rate": 0.0
+        },
+        "sample_method": "原批次采集快照样本，保留原抽取口径",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 878,
+          "related": 222,
+          "unrelated": 656,
+          "uncertain": 0,
+          "positive": 215,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 5,
+          "unclear": 0,
+          "positive_rate": 96.85,
+          "uncertain_rate": 0.0
+        }
+      },
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "搭配游戏画面相得益彰",
+          "url": "https://steamcommunity.com/profiles/76561198142844642/recommended/1055540/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "画面好",
+          "url": "https://steamcommunity.com/profiles/76561198169123675/recommended/1055540/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "音乐美术超大杯",
+          "url": "https://steamcommunity.com/profiles/76561199799690419/recommended/1055540/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "像素画风",
+          "url": "https://steamcommunity.com/profiles/76561198959540607/recommended/1055540/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "可爱的像素风",
+          "url": "https://steamcommunity.com/profiles/76561199351730915/recommended/1055540/"
+        }
+      ],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
+    },
+    {
+      "case_id": "STEAM-1092790-ART-20261111",
+      "sequence": 57,
+      "steam_app_id": "1092790",
+      "game_name": "Inscryption",
+      "game_name_en": "Inscryption",
+      "game_name_zh": "邪恶铭刻",
+      "steam_url": "https://store.steampowered.com/app/1092790/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "Inscryption",
+        "developers": [
+          "Daniel Mullins Games"
+        ],
+        "publishers": [
+          "Devolver Digital"
+        ],
+        "store_url": "https://store.steampowered.com/app/1092790/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "Oct 19, 2021",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/1092790/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/1092790/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_0191a69b0e94a9a7784f5b81e27f06379910645a.1920x1080.jpg?t=1777572925",
+          "evidence_id": "1092790-S1",
+          "sha256": "8b865d354d25e15df7e919064617a1a911989d3bb38710b65463f6e32e216517"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/1092790/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_738220c84b63522c4ca8c77fbff1ddb252ea0fe9.1920x1080.jpg?t=1777572925",
+          "evidence_id": "1092790-S2",
+          "sha256": "4f2e2bc891beff29e8a0278183dfa03c9f342d1faafcb038b8fa32d20b23e725"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/1092790/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_1db397016a48d454a7f65b18b88b7775d202c853.1920x1080.jpg?t=1777572925",
+          "evidence_id": "1092790-S3",
+          "sha256": "b826289dc3a835d3a603b2c5b7151383aa838610016e67a5932f8059ceb4a201"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/1092790/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_0191a69b0e94a9a7784f5b81e27f06379910645a.1920x1080.jpg?t=1777572925",
+          "evidence_id": "1092790-S1",
+          "sha256": "8b865d354d25e15df7e919064617a1a911989d3bb38710b65463f6e32e216517"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/1092790/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_738220c84b63522c4ca8c77fbff1ddb252ea0fe9.1920x1080.jpg?t=1777572925",
+          "evidence_id": "1092790-S2",
+          "sha256": "4f2e2bc891beff29e8a0278183dfa03c9f342d1faafcb038b8fa32d20b23e725"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/1092790/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/ss_1db397016a48d454a7f65b18b88b7775d202c853.1920x1080.jpg?t=1777572925",
+          "evidence_id": "1092790-S3",
+          "sha256": "b826289dc3a835d3a603b2c5b7151383aa838610016e67a5932f8059ceb4a201"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "复古电子画面感"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "以第一人称视角把卡牌嵌进昏暗桌面，绿、蓝、红三组环境光分别突出牌阵。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 96,
+          "unrelated": 904,
+          "uncertain": 0,
+          "positive": 92,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 95.83,
+          "uncertain_rate": 0.0
+        },
+        "sample_method": "原批次采集快照样本，保留原抽取口径",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 870,
+          "related": 85,
+          "unrelated": 785,
+          "uncertain": 0,
+          "positive": 81,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 95.29,
+          "uncertain_rate": 0.0
+        }
+      },
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "画面也不错",
+          "url": "https://steamcommunity.com/profiles/76561198794279488/recommended/1092790/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "材质和美工很有特点",
+          "url": "https://steamcommunity.com/profiles/76561199069530140/recommended/1092790/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "三章的风格也都好有特点",
+          "url": "https://steamcommunity.com/profiles/76561199882507266/recommended/1092790/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "美术和音乐都非常非常棒",
+          "url": "https://steamcommunity.com/profiles/76561199433165550/recommended/1092790/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "美术的沉浸感做的真的很不错",
+          "url": "https://steamcommunity.com/profiles/76561199669753615/recommended/1092790/"
+        }
+      ],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
+    },
+    {
+      "case_id": "STEAM-2638890-ART-20261111",
+      "sequence": 58,
+      "steam_app_id": "2638890",
+      "game_name": "Onimusha: Way of the Sword",
+      "game_name_en": "Onimusha: Way of the Sword",
+      "game_name_zh": "鬼武者：剑之道",
+      "steam_url": "https://store.steampowered.com/app/2638890/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "Onimusha: Way of the Sword",
+        "developers": [
+          "CAPCOM Co., Ltd."
+        ],
+        "publishers": [
+          "CAPCOM Co., Ltd."
+        ],
+        "store_url": "https://store.steampowered.com/app/2638890/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "3 Sep, 2026",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/2638890/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/2638890/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/40e49fbd098140a69e897dcce736cba5eae8662f/ss_40e49fbd098140a69e897dcce736cba5eae8662f.1920x1080.jpg?t=1790383151",
+          "evidence_id": "2638890-S1",
+          "sha256": "3b28d8638557ec4917ac57b99af192d56f4e2dc4aff5b9e52ba520fc135c6343"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/2638890/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/884ef55e720a36debf01d36f742a6db07e12320f/ss_884ef55e720a36debf01d36f742a6db07e12320f.1920x1080.jpg?t=1790383151",
+          "evidence_id": "2638890-S2",
+          "sha256": "3246614858b05883da9951d7761d094fca526047edb07df0291c591e2ea44819"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/2638890/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/609dd99944f8928f8a8bd35bb08a6695f7e1fdca/ss_609dd99944f8928f8a8bd35bb08a6695f7e1fdca.1920x1080.jpg?t=1790383151",
+          "evidence_id": "2638890-S3",
+          "sha256": "68be69e2de994512607891d4d633cc5abebbb69598496d635b8147f0b9396002"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/2638890/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/40e49fbd098140a69e897dcce736cba5eae8662f/ss_40e49fbd098140a69e897dcce736cba5eae8662f.1920x1080.jpg?t=1790383151",
+          "evidence_id": "2638890-S1",
+          "sha256": "3b28d8638557ec4917ac57b99af192d56f4e2dc4aff5b9e52ba520fc135c6343"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/2638890/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/884ef55e720a36debf01d36f742a6db07e12320f/ss_884ef55e720a36debf01d36f742a6db07e12320f.1920x1080.jpg?t=1790383151",
+          "evidence_id": "2638890-S2",
+          "sha256": "3246614858b05883da9951d7761d094fca526047edb07df0291c591e2ea44819"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/2638890/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/609dd99944f8928f8a8bd35bb08a6695f7e1fdca/ss_609dd99944f8928f8a8bd35bb08a6695f7e1fdca.1920x1080.jpg?t=1790383151",
+          "evidence_id": "2638890-S3",
+          "sha256": "68be69e2de994512607891d4d633cc5abebbb69598496d635b8147f0b9396002"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "电影摄影感"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "山寺屋顶与远山形成灰绿层次，近景战斗则以红、蓝色发光细节突出武器与敌人。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 175,
+          "unrelated": 825,
+          "uncertain": 0,
+          "positive": 142,
+          "negative": 25,
+          "mixed": 8,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 81.14,
+          "uncertain_rate": 0.0
+        },
+        "sample_method": "原批次采集快照样本，保留原抽取口径",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 427,
+          "related": 67,
+          "unrelated": 360,
+          "uncertain": 0,
+          "positive": 52,
+          "negative": 11,
+          "mixed": 4,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 77.61,
+          "uncertain_rate": 0.0
+        }
+      },
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "氛围的烘托堪称绝世第一",
+          "url": "https://steamcommunity.com/profiles/76561199758663653/recommended/2638890/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "视觉体验直接拉满",
+          "url": "https://steamcommunity.com/profiles/76561198132019611/recommended/2638890/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "演出好",
+          "url": "https://steamcommunity.com/profiles/76561198049582032/recommended/2638890/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "游戏观赏性十足",
+          "url": "https://steamcommunity.com/profiles/76561198154104927/recommended/2638890/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "武藏的表情做得好",
+          "url": "https://steamcommunity.com/profiles/76561198099610930/recommended/2638890/"
+        }
+      ],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
+    },
+    {
+      "case_id": "STEAM-2766910-ART-20261111",
+      "sequence": 59,
+      "steam_app_id": "2766910",
+      "game_name": "PengPong",
+      "game_name_en": "PengPong",
+      "game_name_zh": "弹企鹅",
+      "steam_url": "https://store.steampowered.com/app/2766910/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "PengPong",
+        "developers": [
+          "SANDY FLOOR"
+        ],
+        "publishers": [
+          "SANDY FLOOR",
+          " Gamirror Games"
+        ],
+        "store_url": "https://store.steampowered.com/app/2766910/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "20 Aug, 2026",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/2766910/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/2766910/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766910/c4275dc6815d24c74207fec5a805047722a10b70/ss_c4275dc6815d24c74207fec5a805047722a10b70.1920x1080.jpg?t=1794386513",
+          "evidence_id": "2766910-S1",
+          "sha256": "b19eee2654be8ff0b1d4adf642c02ccad2fba0a61d21f4d2fa564cb477a27167"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/2766910/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766910/4d4da38b760e2d40cdb468581caf2de4615c9162/ss_4d4da38b760e2d40cdb468581caf2de4615c9162.1920x1080.jpg?t=1794386513",
+          "evidence_id": "2766910-S2",
+          "sha256": "0f224e55209c2b737d38b7552359cb9bab7c517e7cb068cb3f964352b776d3e3"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/2766910/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766910/d1de5b90a434730044cf0b93b4c1521f3d2c08e3/ss_d1de5b90a434730044cf0b93b4c1521f3d2c08e3.1920x1080.jpg?t=1794386513",
+          "evidence_id": "2766910-S3",
+          "sha256": "1f4a89a355901764b1243ae86fdcdc84a98554efcd855bbd7cd94f41220dca53"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/2766910/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766910/c4275dc6815d24c74207fec5a805047722a10b70/ss_c4275dc6815d24c74207fec5a805047722a10b70.1920x1080.jpg?t=1794386513",
+          "evidence_id": "2766910-S1",
+          "sha256": "b19eee2654be8ff0b1d4adf642c02ccad2fba0a61d21f4d2fa564cb477a27167"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/2766910/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766910/4d4da38b760e2d40cdb468581caf2de4615c9162/ss_4d4da38b760e2d40cdb468581caf2de4615c9162.1920x1080.jpg?t=1794386513",
+          "evidence_id": "2766910-S2",
+          "sha256": "0f224e55209c2b737d38b7552359cb9bab7c517e7cb068cb3f964352b776d3e3"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/2766910/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766910/d1de5b90a434730044cf0b93b4c1521f3d2c08e3/ss_d1de5b90a434730044cf0b93b4c1521f3d2c08e3.1920x1080.jpg?t=1794386513",
+          "evidence_id": "2766910-S3",
+          "sha256": "1f4a89a355901764b1243ae86fdcdc84a98554efcd855bbd7cd94f41220dca53"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "卡通风"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "把企鹅、杯具和纸面规则放进卡通界面，弹球轨迹与得分数字用高亮色与暗背景区分。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 334,
+        "pending": 0,
+        "stats": {
+          "total": 334,
+          "related": 107,
+          "unrelated": 216,
+          "uncertain": 11,
+          "positive": 95,
+          "negative": 7,
+          "mixed": 4,
+          "neutral": 1,
+          "unclear": 0,
+          "positive_rate": 88.79,
+          "uncertain_rate": 3.29
+        },
+        "sample_method": "原批次采集快照全部可用记录",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 278,
+          "related": 79,
+          "unrelated": 190,
+          "uncertain": 9,
+          "positive": 69,
+          "negative": 6,
+          "mixed": 3,
+          "neutral": 1,
+          "unclear": 0,
+          "positive_rate": 87.34,
+          "uncertain_rate": 3.24
+        }
+      },
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "美术风格真的眼前一亮",
+          "url": "https://steamcommunity.com/profiles/76561198134178574/recommended/2766910/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "画风和内容都相当不错",
+          "url": "https://steamcommunity.com/profiles/76561198169042038/recommended/2766910/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "高规格美术",
+          "url": "https://steamcommunity.com/profiles/76561198346382856/recommended/2766910/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "给美术磕十个头都不为过",
+          "url": "https://steamcommunity.com/profiles/76561199200868252/recommended/2766910/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "画风不赖",
+          "url": "https://steamcommunity.com/profiles/76561199445788677/recommended/2766910/"
+        }
+      ],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
+    },
+    {
+      "case_id": "STEAM-2795000-ART-20261111",
+      "sequence": 60,
+      "steam_app_id": "2795000",
+      "game_name": "The WereCleaner",
+      "game_name_en": "The WereCleaner",
+      "game_name_zh": "狼人清洁工",
+      "steam_url": "https://store.steampowered.com/app/2795000/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "The WereCleaner",
+        "developers": [
+          "Howlin' Hugs"
+        ],
+        "publishers": [
+          "USC Games"
+        ],
+        "store_url": "https://store.steampowered.com/app/2795000/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "7 May, 2024",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/2795000/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/2795000/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2795000/ss_c63ab1fcf282e6cfdbe756925a2534edcef25156.1920x1080.jpg?t=1743640867",
+          "evidence_id": "2795000-S1",
+          "sha256": "59674d0d37f979a543ed5be26061783ba01e8167cc580a66a0926fb5ceec3227"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/2795000/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2795000/ss_e72bbef9495b6cf56a5c2cc674b9261129df6427.1920x1080.jpg?t=1743640867",
+          "evidence_id": "2795000-S2",
+          "sha256": "52d6af80ba27d329d30e63361646a11adf0f2c2e59ad4e9ba99c9b13c02d1b65"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/2795000/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2795000/ss_2b9d416752db990cc8a3ebc362d41c4fd5e08b49.1920x1080.jpg?t=1743640867",
+          "evidence_id": "2795000-S3",
+          "sha256": "28f4e50041702563be5dfef4585ada0ab9c5817fa40887cfcb83089c0886f0e6"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/2795000/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2795000/ss_c63ab1fcf282e6cfdbe756925a2534edcef25156.1920x1080.jpg?t=1743640867",
+          "evidence_id": "2795000-S1",
+          "sha256": "59674d0d37f979a543ed5be26061783ba01e8167cc580a66a0926fb5ceec3227"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/2795000/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2795000/ss_e72bbef9495b6cf56a5c2cc674b9261129df6427.1920x1080.jpg?t=1743640867",
+          "evidence_id": "2795000-S2",
+          "sha256": "52d6af80ba27d329d30e63361646a11adf0f2c2e59ad4e9ba99c9b13c02d1b65"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/2795000/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2795000/ss_2b9d416752db990cc8a3ebc362d41c4fd5e08b49.1920x1080.jpg?t=1743640867",
+          "evidence_id": "2795000-S3",
+          "sha256": "28f4e50041702563be5dfef4585ada0ab9c5817fa40887cfcb83089c0886f0e6"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "卡通风"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "办公室采用轴测剖面式视角，蓝灰家具和鲜红痕迹形成色差，小体型角色与夸张头像强化反差。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 238,
+          "unrelated": 762,
+          "uncertain": 0,
+          "positive": 237,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 99.58,
+          "uncertain_rate": 0.0
+        },
+        "sample_method": "原批次采集快照样本，保留原抽取口径",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 1000,
+          "related": 238,
+          "unrelated": 762,
+          "uncertain": 0,
+          "positive": 237,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 99.58,
+          "uncertain_rate": 0.0
+        }
+      },
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "好萌的画风",
+          "url": "https://steamcommunity.com/profiles/76561199634734074/recommended/2795000/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "画风非常可爱",
+          "url": "https://steamcommunity.com/profiles/76561199031385931/recommended/2795000/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "畫風可愛",
+          "url": "https://steamcommunity.com/profiles/76561199029592403/recommended/2795000/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "很可爱的画风",
+          "url": "https://steamcommunity.com/profiles/76561199882251799/recommended/2795000/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "小狼真的很可爱",
+          "url": "https://steamcommunity.com/profiles/76561198737017457/recommended/2795000/"
+        }
+      ],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
+    },
+    {
+      "case_id": "STEAM-3405340-ART-20261111",
+      "sequence": 61,
+      "steam_app_id": "3405340",
+      "game_name": "Megabonk",
+      "game_name_en": "Megabonk",
+      "game_name_zh": "",
+      "steam_url": "https://store.steampowered.com/app/3405340/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "Megabonk",
+        "developers": [
+          "vedinad"
+        ],
+        "publishers": [
+          "vedinad"
+        ],
+        "store_url": "https://store.steampowered.com/app/3405340/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "18 Sep, 2025",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/3405340/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/3405340/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405340/ce4d8d24a3731a91490ab92b8687f07314c600b9/ss_ce4d8d24a3731a91490ab92b8687f07314c600b9.1920x1080.jpg?t=1760445338",
+          "evidence_id": "3405340-S1",
+          "sha256": "c4f86a03849a6c8548a83096056bd6fb2216261d5938fc575892ac0709afa451"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3405340/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405340/3cb8c4f7ded582a7a26f483de08bbd4f91eea2bc/ss_3cb8c4f7ded582a7a26f483de08bbd4f91eea2bc.1920x1080.jpg?t=1760445338",
+          "evidence_id": "3405340-S2",
+          "sha256": "a5dab7a89ec9d140441e296b698469bcf8fed319bf9966b2c3ec2573cdca96de"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3405340/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405340/1d012ef02e5fbd1ed8245a62d60d620b25e84856/ss_1d012ef02e5fbd1ed8245a62d60d620b25e84856.1920x1080.jpg?t=1760445338",
+          "evidence_id": "3405340-S3",
+          "sha256": "1fcb6ae120ba7204870cfc12baa0db510bcafc74be7a0bca9926022829556305"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/3405340/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405340/ce4d8d24a3731a91490ab92b8687f07314c600b9/ss_ce4d8d24a3731a91490ab92b8687f07314c600b9.1920x1080.jpg?t=1760445338",
+          "evidence_id": "3405340-S1",
+          "sha256": "c4f86a03849a6c8548a83096056bd6fb2216261d5938fc575892ac0709afa451"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3405340/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405340/3cb8c4f7ded582a7a26f483de08bbd4f91eea2bc/ss_3cb8c4f7ded582a7a26f483de08bbd4f91eea2bc.1920x1080.jpg?t=1760445338",
+          "evidence_id": "3405340-S2",
+          "sha256": "a5dab7a89ec9d140441e296b698469bcf8fed319bf9966b2c3ec2573cdca96de"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3405340/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405340/1d012ef02e5fbd1ed8245a62d60d620b25e84856/ss_1d012ef02e5fbd1ed8245a62d60d620b25e84856.1920x1080.jpg?t=1760445338",
+          "evidence_id": "3405340-S3",
+          "sha256": "1fcb6ae120ba7204870cfc12baa0db510bcafc74be7a0bca9926022829556305"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "低多边形观感"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "粗颗粒的三维场景保留大轮廓，用蓝紫环境色区分区域，骷髅滑板等道具带来诙谐反差。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 37,
+          "unrelated": 963,
+          "uncertain": 0,
+          "positive": 25,
+          "negative": 9,
+          "mixed": 0,
+          "neutral": 3,
+          "unclear": 0,
+          "positive_rate": 67.57,
+          "uncertain_rate": 0.0
+        },
+        "sample_method": "原批次采集快照样本，保留原抽取口径",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 920,
+          "related": 32,
+          "unrelated": 888,
+          "uncertain": 0,
+          "positive": 22,
+          "negative": 7,
+          "mixed": 0,
+          "neutral": 3,
+          "unclear": 0,
+          "positive_rate": 68.75,
+          "uncertain_rate": 0.0
+        }
+      },
+      "semantic_quotes": [],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
+    },
+    {
+      "case_id": "STEAM-3470550-ART-20261111",
+      "sequence": 62,
+      "steam_app_id": "3470550",
+      "game_name": "We, Junk Artists",
+      "game_name_en": "We, Junk Artists",
+      "game_name_zh": "破烂艺术家",
+      "steam_url": "https://store.steampowered.com/app/3470550/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "We, Junk Artists",
+        "developers": [
+          "Perfect Day Studio"
+        ],
+        "publishers": [
+          " Spiral Up Games"
+        ],
+        "store_url": "https://store.steampowered.com/app/3470550/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "6 Aug, 2026",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/3470550/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/3470550/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470550/da3cdff8fcd02678d2407ceb1e5f4c5e4005c7d9/ss_da3cdff8fcd02678d2407ceb1e5f4c5e4005c7d9.1920x1080.jpg?t=1790150146",
+          "evidence_id": "3470550-S1",
+          "sha256": "2ccaf63d3a5f3a076b9b7bb81c9ed6eb347730eca8ee8633c3dd46ca9c913c68"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3470550/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470550/9b50caabd7d6ee8dc76a3a3277d89ae6fbba6f8d/ss_9b50caabd7d6ee8dc76a3a3277d89ae6fbba6f8d.1920x1080.jpg?t=1790150146",
+          "evidence_id": "3470550-S2",
+          "sha256": "1c69af625400075961e8991e1374ece092e3211ff25f4ba18a26b49333f88ce0"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3470550/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470550/8d4da930f42ac6e58530896ac28009f360e282ed/ss_8d4da930f42ac6e58530896ac28009f360e282ed.1920x1080.jpg?t=1790150146",
+          "evidence_id": "3470550-S3",
+          "sha256": "36906d3fe323cc10f0ba4eaf91f64776616b905edc2de193849fb9574ced5381"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/3470550/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470550/da3cdff8fcd02678d2407ceb1e5f4c5e4005c7d9/ss_da3cdff8fcd02678d2407ceb1e5f4c5e4005c7d9.1920x1080.jpg?t=1790150146",
+          "evidence_id": "3470550-S1",
+          "sha256": "2ccaf63d3a5f3a076b9b7bb81c9ed6eb347730eca8ee8633c3dd46ca9c913c68"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3470550/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470550/9b50caabd7d6ee8dc76a3a3277d89ae6fbba6f8d/ss_9b50caabd7d6ee8dc76a3a3277d89ae6fbba6f8d.1920x1080.jpg?t=1790150146",
+          "evidence_id": "3470550-S2",
+          "sha256": "1c69af625400075961e8991e1374ece092e3211ff25f4ba18a26b49333f88ce0"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3470550/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470550/8d4da930f42ac6e58530896ac28009f360e282ed/ss_8d4da930f42ac6e58530896ac28009f360e282ed.1920x1080.jpg?t=1790150146",
+          "evidence_id": "3470550-S3",
+          "sha256": "36906d3fe323cc10f0ba4eaf91f64776616b905edc2de193849fb9574ced5381"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "手工艺风"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "瓶盖和零碎材料拼成动物，卡纸、便签和胶带样式同时用于菜单与展示板。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 305,
+        "pending": 0,
+        "stats": {
+          "total": 305,
+          "related": 34,
+          "unrelated": 269,
+          "uncertain": 2,
+          "positive": 25,
+          "negative": 4,
+          "mixed": 4,
+          "neutral": 1,
+          "unclear": 0,
+          "positive_rate": 73.53,
+          "uncertain_rate": 0.66
+        },
+        "sample_method": "原批次采集快照全部可用记录",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 246,
+          "related": 25,
+          "unrelated": 219,
+          "uncertain": 2,
+          "positive": 20,
+          "negative": 2,
+          "mixed": 2,
+          "neutral": 1,
+          "unclear": 0,
+          "positive_rate": 80.0,
+          "uncertain_rate": 0.81
+        }
+      },
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "很喜歡這遊戲的風格",
+          "url": "https://steamcommunity.com/profiles/76561198875916954/recommended/3470550/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "画风很可爱",
+          "url": "https://steamcommunity.com/profiles/76561199755091235/recommended/3470550/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "画风特别特别喜欢",
+          "url": "https://steamcommunity.com/profiles/76561198897816181/recommended/3470550/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "色调审美非常高级",
+          "url": "https://steamcommunity.com/profiles/76561198867502415/recommended/3470550/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "美术风格也很特别",
+          "url": "https://steamcommunity.com/profiles/76561199031492676/recommended/3470550/"
+        }
+      ],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
+    },
+    {
+      "case_id": "STEAM-3669870-ART-20261111",
+      "sequence": 63,
+      "steam_app_id": "3669870",
+      "game_name": "CONTROL Resonant",
+      "game_name_en": "CONTROL Resonant",
+      "game_name_zh": "控制：共振",
+      "steam_url": "https://store.steampowered.com/app/3669870/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "CONTROL Resonant",
+        "developers": [
+          "Remedy Entertainment"
+        ],
+        "publishers": [
+          "Remedy Entertainment"
+        ],
+        "store_url": "https://store.steampowered.com/app/3669870/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "24 Sep, 2026",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/3669870/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/3669870/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/422f3eed36d3033c4b0f4fde485c29b980e49454/ss_422f3eed36d3033c4b0f4fde485c29b980e49454.1920x1080.jpg?t=1793357289",
+          "evidence_id": "3669870-S1",
+          "sha256": "95ca51687f4727c0e1c59d29cad94e74651bf11a59fc0e6cd6e4e32b5775a317"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3669870/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/b4160022502f74d3647d3eb1d43e41d17bbd6c52/ss_b4160022502f74d3647d3eb1d43e41d17bbd6c52.1920x1080.jpg?t=1793357289",
+          "evidence_id": "3669870-S2",
+          "sha256": "f3d8d9551409b15f4e9492f18263b47f880f7430303bd15fb6a8252ffaade1e4"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3669870/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/8b78ebe9024b52aded07863c0da0cbb08c1a966f/ss_8b78ebe9024b52aded07863c0da0cbb08c1a966f.1920x1080.jpg?t=1793357289",
+          "evidence_id": "3669870-S3",
+          "sha256": "460f857108560fe3b576cc0b076ac0d10d9250439abedbe9b2eff4c453bc9d27"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/3669870/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/422f3eed36d3033c4b0f4fde485c29b980e49454/ss_422f3eed36d3033c4b0f4fde485c29b980e49454.1920x1080.jpg?t=1793357289",
+          "evidence_id": "3669870-S1",
+          "sha256": "95ca51687f4727c0e1c59d29cad94e74651bf11a59fc0e6cd6e4e32b5775a317"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3669870/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/b4160022502f74d3647d3eb1d43e41d17bbd6c52/ss_b4160022502f74d3647d3eb1d43e41d17bbd6c52.1920x1080.jpg?t=1793357289",
+          "evidence_id": "3669870-S2",
+          "sha256": "f3d8d9551409b15f4e9492f18263b47f880f7430303bd15fb6a8252ffaade1e4"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3669870/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/8b78ebe9024b52aded07863c0da0cbb08c1a966f/ss_8b78ebe9024b52aded07863c0da0cbb08c1a966f.1920x1080.jpg?t=1793357289",
+          "evidence_id": "3669870-S3",
+          "sha256": "460f857108560fe3b576cc0b076ac0d10d9250439abedbe9b2eff4c453bc9d27"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "电影摄影感"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "以深色建筑作为轮廓，用橙红光、断裂结构与悬浮碎片突出空间异常。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 371,
+          "unrelated": 627,
+          "uncertain": 2,
+          "positive": 333,
+          "negative": 21,
+          "mixed": 16,
+          "neutral": 1,
+          "unclear": 0,
+          "positive_rate": 89.76,
+          "uncertain_rate": 0.2
+        },
+        "sample_method": "原批次采集快照样本，保留原抽取口径",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 671,
+          "related": 235,
+          "unrelated": 434,
+          "uncertain": 2,
+          "positive": 212,
+          "negative": 14,
+          "mixed": 8,
+          "neutral": 1,
+          "unclear": 0,
+          "positive_rate": 90.21,
+          "uncertain_rate": 0.3
+        }
+      },
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "美术依然伟大无需多言",
+          "url": "https://steamcommunity.com/profiles/76561198414872179/recommended/3669870/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "异象化城市的设计真挺震撼的",
+          "url": "https://steamcommunity.com/profiles/76561199066074439/recommended/3669870/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "美术和视觉效果都极为突出",
+          "url": "https://steamcommunity.com/profiles/76561198129448943/recommended/3669870/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "超长板的美术",
+          "url": "https://steamcommunity.com/profiles/76561198395817093/recommended/3669870/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "炫酷的美术和风格",
+          "url": "https://steamcommunity.com/profiles/76561198279706069/recommended/3669870/"
+        }
+      ],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
+    },
+    {
+      "case_id": "STEAM-3934250-ART-20261111",
+      "sequence": 64,
+      "steam_app_id": "3934250",
+      "game_name": "Village in the Shade",
+      "game_name_en": "Village in the Shade",
+      "game_name_zh": "静谧田园",
+      "steam_url": "https://store.steampowered.com/app/3934250/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "Village in the Shade",
+        "developers": [
+          "Nippon Ichi Software, Inc."
+        ],
+        "publishers": [
+          "NIS America, Inc."
+        ],
+        "store_url": "https://store.steampowered.com/app/3934250/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "29 Jul, 2026",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/3934250/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/3934250/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934250/ab78ae10ceaeaae9adca7b8d1a50d048712a6baa/ss_ab78ae10ceaeaae9adca7b8d1a50d048712a6baa.1920x1080.jpg?t=1794364512",
+          "evidence_id": "3934250-S1",
+          "sha256": "c2b7eb10a1b17c1dc0ce6ca49f57bcfd67456fb89407f095c0af95eaaf96d728"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3934250/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934250/05bb6e02dbb8f546281c1e12409c2d1cd9fa0eb3/ss_05bb6e02dbb8f546281c1e12409c2d1cd9fa0eb3.1920x1080.jpg?t=1794364512",
+          "evidence_id": "3934250-S2",
+          "sha256": "be82a682bfaa207739db73468bf3428fd838940141095b49ca6ae3bbdc219e23"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3934250/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934250/92c997e731c8dd59124c14b4bfbaf45ff50a2711/ss_92c997e731c8dd59124c14b4bfbaf45ff50a2711.1920x1080.jpg?t=1794364512",
+          "evidence_id": "3934250-S3",
+          "sha256": "1f37738884891ecd0cb7e22898b6858680422d282d4d06c640a709d32c83a15e"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/3934250/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934250/ab78ae10ceaeaae9adca7b8d1a50d048712a6baa/ss_ab78ae10ceaeaae9adca7b8d1a50d048712a6baa.1920x1080.jpg?t=1794364512",
+          "evidence_id": "3934250-S1",
+          "sha256": "c2b7eb10a1b17c1dc0ce6ca49f57bcfd67456fb89407f095c0af95eaaf96d728"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3934250/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934250/05bb6e02dbb8f546281c1e12409c2d1cd9fa0eb3/ss_05bb6e02dbb8f546281c1e12409c2d1cd9fa0eb3.1920x1080.jpg?t=1794364512",
+          "evidence_id": "3934250-S2",
+          "sha256": "be82a682bfaa207739db73468bf3428fd838940141095b49ca6ae3bbdc219e23"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3934250/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934250/92c997e731c8dd59124c14b4bfbaf45ff50a2711/ss_92c997e731c8dd59124c14b4bfbaf45ff50a2711.1920x1080.jpg?t=1794364512",
+          "evidence_id": "3934250-S3",
+          "sha256": "1f37738884891ecd0cb7e22898b6858680422d282d4d06c640a709d32c83a15e"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "插画／绘本风"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "以轴测视角呈现作物、雪地街道和室内剖面，用暖色室内照明和冷色雪地形成对比。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 210,
+          "unrelated": 785,
+          "uncertain": 5,
+          "positive": 208,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 99.05,
+          "uncertain_rate": 0.5
+        },
+        "sample_method": "原批次采集快照样本，保留原抽取口径",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 709,
+          "related": 125,
+          "unrelated": 581,
+          "uncertain": 3,
+          "positive": 123,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 98.4,
+          "uncertain_rate": 0.42
+        }
+      },
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "场景绘制精美",
+          "url": "https://steamcommunity.com/profiles/76561199021219651/recommended/3934250/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "美术和音乐也很顶",
+          "url": "https://steamcommunity.com/profiles/76561198330606370/recommended/3934250/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "画风好看",
+          "url": "https://steamcommunity.com/profiles/76561199038104492/recommended/3934250/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "可愛畫風",
+          "url": "https://steamcommunity.com/profiles/76561198133306396/recommended/3934250/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "大爱夜廻的美术",
+          "url": "https://steamcommunity.com/profiles/76561198310914786/recommended/3934250/"
+        }
+      ],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
+    },
+    {
+      "case_id": "STEAM-3948120-ART-20261111",
+      "sequence": 65,
+      "steam_app_id": "3948120",
+      "game_name": "Scritchy Scratchy",
+      "game_name_en": "Scritchy Scratchy",
+      "game_name_zh": "刮个爽",
+      "steam_url": "https://store.steampowered.com/app/3948120/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "Scritchy Scratchy",
+        "developers": [
+          "Lunch Money Games"
+        ],
+        "publishers": [
+          "Funday Games"
+        ],
+        "store_url": "https://store.steampowered.com/app/3948120/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "18 Mar, 2026",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/3948120/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/3948120/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/6b826ea82e005c963b863b3e66dc606a408dd3fe/ss_6b826ea82e005c963b863b3e66dc606a408dd3fe.1920x1080.jpg?t=1794326919",
+          "evidence_id": "3948120-S1",
+          "sha256": "c95581b073734444a6b2204be9ca683c37e7a19a8284677b71c3b7127ec1858c"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3948120/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/bf025be01b601c77444df88ce9b97fb43eb08664/ss_bf025be01b601c77444df88ce9b97fb43eb08664.1920x1080.jpg?t=1794326919",
+          "evidence_id": "3948120-S2",
+          "sha256": "257788c71360e36b2ce81d585dd85df17f325db728cee5549c3630e8454cb6e3"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3948120/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/110cd5a23294a3a4d3c16548680919a5ecc99ef1/ss_110cd5a23294a3a4d3c16548680919a5ecc99ef1.1920x1080.jpg?t=1794326919",
+          "evidence_id": "3948120-S3",
+          "sha256": "c8b184fe1c309460a9fff0c466bd43ba78054a0743385bc4d298f8fc5ca3221f"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/3948120/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/6b826ea82e005c963b863b3e66dc606a408dd3fe/ss_6b826ea82e005c963b863b3e66dc606a408dd3fe.1920x1080.jpg?t=1794326919",
+          "evidence_id": "3948120-S1",
+          "sha256": "c95581b073734444a6b2204be9ca683c37e7a19a8284677b71c3b7127ec1858c"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3948120/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/bf025be01b601c77444df88ce9b97fb43eb08664/ss_bf025be01b601c77444df88ce9b97fb43eb08664.1920x1080.jpg?t=1794326919",
+          "evidence_id": "3948120-S2",
+          "sha256": "257788c71360e36b2ce81d585dd85df17f325db728cee5549c3630e8454cb6e3"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/3948120/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/110cd5a23294a3a4d3c16548680919a5ecc99ef1/ss_110cd5a23294a3a4d3c16548680919a5ecc99ef1.1920x1080.jpg?t=1794326919",
+          "evidence_id": "3948120-S3",
+          "sha256": "c8b184fe1c309460a9fff0c466bd43ba78054a0743385bc4d298f8fc5ca3221f"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "像素风"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "将刮奖票集中在桌面中央，侧边保留账目和票券，中奖时以亮青色碎片覆盖原有棕色界面。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 37,
+          "unrelated": 963,
+          "uncertain": 0,
+          "positive": 32,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 2,
+          "unclear": 0,
+          "positive_rate": 86.49,
+          "uncertain_rate": 0.0
+        },
+        "sample_method": "原批次采集快照样本，保留原抽取口径",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 969,
+          "related": 36,
+          "unrelated": 933,
+          "uncertain": 0,
+          "positive": 31,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 2,
+          "unclear": 0,
+          "positive_rate": 86.11,
+          "uncertain_rate": 0.0
+        }
+      },
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "视觉冲击效果强",
+          "url": "https://steamcommunity.com/profiles/76561199435734018/recommended/3948120/"
+        }
+      ],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
+    },
+    {
+      "case_id": "STEAM-4108000-ART-20261111",
+      "sequence": 66,
+      "steam_app_id": "4108000",
+      "game_name": "Machine Party",
+      "game_name_en": "Machine Party",
+      "game_name_zh": "机械狂欢",
+      "steam_url": "https://store.steampowered.com/app/4108000/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "Machine Party",
+        "developers": [
+          "Mike Klubnika",
+          "GDeavid"
+        ],
+        "publishers": [
+          "Oro Interactive"
+        ],
+        "store_url": "https://store.steampowered.com/app/4108000/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "30 Jul, 2026",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/4108000/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/4108000/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/3eb86f408f3275f7567424526b60df2e65a69ea0/ss_3eb86f408f3275f7567424526b60df2e65a69ea0.1920x1080.jpg?t=1793352925",
+          "evidence_id": "4108000-S1",
+          "sha256": "4bed6d03a258fc6fc5009a87a151da0f48aaf26a92306ef3a1126482a6a76f07"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/4108000/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/abadd7fccfef9fc158dad19a8c6353ff438d0ab5/ss_abadd7fccfef9fc158dad19a8c6353ff438d0ab5.1920x1080.jpg?t=1793352925",
+          "evidence_id": "4108000-S2",
+          "sha256": "449b3986a05a3743cfd7b8792f9e1eef7083108d961ce583633f603b5db0f3b4"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/4108000/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/40fce0eb2d8b4b0e363d1d145c373e0cf9a27554/ss_40fce0eb2d8b4b0e363d1d145c373e0cf9a27554.1920x1080.jpg?t=1793352925",
+          "evidence_id": "4108000-S3",
+          "sha256": "268b09e0a3148bb37edc0b69def7e65bc559b70a8f9f02c95387eee7eb8f54b6"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/4108000/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/3eb86f408f3275f7567424526b60df2e65a69ea0/ss_3eb86f408f3275f7567424526b60df2e65a69ea0.1920x1080.jpg?t=1793352925",
+          "evidence_id": "4108000-S1",
+          "sha256": "4bed6d03a258fc6fc5009a87a151da0f48aaf26a92306ef3a1126482a6a76f07"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/4108000/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/abadd7fccfef9fc158dad19a8c6353ff438d0ab5/ss_abadd7fccfef9fc158dad19a8c6353ff438d0ab5.1920x1080.jpg?t=1793352925",
+          "evidence_id": "4108000-S2",
+          "sha256": "449b3986a05a3743cfd7b8792f9e1eef7083108d961ce583633f603b5db0f3b4"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/4108000/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/40fce0eb2d8b4b0e363d1d145c373e0cf9a27554/ss_40fce0eb2d8b4b0e363d1d145c373e0cf9a27554.1920x1080.jpg?t=1793352925",
+          "evidence_id": "4108000-S3",
+          "sha256": "268b09e0a3148bb37edc0b69def7e65bc559b70a8f9f02c95387eee7eb8f54b6"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "复古影像观感"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "低照度室内以手电光、红色衣物和狭窄栏杆强调人物位置及遮挡关系。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 48,
+          "unrelated": 948,
+          "uncertain": 4,
+          "positive": 36,
+          "negative": 8,
+          "mixed": 1,
+          "neutral": 3,
+          "unclear": 0,
+          "positive_rate": 75.0,
+          "uncertain_rate": 0.4
+        },
+        "sample_method": "原批次采集快照样本，保留原抽取口径",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 837,
+          "related": 41,
+          "unrelated": 793,
+          "uncertain": 3,
+          "positive": 32,
+          "negative": 6,
+          "mixed": 1,
+          "neutral": 2,
+          "unclear": 0,
+          "positive_rate": 78.05,
+          "uncertain_rate": 0.36
+        }
+      },
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "美术风格不错",
+          "url": "https://steamcommunity.com/profiles/76561198314999843/recommended/4108000/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "俄式残暴画风",
+          "url": "https://steamcommunity.com/profiles/76561198356259941/recommended/4108000/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "画面还不错",
+          "url": "https://steamcommunity.com/profiles/76561199656558292/recommended/4108000/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "画风很好看",
+          "url": "https://steamcommunity.com/profiles/76561199446135318/recommended/4108000/"
+        }
+      ],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
+    },
+    {
+      "case_id": "STEAM-4115450-ART-20261111",
+      "sequence": 67,
+      "steam_app_id": "4115450",
+      "game_name": "Phantom Blade Zero",
+      "game_name_en": "Phantom Blade Zero",
+      "game_name_zh": "影之刃零",
+      "steam_url": "https://store.steampowered.com/app/4115450/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "Phantom Blade Zero",
+        "developers": [
+          "S-GAME Studio"
+        ],
+        "publishers": [
+          "S-GAME Publishing"
+        ],
+        "store_url": "https://store.steampowered.com/app/4115450/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "28 Oct, 2026",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/4115450/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/4115450/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/b2ebc232d3d88eafa8546f65b90d8dc8d2ece0b4/ss_b2ebc232d3d88eafa8546f65b90d8dc8d2ece0b4.1920x1080.jpg?t=1793261976",
+          "evidence_id": "4115450-S1",
+          "sha256": "6e177a8e67cc77eb1c9e317c988db18f2aee455879825b75c87a916176cc2f05"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/4115450/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/90f17b4095bdd04874edb954e9cfa9b97f8aa0f0/ss_90f17b4095bdd04874edb954e9cfa9b97f8aa0f0.1920x1080.jpg?t=1793261976",
+          "evidence_id": "4115450-S2",
+          "sha256": "f91685641291b0ff72180ee8b499f8416820dff862d4f305bb285c1a998d9951"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/4115450/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/0b53fc10d4118e932df3916b1c93fa04ad9f5806/ss_0b53fc10d4118e932df3916b1c93fa04ad9f5806.1920x1080.jpg?t=1793261976",
+          "evidence_id": "4115450-S3",
+          "sha256": "5f4b9d2eaff2406c4a31121d9f560ffa4b5603c6fe3cc12021de3502782874a0"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/4115450/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/b2ebc232d3d88eafa8546f65b90d8dc8d2ece0b4/ss_b2ebc232d3d88eafa8546f65b90d8dc8d2ece0b4.1920x1080.jpg?t=1793261976",
+          "evidence_id": "4115450-S1",
+          "sha256": "6e177a8e67cc77eb1c9e317c988db18f2aee455879825b75c87a916176cc2f05"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/4115450/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/90f17b4095bdd04874edb954e9cfa9b97f8aa0f0/ss_90f17b4095bdd04874edb954e9cfa9b97f8aa0f0.1920x1080.jpg?t=1793261976",
+          "evidence_id": "4115450-S2",
+          "sha256": "f91685641291b0ff72180ee8b499f8416820dff862d4f305bb285c1a998d9951"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/4115450/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/0b53fc10d4118e932df3916b1c93fa04ad9f5806/ss_0b53fc10d4118e932df3916b1c93fa04ad9f5806.1920x1080.jpg?t=1793261976",
+          "evidence_id": "4115450-S3",
+          "sha256": "5f4b9d2eaff2406c4a31121d9f560ffa4b5603c6fe3cc12021de3502782874a0"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "电影摄影感"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "灰青色院落与暖橙色木构室内交替，逆光和烟雾突出武者的轮廓。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 171,
+          "unrelated": 829,
+          "uncertain": 0,
+          "positive": 146,
+          "negative": 11,
+          "mixed": 12,
+          "neutral": 2,
+          "unclear": 0,
+          "positive_rate": 85.38,
+          "uncertain_rate": 0.0
+        },
+        "sample_method": "原批次采集快照样本，保留原抽取口径",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 611,
+          "related": 114,
+          "unrelated": 497,
+          "uncertain": 0,
+          "positive": 100,
+          "negative": 5,
+          "mixed": 8,
+          "neutral": 1,
+          "unclear": 0,
+          "positive_rate": 87.72,
+          "uncertain_rate": 0.0
+        }
+      },
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "恢弘的地图风景",
+          "url": "https://steamcommunity.com/profiles/76561198451132512/recommended/4115450/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "演出很棒",
+          "url": "https://steamcommunity.com/profiles/76561198106216079/recommended/4115450/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "场景刻画的太美了",
+          "url": "https://steamcommunity.com/profiles/76561198874706493/recommended/4115450/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "前有美景",
+          "url": "https://steamcommunity.com/profiles/76561199559657931/recommended/4115450/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "小美学",
+          "url": "https://steamcommunity.com/profiles/76561199064848260/recommended/4115450/"
+        }
+      ],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
+    },
+    {
+      "case_id": "STEAM-499170-ART-20261111",
+      "sequence": 68,
+      "steam_app_id": "499170",
+      "game_name": "Order of the Sinking Star",
+      "game_name_en": "Order of the Sinking Star",
+      "game_name_zh": "沉星之序",
+      "steam_url": "https://store.steampowered.com/app/499170/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "Order of the Sinking Star",
+        "developers": [
+          "Thekla, Inc."
+        ],
+        "publishers": [
+          "Arc Games",
+          "Gamirror Games"
+        ],
+        "store_url": "https://store.steampowered.com/app/499170/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "8 Oct, 2026",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/499170/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/499170/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/44bbf392f454a49aa304917d30befad7f2bad8e3/ss_44bbf392f454a49aa304917d30befad7f2bad8e3.1920x1080.jpg?t=1793039241",
+          "evidence_id": "499170-S1",
+          "sha256": "a56e258137268595ec85d238767cfc5f88ea94512e57868805ef186ef04b8b5e"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/499170/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/460ba775d8bcba14964a6e2075db9db4ac422b73/ss_460ba775d8bcba14964a6e2075db9db4ac422b73.1920x1080.jpg?t=1793039241",
+          "evidence_id": "499170-S2",
+          "sha256": "d2230e0827b3b132f4feb8c5d7c2d93fd1ab2dec520d31f6dff3c9795f14c7a1"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/499170/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/62ad07058244d1548bfc3b01067cf65377f65087/ss_62ad07058244d1548bfc3b01067cf65377f65087.1920x1080.jpg?t=1793039241",
+          "evidence_id": "499170-S3",
+          "sha256": "101e7067a2da65f793ff78fb1a4e02c97407f3ca53d7d0e795ee7186533b21aa"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/499170/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/44bbf392f454a49aa304917d30befad7f2bad8e3/ss_44bbf392f454a49aa304917d30befad7f2bad8e3.1920x1080.jpg?t=1793039241",
+          "evidence_id": "499170-S1",
+          "sha256": "a56e258137268595ec85d238767cfc5f88ea94512e57868805ef186ef04b8b5e"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/499170/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/460ba775d8bcba14964a6e2075db9db4ac422b73/ss_460ba775d8bcba14964a6e2075db9db4ac422b73.1920x1080.jpg?t=1793039241",
+          "evidence_id": "499170-S2",
+          "sha256": "d2230e0827b3b132f4feb8c5d7c2d93fd1ab2dec520d31f6dff3c9795f14c7a1"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/499170/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/62ad07058244d1548bfc3b01067cf65377f65087/ss_62ad07058244d1548bfc3b01067cf65377f65087.1920x1080.jpg?t=1793039241",
+          "evidence_id": "499170-S3",
+          "sha256": "101e7067a2da65f793ff78fb1a4e02c97407f3ca53d7d0e795ee7186533b21aa"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "低多边形观感"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "把格状步道与高低错落的地台作为画面骨架，用彩色光束与发光节点标出谜题要素。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 98,
+          "unrelated": 888,
+          "uncertain": 14,
+          "positive": 88,
+          "negative": 5,
+          "mixed": 5,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 89.8,
+          "uncertain_rate": 1.4
+        },
+        "sample_method": "原批次采集快照样本，保留原抽取口径",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 928,
+          "related": 90,
+          "unrelated": 824,
+          "uncertain": 14,
+          "positive": 80,
+          "negative": 5,
+          "mixed": 5,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 88.89,
+          "uncertain_rate": 1.51
+        }
+      },
+      "semantic_quotes": [
+        {
+          "sentiment": "positive",
+          "excerpt": "美术实在是太精致了",
+          "url": "https://steamcommunity.com/profiles/76561199011593363/recommended/499170/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "美术与新鲜感同时在线",
+          "url": "https://steamcommunity.com/profiles/76561199510224857/recommended/499170/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "无论是关卡设计还是美术设计",
+          "url": "https://steamcommunity.com/profiles/76561199083141347/recommended/499170/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "游戏美术风格出色",
+          "url": "https://steamcommunity.com/profiles/76561198259879891/recommended/499170/"
+        },
+        {
+          "sentiment": "positive",
+          "excerpt": "美术音乐同样一流",
+          "url": "https://steamcommunity.com/profiles/76561198874631002/recommended/499170/"
+        }
+      ],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
+    },
+    {
+      "case_id": "STEAM-5053820-ART-20261111",
+      "sequence": 69,
+      "steam_app_id": "5053820",
+      "game_name": "Mimic Party",
+      "game_name_en": "Mimic Party",
+      "game_name_zh": "MIMIC PARTY",
+      "steam_url": "https://store.steampowered.com/app/5053820/",
+      "created_date": "2026-11-11",
+      "source_route": "玩家评论筛选",
+      "official_metadata": {
+        "official_name": "Mimic Party",
+        "developers": [
+          "FoliesAPP"
+        ],
+        "publishers": [
+          "FoliesAPP"
+        ],
+        "store_url": "https://store.steampowered.com/app/5053820/"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "27 Aug, 2026",
+        "source": "Steam 官方商店",
+        "snapshot": "2026-11-11"
+      },
+      "cover_asset": "media/5053820/1.jpg",
+      "gallery_media": [
+        {
+          "type": "image",
+          "local_asset": "media/5053820/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053820/a249b423e925d6e42daf910bdf6b03d5a06e40d5/ss_a249b423e925d6e42daf910bdf6b03d5a06e40d5.1920x1080.jpg?t=1789831835",
+          "evidence_id": "5053820-S1",
+          "sha256": "91e050973a070d8cfaf2df265a22ae0c5848dbe3d2ae4ca7b05580dcf3b72fb1"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/5053820/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053820/8eb38f57d52f92e91d33fd065d829db21f654280/ss_8eb38f57d52f92e91d33fd065d829db21f654280.1920x1080.jpg?t=1789831835",
+          "evidence_id": "5053820-S2",
+          "sha256": "50fa8f22b545f784f2eeae10cbe576a0f2e9f8c71c6cd05ee55dcd06dc4563b5"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/5053820/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053820/c26e8133dc0bf982966bcd1bba6a312d84904600/ss_c26e8133dc0bf982966bcd1bba6a312d84904600.1920x1080.jpg?t=1789831835",
+          "evidence_id": "5053820-S3",
+          "sha256": "80253a8d4881dd5c2f793349f5ff4209c4d75bb8287166bbaeb116dc14dd4501"
+        }
+      ],
+      "visual_evidence": [
+        {
+          "type": "image",
+          "local_asset": "media/5053820/1.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053820/a249b423e925d6e42daf910bdf6b03d5a06e40d5/ss_a249b423e925d6e42daf910bdf6b03d5a06e40d5.1920x1080.jpg?t=1789831835",
+          "evidence_id": "5053820-S1",
+          "sha256": "91e050973a070d8cfaf2df265a22ae0c5848dbe3d2ae4ca7b05580dcf3b72fb1"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/5053820/2.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053820/8eb38f57d52f92e91d33fd065d829db21f654280/ss_8eb38f57d52f92e91d33fd065d829db21f654280.1920x1080.jpg?t=1789831835",
+          "evidence_id": "5053820-S2",
+          "sha256": "50fa8f22b545f784f2eeae10cbe576a0f2e9f8c71c6cd05ee55dcd06dc4563b5"
+        },
+        {
+          "type": "image",
+          "local_asset": "media/5053820/3.jpg",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053820/c26e8133dc0bf982966bcd1bba6a312d84904600/ss_c26e8133dc0bf982966bcd1bba6a312d84904600.1920x1080.jpg?t=1789831835",
+          "evidence_id": "5053820-S3",
+          "sha256": "80253a8d4881dd5c2f793349f5ff4209c4d75bb8287166bbaeb116dc14dd4501"
+        }
+      ],
+      "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "玩具风"
+        ]
+      },
+      "assessment": {
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "editorial_review": {
+        "observation": "采用大头短身的玩具式人物，彩纸、计分数字和进度条集中标示派对回合反馈。"
+      },
+      "admission": {
+        "approved": false,
+        "status": "待美术评审",
+        "reason": "按指定名单收录评论分析和商店素材。"
+      },
+      "source_notes": {
+        "archive_date": "2026-11-11"
+      },
+      "semantic_review": {
+        "status": "complete",
+        "version": "V2",
+        "scope": "all_purchase_sources",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "stats": {
+          "total": 1000,
+          "related": 44,
+          "unrelated": 956,
+          "uncertain": 0,
+          "positive": 3,
+          "negative": 41,
+          "mixed": 0,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 6.82,
+          "uncertain_rate": 0.0
+        },
+        "sample_method": "原批次采集快照样本，保留原抽取口径",
+        "source_snapshot": "批量语义分析_20261111",
+        "steam_purchase_sample_stats": {
+          "total": 883,
+          "related": 35,
+          "unrelated": 848,
+          "uncertain": 0,
+          "positive": 2,
+          "negative": 33,
+          "mixed": 0,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 5.71,
+          "uncertain_rate": 0.0
+        }
+      },
+      "semantic_quotes": [],
+      "library_selection": {
+        "visible": true,
+        "decision": "requested_import",
+        "reasons": [
+          "本次按指定名单收录已完成判读的案例"
+        ],
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
+      }
     }
   ],
-  "content_archived_count": 55,
+  "content_archived_count": 69,
   "formal_approved_count": 0,
   "classification_version": "2.0",
-  "updated_date": "2026-11-01",
-  "visual_asset_count": 427,
+  "updated_date": "2026-11-11",
+  "visual_asset_count": 469,
   "filter_taxonomy": {
     "version": "2.0",
     "policy": "固定词表；同一子类内多选为或，不同子类之间为且。未知标签拒绝进入筛选；具体对象和活动仅供搜索；技术分类须有来源。",
@@ -34408,13 +37432,15 @@
       "minimum_per_completed_case": 5,
       "translation": "所有外文摘录配中文翻译",
       "pending": "未完成V2不得用旧评论补足"
-    }
+    },
+    "requested_import_policy": "2026-11-11 用户指定名单中已完成判读的案例可按 requested_import 收录；样本覆盖量独立标注，既有隐藏设置优先。"
   },
   "display_counts": {
-    "total": 55,
-    "visible": 49,
-    "qualified": 27,
-    "provisional": 22,
-    "excluded": 6
+    "total": 69,
+    "visible": 59,
+    "qualified": 24,
+    "provisional": 5,
+    "requested_import": 30,
+    "excluded": 10
   }
 }
