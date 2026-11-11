@@ -34694,13 +34694,75 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "场景环境"
+        ],
+        "style_main": "风格化具象",
         "style_look": [
-          "低多边形观感"
+          "低多边形观感",
+          "玩具风"
+        ],
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "自然生态"
+        ],
+        "mood": [
+          "宁静",
+          "轻松"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "场景空间",
+          "整体视觉系统"
+        ],
+        "creative_method": [
+          "形体简化",
+          "尺度反差",
+          "功能可视化"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "探索冒险",
+          "平台动作"
+        ],
+        "form_shape": [
+          "几何切面"
+        ],
+        "form_color": [
+          "大色块",
+          "高饱和"
+        ],
+        "form_space": [
+          "前后景分层"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 4,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "低多边形地景铺上大色块植被，山顶与塔楼等高层地标始终可见；小体型角色与大尺度山野的对比让路线和目的地在远景中也可读。",
+        "design_method": "形体简化、尺度反差、功能可视化",
+        "evidence_ids": [
+          "1055540-S1",
+          "1055540-S2",
+          "1055540-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是低多边形大色块与高差地标共同构成的可读探索景观。可参考其用地标、色块与高差支持随意探索的方法，而非只复制登山题材。"
       },
       "editorial_review": {
         "observation": "徒步、攀爬和滑翔让玩家在小岛的林道、海岸和山峰间改变高度与视角；低多边形地景、大色块植被和小体型动物保留路线轮廓，远近景都容易读。",
@@ -34710,9 +34772,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -34788,7 +34851,8 @@
         ],
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
-      }
+      },
+      "classification_version": "2.0"
     },
     {
       "case_id": "STEAM-1092790-ART-20261111",
@@ -34891,13 +34955,79 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "UI与平面视觉"
+        ],
+        "style_main": "混合表现",
         "style_look": [
           "复古电子画面感"
+        ],
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "恐怖怪谈"
+        ],
+        "mood": [
+          "不安",
+          "神秘",
+          "压迫"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "整体视觉系统",
+          "视觉叙事与象征"
+        ],
+        "creative_method": [
+          "符号重复与变奏",
+          "视觉隐喻",
+          "风格反差"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "卡牌",
+          "解谜冒险",
+          "叙事体验"
+        ],
+        "form_color": [
+          "低明度"
+        ],
+        "form_light": [
+          "低调布光",
+          "舞台光"
+        ],
+        "form_space": [
+          "舞台式空间"
+        ],
+        "form_medium": [
+          "低清／色偏观感"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 5,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "昏暗木屋中的牌桌占据画面中心，卡牌、烛光与木雕感对手维持桌游仪式感；起身调查与 CRT 雪花屏段落切换媒介质感，同一套符号在多种画面材质间延续。",
+        "design_method": "符号重复与变奏、视觉隐喻、风格反差",
+        "evidence_ids": [
+          "1092790-S1",
+          "1092790-S2",
+          "1092790-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是把卡牌界面当作叙事空间的媒介转换语言。可参考其让牌面符号在写实木桌与低清屏幕间保持效力的方法，而非只复制恐怖卡牌题材。"
       },
       "editorial_review": {
         "observation": "牌桌、可起身调查的木屋和后续变化的游戏媒介共同参与叙事。牌面符号和角色身份贯穿其间，光线、画面材质与界面切换则改变同一套规则的心理氛围。",
@@ -34907,9 +35037,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -34985,7 +35116,8 @@
         ],
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
-      }
+      },
+      "classification_version": "2.0"
     },
     {
       "case_id": "STEAM-2638890-ART-20261111",
@@ -35088,13 +35220,76 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "角色设计"
+        ],
+        "style_main": "写实倾向",
         "style_look": [
           "电影摄影感"
+        ],
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "历史故事",
+          "民俗志怪"
+        ],
+        "world": [
+          "架空历史"
+        ],
+        "mood": [
+          "肃穆",
+          "紧张"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "视觉与玩法结合",
+          "角色造型"
+        ],
+        "creative_method": [
+          "功能可视化",
+          "色光反差",
+          "形体变异"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "ARPG"
+        ],
+        "form_shape": [
+          "写实比例"
+        ],
+        "form_color": [
+          "低明度"
+        ],
+        "form_light": [
+          "强烈投影"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 4,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "灰冷寺院、山道与阴影维持时代剧基调，幻魔的畸变形体在其中突出；交锋的火花、血色与处决特写把读招与一闪标示为可见的动作节点。",
+        "design_method": "功能可视化、色光反差、形体变异",
+        "evidence_ids": [
+          "2638890-S1",
+          "2638890-S2",
+          "2638890-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是用武打演出解释战斗时机的动作可读性。可参考其敌人姿态、金属反馈与灯光控制的配合方法，而非只复制京都武士题材。"
       },
       "editorial_review": {
         "observation": "京都的寺院、山道和暗处异形以灰冷建筑与阴影维持时代基调；剑戟中的抬手、交锋、火花和血色把读招、一闪与处决变成可见的动作节点。",
@@ -35104,9 +35299,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -35182,7 +35378,8 @@
         ],
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
-      }
+      },
+      "classification_version": "2.0"
     },
     {
       "case_id": "STEAM-2766910-ART-20261111",
@@ -35286,13 +35483,72 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "游戏视觉交互"
+        ],
+        "style_main": "风格化具象",
         "style_look": [
           "卡通风"
+        ],
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "都市日常"
+        ],
+        "mood": [
+          "轻松",
+          "明快",
+          "幽默"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "视觉与玩法结合",
+          "UI与信息呈现"
+        ],
+        "creative_method": [
+          "功能可视化",
+          "元素重新组合"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "休闲益智"
+        ],
+        "form_shape": [
+          "圆润"
+        ],
+        "form_color": [
+          "高饱和"
+        ],
+        "form_space": [
+          "高信息密度"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 3,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "高亮弹球轨迹在密集弹幕中始终最醒目，企鹅、杯具与纸质规则卡延续赌场卡通气质；下注与结算切回桌面视角，把风险决策包装成轻松的桌面仪式。",
+        "design_method": "功能可视化、元素重新组合",
+        "evidence_ids": [
+          "2766910-S1",
+          "2766910-S2",
+          "2766910-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是高亮轨迹优先与桌面结算演出的分工。可参考其在高密度碰撞中保持操作提示可读的方法，而非只复制弹球赌博题材。"
       },
       "editorial_review": {
         "observation": "弹球在弹幕与障碍间穿行，下注和结算又把玩法切回桌面。企鹅、杯具和纸质规则延续赌场卡通气质，亮轨迹、球体和计分在高密度碰撞中承担操作提示。",
@@ -35302,9 +35558,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -35380,7 +35637,8 @@
         ],
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
-      }
+      },
+      "classification_version": "2.0"
     },
     {
       "case_id": "STEAM-2795000-ART-20261111",
@@ -35483,13 +35741,73 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "角色设计"
+        ],
+        "style_main": "风格化具象",
         "style_look": [
           "卡通风"
+        ],
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "都市日常"
+        ],
+        "mood": [
+          "幽默",
+          "荒诞"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "视觉与玩法结合",
+          "角色造型"
+        ],
+        "creative_method": [
+          "日常与异常并置",
+          "风格反差",
+          "功能可视化"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "解谜冒险",
+          "休闲益智"
+        ],
+        "form_shape": [
+          "大头身比"
+        ],
+        "form_color": [
+          "主辅色分区"
+        ],
+        "form_space": [
+          "轴测视角"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 4,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "轴测办公楼用中性色家具和清晰动线建立日常秩序，大头小身的可爱角色与鲜红痕迹并置；残留痕迹既是黑色喜剧的笑料，也是新的任务目标。",
+        "design_method": "日常与异常并置、风格反差、功能可视化",
+        "evidence_ids": [
+          "2795000-S1",
+          "2795000-S2",
+          "2795000-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是让反差同时服务潜行判断与喜剧节奏的写法。可参考其中性日常空间、清楚残留痕迹与角色表情的配合，而非只复制狼人题材。"
       },
       "editorial_review": {
         "observation": "夜班清洁、躲同事和处理狼人的失控都发生在办公楼。轴测房间让动线和视线可读，可爱的大头造型与鲜红痕迹反差强烈，把清洁任务变成黑色喜剧。",
@@ -35499,9 +35817,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -35577,7 +35896,8 @@
         ],
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
-      }
+      },
+      "classification_version": "2.0"
     },
     {
       "case_id": "STEAM-3405340-ART-20261111",
@@ -35680,13 +36000,71 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "角色设计"
+        ],
+        "style_main": "风格化具象",
         "style_look": [
           "低多边形观感"
+        ],
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "魔法奇幻"
+        ],
+        "mood": [
+          "荒诞",
+          "热血"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "视觉与玩法结合",
+          "角色造型"
+        ],
+        "creative_method": [
+          "比例夸张",
+          "功能可视化"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "射击动作"
+        ],
+        "form_shape": [
+          "几何切面"
+        ],
+        "form_color": [
+          "大色块"
+        ],
+        "form_space": [
+          "高信息密度"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 3,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "低多边形大色块场景中怪潮密度随波次膨胀，伤害数字与拾取物铺满画面；滑板骷髅等粗粝角色剪影把强度增长持续变成视觉笑料。",
+        "design_method": "比例夸张、功能可视化",
+        "evidence_ids": [
+          "3405340-S1",
+          "3405340-S2",
+          "3405340-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是让画面密度本身表演构筑成形的做法。可参考其粗粝剪影、数值反馈与怪潮密度的同步，而非只复制幸存者玩法。"
       },
       "editorial_review": {
         "observation": "开局在开阔地绕怪，随后随构筑成形进入满屏怪潮和伤害数字。低多边形大色块、略带顿挫的角色动作与滑板骷髅等形象，把强度增长变成持续的视觉笑料。",
@@ -35696,9 +36074,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -35748,7 +36127,8 @@
         ],
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
-      }
+      },
+      "classification_version": "2.0"
     },
     {
       "case_id": "STEAM-3470550-ART-20261111",
@@ -35851,13 +36231,73 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "道具资产"
+        ],
+        "style_main": "风格化具象",
         "style_look": [
           "手工艺风"
+        ],
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "都市日常"
+        ],
+        "mood": [
+          "温馨",
+          "幽默"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "材质表达",
+          "视觉与玩法结合"
+        ],
+        "creative_method": [
+          "材质迁移",
+          "元素重新组合",
+          "视觉隐喻"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "派对社交",
+          "休闲益智"
+        ],
+        "form_light": [
+          "柔光"
+        ],
+        "form_material": [
+          "磨损做旧"
+        ],
+        "form_medium": [
+          "拼贴观感"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 4,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "瓶盖、纸片与胶带等旧物以真实磨损质感拼成题目造型，暖色篝火与卡纸展板统一素材、工具与展示；物件原用途保留可辨，成为猜测线索。",
+        "design_method": "材质迁移、元素重新组合、视觉隐喻",
+        "evidence_ids": [
+          "3470550-S1",
+          "3470550-S2",
+          "3470550-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是把拼贴风格做成社交规则的思路。可参考其用低门槛可辨物件代替绘画技能、让每局成品自然成为展品的方法，而非只复制篝火聚会题材。"
       },
       "editorial_review": {
         "observation": "玩家用瓶盖、纸片与生活旧物拼出题目，作品再被展示和猜测。旧物磨损、暖色篝火、卡纸和胶带贯通素材、工具与展板，物件的原用途也会成为猜题线索。",
@@ -35867,9 +36307,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -35945,7 +36386,8 @@
         ],
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
-      }
+      },
+      "classification_version": "2.0"
     },
     {
       "case_id": "STEAM-3669870-ART-20261111",
@@ -36048,16 +36490,85 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "场景环境"
+        ],
+        "style_main": "写实倾向",
         "style_look": [
-          "电影摄影感"
+          "电影摄影感",
+          "照片级真实感"
+        ],
+        "tech_status": "部分已核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "科幻",
+          "恐怖怪谈"
+        ],
+        "world": [
+          "异常区域"
+        ],
+        "mood": [
+          "不安",
+          "压迫",
+          "震撼"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "场景空间",
+          "整体视觉系统"
+        ],
+        "creative_method": [
+          "空间错位",
+          "日常与异常并置",
+          "尺度反差"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "ARPG",
+          "探索冒险"
+        ],
+        "form_shape": [
+          "写实比例"
+        ],
+        "form_color": [
+          "冷暖对比"
+        ],
+        "form_light": [
+          "明暗状态变化"
+        ],
+        "form_space": [
+          "尺度反差"
         ],
         "tech_categories": [
           "自研引擎/渲染器"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 4,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "曼哈顿街景以照片级材质建立熟悉尺度，道路翻转、建筑折叠与悬浮人物在写实空间里制造方向失序；战斗色光在扭曲街区中标明焦点与威胁。",
+        "design_method": "空间错位、日常与异常并置、尺度反差",
+        "evidence_ids": [
+          "3669870-S1",
+          "3669870-S2",
+          "3669870-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是对日常秩序的精确改写：先建可辨城市，再有节制地改动重力与尺度。可参考其让探索方向与异象产生联系的方法，而非只复制扭曲都市奇观。"
       },
       "editorial_review": {
         "observation": "曼哈顿先以街道、建筑和公共设施建立熟悉尺度，再通过道路翻转、空间折叠和悬浮人物打破方向感。战斗与移动延续这些异常，色光在失序空间里标明焦点。",
@@ -36067,9 +36578,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -36161,7 +36673,8 @@
           "source_type": "开发商官方资料",
           "checked_date": "2026-11-11"
         }
-      ]
+      ],
+      "classification_version": "2.0"
     },
     {
       "case_id": "STEAM-3934250-ART-20261111",
@@ -36264,13 +36777,73 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "场景环境"
+        ],
+        "style_main": "风格化具象",
         "style_look": [
           "插画／绘本风"
+        ],
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "乡村生活",
+          "恐怖怪谈"
+        ],
+        "mood": [
+          "宁静",
+          "不安"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "场景空间",
+          "视觉叙事与象征"
+        ],
+        "creative_method": [
+          "日常与异常并置",
+          "符号重复与变奏"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "模拟经营",
+          "叙事体验"
+        ],
+        "form_color": [
+          "大色块"
+        ],
+        "form_light": [
+          "柔光"
+        ],
+        "form_space": [
+          "轴测视角"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 3,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "轴测村庄以柔和色块与室内暖光维持田园日常的可辨性，季节与时刻改变同一地点的面貌；规则触发的异变在熟悉场景中投下悬疑。",
+        "design_method": "日常与异常并置、符号重复与变奏",
+        "evidence_ids": [
+          "3934250-S1",
+          "3934250-S2",
+          "3934250-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是同一地点同时承担安顿感与异常提示的复用写法。可参考其先建立地点信任再以变化制造不安的节奏，而非只复制田园经营题材。"
       },
       "editorial_review": {
         "observation": "玩家在日常种植、走访与室内生活中熟悉乡村秩序，季节和时间改变同一地点的面貌，规则与异变又让平静场景带上悬疑。轴测远近和室内暖光维持日常的可辨性。",
@@ -36280,9 +36853,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -36358,7 +36932,8 @@
         ],
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
-      }
+      },
+      "classification_version": "2.0"
     },
     {
       "case_id": "STEAM-3948120-ART-20261111",
@@ -36461,13 +37036,72 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "UI与平面视觉"
+        ],
+        "style_main": "风格化具象",
         "style_look": [
           "像素风"
+        ],
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "都市日常"
+        ],
+        "mood": [
+          "轻松",
+          "幽默"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "UI与信息呈现",
+          "视觉与玩法结合"
+        ],
+        "creative_method": [
+          "功能可视化",
+          "信息融入世界"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "休闲益智",
+          "模拟经营"
+        ],
+        "form_color": [
+          "高饱和"
+        ],
+        "form_space": [
+          "高信息密度"
+        ],
+        "form_medium": [
+          "像素外观"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 3,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "刮刮卡、碎屑与账目铺满一张桌面，逐层刮开的图案与中奖演出把数字增长拆成可见动作；像素票面与工具保持杂货铺式的琐碎质感。",
+        "design_method": "功能可视化、信息融入世界",
+        "evidence_ids": [
+          "3948120-S1",
+          "3948120-S2",
+          "3948120-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是把增量游戏重复劳动转成可见反馈的桌面写法。可参考其操作对象世界内化与逐层揭晓的奖励预期，而非只复制刮刮卡题材。"
       },
       "editorial_review": {
         "observation": "从手动刮票到升级和自动刮，票面、工具与账目集中在一个桌面。逐步露出的图案、碎屑和中奖演出把数字增长拆成可感知的动作与节奏。",
@@ -36477,9 +37111,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -36535,7 +37170,8 @@
         ],
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
-      }
+      },
+      "classification_version": "2.0"
     },
     {
       "case_id": "STEAM-4108000-ART-20261111",
@@ -36639,13 +37275,74 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "场景环境"
+        ],
+        "style_main": "写实倾向",
         "style_look": [
           "复古影像观感"
+        ],
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "恐怖怪谈"
+        ],
+        "mood": [
+          "紧张",
+          "荒诞"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "场景空间",
+          "视觉与玩法结合"
+        ],
+        "creative_method": [
+          "功能可视化",
+          "风格反差"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "派对社交"
+        ],
+        "form_color": [
+          "低明度"
+        ],
+        "form_light": [
+          "低调布光"
+        ],
+        "form_space": [
+          "低信息密度"
+        ],
+        "form_medium": [
+          "低清／色偏观感"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 3,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "狭窄工业设施压在低照度中，手电光圈决定可见范围，玩家位置与规则提示在黑暗里保持简短明确；失败瞬间的突发演出把恐怖转成供围观的黑色喜剧。",
+        "design_method": "功能可视化、风格反差",
+        "evidence_ids": [
+          "4108000-S1",
+          "4108000-S2",
+          "4108000-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是用克制场景积累紧张、把表现力集中到失败与围观时刻的分配。可参考其灯光与空间先交代规则和位置的方法，而非只复制致命派对题材。"
       },
       "editorial_review": {
         "observation": "多人在不同致命小游戏里应付规则，狭窄的设施、低照度和手电光控制能看到什么，失败时突然的动作演出把恐怖转成供其他人围观的黑色喜剧。",
@@ -36655,9 +37352,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -36728,7 +37426,8 @@
         ],
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
-      }
+      },
+      "classification_version": "2.0"
     },
     {
       "case_id": "STEAM-4115450-ART-20261111",
@@ -36831,16 +37530,77 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "角色设计"
+        ],
+        "style_main": "写实倾向",
         "style_look": [
           "电影摄影感"
+        ],
+        "tech_status": "部分已核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "武侠"
+        ],
+        "world": [
+          "东方幻想"
+        ],
+        "mood": [
+          "肃穆",
+          "紧张"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "题材视觉重构",
+          "整体视觉系统"
+        ],
+        "creative_method": [
+          "元素重新组合",
+          "风格反差"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "ARPG"
+        ],
+        "form_shape": [
+          "修长比例"
+        ],
+        "form_color": [
+          "低明度"
+        ],
+        "form_light": [
+          "雾化光感"
         ],
         "tech_categories": [
           "Unreal Engine 5"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 4,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "雾中山水、江湖院落与重型机关空间共享灰冷肃杀基调，衣饰、冷兵器与机械化敌人并置；交锋的身段、刀光与处决特写保留功夫片的节奏与可读性。",
+        "design_method": "元素重新组合、风格反差",
+        "evidence_ids": [
+          "4115450-S1",
+          "4115450-S2",
+          "4115450-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是武侠与机械压迫在角色、环境和动作中的互相印证。可参考其武打镜头与场景结构共同保留方向感与动作辨识的方法，而非只复制武侠题材。"
       },
       "editorial_review": {
         "observation": "江湖院落、雾中山水与重型机关空间交替出现，衣饰、兵器及机械化敌人延续同一种肃杀气质。近身交锋通过身段、刀路、格挡和处决体现功夫片的节奏。",
@@ -36850,9 +37610,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -36944,7 +37705,8 @@
           "source_type": "开发商官方资料",
           "checked_date": "2026-11-11"
         }
-      ]
+      ],
+      "classification_version": "2.0"
     },
     {
       "case_id": "STEAM-499170-ART-20261111",
@@ -37048,13 +37810,76 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "游戏视觉交互"
+        ],
+        "style_main": "风格化具象",
         "style_look": [
           "低多边形观感"
+        ],
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "魔法奇幻"
+        ],
+        "world": [
+          "异世界"
+        ],
+        "mood": [
+          "神秘",
+          "宁静"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "视觉与玩法结合",
+          "场景空间"
+        ],
+        "creative_method": [
+          "功能可视化",
+          "视觉规则参与玩法",
+          "符号重复与变奏"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "解谜冒险",
+          "探索冒险"
+        ],
+        "form_shape": [
+          "几何体组合"
+        ],
+        "form_color": [
+          "主辅色分区"
+        ],
+        "form_space": [
+          "低信息密度"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 4,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "格状道路、高差地形与亮色节点把可互动对象从地貌中分离出来；不同谜题世界以标志性色光与地貌身份区分，连通道路让跨场地组合的规则保持可见。",
+        "design_method": "功能可视化、视觉规则参与玩法、符号重复与变奏",
+        "evidence_ids": [
+          "499170-S1",
+          "499170-S2",
+          "499170-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是为可组合规则保留通用形状与颜色的长线解谜视觉秩序。可参考其用地形与地标帮助记忆不同世界的方法，而非只复制格子解谜题材。"
       },
       "editorial_review": {
         "observation": "多个谜题世界用格状道路、高差和亮色节点区分可互动对象，角色能力、连通道路与机关关系让谜题可以跨场地组合。地貌和光色变化保留每个区域的身份。",
@@ -37064,9 +37889,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -37142,7 +37968,8 @@
         ],
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
-      }
+      },
+      "classification_version": "2.0"
     },
     {
       "case_id": "STEAM-5053820-ART-20261111",
@@ -37245,13 +38072,71 @@
       "assessment_scope": "Steam 官方商店截图静态观察及现有评论样本",
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "UI与平面视觉"
+        ],
+        "style_main": "风格化具象",
         "style_look": [
           "玩具风"
+        ],
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "都市日常"
+        ],
+        "mood": [
+          "轻松",
+          "幽默"
+        ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "UI与信息呈现",
+          "视觉与玩法结合"
+        ],
+        "creative_method": [
+          "功能可视化",
+          "信息融入世界"
+        ],
+        "business_stage": "方向假设，尚未验证",
+        "product_genre": [
+          "派对社交"
+        ],
+        "form_shape": [
+          "圆润"
+        ],
+        "form_color": [
+          "高饱和"
+        ],
+        "form_space": [
+          "中央构图"
         ]
       },
       "assessment": {
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 3,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "圆润玩具感角色围在舞台中央，麦克风、声波波形与转盘按轮次更替焦点；分数、玩家位置与奖励归属以短促动效持续交代，画面始终服务一起听一起笑的节拍。",
+        "design_method": "功能可视化、信息融入世界",
+        "evidence_ids": [
+          "5053820-S1",
+          "5053820-S2",
+          "5053820-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得入库的是声音游戏所需的简短明确视觉信息。可参考其把动效预算集中在揭晓、转盘与反应等社交节拍的方法，而非只复制声音模仿题材。"
       },
       "editorial_review": {
         "observation": "录音、回放、评分和转盘按轮次推进。圆润角色和舞台只提供派对框架，麦克风、波形、玩家位置及分数持续交代谁在表演、结果如何和奖励落到谁。",
@@ -37261,9 +38146,10 @@
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
       },
       "admission": {
-        "approved": false,
-        "status": "待美术评审",
-        "reason": "按指定名单收录评论分析和商店素材。"
+        "status": "待公司对照",
+        "decision": null,
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "source_notes": {
         "archive_date": "2026-11-11"
@@ -37313,7 +38199,8 @@
         ],
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
-      }
+      },
+      "classification_version": "2.0"
     }
   ],
   "content_archived_count": 69,
