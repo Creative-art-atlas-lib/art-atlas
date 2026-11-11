@@ -8202,21 +8202,34 @@
       "semantic_review": {
         "version": "V2",
         "status": "partial",
-        "label": "暂留 · 新语义分析中",
-        "scope": "steam_purchase",
-        "stats": null,
-        "completed": 13355,
-        "pending": 676,
-        "snapshot": "2026-11-10"
+        "coverage": "partial",
+        "scope": "all_purchase_sources",
+        "completed": 13863,
+        "pending": 168,
+        "captured": 14031,
+        "stats": {
+          "total": 13863,
+          "related": 2607,
+          "unrelated": 7490,
+          "uncertain": 3766,
+          "positive": 1691,
+          "negative": 247,
+          "mixed": 148,
+          "neutral": 520,
+          "unclear": 1,
+          "positive_rate": 64.86,
+          "uncertain_rate": 27.17
+        },
+        "source_snapshot": "本会话_T22"
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 新语义分析中"
+          "按已保存并校验的判读结果收录"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
       "semantic_quotes": [],
       "gallery_media": [
@@ -26318,21 +26331,34 @@
       "semantic_review": {
         "version": "V2",
         "status": "partial",
-        "label": "暂留 · 新语义分析中",
-        "scope": "steam_purchase",
-        "stats": null,
+        "coverage": "partial",
+        "scope": "all_purchase_sources",
         "completed": 7607,
         "pending": 3375,
-        "snapshot": "2026-11-10"
+        "captured": 10982,
+        "stats": {
+          "total": 7607,
+          "related": 2518,
+          "unrelated": 4198,
+          "uncertain": 891,
+          "positive": 2224,
+          "negative": 93,
+          "mixed": 201,
+          "neutral": 0,
+          "unclear": 0,
+          "positive_rate": 88.32,
+          "uncertain_rate": 11.71
+        },
+        "source_snapshot": "本会话_T20"
       },
       "library_selection": {
         "visible": true,
-        "decision": "provisional",
+        "decision": "requested_import",
         "reasons": [
-          "暂留 · 新语义分析中"
+          "按已保存并校验的判读结果收录"
         ],
-        "rule_version": "2026-11-10-semantic-v2",
-        "grandfathered": true
+        "rule_version": "2026-11-11-requested-import",
+        "grandfathered": false
       },
       "semantic_quotes": [],
       "gallery_media": [
@@ -37433,14 +37459,14 @@
       "translation": "所有外文摘录配中文翻译",
       "pending": "未完成V2不得用旧评论补足"
     },
-    "requested_import_policy": "2026-11-11 用户指定名单中已完成判读的案例可按 requested_import 收录；样本覆盖量独立标注，既有隐藏设置优先。"
+    "requested_import_policy": "2026-11-11 用户指定名单中已完成判读的案例可按 requested_import 收录。Neva 和 Little Kitty, Big City 按已判读部分收录。展示时标明评论覆盖范围，既有隐藏设置优先。"
   },
   "display_counts": {
     "total": 69,
     "visible": 59,
     "qualified": 24,
-    "provisional": 5,
-    "requested_import": 30,
+    "provisional": 3,
+    "requested_import": 32,
     "excluded": 10
   }
 }

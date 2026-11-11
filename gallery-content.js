@@ -13,12 +13,15 @@
   const fields = ["美术对象","视觉风格","制作技术","形式语言","题材与世界观","视觉情绪","创意方法","适用产品类型"].map(name=>[name,d=>taxonomy.dimensions.find(t=>t.name===name).groups.flatMap(g=>groupValues(g,d).map(v=>g.label+' · '+v))]);
   const visible = c => {
     if(c.display_override?.hidden===true)return false;
-    if(c.library_selection?.decision==='requested_import')return isAnalyzed(c);
     const s=c.semantic_review?.stats;
+    if(c.library_selection?.decision==='requested_import')return isAnalyzed(c) || isPartialImport(c);
     if(c.semantic_review?.status==='complete')return c.semantic_review.version==='V2'&&c.semantic_review.scope==='steam_purchase'&&Number.isInteger(s?.related)&&s.related>=500&&Number.isInteger(s?.positive)&&s.positive>=0&&s.positive<=s.related&&s.positive*2>=s.related;
     return c.library_selection?.decision==='provisional'&&c.library_selection?.grandfathered===true;
   };
   const isAnalyzed = c => c.semantic_review?.version==='V2' && c.semantic_review?.status==='complete';
+  const isPartialImport = c => c.library_selection?.decision==='requested_import' &&
+    c.semantic_review?.version==='V2' && c.semantic_review.status==='partial' &&
+    c.semantic_review.coverage==='partial' && c.semantic_review.stats?.total>0;
   /* 排序规则：美术相关评论数 × 纯正向率 = 正向评论绝对值，降序；不展示该值 */
   const reviewOrder = c => isAnalyzed(c) ? (c.semantic_review.coverage==='sample' ? 1 : 2) : 0;
   const compareCases = (a,b) => reviewOrder(b)-reviewOrder(a) || (isAnalyzed(a)&&isAnalyzed(b) ? b.semantic_review.stats.positive-a.semantic_review.stats.positive : 0);
@@ -26,9 +29,10 @@
   const reviewMetric = c => {
     const review=c.semantic_review,s=review?.stats;
     if(!s)return '';
-    const sample=review.coverage==='sample'?'样本 '+s.total.toLocaleString('zh-CN')+' 条 · ':'';
+    const coverage=review.coverage==='sample'?'样本 '+s.total.toLocaleString('zh-CN')+' 条 · ':
+      review.coverage==='partial'?'已判读 '+review.completed.toLocaleString('zh-CN')+' / '+review.captured.toLocaleString('zh-CN')+' 条 · ':'';
     const rate=s.related?' · 纯正向 '+(s.positive/s.related*100).toFixed(2)+'%':'';
-    return sample+'美术相关 '+s.related.toLocaleString('zh-CN')+' 条'+rate;
+    return coverage+'美术相关 '+s.related.toLocaleString('zh-CN')+' 条'+rate;
   };
   const groups = [{name:'all', title:'全部案例', label:'ART CASES'}];
   const displayName = c => c.game_name_en && c.game_name_zh ? c.game_name_en+' '+c.game_name_zh : c.game_name;
@@ -202,7 +206,7 @@
               h('span',{class:'collection__item__name-en'},c.game_name_en || c.game_name),
               h('span',{class:'collection__item__name-zh'},c.game_name_zh || ''),
               h('span',{class:'case-release'},c.release_stage?.label||'上线状态待核查'),
-              ...(c.semantic_review?.status!=='complete' && !c.youtube_review?[h('span',{class:['semantic-badge','semantic-pending']},reviewLabel(c))]:[]),
+              ...(c.semantic_review?.status!=='complete' && !isPartialImport(c) && !c.youtube_review?[h('span',{class:['semantic-badge','semantic-pending']},reviewLabel(c))]:[]),
               ...(c.youtube_review?[h('span',{class:'semantic-metric'},'美术相关 '+c.youtube_review.totals.related.toLocaleString('zh-CN')+' 条 · 纯正向 '+(100*c.youtube_review.totals.positive/c.youtube_review.totals.related).toFixed(2)+'%（视频评论抽样）')]:[]),
               ...(c.semantic_review?.stats?[h('span',{class:'semantic-metric'},reviewMetric(c))]:[])
             ]);
@@ -253,9 +257,10 @@
  paragraph('正向 '+c.youtube_review.totals.positive+'；负向 '+c.youtube_review.totals.negative+'；混合 '+c.youtube_review.totals.mixed+'；中性 '+c.youtube_review.totals.neutral+'。'),
  paragraph('口径：'+c.youtube_review.reports.length+' 个高播放视频评论的抽样判读（含回复，未按作者去重），不代表全网口碑，不作为入库门槛依据。统计快照：'+c.youtube_review.snapshot)
  ],true)]:[section('玩家美术反馈',[
-            ...(c.semantic_review?.status!=='complete'?[paragraph(reviewLabel(c))]:[]),
+            ...(c.semantic_review?.status!=='complete' && !isPartialImport(c)?[paragraph(reviewLabel(c))]:[]),
             ...(c.semantic_review?.stats ? [paragraph(reviewMetric(c)),paragraph('正向 '+c.semantic_review.stats.positive+'；负向 '+c.semantic_review.stats.negative+'；混合 '+c.semantic_review.stats.mixed+'；中性 '+c.semantic_review.stats.neutral+'；态度无法判断 '+c.semantic_review.stats.unclear+'。')] : [paragraph(c.semantic_review?.status==='partial'?'全部来源已判读 '+c.semantic_review.completed+' 条，剩余 '+c.semantic_review.pending+' 条；完成前暂留，尚未应用评论门槛。':c.semantic_review?.status==='collection_missing'?'采集文件为空，需核查；不视为没有玩家评论，也不视为分析完成。':c.semantic_review?.status==='not_applicable'?'独立角色案例，不属于本轮Steam游戏评论分析任务。':'交接包中未发现已提交的新一轮分析结果，暂时保留。')]),
             ...(c.semantic_review?.coverage==='sample'?[paragraph('口径：全部购买来源的样本评论。'+c.semantic_review.sample_method+'。')]:[]),
+            ...(isPartialImport(c)?[paragraph('统计包含已判读的全部购买来源评论，按原批次顺序覆盖。还有 '+c.semantic_review.pending.toLocaleString('zh-CN')+' 条待判读。')]:[]),
           ],true)]),
           section('看到了什么',[paragraph(r.observation)],true),
           ...(r.comment?[section('入库评语',[paragraph(r.comment)],true)]:[]),

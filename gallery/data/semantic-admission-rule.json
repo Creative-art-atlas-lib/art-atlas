@@ -38,5 +38,5 @@
     "translation": "所有外文摘录配中文翻译",
     "pending": "未完成V2不得用旧评论补足"
   },
-  "requested_import_policy": "2026-11-11 用户指定名单中已完成判读的案例可按 requested_import 收录；样本覆盖量独立标注，既有隐藏设置优先。"
+  "requested_import_policy": "2026-11-11 用户指定名单中已完成判读的案例可按 requested_import 收录。Neva 和 Little Kitty, Big City 按已判读部分收录。展示时标明评论覆盖范围，既有隐藏设置优先。"
 }
