@@ -11904,6 +11904,10 @@
         "source": "Steam商店缓存",
         "snapshot": "2026-11-01",
         "date": "Aug 8, 2024"
+      },
+      "display_override": {
+        "hidden": true,
+        "hidden_note": "2026-11-11 用户要求暂时隐藏，档案保留"
       }
     },
     {
