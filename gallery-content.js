@@ -140,7 +140,8 @@
         asyncLoading() {
           const result=this.resultOrder || this.matching();
           const next=result.slice(this.offset,this.offset+48);
-          if(next.length)this.fragments.push(next.map(asset));
+          // Keep every card in the same grid so later pages share its row height.
+          if(next.length)this.fragments[0].push(...next.map(asset));
           this.offset+=next.length;this.pagination=this.offset<result.length;this.refreshLayout();
         },
         applySearch(){this.resetResults();},

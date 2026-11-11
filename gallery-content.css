@@ -51,7 +51,10 @@ html:has(.collection){scrollbar-gutter:stable}
 .detail--case .detail__data__content .button{box-sizing:border-box}
 
 /* Bilingual card labels remain readable and wrap instead of being clipped. */
-.collection__item__meta{height:auto;min-height:48px;padding:10px 16px;gap:12px;box-sizing:border-box}
+.collection__grid{grid-auto-rows:1fr;align-items:stretch}
+.collection__grid > .collection__item{display:flex;flex-direction:column;min-width:0}
+.collection__item__image{flex:none}
+.collection__item__meta{flex:1;height:auto;min-height:48px;padding:10px 16px;gap:12px;box-sizing:border-box}
 .collection__item__meta span{font-size:16px;line-height:1.5;min-width:0;overflow-wrap:anywhere}
 .collection__item__meta svg{flex-shrink:0;width:10px;height:10px}
 .collection__item__name{display:flex;flex-direction:column;gap:3px}
