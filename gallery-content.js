@@ -18,7 +18,8 @@
     return c.library_selection?.decision==='provisional'&&c.library_selection?.grandfathered===true;
   };
   const isAnalyzed = c => c.semantic_review?.version==='V2' && c.semantic_review?.status==='complete';
-  const compareCases = (a,b) => Number(isAnalyzed(b))-Number(isAnalyzed(a)) || (isAnalyzed(a)&&isAnalyzed(b) ? b.semantic_review.stats.related-a.semantic_review.stats.related : 0);
+  /* 排序规则：美术相关评论数 × 纯正向率 = 正向评论绝对值，降序；不展示该值 */
+  const compareCases = (a,b) => Number(isAnalyzed(b))-Number(isAnalyzed(a)) || (isAnalyzed(a)&&isAnalyzed(b) ? b.semantic_review.stats.positive-a.semantic_review.stats.positive : 0);
   const reviewLabel = c => c.youtube_review ? "YouTube 分析未完成" : ({pending:'待语义分析',partial:'语义分析未完成',collection_missing:'采集待核查',not_applicable:'角色案例 · 无评论分析'}[c.semantic_review?.status] || '待语义分析');
   const reviewMetric = c => {const s=c.semantic_review?.stats;return s?'美术相关 '+s.related.toLocaleString('zh-CN')+' 条 · 纯正向 '+(s.positive/s.related*100).toFixed(2)+'%':'';};
   const groups = [{name:'all', title:'全部案例', label:'ART CASES'}];
@@ -32,7 +33,7 @@
     const collections = groups.map(g => ({...g, address:g.name,
       image:(entries.find(c => !g.primary || c.classification.app_primary === g.primary) || entries[0]).cover_asset}));
     const traits = taxonomy.dimensions.map(dim => ({name:dim.name, opened:false,
-      values:dim.groups.flatMap(g=>g.options.map(v=>({value:g.label+' · '+v, label:v, group:g.label, checked:false,
+      values:dim.groups.filter(g=>g.label!=='引擎工具').flatMap(g=>g.options.map(v=>({value:g.label+' · '+v, label:v, group:g.label, checked:false,
         count:entries.filter(c=>groupValues(g,c.classification).includes(v)).length})).filter(v=>v.count))}));
     return {contract:collections.find(g=>g.name===group.name), collections, traits,
       entries, length:entries.length, fragments:[entries.slice(0,48).map(asset)],
@@ -249,7 +250,7 @@
           ],true)]),
           section('看到了什么',[paragraph(r.observation)],true),
           section('入库评语',[paragraph(r.comment)],true),
-          section('可以怎样借鉴',[paragraph(r.transfer),paragraph('适用边界：'+r.limitations)],true),
+          section('可以怎样借鉴',[paragraph(r.transfer)],true),
           section('八维分类',[h('ul',{class:'detail__data__traits'},dims.map(([a,b])=>h('li',{class:'case-dim'},[h('strong',a),h('br'),h('span',b)]))),paragraph('动态未观察不作为分类。适用产品类型仅为借鉴方向假设。')],true),
           ...(artReviews.length?[section('玩家评论原话',[
             paragraph(c.youtube_review?'以下为本次YouTube视频评论分析的5条正向美术精选，不代表全部评论；视频观众并非已验证购买者。译文为AI辅助翻译，来源链接指向对应视频评论区。':'以下仅精选本轮语义分析确认的正向美术评语，不代表全部评论或整体好评率。外文配中文译文（AI辅助翻译）；原始完整评论可通过来源链接查看。'),
