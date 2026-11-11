@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#151816"/><text x="32" y="43" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="bold" fill="white">AA</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- orbit ring (behind planet) -->
+  <g transform="rotate(-18 32 32)">
+    <ellipse cx="32" cy="32" rx="27" ry="9" fill="none" stroke="#9d8cff" stroke-width="3.2"/>
+  </g>
+  <!-- palette planet body -->
+  <circle cx="32" cy="30" r="17.5" fill="#fdf6e3" stroke="#20242a" stroke-width="2.6"/>
+  <!-- paint dabs -->
+  <circle cx="25" cy="23" r="3.4" fill="#ef476f"/>
+  <circle cx="34" cy="21.5" r="3.4" fill="#ffd166"/>
+  <circle cx="40.5" cy="27.5" r="3.4" fill="#06d6a0"/>
+  <circle cx="27" cy="33" r="3.4" fill="#118ab2"/>
+  <!-- thumb hole -->
+  <circle cx="38.5" cy="37" r="3.1" fill="#20242a"/>
+  <!-- sparkles -->
+  <path d="M50 8l1.6 3.9 3.9 1.6-3.9 1.6L50 19l-1.6-3.9-3.9-1.6 3.9-1.6z" fill="#ffd166"/>
+  <path d="M12 46l1.2 2.8 2.8 1.2-2.8 1.2L12 54l-1.2-2.8L8 50l2.8-1.2z" fill="#9d8cff"/>
+</svg>
