@@ -266,7 +266,12 @@
           section('看到了什么',[paragraph(r.observation)],true),
           ...(r.comment?[section('入库评语',[paragraph(r.comment)],true)]:[]),
           ...(r.transfer?[section('可以怎样借鉴',[paragraph(r.transfer)],true)]:[]),
-          section('八维分类',[h('ul',{class:'detail__data__traits'},dims.map(([a,b])=>h('li',{class:'case-dim'},[h('strong',a),h('br'),h('span',b)]))),paragraph('动态未观察不作为分类。适用产品类型仅为借鉴方向假设。')],true),
+          section('八维分类',[h('ul',{class:'detail__data__traits'},dims.map(([a,b])=>h('li',{class:'case-dim'},[h('strong',a),h('br'),h('span',b)])))],true),
+          ...(c.technology_evidence?.length?[section('制作技术来源',c.technology_evidence.map(e=>h('div',{class:'case-tech-evidence'},[
+            h('strong',e.categories.join('、')),
+            paragraph(e.scope),
+            link(e.source_title,e.source_url)
+          ])),true)]:[]),
           ...(artReviews.length?[section('玩家评论原话',[
             paragraph(c.youtube_review?'以下为本次YouTube视频评论分析的5条正向美术精选，不代表全部评论；视频观众并非已验证购买者。译文为AI辅助翻译，来源链接指向对应视频评论区。':'以下仅精选本轮语义分析确认的正向美术评语，不代表全部评论或整体好评率。外文配中文译文（AI辅助翻译）；原始完整评论可通过来源链接查看。'),
             ...artReviews.map(e=>h('blockquote',{class:'case-review'},[
@@ -275,7 +280,7 @@
               link(c.youtube_review?'查看 YouTube 来源视频':'查看 Steam 原评论',e.url)
             ]))
           ])]:[]),
-          section('来源与评审范围',[paragraph('开发：'+c.official_metadata.developers.join('、')+'；发行：'+c.official_metadata.publishers.join('、')),paragraph(c.assessment_scope),paragraph(c.admission.reason),paragraph('素材档案日期：'+(c.source_notes?.archive_date || '2026-11-01')+'；静态素材观察，未验证动态表现、实际游玩效果或商业适用性。'), ...(c.source_notes?.design_interview ? [link('任天堂官方设计访谈',c.source_notes.design_interview)] : []),link('结构化数据与完整溯源','./data/cases.json')]),
+          section('来源与评审范围',[paragraph('开发：'+c.official_metadata.developers.join('、')+'；发行：'+c.official_metadata.publishers.join('、')),paragraph(r.basis || c.assessment_scope),paragraph(c.admission.reason), ...(c.source_notes?.design_interview ? [link('任天堂官方设计访谈',c.source_notes.design_interview)] : []),link('结构化数据与完整溯源','./data/cases.json')]),
           h('a',{class:'button --stroke-white',attrs:{href:c.source_url || c.steam_url,target:'_blank',rel:'noopener'}},[h('span',c.source_label || '查看官方 Steam 来源')])];
         return h('div',{class:'detail u-abs detail--case',attrs:{role:'dialog','aria-modal':'true','aria-labelledby':'case-title'}},[
           h('div',{ref:'background',class:'detail__background'}),
