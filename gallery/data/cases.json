@@ -1,6 +1,6 @@
 {
   "batch": "20261101",
-  "status": "55个案例已建档：49款评论筛选游戏 + 6个指定作品／角色案例；正式评分待复核",
+  "status": "76 个案例已建档，含本批 7 个社媒视频评论抽样案例",
   "rules": {
     "rule_id": "two-dimensions-20261101",
     "confirmed_date": "2026-11-01",
@@ -41361,6 +41361,1990 @@
         "basis": "用户要求暂时下架（2026-11-12）"
       },
       "semantic_quote_scope": "existing_sample"
+    },
+    {
+      "case_id": "SOCIAL-2667120-ART-20261112",
+      "id": "2667120",
+      "steam_app_id": "2667120",
+      "steam_url": "https://store.steampowered.com/app/2667120/",
+      "game_name": "弹球百万富翁",
+      "game_name_zh": "弹球百万富翁",
+      "game_name_en": "Ballionaire",
+      "case_title": "用卡通道具和跳动数字表现弹球连锁",
+      "source_url": "https://store.steampowered.com/app/2667120/",
+      "source_label": "查看官方作品资料",
+      "created_date": "2026-11-12",
+      "source_route": "社媒视频评论抽样",
+      "assessment_scope": "官方截图和公开视频素材观察；评论为视频观众反馈。",
+      "official_metadata": {
+        "official_name": "Ballionaire",
+        "developers": [
+          "newobject"
+        ],
+        "publishers": [
+          "Raw Fury"
+        ],
+        "source_url": "https://store.steampowered.com/app/2667120/"
+      },
+      "assessment": {
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "admission": {
+        "status": "待美术评审",
+        "decision": null,
+        "approved": false,
+        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+      },
+      "display_policy": {
+        "visible": true,
+        "version": "2026-11-12-social-sample",
+        "basis": "用户确认入库"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "已上线",
+        "date": "Dec 10, 2024",
+        "source": "https://store.steampowered.com/app/2667120/",
+        "snapshot": "2026-11-12"
+      },
+      "classification": {
+        "app_primary": "游戏视觉交互",
+        "style_look": [
+          "卡通风"
+        ],
+        "form_color": [
+          "高饱和"
+        ],
+        "mood": [
+          "幽默"
+        ],
+        "creative_method": [
+          "功能可视化"
+        ],
+        "product_genre": [
+          "休闲益智"
+        ],
+        "style_main": "风格化"
+      },
+      "cover_asset": "media/2667120/1.jpg",
+      "visual_evidence": [
+        {
+          "type": "image",
+          "evidence_id": "2667120-S1",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2667120/ss_0b9188304e5f8c80f03281fd71d412ae40296edf.1920x1080.jpg?t=1792068138",
+          "local_asset": "media/2667120/1.jpg",
+          "sha256": "29a8f5078e51fd24a2c77047f07ba8f81628e918a44e922381f7ff332e9b6bde",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "2667120-S2",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2667120/ss_5f836f54098937cc0acbd1c2db4e7d7418750fdc.1920x1080.jpg?t=1792068138",
+          "local_asset": "media/2667120/2.jpg",
+          "sha256": "8dbc413b6543f7bb4f5259049ff36c788c9298fa09de2a47e623efeee44e0a4a",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "2667120-S3",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2667120/ss_3c5e842add0b58ecf34ab9d2f14469f22255254e.1920x1080.jpg?t=1792068138",
+          "local_asset": "media/2667120/3.jpg",
+          "sha256": "02c03a0be1eced8042f7e0b68be7118209406051062ce040548bbf12987fbacb",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "gallery_media": [
+        {
+          "type": "video",
+          "evidence_id": "2667120-M1",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/2667120/795055/17d391a87a9b6a09143a19be054d74b8e8972b25/1750818143/hls_264_master.m3u8?t=1733839114",
+          "source_title": "Launch Trailer",
+          "local_asset": "media/2667120/motion-1.mp4",
+          "poster": "media/2667120/motion-1.jpg",
+          "sha256": "4a5ff39b8b7164191372b3822d36fe189456e861705c3cdad012567f076399a3",
+          "start_seconds": 9,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "2667120-M2",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/2667120/795055/17d391a87a9b6a09143a19be054d74b8e8972b25/1750818143/hls_264_master.m3u8?t=1733839114",
+          "source_title": "Launch Trailer",
+          "local_asset": "media/2667120/motion-2.mp4",
+          "poster": "media/2667120/motion-2.jpg",
+          "sha256": "32ae83447ccf80637423cda81d90113f78ea602e2a8308ad6cd2b865597790ba",
+          "start_seconds": 22,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "2667120-M3",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/2667120/795055/17d391a87a9b6a09143a19be054d74b8e8972b25/1750818143/hls_264_master.m3u8?t=1733839114",
+          "source_title": "Launch Trailer",
+          "local_asset": "media/2667120/motion-3.mp4",
+          "poster": "media/2667120/motion-3.jpg",
+          "sha256": "0e109232174fedfc1b5d84786b33429b7c1ca2f56cd1872b7b860e90625aeda3",
+          "start_seconds": 33,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "image",
+          "evidence_id": "2667120-S1",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2667120/ss_0b9188304e5f8c80f03281fd71d412ae40296edf.1920x1080.jpg?t=1792068138",
+          "local_asset": "media/2667120/1.jpg",
+          "sha256": "29a8f5078e51fd24a2c77047f07ba8f81628e918a44e922381f7ff332e9b6bde",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "2667120-S2",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2667120/ss_5f836f54098937cc0acbd1c2db4e7d7418750fdc.1920x1080.jpg?t=1792068138",
+          "local_asset": "media/2667120/2.jpg",
+          "sha256": "8dbc413b6543f7bb4f5259049ff36c788c9298fa09de2a47e623efeee44e0a4a",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "2667120-S3",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2667120/ss_3c5e842add0b58ecf34ab9d2f14469f22255254e.1920x1080.jpg?t=1792068138",
+          "local_asset": "media/2667120/3.jpg",
+          "sha256": "02c03a0be1eced8042f7e0b68be7118209406051062ce040548bbf12987fbacb",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "editorial_review": {
+        "observation": "弹球撞到小树、厨具和其他卡通道具时，棋盘上会跳出钱数。鲜亮的配色和跳舞的角色让收益结算也像一段小演出。",
+        "comment": "用卡通道具和跳动数字表现弹球连锁",
+        "basis": "官方截图和公开视频素材观察；评论为视频观众反馈。"
+      },
+      "semantic_review": {
+        "version": "V2",
+        "status": "complete",
+        "scope": "social_video",
+        "platform": "YouTube",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "sample_size": 1000,
+        "stats": {
+          "total": 1000,
+          "related": 25,
+          "unrelated": 954,
+          "uncertain": 21,
+          "positive": 7,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 15,
+          "unclear": 0,
+          "positive_rate": 28.0
+        },
+        "collection_snapshot": "2026-11-12",
+        "analysis_snapshot": "2026-11-12",
+        "sample_method": "按已核实候选视频播放量降序收集公开一级评论，达到样本量后停止",
+        "sampling_note": "",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=NdohToh5xdU",
+            "title": "I found Steam's MOST ADDICTIVE GAME...",
+            "platform": "YouTube",
+            "views": 688308,
+            "rank": 1,
+            "selected": 192
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=dGIqoA1Np8A",
+            "title": "This Is My Game Of The Year",
+            "platform": "YouTube",
+            "views": 612278,
+            "rank": 2,
+            "selected": 138
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=xlt7fBOwu-g",
+            "title": "They made this game TOO ADDICTIVE...",
+            "platform": "YouTube",
+            "views": 560209,
+            "rank": 3,
+            "selected": 132
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=cFycPduaWiY",
+            "title": "We lose Arin to gambling frfr | Ballionaire",
+            "platform": "YouTube",
+            "views": 445038,
+            "rank": 4,
+            "selected": 538
+          }
+        ]
+      },
+      "semantic_quotes": [
+        {
+          "id": "UgysDyxFerUS4x8gaYF4AaABAg",
+          "sample_index": 213,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "love this one :D colours, shapes and big numbers",
+          "highlight_ranges": [
+            [
+              0,
+              48
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=dGIqoA1Np8A&lc=UgysDyxFerUS4x8gaYF4AaABAg",
+          "highlight_translation_zh": "喜欢鲜亮的颜色、各种形状和大数字。"
+        },
+        {
+          "id": "UgyER-XBMQq0SX028yB4AaABAg",
+          "sample_index": 334,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "The caterpillar is soo cute <3",
+          "highlight_ranges": [
+            [
+              0,
+              27
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=xlt7fBOwu-g&lc=UgyER-XBMQq0SX028yB4AaABAg",
+          "highlight_translation_zh": "毛毛虫太可爱了。"
+        },
+        {
+          "id": "UgwSnxERxSiCa-r9SIh4AaABAg",
+          "sample_index": 430,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "Bought this game only for the dancing dude, he's perfect",
+          "highlight_ranges": [
+            [
+              26,
+              56
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=xlt7fBOwu-g&lc=UgwSnxERxSiCa-r9SIh4AaABAg",
+          "highlight_translation_zh": "那个跳舞的家伙太棒了。"
+        },
+        {
+          "id": "UgyvtUCR-5zDtytx-xR4AaABAg",
+          "sample_index": 938,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "This game, with the vibrant colors, great music, and nonsensicalness, makes me want to see them play Olli Olli World. I feel like they'd enjoy",
+          "highlight_ranges": [
+            [
+              16,
+              34
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=cFycPduaWiY&lc=UgyvtUCR-5zDtytx-xR4AaABAg",
+          "highlight_translation_zh": "鲜亮的配色。"
+        }
+      ],
+      "sequence": 70
+    },
+    {
+      "case_id": "SOCIAL-881940-ART-20261112",
+      "id": "881940",
+      "steam_app_id": "881940",
+      "steam_url": "https://store.steampowered.com/app/881940/",
+      "game_name": "枪炮哥布林",
+      "game_name_zh": "枪炮哥布林",
+      "game_name_en": "Guns 'n Goblins",
+      "case_title": "在三维战场里放进二维像素怪物",
+      "source_url": "https://store.steampowered.com/app/881940/",
+      "source_label": "查看官方作品资料",
+      "created_date": "2026-11-12",
+      "source_route": "社媒视频评论抽样",
+      "assessment_scope": "官方截图和公开视频素材观察；评论为视频观众反馈。",
+      "official_metadata": {
+        "official_name": "Guns 'n Goblins",
+        "developers": [
+          "Lance",
+          "Argl"
+        ],
+        "publishers": [
+          "SoulGame"
+        ],
+        "source_url": "https://store.steampowered.com/app/881940/"
+      },
+      "assessment": {
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "admission": {
+        "status": "待美术评审",
+        "decision": null,
+        "approved": false,
+        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+      },
+      "display_policy": {
+        "visible": true,
+        "version": "2026-11-12-social-sample",
+        "basis": "用户确认入库"
+      },
+      "release_stage": {
+        "status": "unreleased",
+        "label": "未上线",
+        "date": "Q2 2027",
+        "source": "https://store.steampowered.com/app/881940/",
+        "snapshot": "2026-11-12"
+      },
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "像素风"
+        ],
+        "form_color": [
+          "冷暖对比"
+        ],
+        "mood": [
+          "紧张"
+        ],
+        "creative_method": [
+          "风格反差"
+        ],
+        "product_genre": [
+          "射击动作"
+        ],
+        "style_main": "写实与风格化混合"
+      },
+      "cover_asset": "media/881940/1.jpg",
+      "visual_evidence": [
+        {
+          "type": "image",
+          "evidence_id": "881940-S1",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881940/56dc1ed95d09a3129185b0370050b180ea4333fd/ss_56dc1ed95d09a3129185b0370050b180ea4333fd.1920x1080.jpg?t=1791879308",
+          "local_asset": "media/881940/1.jpg",
+          "sha256": "6cc627db224006aa7e0f9249880a28f0387f5d30bd472307577d1797d5377c6f",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "881940-S2",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881940/adf06bd5582f179c7cf147e7fe01a3ed244fac41/ss_adf06bd5582f179c7cf147e7fe01a3ed244fac41.1920x1080.jpg?t=1791879308",
+          "local_asset": "media/881940/2.jpg",
+          "sha256": "bb6d432b53f930d158b9d31406f95a92f3106e111a1843cef94e6b4f7c280809",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "881940-S3",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881940/d2ceb27d75915d5d2b6a340f3e2e510b55da846f/ss_d2ceb27d75915d5d2b6a340f3e2e510b55da846f.1920x1080.jpg?t=1791879308",
+          "local_asset": "media/881940/3.jpg",
+          "sha256": "19945ef60bc8e12ca58f885fcb8c2eafdb771fcd267cb5264397a6fece6b8be5",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "gallery_media": [
+        {
+          "type": "video",
+          "evidence_id": "881940-M1",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/881940/1684117939/089fdcd6be1258ea2de6052d32e054d23a8aac5c/1771599344/hls_264_master.m3u8?t=1776974166",
+          "source_title": "Reveal trailer",
+          "local_asset": "media/881940/motion-1.mp4",
+          "poster": "media/881940/motion-1.jpg",
+          "sha256": "9b99b2a51c1aced76088d31b2dbb8519ce38c9bee4b39a5984b6b92a7dfb43ec",
+          "start_seconds": 8,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "881940-M2",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/881940/1684117939/089fdcd6be1258ea2de6052d32e054d23a8aac5c/1771599344/hls_264_master.m3u8?t=1776974166",
+          "source_title": "Reveal trailer",
+          "local_asset": "media/881940/motion-2.mp4",
+          "poster": "media/881940/motion-2.jpg",
+          "sha256": "cd165f8323a17c6ccd680305fb452bb33dd15238f2b83248631e34c37abc64e0",
+          "start_seconds": 20,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "881940-M3",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/881940/1684117939/089fdcd6be1258ea2de6052d32e054d23a8aac5c/1771599344/hls_264_master.m3u8?t=1776974166",
+          "source_title": "Reveal trailer",
+          "local_asset": "media/881940/motion-3.mp4",
+          "poster": "media/881940/motion-3.jpg",
+          "sha256": "4e0f714c6ac2f5e3d238866d93dbe80d064697b530b272249bd045b74cd693fb",
+          "start_seconds": 35,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "image",
+          "evidence_id": "881940-S1",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881940/56dc1ed95d09a3129185b0370050b180ea4333fd/ss_56dc1ed95d09a3129185b0370050b180ea4333fd.1920x1080.jpg?t=1791879308",
+          "local_asset": "media/881940/1.jpg",
+          "sha256": "6cc627db224006aa7e0f9249880a28f0387f5d30bd472307577d1797d5377c6f",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "881940-S2",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881940/adf06bd5582f179c7cf147e7fe01a3ed244fac41/ss_adf06bd5582f179c7cf147e7fe01a3ed244fac41.1920x1080.jpg?t=1791879308",
+          "local_asset": "media/881940/2.jpg",
+          "sha256": "bb6d432b53f930d158b9d31406f95a92f3106e111a1843cef94e6b4f7c280809",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "881940-S3",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881940/d2ceb27d75915d5d2b6a340f3e2e510b55da846f/ss_d2ceb27d75915d5d2b6a340f3e2e510b55da846f.1920x1080.jpg?t=1791879308",
+          "local_asset": "media/881940/3.jpg",
+          "sha256": "19945ef60bc8e12ca58f885fcb8c2eafdb771fcd267cb5264397a6fece6b8be5",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "editorial_review": {
+        "observation": "画面里，像素怪物沿桥和城门向玩家涌来，近处是更写实的手和枪。有观众喜欢两种画法碰在一起，也有人觉得枪和手像从另一款游戏里拿来的。",
+        "comment": "在三维战场里放进二维像素怪物",
+        "basis": "官方截图和公开视频素材观察；评论为视频观众反馈。"
+      },
+      "semantic_review": {
+        "version": "V2",
+        "status": "complete",
+        "scope": "social_video",
+        "platform": "YouTube",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "sample_size": 1000,
+        "stats": {
+          "total": 1000,
+          "related": 46,
+          "unrelated": 931,
+          "uncertain": 23,
+          "positive": 22,
+          "negative": 16,
+          "mixed": 1,
+          "neutral": 7,
+          "unclear": 0,
+          "positive_rate": 47.83
+        },
+        "collection_snapshot": "2026-11-12",
+        "analysis_snapshot": "2026-11-12",
+        "sample_method": "按已核实候选视频播放量降序收集公开一级评论，达到样本量后停止",
+        "sampling_note": "",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ph4fhhP1LpE",
+            "title": "EL RUBIUS has become ADDICTED to HUNTING GOBLINS!!🧌🔫 (Guns 'n Goblins)",
+            "platform": "YouTube",
+            "views": 664032,
+            "rank": 1,
+            "selected": 58
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=M9CYHJ0P9Ig",
+            "title": "I took down MASSIVE HORDES in this Insane Base Defense! - Guns n' Goblins",
+            "platform": "YouTube",
+            "views": 582927,
+            "rank": 2,
+            "selected": 217
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=DbebB5MiETA",
+            "title": "I killed everything to upgrade my guns",
+            "platform": "YouTube",
+            "views": 395191,
+            "rank": 3,
+            "selected": 106
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=osVsDHo23rQ",
+            "title": "Este incremental de oleadas pinta bien",
+            "platform": "YouTube",
+            "views": 357592,
+            "rank": 4,
+            "selected": 155
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=E2Cv6TY_HAA",
+            "title": "I can't stop playing this defense game!",
+            "platform": "YouTube",
+            "views": 355594,
+            "rank": 5,
+            "selected": 138
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=0nn9WdqZVbs",
+            "title": "I ACCIDENTALLY KILL CHILDREN TO MAKE MONEY?!",
+            "platform": "YouTube",
+            "views": 289154,
+            "rank": 6,
+            "selected": 315
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=z_LcCTh0exI",
+            "title": "pew pew",
+            "platform": "YouTube",
+            "views": 282547,
+            "rank": 7,
+            "selected": 11
+          }
+        ]
+      },
+      "semantic_quotes": [
+        {
+          "id": "Ugy6m0c0eVxW-MdyDOR4AaABAg",
+          "sample_index": 100,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "The graphics for the game actually look insane?? Like, the textures, colours, everything is SOO clean for this style",
+          "highlight_ranges": [
+            [
+              0,
+              116
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=M9CYHJ0P9Ig&lc=Ugy6m0c0eVxW-MdyDOR4AaABAg",
+          "highlight_translation_zh": "画面的纹理和配色都很干净。"
+        },
+        {
+          "id": "UgwLQQTR_9NhrFI7Qyd4AaABAg",
+          "sample_index": 239,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "I love the 2.5d, looks great.",
+          "highlight_ranges": [
+            [
+              0,
+              29
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=M9CYHJ0P9Ig&lc=UgwLQQTR_9NhrFI7Qyd4AaABAg",
+          "highlight_translation_zh": "我喜欢这种 2.5D 的画面。"
+        },
+        {
+          "id": "UgxMguE1-_c723Uuuvx4AaABAg",
+          "sample_index": 581,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "I’m a big fan of the 2D/3D combo…on paper it sounds terrible, but I feel like it was executed perfectly",
+          "highlight_ranges": [
+            [
+              0,
+              103
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=E2Cv6TY_HAA&lc=UgxMguE1-_c723Uuuvx4AaABAg",
+          "highlight_translation_zh": "我很喜欢二维和三维混在一起，游戏里做得很自然。"
+        },
+        {
+          "id": "UgxKzQiAmj4UjCRX58p4AaABAg",
+          "sample_index": 607,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "The graphics in this game are cute love it",
+          "highlight_ranges": [
+            [
+              0,
+              42
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=E2Cv6TY_HAA&lc=UgxKzQiAmj4UjCRX58p4AaABAg",
+          "highlight_translation_zh": "这游戏画面很可爱。"
+        }
+      ],
+      "sequence": 71
+    },
+    {
+      "case_id": "SOCIAL-1687540-ART-20261112",
+      "id": "1687540",
+      "steam_app_id": "1687540",
+      "steam_url": "https://store.steampowered.com/app/1687540/",
+      "game_name": "昭和米国物语",
+      "game_name_zh": "昭和米国物语",
+      "game_name_en": "Showa American Story",
+      "case_title": "把美式街景和昭和流行文化放进同一画面",
+      "source_url": "https://store.steampowered.com/app/1687540/",
+      "source_label": "查看官方作品资料",
+      "created_date": "2026-11-12",
+      "source_route": "社媒视频评论抽样",
+      "assessment_scope": "官方截图和公开视频素材观察；评论为视频观众反馈。",
+      "official_metadata": {
+        "official_name": "Showa American Story",
+        "developers": [
+          "NEKCOM Entertainment"
+        ],
+        "publishers": [
+          "4Divinity",
+          "2P Games (Asia excluding Japan)"
+        ],
+        "source_url": "https://store.steampowered.com/app/1687540/"
+      },
+      "assessment": {
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "admission": {
+        "status": "待美术评审",
+        "decision": null,
+        "approved": false,
+        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+      },
+      "display_policy": {
+        "visible": true,
+        "version": "2026-11-12-social-sample",
+        "basis": "用户确认入库"
+      },
+      "release_stage": {
+        "status": "unreleased",
+        "label": "未上线",
+        "date": "2026",
+        "source": "https://store.steampowered.com/app/1687540/",
+        "snapshot": "2026-11-12"
+      },
+      "classification": {
+        "app_primary": "场景环境",
+        "style_look": [
+          "卡通风"
+        ],
+        "form_shape": [
+          "夸张变形"
+        ],
+        "mood": [
+          "荒诞"
+        ],
+        "creative_method": [
+          "日常与异常并置"
+        ],
+        "product_genre": [
+          "ARPG"
+        ],
+        "style_main": "风格化"
+      },
+      "cover_asset": "media/1687540/1.jpg",
+      "visual_evidence": [
+        {
+          "type": "image",
+          "evidence_id": "1687540-S1",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687540/ss_91f6f0fc1c36e6b105349d85ecebd19645269ecc.1920x1080.jpg?t=1789641643",
+          "local_asset": "media/1687540/1.jpg",
+          "sha256": "2eec9408ce93be79ae67d4a729a24b59dda21cebd25dfed39b730483e952666a",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "1687540-S2",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687540/ss_29cff07059e1f316112997d42a78b47e73fa38ed.1920x1080.jpg?t=1789641643",
+          "local_asset": "media/1687540/2.jpg",
+          "sha256": "2fa52183159a5d5252e0b485a9df0c337974d28839fac34d38866590d44464c4",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "1687540-S3",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687540/ss_c96c0ddcbd42635695e3a0250020f8202aefce36.1920x1080.jpg?t=1789641643",
+          "local_asset": "media/1687540/3.jpg",
+          "sha256": "7f2e2eb7ba87708a9b55a17c0f67173b70a21e4c3e5884e946afc97f0b6bb8ac",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "gallery_media": [
+        {
+          "type": "video",
+          "evidence_id": "1687540-M1",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/1687540/1766928397/8335ca35fa1a4155afe6ee947eafbf3616e70baf/1787658169/hls_264_master.m3u8?t=1787691585",
+          "source_title": "Opening Night Live 2026 trailer",
+          "local_asset": "media/1687540/motion-1.mp4",
+          "poster": "media/1687540/motion-1.jpg",
+          "sha256": "77d6fc2a81c192f6997061c3c88409c7f15a03cde7ab14d51bcb81c8a5a9ebb5",
+          "start_seconds": 14,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "1687540-M2",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/1687540/1766928397/8335ca35fa1a4155afe6ee947eafbf3616e70baf/1787658169/hls_264_master.m3u8?t=1787691585",
+          "source_title": "Opening Night Live 2026 trailer",
+          "local_asset": "media/1687540/motion-2.mp4",
+          "poster": "media/1687540/motion-2.jpg",
+          "sha256": "646b6508fcde8b4de564e6c856826f976bda411a00e4efbbf70ba479ea3c9cff",
+          "start_seconds": 34,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "1687540-M3",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/1687540/1766928397/8335ca35fa1a4155afe6ee947eafbf3616e70baf/1787658169/hls_264_master.m3u8?t=1787691585",
+          "source_title": "Opening Night Live 2026 trailer",
+          "local_asset": "media/1687540/motion-3.mp4",
+          "poster": "media/1687540/motion-3.jpg",
+          "sha256": "a21bc2e41ae7b6b0037710182212b4cc6fb6fbe8f92eecb049fa0638076acd50",
+          "start_seconds": 51,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "image",
+          "evidence_id": "1687540-S1",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687540/ss_91f6f0fc1c36e6b105349d85ecebd19645269ecc.1920x1080.jpg?t=1789641643",
+          "local_asset": "media/1687540/1.jpg",
+          "sha256": "2eec9408ce93be79ae67d4a729a24b59dda21cebd25dfed39b730483e952666a",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "1687540-S2",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687540/ss_29cff07059e1f316112997d42a78b47e73fa38ed.1920x1080.jpg?t=1789641643",
+          "local_asset": "media/1687540/2.jpg",
+          "sha256": "2fa52183159a5d5252e0b485a9df0c337974d28839fac34d38866590d44464c4",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "1687540-S3",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687540/ss_c96c0ddcbd42635695e3a0250020f8202aefce36.1920x1080.jpg?t=1789641643",
+          "local_asset": "media/1687540/3.jpg",
+          "sha256": "7f2e2eb7ba87708a9b55a17c0f67173b70a21e4c3e5884e946afc97f0b6bb8ac",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "editorial_review": {
+        "observation": "预告里的樱花、州议会大厦、长颈鹿一样的坐骑和巨型钻头，把熟悉的东西拼成夸张的架空美国。具体道具和角色轮廓比文化梗本身更容易在画面里认出来。",
+        "comment": "把美式街景和昭和流行文化放进同一画面",
+        "basis": "官方截图和公开视频素材观察；评论为视频观众反馈。"
+      },
+      "semantic_review": {
+        "version": "V2",
+        "status": "complete",
+        "scope": "social_video",
+        "platform": "YouTube",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "sample_size": 1000,
+        "stats": {
+          "total": 1000,
+          "related": 75,
+          "unrelated": 877,
+          "uncertain": 48,
+          "positive": 27,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 45,
+          "unclear": 0,
+          "positive_rate": 36.0
+        },
+        "collection_snapshot": "2026-11-12",
+        "analysis_snapshot": "2026-11-12",
+        "sample_method": "按已核实候选视频播放量降序收集公开一级评论，达到样本量后停止",
+        "sampling_note": "",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=tmx1JlXVceE",
+            "title": "This is a game I didn't know I wanted..",
+            "platform": "YouTube",
+            "views": 1817960,
+            "rank": 3,
+            "selected": 1000
+          }
+        ]
+      },
+      "semantic_quotes": [
+        {
+          "id": "UgwBpQ9ixH9f0_dwF7h4AaABAg",
+          "sample_index": 280,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "How do you manage to reference both Dragon Ball and Gurren Lagan in a single scene, holy...\nAnd then there's not-Raoh mounting a giraffe-headed Kokuoh. CINEMA.",
+          "highlight_ranges": [
+            [
+              92,
+              159
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=tmx1JlXVceE&lc=UgwBpQ9ixH9f0_dwF7h4AaABAg",
+          "highlight_translation_zh": "像拉奥的角色骑着长颈鹿脑袋的黑王号，太有电影感了。"
+        },
+        {
+          "id": "Ugxgs6chrvM_S15o8pt4AaABAg",
+          "sample_index": 716,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "2:29 Oh my...\n\nI think \"Neo Tokyo-4\" is Japanese-Occupied Texas, or at least the renamed city of Austin, within Japanese Texas. That Capitol-esque building rising out of the cherry blossoms isn't the Federal Capitol building in Washington, it's the Texas State Capitol building in Austin! You can see the seals of the six governments to have held Texas (... prior to the Empire) on the facade!\n\nThis is amazing! Be right back, I need to go yell and fire my twin six-shooters into the air!\n\nP.S.: For the record, I'd vote for Governor Gokou in a heartbeat. Follow him anywhere.",
+          "highlight_ranges": [
+            [
+              128,
+              393
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=tmx1JlXVceE&lc=Ugxgs6chrvM_S15o8pt4AaABAg",
+          "highlight_translation_zh": "樱花里露出的那栋楼是得州奥斯汀的州议会大厦，外墙还能看到徽记。"
+        },
+        {
+          "id": "UgzeGWgYJQmMYH8kj8h4AaABAg",
+          "sample_index": 759,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "As a Monster Hunter fan, I appreciate the giant hammers at 3:36.",
+          "highlight_ranges": [
+            [
+              25,
+              64
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=tmx1JlXVceE&lc=UgzeGWgYJQmMYH8kj8h4AaABAg",
+          "highlight_translation_zh": "我喜欢那几把大锤。"
+        },
+        {
+          "id": "UgywDhKBN2kClLL0epd4AaABAg",
+          "sample_index": 924,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "Gokou looks like Senator Armstrong and I'm here for it!",
+          "highlight_ranges": [
+            [
+              0,
+              55
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=tmx1JlXVceE&lc=UgywDhKBN2kClLL0epd4AaABAg",
+          "highlight_translation_zh": "州长悟空长得像阿姆斯特朗参议员，我就喜欢这点。"
+        }
+      ],
+      "sequence": 72
+    },
+    {
+      "case_id": "SOCIAL-3850290-ART-20261112",
+      "id": "3850290",
+      "steam_app_id": "3850290",
+      "steam_url": "https://store.steampowered.com/app/3850290/",
+      "game_name": "岛与利维坦",
+      "game_name_zh": "岛与利维坦",
+      "game_name_en": "The Islet & Leviathan",
+      "case_title": "让草丛、云和水面跟着角色的动作变化",
+      "source_url": "https://store.steampowered.com/app/3850290/",
+      "source_label": "查看官方作品资料",
+      "created_date": "2026-11-12",
+      "source_route": "社媒视频评论抽样",
+      "assessment_scope": "官方截图和公开视频素材观察；评论为视频观众反馈。",
+      "official_metadata": {
+        "official_name": "The Islet & Leviathan",
+        "developers": [
+          "NuBrain Games Studio"
+        ],
+        "publishers": [
+          "NuBrain Games Studio"
+        ],
+        "source_url": "https://store.steampowered.com/app/3850290/"
+      },
+      "assessment": {
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "admission": {
+        "status": "待美术评审",
+        "decision": null,
+        "approved": false,
+        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+      },
+      "display_policy": {
+        "visible": true,
+        "version": "2026-11-12-social-sample",
+        "basis": "用户确认入库"
+      },
+      "release_stage": {
+        "status": "unreleased",
+        "label": "未上线",
+        "date": "To be announced",
+        "source": "https://store.steampowered.com/app/3850290/",
+        "snapshot": "2026-11-12"
+      },
+      "classification": {
+        "app_primary": "场景环境",
+        "style_look": [
+          "插画／绘本风"
+        ],
+        "form_shape": [
+          "圆润"
+        ],
+        "mood": [
+          "梦幻"
+        ],
+        "creative_method": [
+          "动态变形"
+        ],
+        "product_genre": [
+          "探索冒险"
+        ],
+        "style_main": "风格化"
+      },
+      "cover_asset": "media/3850290/1.jpg",
+      "visual_evidence": [
+        {
+          "type": "image",
+          "evidence_id": "3850290-S1",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3850290/2c46c516e3e77f92043689456dbe4c1ef07c7f37/ss_2c46c516e3e77f92043689456dbe4c1ef07c7f37.1920x1080.jpg?t=1783659665",
+          "local_asset": "media/3850290/1.jpg",
+          "sha256": "aeeb9166f9efc5799471128eb897c02a2f3f14266fad350b18d1ab503c37e1f3",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "3850290-S2",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3850290/c2eacabdd2d6470f2d535fed87721cad10cb1ee0/ss_c2eacabdd2d6470f2d535fed87721cad10cb1ee0.1920x1080.jpg?t=1783659665",
+          "local_asset": "media/3850290/2.jpg",
+          "sha256": "ed44e873b08daf8aedb625a4d40f1dbb98f9dce04f718940886fbd3296e72e8d",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "3850290-S3",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3850290/1cb72ebb67e249bfb4198069bfae483624304455/ss_1cb72ebb67e249bfb4198069bfae483624304455.1920x1080.jpg?t=1783659665",
+          "local_asset": "media/3850290/3.jpg",
+          "sha256": "68cacde6afe54bbce0c4a19f3e2b9eabd4bf62ec86ab7d2551647f74a615cf56",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "gallery_media": [
+        {
+          "type": "video",
+          "evidence_id": "3850290-M1",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/3850290/330907295/43113bfd6b8885a91d60e8392c73d6a894c6df03/1754724825/hls_264_master.m3u8?t=1754884503",
+          "source_title": "2025NewTrailer",
+          "local_asset": "media/3850290/motion-1.mp4",
+          "poster": "media/3850290/motion-1.jpg",
+          "sha256": "001bf818f4cf25794063d41cf0f1bd0f1c5a7c2335211bca5d8514c79c23f59d",
+          "start_seconds": 14,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "3850290-M2",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/3850290/330907295/43113bfd6b8885a91d60e8392c73d6a894c6df03/1754724825/hls_264_master.m3u8?t=1754884503",
+          "source_title": "2025NewTrailer",
+          "local_asset": "media/3850290/motion-2.mp4",
+          "poster": "media/3850290/motion-2.jpg",
+          "sha256": "fc7f2da405c5b7fb0ecde1532c6f18df02b52ffed78e5df9fda15e695bc5075a",
+          "start_seconds": 30,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "3850290-M3",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/3850290/330907295/43113bfd6b8885a91d60e8392c73d6a894c6df03/1754724825/hls_264_master.m3u8?t=1754884503",
+          "source_title": "2025NewTrailer",
+          "local_asset": "media/3850290/motion-3.mp4",
+          "poster": "media/3850290/motion-3.jpg",
+          "sha256": "b640e7cd1a43b73524f84e9d5fe3d18a40a12068b53cccf2c32038357c6004ee",
+          "start_seconds": 46,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "image",
+          "evidence_id": "3850290-S1",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3850290/2c46c516e3e77f92043689456dbe4c1ef07c7f37/ss_2c46c516e3e77f92043689456dbe4c1ef07c7f37.1920x1080.jpg?t=1783659665",
+          "local_asset": "media/3850290/1.jpg",
+          "sha256": "aeeb9166f9efc5799471128eb897c02a2f3f14266fad350b18d1ab503c37e1f3",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "3850290-S2",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3850290/c2eacabdd2d6470f2d535fed87721cad10cb1ee0/ss_c2eacabdd2d6470f2d535fed87721cad10cb1ee0.1920x1080.jpg?t=1783659665",
+          "local_asset": "media/3850290/2.jpg",
+          "sha256": "ed44e873b08daf8aedb625a4d40f1dbb98f9dce04f718940886fbd3296e72e8d",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "3850290-S3",
+          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3850290/1cb72ebb67e249bfb4198069bfae483624304455/ss_1cb72ebb67e249bfb4198069bfae483624304455.1920x1080.jpg?t=1783659665",
+          "local_asset": "media/3850290/3.jpg",
+          "sha256": "68cacde6afe54bbce0c4a19f3e2b9eabd4bf62ec86ab7d2551647f74a615cf56",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "editorial_review": {
+        "observation": "踩进花草、钻过灌木时，植物会随着角色动作摆动。云朵看起来蓬松，水面和远处的雾把浮岛隔成几层。部分观众也提到阴影偏重、配色太亮，或角色落地显得生硬。",
+        "comment": "让草丛、云和水面跟着角色的动作变化",
+        "basis": "官方截图和公开视频素材观察；评论为视频观众反馈。"
+      },
+      "semantic_review": {
+        "version": "V2",
+        "status": "complete",
+        "scope": "social_video",
+        "platform": "B站",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "sample_size": 1000,
+        "stats": {
+          "total": 1000,
+          "related": 298,
+          "unrelated": 642,
+          "uncertain": 60,
+          "positive": 224,
+          "negative": 20,
+          "mixed": 10,
+          "neutral": 44,
+          "unclear": 0,
+          "positive_rate": 75.17
+        },
+        "collection_snapshot": "2026-11-12",
+        "analysis_snapshot": "2026-11-12",
+        "sample_method": "按已核实候选视频播放量降序收集公开一级评论，达到样本量后停止",
+        "sampling_note": "播放量部分为页面约数。",
+        "sources": [
+          {
+            "url": "https://www.bilibili.com/video/BV1Uv4SejEod/",
+            "title": "如果不得不卷，卷交互-独立游戏【岛】",
+            "platform": "B站",
+            "views": 99797,
+            "rank": 1,
+            "selected": 203
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1ga411E767/",
+            "title": "[岛与开发日志]快餐时代唯有我在劝你慢下来",
+            "platform": "B站",
+            "views": 79199,
+            "rank": 2,
+            "selected": 319
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1wQtWeeEW7/",
+            "title": "如果不得不卷，卷交互Part2-独立游戏【岛】",
+            "platform": "B站",
+            "views": 48003,
+            "rank": 3,
+            "selected": 137
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1ZGwseZEx3/",
+            "title": "一个需要B友鉴定的PV-独立游戏【岛与利维坦】",
+            "platform": "B站",
+            "views": 16000,
+            "rank": 4,
+            "selected": 172
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1dj316EE51/",
+            "title": "不用AI纯手搓，能力不够诚意来凑！",
+            "platform": "B站",
+            "views": 15176,
+            "rank": 5,
+            "selected": 89
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1uu4m1w7Lm/",
+            "title": "【岛与利维坦】朋友说我与火之间就差了张脸，但脸我还得要",
+            "platform": "B站",
+            "views": 14183,
+            "rank": 6,
+            "selected": 76
+          },
+          {
+            "url": "https://www.bilibili.com/video/BV1ZHx1e1ESb/",
+            "title": "如果不得不卷，卷趣味性-独立游戏【岛】",
+            "platform": "B站",
+            "views": 14000,
+            "rank": 7,
+            "selected": 4
+          }
+        ]
+      },
+      "semantic_quotes": [
+        {
+          "id": "dom-6169474c4c05b419311d794dae3a433d7d63baf6f70baf996eed6cdec515bab4",
+          "sample_index": 8,
+          "sentiment": "positive",
+          "platform": "B站",
+          "full_text": "画风很美，交互时Q弹软绵的质感很棒，但我仔细看完你所有的视频后，并没有多少想玩的冲动，因为缺少目标以及完成目标过程中的乐趣，推荐对比一下风之旅人和ABZU的异同",
+          "highlight_ranges": [
+            [
+              0,
+              17
+            ]
+          ],
+          "url": "https://www.bilibili.com/video/BV1Uv4SejEod/"
+        },
+        {
+          "id": "dom-11555e215cf21944dc1bd1135df2b112a44444a4b2bb39b88768208e1df26fa9",
+          "sample_index": 209,
+          "sentiment": "positive",
+          "platform": "B站",
+          "full_text": "踩花草和进入灌木丛的互动感觉很棒，还能踩云~好开心！游泳的话，要不要考虑潜水探索岛屿底部？珊瑚、贝壳、小鱼之类的互动。出水的时候可惜再加个，动物甩水的动作，会更生动些。(毕竟是毛绒绒的动物）[惊喜]",
+          "highlight_ranges": [
+            [
+              0,
+              26
+            ]
+          ],
+          "url": "https://www.bilibili.com/video/BV1ga411E767/"
+        },
+        {
+          "id": "dom-51971de4af92540b940bce8b4c9d064318cafea486fc1c7bb7d3a4fb5786d708",
+          "sample_index": 437,
+          "sentiment": "positive",
+          "platform": "B站",
+          "full_text": "蓬松的画面好可爱，像毛绒玩具",
+          "highlight_ranges": [
+            [
+              0,
+              14
+            ]
+          ],
+          "url": "https://www.bilibili.com/video/BV1ga411E767/"
+        },
+        {
+          "id": "dom-0f365fab71295badb284685377da45f9701decc9417090fe038b72cf27c5ef0a",
+          "sample_index": 663,
+          "sentiment": "positive",
+          "platform": "B站",
+          "full_text": "那个漩涡，太漂亮了！houdini做的吗？",
+          "highlight_ranges": [
+            [
+              0,
+              10
+            ]
+          ],
+          "url": "https://www.bilibili.com/video/BV1ZGwseZEx3/"
+        },
+        {
+          "id": "dom-97e7c01247446a2ecf11a727b291916ee61ddd6626d81348931ffeb5380498a4",
+          "sample_index": 955,
+          "sentiment": "positive",
+          "platform": "B站",
+          "full_text": "光影确实好看   感觉还有体积雾    有一种梦境的朦胧感",
+          "highlight_ranges": [
+            [
+              0,
+              29
+            ]
+          ],
+          "url": "https://www.bilibili.com/video/BV1uu4m1w7Lm/"
+        }
+      ],
+      "sequence": 73
+    },
+    {
+      "case_id": "SOCIAL-ORBITALS-ART-20261112",
+      "id": "orbitals",
+      "steam_app_id": null,
+      "steam_url": null,
+      "game_name": "轨道双子星",
+      "game_name_zh": "轨道双子星",
+      "game_name_en": "Orbitals",
+      "case_title": "用三维角色做出老科幻动画的手绘感",
+      "source_url": "https://www.kepler-interactive.com/games/orbitals",
+      "source_label": "查看官方作品资料",
+      "created_date": "2026-11-12",
+      "source_route": "社媒视频评论抽样",
+      "assessment_scope": "官方截图和公开视频素材观察；评论为视频观众反馈。",
+      "official_metadata": {
+        "official_name": "Orbitals",
+        "developers": [
+          "Shapefarm"
+        ],
+        "publishers": [
+          "Kepler Interactive"
+        ],
+        "source_url": "https://www.kepler-interactive.com/games/orbitals"
+      },
+      "assessment": {
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "admission": {
+        "status": "待美术评审",
+        "decision": null,
+        "approved": false,
+        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+      },
+      "display_policy": {
+        "visible": true,
+        "version": "2026-11-12-social-sample",
+        "basis": "用户确认入库"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "已上线",
+        "date": "2026-09-03",
+        "source": "https://www.kepler-interactive.com/games/orbitals",
+        "snapshot": "2026-11-12"
+      },
+      "classification": {
+        "app_primary": "整体美术方向",
+        "style_look": [
+          "动漫风"
+        ],
+        "form_color": [
+          "大色块"
+        ],
+        "mood": [
+          "明快"
+        ],
+        "creative_method": [
+          "材质迁移"
+        ],
+        "product_genre": [
+          "解谜冒险"
+        ],
+        "style_main": "风格化"
+      },
+      "cover_asset": "media/orbitals/1.jpg",
+      "visual_evidence": [
+        {
+          "type": "image",
+          "evidence_id": "orbitals-S1",
+          "url": "https://www.kepler-interactive.com/media/pages/games/orbitals/ef84a81259-1790692137/orbitals-co-op-action-1-1600x-q80.png",
+          "local_asset": "media/orbitals/1.jpg",
+          "sha256": "00086a1da73faccdd21ff49d27ab7c3505332840e8b0670df34d307599b26eb2",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "orbitals-S2",
+          "url": "https://www.kepler-interactive.com/media/pages/games/orbitals/04c60a1c77-1790692142/orbitals-ship-action-2-1600x-q80.png",
+          "local_asset": "media/orbitals/2.jpg",
+          "sha256": "6803cf52481c1c9bb5330d4ae2aec641654658211dd371b12a5fb801f3c84895",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "orbitals-S3",
+          "url": "https://www.kepler-interactive.com/media/pages/games/orbitals/650af654c1-1790692139/orbitals-2025-11-20-17-21-52_766-1600x-q80.png",
+          "local_asset": "media/orbitals/3.jpg",
+          "sha256": "e7ef977cb68ae2db6bf9e9d9a92761e1cc7bba5134d936233673521b2c414f21",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "gallery_media": [
+        {
+          "type": "video",
+          "evidence_id": "orbitals-M1",
+          "url": "https://www.youtube.com/watch?v=bvMDXtgz1bo",
+          "source_title": "Orbitals 官方预告",
+          "local_asset": "media/orbitals/motion-1.mp4",
+          "poster": "media/orbitals/motion-1.jpg",
+          "sha256": "09cb999a0cb801aa5de43c06ef4585f99edf1f8650591ea90e1522f29be0976f",
+          "start_seconds": 8,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "orbitals-M2",
+          "url": "https://www.youtube.com/watch?v=bvMDXtgz1bo",
+          "source_title": "Orbitals 官方预告",
+          "local_asset": "media/orbitals/motion-2.mp4",
+          "poster": "media/orbitals/motion-2.jpg",
+          "sha256": "2fb5d0d2871b4dc99df347571532f839ad8c7ff9c374dfd1a5b2c4a7a5b8da81",
+          "start_seconds": 25,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "orbitals-M3",
+          "url": "https://www.youtube.com/watch?v=bvMDXtgz1bo",
+          "source_title": "Orbitals 官方预告",
+          "local_asset": "media/orbitals/motion-3.mp4",
+          "poster": "media/orbitals/motion-3.jpg",
+          "sha256": "4308f83d529bded27ef3e6c5283b3ed3e4cd4eef6d7231c08a66ae2589434e7b",
+          "start_seconds": 42,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "image",
+          "evidence_id": "orbitals-S1",
+          "url": "https://www.kepler-interactive.com/media/pages/games/orbitals/ef84a81259-1790692137/orbitals-co-op-action-1-1600x-q80.png",
+          "local_asset": "media/orbitals/1.jpg",
+          "sha256": "00086a1da73faccdd21ff49d27ab7c3505332840e8b0670df34d307599b26eb2",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "orbitals-S2",
+          "url": "https://www.kepler-interactive.com/media/pages/games/orbitals/04c60a1c77-1790692142/orbitals-ship-action-2-1600x-q80.png",
+          "local_asset": "media/orbitals/2.jpg",
+          "sha256": "6803cf52481c1c9bb5330d4ae2aec641654658211dd371b12a5fb801f3c84895",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "orbitals-S3",
+          "url": "https://www.kepler-interactive.com/media/pages/games/orbitals/650af654c1-1790692139/orbitals-2025-11-20-17-21-52_766-1600x-q80.png",
+          "local_asset": "media/orbitals/3.jpg",
+          "sha256": "e7ef977cb68ae2db6bf9e9d9a92761e1cc7bba5134d936233673521b2c414f21",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "editorial_review": {
+        "observation": "角色和场景都能在三维空间里转动，轮廓和阴影仍像老动画里的色块。角色动作一格一格地变化，配上黄色字幕，让观众想起八九十年代的科幻动画。",
+        "comment": "用三维角色做出老科幻动画的手绘感",
+        "basis": "官方截图和公开视频素材观察；评论为视频观众反馈。"
+      },
+      "semantic_review": {
+        "version": "V2",
+        "status": "complete",
+        "scope": "social_video",
+        "platform": "YouTube",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "sample_size": 1000,
+        "stats": {
+          "total": 1000,
+          "related": 424,
+          "unrelated": 526,
+          "uncertain": 50,
+          "positive": 357,
+          "negative": 11,
+          "mixed": 4,
+          "neutral": 52,
+          "unclear": 0,
+          "positive_rate": 84.2
+        },
+        "collection_snapshot": "2026-11-12",
+        "analysis_snapshot": "2026-11-12",
+        "sample_method": "按已核实候选视频播放量降序收集公开一级评论，达到样本量后停止",
+        "sampling_note": "",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=bvMDXtgz1bo",
+            "title": "Orbitals – Announcement Trailer – Nintendo Switch 2",
+            "platform": "YouTube",
+            "views": 762648,
+            "rank": 1,
+            "selected": 1000
+          }
+        ]
+      },
+      "semantic_quotes": [
+        {
+          "id": "UgxcuC2-A0pxeYWnKIt4AaABAg",
+          "sample_index": 47,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "This really feels like Dragon Ball or Ranma1/2 artstyle but 3D i'm looking forward to play it",
+          "highlight_ranges": [
+            [
+              0,
+              62
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=bvMDXtgz1bo&lc=UgxcuC2-A0pxeYWnKIt4AaABAg",
+          "highlight_translation_zh": "像把《龙珠》或《乱马½》的画风做成了三维。"
+        },
+        {
+          "id": "UgxonDovKfSNnJ-MoGd4AaABAg",
+          "sample_index": 53,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "The visuals for this game are amazing!\n\nCapturing the general feeling of 80s anime visuals is one thing, games have done that before. But to also manage to make it animate like an 80s anime, in 3D, while not having the shaders break the illusion of 2D, is some next level attention to detail. Even Arc System Works don’t do that, as they always have 100% control of the camera and how the characters are displayed in their games, while in this you actually move the characters in 3D space.\n\nThis just upped the bar for every other game attempting a truly 2D animation look in 3D space.",
+          "highlight_ranges": [
+            [
+              134,
+              292
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=bvMDXtgz1bo&lc=UgxonDovKfSNnJ-MoGd4AaABAg",
+          "highlight_translation_zh": "三维角色动起来像八十年代动画，渲染也保住了二维观感。"
+        },
+        {
+          "id": "Ugww0aolj0_IPuRwdv54AaABAg",
+          "sample_index": 123,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "The graphics are amazing at recreating that retro anime style! Every scene looks handrawn but it's rendered!😄\nI see it's exclusive but really hope the devs seek out releasing on other platforms tho 🥲\nI don't want to get a Switch 2 unless it's bypassing Nintendo's greed thru used ones...which are hopefully not bricked by Nintendo either.",
+          "highlight_ranges": [
+            [
+              0,
+              108
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=bvMDXtgz1bo&lc=Ugww0aolj0_IPuRwdv54AaABAg",
+          "highlight_translation_zh": "画面看起来像手绘，实际是渲染出来的。"
+        },
+        {
+          "id": "UgwjqxErWNyNeUPzZUl4AaABAg",
+          "sample_index": 772,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "The yellow/orange subtitles hit me right in the old sub nostalgia.",
+          "highlight_ranges": [
+            [
+              0,
+              66
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=bvMDXtgz1bo&lc=UgwjqxErWNyNeUPzZUl4AaABAg",
+          "highlight_translation_zh": "黄橙色字幕让我想起以前看动画时的字幕。"
+        }
+      ],
+      "sequence": 74
+    },
+    {
+      "case_id": "SOCIAL-FIRE-EMBLEM-ART-20261112",
+      "id": "fire-emblem",
+      "steam_app_id": null,
+      "steam_url": null,
+      "game_name": "火焰纹章 万缕千丝",
+      "game_name_zh": "火焰纹章 万缕千丝",
+      "game_name_en": "Fire Emblem: Fortune's Weave",
+      "case_title": "用竞技场、盔甲和纹章表现古典战争世界",
+      "source_url": "https://www.nintendo.com/us/store/products/fire-emblem-fortunes-weave-switch-2/",
+      "source_label": "查看官方作品资料",
+      "created_date": "2026-11-12",
+      "source_route": "社媒视频评论抽样",
+      "assessment_scope": "官方截图和公开视频素材观察；评论为视频观众反馈。",
+      "official_metadata": {
+        "official_name": "Fire Emblem: Fortune's Weave",
+        "developers": [
+          "Intelligent Systems",
+          "Nintendo"
+        ],
+        "publishers": [
+          "Nintendo"
+        ],
+        "source_url": "https://www.nintendo.com/us/store/products/fire-emblem-fortunes-weave-switch-2/"
+      },
+      "assessment": {
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "admission": {
+        "status": "待美术评审",
+        "decision": null,
+        "approved": false,
+        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+      },
+      "display_policy": {
+        "visible": true,
+        "version": "2026-11-12-social-sample",
+        "basis": "用户确认入库"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "已上线",
+        "date": "2026-09-17",
+        "source": "https://www.nintendo.com/us/store/products/fire-emblem-fortunes-weave-switch-2/",
+        "snapshot": "2026-11-12"
+      },
+      "classification": {
+        "app_primary": "角色设计",
+        "style_look": [
+          "动漫风"
+        ],
+        "form_shape": [
+          "修长比例"
+        ],
+        "mood": [
+          "肃穆"
+        ],
+        "creative_method": [
+          "符号重复与变奏"
+        ],
+        "product_genre": [
+          "策略"
+        ],
+        "style_main": "风格化"
+      },
+      "cover_asset": "media/fire-emblem/1.jpg",
+      "visual_evidence": [
+        {
+          "type": "image",
+          "evidence_id": "fire-emblem-S1",
+          "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch2/70010000126929/ff416413a2538f8e4076a8b60b0f831c75a1eb3892150ff6678f3ddedfe6ad0e",
+          "local_asset": "media/fire-emblem/1.jpg",
+          "sha256": "f2aa925bdcee7ff201946ab8bec9df0da42eefaaee2961c8cf3edaa4821e9f3f",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "fire-emblem-S2",
+          "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch2/70010000126929/54ac2302ff25e1c6d9a88a4695550d5a2cd7aed60ecee11dfb5d2fa54ff50527",
+          "local_asset": "media/fire-emblem/2.jpg",
+          "sha256": "88b5e97a9c9210c24a86c0d34cfd18af7168cdd251dead158541708387345ece",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "fire-emblem-S3",
+          "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch2/70010000126929/9546ca8ff6c40fa24e79b84b58d3022d512b83d67551567f8864a6976fcc11a3",
+          "local_asset": "media/fire-emblem/3.jpg",
+          "sha256": "5263f8ff97ad733fbefcede89ee57a02aded9eebe7f14b5bf4ec63ace2ee285b",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "gallery_media": [
+        {
+          "type": "video",
+          "evidence_id": "fire-emblem-M1",
+          "url": "https://www.youtube.com/watch?v=j6eNaiftiWE",
+          "source_title": "Fire Emblem: Fortune's Weave 官方预告",
+          "local_asset": "media/fire-emblem/motion-1.mp4",
+          "poster": "media/fire-emblem/motion-1.jpg",
+          "sha256": "237cb4b01130342ee3d9cc99bf99de123eba959f6e26f0f87d06c7a15a3e82fe",
+          "start_seconds": 13,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "fire-emblem-M2",
+          "url": "https://www.youtube.com/watch?v=j6eNaiftiWE",
+          "source_title": "Fire Emblem: Fortune's Weave 官方预告",
+          "local_asset": "media/fire-emblem/motion-2.mp4",
+          "poster": "media/fire-emblem/motion-2.jpg",
+          "sha256": "43e0504f4ba9f5e7206ef41c2caee62de8aada189dcd55546a0f7d2b3cbb7385",
+          "start_seconds": 41,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "fire-emblem-M3",
+          "url": "https://www.youtube.com/watch?v=j6eNaiftiWE",
+          "source_title": "Fire Emblem: Fortune's Weave 官方预告",
+          "local_asset": "media/fire-emblem/motion-3.mp4",
+          "poster": "media/fire-emblem/motion-3.jpg",
+          "sha256": "5dfe12ee583810ff28ec67ed66ff5bd50d391934ab84200d859e6e5a2a825ef6",
+          "start_seconds": 75,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "image",
+          "evidence_id": "fire-emblem-S1",
+          "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch2/70010000126929/ff416413a2538f8e4076a8b60b0f831c75a1eb3892150ff6678f3ddedfe6ad0e",
+          "local_asset": "media/fire-emblem/1.jpg",
+          "sha256": "f2aa925bdcee7ff201946ab8bec9df0da42eefaaee2961c8cf3edaa4821e9f3f",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "fire-emblem-S2",
+          "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch2/70010000126929/54ac2302ff25e1c6d9a88a4695550d5a2cd7aed60ecee11dfb5d2fa54ff50527",
+          "local_asset": "media/fire-emblem/2.jpg",
+          "sha256": "88b5e97a9c9210c24a86c0d34cfd18af7168cdd251dead158541708387345ece",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "fire-emblem-S3",
+          "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch2/70010000126929/9546ca8ff6c40fa24e79b84b58d3022d512b83d67551567f8864a6976fcc11a3",
+          "local_asset": "media/fire-emblem/3.jpg",
+          "sha256": "5263f8ff97ad733fbefcede89ee57a02aded9eebe7f14b5bf4ec63ace2ee285b",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "editorial_review": {
+        "observation": "石造竞技场和人物盔甲让观众想起古罗马和北非。成年版苏谛斯和白发长发的迪特里希很容易被认出来，也有观众觉得部分服装细节太多、角色肤色发灰。",
+        "comment": "用竞技场、盔甲和纹章表现古典战争世界",
+        "basis": "官方截图和公开视频素材观察；评论为视频观众反馈。"
+      },
+      "semantic_review": {
+        "version": "V2",
+        "status": "complete",
+        "scope": "social_video",
+        "platform": "YouTube",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "sample_size": 1000,
+        "stats": {
+          "total": 1000,
+          "related": 157,
+          "unrelated": 808,
+          "uncertain": 35,
+          "positive": 54,
+          "negative": 47,
+          "mixed": 5,
+          "neutral": 51,
+          "unclear": 0,
+          "positive_rate": 34.39
+        },
+        "collection_snapshot": "2026-11-12",
+        "analysis_snapshot": "2026-11-12",
+        "sample_method": "按已核实候选视频播放量降序收集公开一级评论，达到样本量后停止",
+        "sampling_note": "",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=M-bBuVPvB90",
+            "title": "Fire Emblem: Fortune’s Weave – [ไทย] Commercial  | Nintendo Switch 2 (SEA)",
+            "platform": "YouTube",
+            "views": 2789761,
+            "rank": 1,
+            "selected": 2
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=T4EHnoy5fTc",
+            "title": "Fire Emblem: Fortune’s Weave – Commercial  | Nintendo Switch 2 (SEA)",
+            "platform": "YouTube",
+            "views": 2551972,
+            "rank": 3,
+            "selected": 10
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=3B0WTsFx-Kc",
+            "title": "Pass di espansione di Fire Emblem: Fortune's Weave (Nintendo Switch 2) – Disponibile ora",
+            "platform": "YouTube",
+            "views": 1706740,
+            "rank": 4,
+            "selected": 13
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=j6eNaiftiWE",
+            "title": "Fire Emblem: Fortune’s Weave – Nintendo Direct 9.12.2025",
+            "platform": "YouTube",
+            "views": 1343092,
+            "rank": 6,
+            "selected": 975
+          }
+        ]
+      },
+      "semantic_quotes": [
+        {
+          "id": "Ugzh-Q4wAl4s-wUFCml4AaABAg",
+          "sample_index": 123,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "BRO LOOK AT MY GIRL SOTHIS SHES SO STUNNING 😭😭😭💚💚💚",
+          "highlight_ranges": [
+            [
+              0,
+              43
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=j6eNaiftiWE&lc=Ugzh-Q4wAl4s-wUFCml4AaABAg",
+          "highlight_translation_zh": "苏谛斯太好看了。"
+        },
+        {
+          "id": "Ugw0UqyYBya3hJCUDnB4AaABAg",
+          "sample_index": 151,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "The Rome like setting looks great",
+          "highlight_ranges": [
+            [
+              0,
+              33
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=j6eNaiftiWE&lc=Ugw0UqyYBya3hJCUDnB4AaABAg",
+          "highlight_translation_zh": "这种像罗马的场景看起来很棒。"
+        },
+        {
+          "id": "UgzTbXcbXpHTGGZmyEl4AaABAg",
+          "sample_index": 470,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "Honestly, I wish we could get another Echoes like game but harder. In my opinion that game was gold! Wish they would go back to an older formula of this series. Also wish they would also make the characters mid to late 20s at least. Some of the older games have older characters. I do not want to control teenagers! Have to say I like Sothis design. Wished she looked like that instead of like a 10 yr old in 3 Houses.",
+          "highlight_ranges": [
+            [
+              316,
+              418
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=j6eNaiftiWE&lc=UgzTbXcbXpHTGGZmyEl4AaABAg",
+          "highlight_translation_zh": "我喜欢苏谛斯这次的造型。"
+        },
+        {
+          "id": "UgywAYlL9wwCIlzcrnN4AaABAg",
+          "sample_index": 720,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "I have so many thoughts and feelings this.\n\n-New fire emblem and I’m excited \n\n-It’s connected to 3 Houses which is good and bad (with how successful that game was its no surprise they go back to it but I hope this isn’t a sign of things to come)\n\n-it looks like the designs take inspiration from Mediterranean antiquity which I like (I want to see more time periods covered than Middle Ages. Maybe era of pike and shotte, or ancient China, India, Rome, Mesopotamia, etc.)\n\n-It looked like elevation levels will be a thing I liked\n\n-designs looked more “grounded” than Engage\n\n-looks like Battalions are returning which I like because I want to feel like I’m commanding an army not a D&D party \n\nThere are more thoughts but this is just off the cuff with viewing this only once",
+          "highlight_ranges": [
+            [
+              249,
+              333
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=j6eNaiftiWE&lc=UgywAYlL9wwCIlzcrnN4AaABAg",
+          "highlight_translation_zh": "我喜欢这些设计里古代地中海的感觉。"
+        }
+      ],
+      "sequence": 75
+    },
+    {
+      "case_id": "SOCIAL-SPLATOON-ART-20261112",
+      "id": "splatoon",
+      "steam_app_id": null,
+      "steam_url": null,
+      "game_name": "斯普拉遁 涂击队",
+      "game_name_zh": "斯普拉遁 涂击队",
+      "game_name_en": "Splatoon Raiders",
+      "case_title": "让岛上设备、武器和角色造型看起来像现场拼装",
+      "source_url": "https://www.nintendo.com/us/store/products/splatoon-raiders-switch-2/",
+      "source_label": "查看官方作品资料",
+      "created_date": "2026-11-12",
+      "source_route": "社媒视频评论抽样",
+      "assessment_scope": "官方截图和公开视频素材观察；评论为视频观众反馈。",
+      "official_metadata": {
+        "official_name": "Splatoon Raiders",
+        "developers": [
+          "Nintendo"
+        ],
+        "publishers": [
+          "Nintendo"
+        ],
+        "source_url": "https://www.nintendo.com/us/store/products/splatoon-raiders-switch-2/"
+      },
+      "assessment": {
+        "rule_id": "two-dimensions-20261101",
+        "company_difference": null,
+        "visual_distinctiveness": null,
+        "creativity_established": null
+      },
+      "admission": {
+        "status": "待美术评审",
+        "decision": null,
+        "approved": false,
+        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+      },
+      "display_policy": {
+        "visible": true,
+        "version": "2026-11-12-social-sample",
+        "basis": "用户确认入库"
+      },
+      "release_stage": {
+        "status": "released",
+        "label": "已上线",
+        "date": "2026-07-23",
+        "source": "https://www.nintendo.com/us/store/products/splatoon-raiders-switch-2/",
+        "snapshot": "2026-11-12"
+      },
+      "classification": {
+        "app_primary": "道具资产",
+        "style_look": [
+          "卡通风"
+        ],
+        "form_shape": [
+          "块状拼接"
+        ],
+        "mood": [
+          "童趣"
+        ],
+        "creative_method": [
+          "功能可视化"
+        ],
+        "product_genre": [
+          "射击动作"
+        ],
+        "style_main": "风格化"
+      },
+      "cover_asset": "media/splatoon/1.jpg",
+      "visual_evidence": [
+        {
+          "type": "image",
+          "evidence_id": "splatoon-S1",
+          "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch2/70010000122824/75002eca12da1b8a345ef023464242c51ae8a6e3aa50c29dea05ac6c84837d8a",
+          "local_asset": "media/splatoon/1.jpg",
+          "sha256": "db38154fbecfede452b6bb5f86633d0307b83c8ad565840e1849dc13c0f65e36",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "splatoon-S2",
+          "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch2/70010000122824/4e189b3a29faa8d723a3d578f07a7c6ac097a220ef3bd3cd4b548e0afb76bbe1",
+          "local_asset": "media/splatoon/2.jpg",
+          "sha256": "a729477bce7459f6c25c79a64859fb5939ebcb3dad8de2c944a063d1d4124541",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "splatoon-S3",
+          "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch2/70010000122824/2df5c209e5e765630bd9a5946107b40db652fea6838ad17e3dcd4009b86614c7",
+          "local_asset": "media/splatoon/3.jpg",
+          "sha256": "cdebf277e6577f215d33dd0fa9637599707616af8d965b2146e4c7bedff1f98d",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "gallery_media": [
+        {
+          "type": "video",
+          "evidence_id": "splatoon-M1",
+          "url": "https://www.youtube.com/watch?v=Jaag4cVKOo8",
+          "source_title": "Splatoon Raiders 官方预告",
+          "local_asset": "media/splatoon/motion-1.mp4",
+          "poster": "media/splatoon/motion-1.jpg",
+          "sha256": "8a07e5f4cd8efe04a22d0a432de796da1820bae0de71f0b448b77a1ccdb8f68b",
+          "start_seconds": 44,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "splatoon-M2",
+          "url": "https://www.youtube.com/watch?v=Jaag4cVKOo8",
+          "source_title": "Splatoon Raiders 官方预告",
+          "local_asset": "media/splatoon/motion-2.mp4",
+          "poster": "media/splatoon/motion-2.jpg",
+          "sha256": "566e0eb9cf2a2721afb8ffa6aef1064f122ca16e2e8497e334cbbf71b51893fe",
+          "start_seconds": 82,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "video",
+          "evidence_id": "splatoon-M3",
+          "url": "https://www.youtube.com/watch?v=Jaag4cVKOo8",
+          "source_title": "Splatoon Raiders 官方预告",
+          "local_asset": "media/splatoon/motion-3.mp4",
+          "poster": "media/splatoon/motion-3.jpg",
+          "sha256": "50139e08eee9998abe2c5e0cec47aa0d36eed9d2652bf37133b6829372ad9021",
+          "start_seconds": 115,
+          "duration_seconds": 6,
+          "description": "官方视频片段"
+        },
+        {
+          "type": "image",
+          "evidence_id": "splatoon-S1",
+          "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch2/70010000122824/75002eca12da1b8a345ef023464242c51ae8a6e3aa50c29dea05ac6c84837d8a",
+          "local_asset": "media/splatoon/1.jpg",
+          "sha256": "db38154fbecfede452b6bb5f86633d0307b83c8ad565840e1849dc13c0f65e36",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "splatoon-S2",
+          "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch2/70010000122824/4e189b3a29faa8d723a3d578f07a7c6ac097a220ef3bd3cd4b548e0afb76bbe1",
+          "local_asset": "media/splatoon/2.jpg",
+          "sha256": "a729477bce7459f6c25c79a64859fb5939ebcb3dad8de2c944a063d1d4124541",
+          "evidence_type": "官方截图"
+        },
+        {
+          "type": "image",
+          "evidence_id": "splatoon-S3",
+          "url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/store/software/switch2/70010000122824/2df5c209e5e765630bd9a5946107b40db652fea6838ad17e3dcd4009b86614c7",
+          "local_asset": "media/splatoon/3.jpg",
+          "sha256": "cdebf277e6577f215d33dd0fa9637599707616af8d965b2146e4c7bedff1f98d",
+          "evidence_type": "官方截图"
+        }
+      ],
+      "editorial_review": {
+        "observation": "观众认出了绳子和胶带捆着的工具，也注意到像线缆一样的发饰、新鲑鱼和机甲。很多人想保留开场被剪掉的凌乱发型，也有人觉得岛上的颜色不够鲜明。",
+        "comment": "让岛上设备、武器和角色造型看起来像现场拼装",
+        "basis": "官方截图和公开视频素材观察；评论为视频观众反馈。"
+      },
+      "semantic_review": {
+        "version": "V2",
+        "status": "complete",
+        "scope": "social_video",
+        "platform": "YouTube",
+        "coverage": "sample",
+        "completed": 1000,
+        "pending": 0,
+        "sample_size": 1000,
+        "stats": {
+          "total": 1000,
+          "related": 102,
+          "unrelated": 885,
+          "uncertain": 13,
+          "positive": 47,
+          "negative": 27,
+          "mixed": 8,
+          "neutral": 20,
+          "unclear": 0,
+          "positive_rate": 46.08
+        },
+        "collection_snapshot": "2026-11-12",
+        "analysis_snapshot": "2026-11-12",
+        "sample_method": "按已核实候选视频播放量降序收集公开一级评论，达到样本量后停止",
+        "sampling_note": "",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Jaag4cVKOo8",
+            "title": "Splatoon Raiders — Release Date Revealed — Nintendo Switch 2",
+            "platform": "YouTube",
+            "views": 1623690,
+            "rank": 7,
+            "selected": 1000
+          }
+        ]
+      },
+      "semantic_quotes": [
+        {
+          "id": "UgyvGkJIeybRPF4UUbd4AaABAg",
+          "sample_index": 20,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "This looks great, I really like the ui too, I'll for sure puck it up in July",
+          "highlight_ranges": [
+            [
+              18,
+              42
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=Jaag4cVKOo8&lc=UgyvGkJIeybRPF4UUbd4AaABAg",
+          "highlight_translation_zh": "我也很喜欢界面。"
+        },
+        {
+          "id": "UgyG-TeOZ1DEO6z4LWl4AaABAg",
+          "sample_index": 404,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "The AV cable hair ties goes so hard.",
+          "highlight_ranges": [
+            [
+              0,
+              36
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=Jaag4cVKOo8&lc=UgyG-TeOZ1DEO6z4LWl4AaABAg",
+          "highlight_translation_zh": "用音视频线做的发绳太酷了。"
+        },
+        {
+          "id": "UgyAsxGVWWOsPU_tcZN4AaABAg",
+          "sample_index": 468,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "I love that chubby salmonid he's very funny  I love him :)",
+          "highlight_ranges": [
+            [
+              0,
+              43
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=Jaag4cVKOo8&lc=UgyAsxGVWWOsPU_tcZN4AaABAg",
+          "highlight_translation_zh": "我喜欢那条胖胖的鲑鱼，太好笑了。"
+        },
+        {
+          "id": "Ugwh4jo_fVaCsbTXvhR4AaABAg",
+          "sample_index": 535,
+          "sentiment": "positive",
+          "platform": "YouTube",
+          "full_text": "i lie how all the weapons and tools look clearly more scrapped up from garbage  than the modern slick ones from the main game. like these thinks are holded up with rope and tape",
+          "highlight_ranges": [
+            [
+              0,
+              177
+            ]
+          ],
+          "url": "https://www.youtube.com/watch?v=Jaag4cVKOo8&lc=Ugwh4jo_fVaCsbTXvhR4AaABAg",
+          "highlight_translation_zh": "我喜欢工具像从废料里拼出来，能看见绳子和胶带。"
+        }
+      ],
+      "sequence": 76
     }
   ],
   "content_archived_count": 69,

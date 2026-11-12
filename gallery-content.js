@@ -3,7 +3,7 @@
 (() => {
   'use strict';
   let pending;
-  const load = () => pending || (pending = fetch('./data/cases.json?v=20261112-reviewed-highlights').then(r => {
+  const load = () => pending || (pending = fetch('./data/cases.json?v=20261112-social-sample').then(r => {
     if (!r.ok) throw new Error('案例数据读取失败');
     return r.json();
   }).catch(e => { pending = null; throw e; }));
@@ -247,6 +247,7 @@
       o.beforeDestroy=function(){this.$refs.video?.pause();window.removeEventListener('keydown',this.onKey);this.$root.$emit('scroll:resume');document.documentElement.classList.remove('--progress');this.previousFocus?.focus?.({preventScroll:true});beforeDestroy.call(this);};
       o.render=function(h){
         const c=this.asset.case,d=c.classification,r=c.editorial_review;
+        const social=c.semantic_review?.scope==='social_video';
         const artReviews=(c.youtube_review?.quotes||(c.semantic_review?.status==='complete'?c.semantic_quotes:[])||[]).filter(e=>e.sentiment==='positive');
         const background=this.caseBackground;
         const textBackground=background;
@@ -265,9 +266,12 @@
  ],true)]:[section('玩家美术反馈',[
             ...(c.semantic_review?.status!=='complete' && !isPartialImport(c)?[paragraph(reviewLabel(c))]:[]),
             ...(c.semantic_review?.stats ? [paragraph(reviewMetric(c)),paragraph('正向 '+c.semantic_review.stats.positive+'；负向 '+c.semantic_review.stats.negative+'；混合 '+c.semantic_review.stats.mixed+'；中性 '+c.semantic_review.stats.neutral+'；态度无法判断 '+c.semantic_review.stats.unclear+'。')] : [paragraph(c.semantic_review?.status==='partial'?reviewMetric(c)+'；还需补判 '+c.semantic_review.pending+' 条，完成前不展示比例。':c.semantic_review?.status==='collection_missing'?'采集文件为空，需核查；不视为没有玩家评论，也不视为分析完成。':c.semantic_review?.status==='not_applicable'?'独立角色案例，不属于本轮Steam游戏评论分析任务。':'交接包中未发现已提交的新一轮分析结果，暂时保留。')]),
-            ...(c.semantic_review?.coverage==='sample'?[note('口径：全部购买来源、全部语言的样本评论。'+c.semantic_review.sample_method+'。采集快照：'+c.semantic_review.collection_snapshot+'；统计更新：'+c.semantic_review.analysis_snapshot+'。'+(c.semantic_review.sampling_note||'')+' 纯正向率的分母为已确认美术相关评论，不是全部样本。')]:[]),
+            ...(c.semantic_review?.coverage==='sample'?[note((social?'口径：'+c.semantic_review.platform+' 视频观众评论。':'口径：全部购买来源、全部语言的样本评论。')+c.semantic_review.sample_method+'。采集快照：'+c.semantic_review.collection_snapshot+'；统计更新：'+c.semantic_review.analysis_snapshot+'。'+(c.semantic_review.sampling_note||'')+' 纯正向率的分母为已确认美术相关评论，不是全部样本。')]:[]),
 
           ],true)]),
+          ...(social?[section('样本来源',c.semantic_review.sources.map(source=>paragraph([
+            link(source.title,source.url),' · '+source.selected.toLocaleString('zh-CN')+' 条'
+          ])))]:[]),
           section('看到了什么',[paragraph(r.observation)],true),
           ...(r.comment?[section('入库评语',[paragraph(r.comment)],true)]:[]),
           ...(r.transfer?[section('可以怎样借鉴',[paragraph(r.transfer)],true)]:[]),
@@ -278,12 +282,12 @@
             link(e.source_title,e.source_url)
           ])),true)]:[]),
           ...(artReviews.length?[section('玩家评论原话',[
-            paragraph(c.youtube_review?'以下展示精选视频评论的完整原文，浅黄色标出已判读的美术相关片段；不代表全部评论，视频观众并非已验证购买者。来源链接指向对应视频。':'以下展示精选评论的完整原文，浅黄色标出已判读的美术相关片段；其余文字保留上下文。精选不代表全部评论或整体好评率。'),
+            paragraph(social?'以下展示精选视频评论的完整原文，浅黄色标出美术相关的原句或分句。来源为 '+c.semantic_review.platform+' 视频评论区。':c.youtube_review?'以下展示精选视频评论的完整原文，浅黄色标出已判读的美术相关片段；不代表全部评论，视频观众并非已验证购买者。来源链接指向对应视频。':'以下展示精选评论的完整原文，浅黄色标出已判读的美术相关片段；其余文字保留上下文。精选不代表全部评论或整体好评率。'),
             ...artReviews.map(e=>h('blockquote',{class:'case-review'},[
               ...(e.date?[h('p',{class:'case-review__heading'},e.date)]:[]),
               h('p',{class:'case-review__original',attrs:{dir:'auto'}},fullReviewNodes(h,e)),
               ...(e.highlight_translation_zh?[h('p',{class:'case-review__label'},'高亮片段中文译文（AI辅助翻译）'),h('p',{class:'case-review__translation'},e.highlight_translation_zh)]:[]),
-              link(c.youtube_review?'查看 YouTube 来源视频':'查看 Steam 原评论',e.url)
+              link(social?(e.platform==='B站'?(e.url.includes('#reply')?'查看 B 站原评论':'查看 B 站来源视频'):'查看 YouTube 原评论'):c.youtube_review?'查看 YouTube 来源视频':'查看 Steam 原评论',e.url)
             ]))
           ])]:[]),
           section('来源与评审范围',[paragraph('开发：'+c.official_metadata.developers.join('、')+'；发行：'+c.official_metadata.publishers.join('、')),paragraph(r.basis || c.assessment_scope),paragraph(c.admission.reason), ...(c.source_notes?.design_interview ? [link('任天堂官方设计访谈',c.source_notes.design_interview)] : []),link('结构化数据与完整溯源','./data/cases.json')]),
