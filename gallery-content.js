@@ -3,7 +3,7 @@
 (() => {
   'use strict';
   let pending;
-  const load = () => pending || (pending = fetch('./data/cases.json?v=20261112-full-reviews').then(r => {
+  const load = () => pending || (pending = fetch('./data/cases.json?v=20261112-media-taxonomy').then(r => {
     if (!r.ok) throw new Error('案例数据读取失败');
     return r.json();
   }).catch(e => { pending = null; throw e; }));
@@ -235,7 +235,7 @@
       const o=options(component),originalData=o.data;
       o.data=function(){return {...originalData.call(this),imageIndex:0,caseBackground:'#53575b'};};
       o.computed.mediaItems=function(){return this.asset.case.gallery_media || this.asset.case.visual_evidence.slice(0,3).map(v=>({...v,type:'image'}));};
-      o.computed.imageURL=function(){return this.mediaItems[this.imageIndex]?.local_asset;};
+      o.computed.imageURL=function(){const media=this.mediaItems[this.imageIndex]; return media?.type==='video' && media.sha256 ? media.local_asset+'?v='+media.sha256.slice(0,12) : media?.local_asset;};
       o.methods.fetchImage=function(){this.loaded=true;this.$nextTick(()=>this.animateIn());};
       o.methods.updateImageBackground=function(event){
         const img=event.target;
@@ -294,7 +294,7 @@
           h('div',{ref:'background',class:'detail__background'}),
           h('div',{ref:'image',class:'detail__image',style:{backgroundColor:background}},[
             h('div',{ref:'t1',class:'detail__transform'},[
-              this.mediaItems[this.imageIndex]?.type==='video' ? h('video',{key:this.imageURL,ref:'video',class:'case-motion',attrs:{src:this.imageURL,poster:this.mediaItems[this.imageIndex].poster,autoplay:true,muted:true,loop:true,playsinline:true,controls:true,preload:'metadata','aria-label':c.game_name+' 官方动态片段 '+(this.imageIndex+1)},domProps:{muted:true}}) : h('img',{ref:'img',on:{load:this.updateImageBackground},style:{opacity:this.loaded?1:0},attrs:{src:this.imageURL,alt:c.game_name+' 官方静态图'}})
+              this.mediaItems[this.imageIndex]?.type==='video' ? h('video',{key:this.imageURL,ref:'video',class:'case-motion',attrs:{src:this.imageURL,poster:this.mediaItems[this.imageIndex].poster+(this.mediaItems[this.imageIndex].sha256?'?v='+this.mediaItems[this.imageIndex].sha256.slice(0,12):''),autoplay:true,muted:true,loop:true,playsinline:true,controls:true,preload:'metadata','aria-label':c.game_name+' 官方动态片段 '+(this.imageIndex+1)},domProps:{muted:true}}) : h('img',{ref:'img',on:{load:this.updateImageBackground},style:{opacity:this.loaded?1:0},attrs:{src:this.imageURL,alt:c.game_name+' 官方静态图'}})
             ]),
             h('div',{class:'detail__image-controls'},this.mediaItems.map((v,i)=>h('button',{class:['button','--stroke-white'],attrs:{type:'button','aria-label':(v.type==='video'?'动态':'静态')+' '+this.mediaItems.slice(0,i+1).filter(x=>x.type===v.type).length,'aria-pressed':i===this.imageIndex},on:{click:()=>this.chooseMedia(i)}},[h('span',(v.type==='video'?'动态 ':'静态 ')+this.mediaItems.slice(0,i+1).filter(x=>x.type===v.type).length)]))),
             h('div',{class:'media-links'},[h('a',{class:'detail__image-source',attrs:{href:this.imageURL,target:'_blank',rel:'noopener'}},this.mediaItems[this.imageIndex]?.type==='video'?'打开完整动态片段':'查看完整静态图'),

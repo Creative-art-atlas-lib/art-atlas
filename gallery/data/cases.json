@@ -233,7 +233,7 @@
         "app_secondary": [
           "游戏视觉交互"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "插画／绘本风",
           "玩具风"
@@ -629,7 +629,7 @@
           "start_seconds": 18.44,
           "duration_seconds": 6,
           "evidence_id": "2198150-M1",
-          "sha256": "93946073dc96bba6903efcf4deb45f46f92d4762a23741696fdfee33874606aa",
+          "sha256": "28b7273a348bc91d2d00edaf9329666c1e287b760995017f2a7101edcce35883",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -641,7 +641,7 @@
           "start_seconds": 33.47,
           "duration_seconds": 6,
           "evidence_id": "2198150-M2",
-          "sha256": "db4b253798bd1478087c4702e5f55a841003e38d68c5bd328f0a4d21b61665b7",
+          "sha256": "e66bf27977a338d11ea830df47906fb12e632f6a2543fe340354835aca892f4f",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -653,7 +653,7 @@
           "start_seconds": 48.49,
           "duration_seconds": 6,
           "evidence_id": "2198150-M3",
-          "sha256": "4c249ea7034794d116422929f0dacd3423a73f4f6ba2a07f32bea89deeb25288",
+          "sha256": "9f6e3b466857fdc5018184586447b8938bfb530b2e81dd332b9b164723ecad92",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -904,9 +904,9 @@
           "UI与平面视觉",
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
-          "极简化表现"
+          "极简风"
         ],
         "tech_status": "部分已核实",
         "form_motion": [
@@ -1266,7 +1266,7 @@
           "start_seconds": 29.16,
           "duration_seconds": 6,
           "evidence_id": "2162800-M1",
-          "sha256": "d4084b26a7c96093977f42eac05ab9420105cc3e67850d3a882f57924fe0dc99",
+          "sha256": "c7675812619c7135559fb1ee23bc2515ef4e735e41ed9e298464ffd31b34f6ec",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -1278,7 +1278,7 @@
           "start_seconds": 52.92,
           "duration_seconds": 6,
           "evidence_id": "2162800-M2",
-          "sha256": "65a83fd61543667e287856a512d807d82846791840c445647cc88ce8bc00238e",
+          "sha256": "599282331d5fa2a0dc273c2bc6f96d47d695df09f528e26752cbfc4980991852",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -1290,7 +1290,7 @@
           "start_seconds": 76.68,
           "duration_seconds": 6,
           "evidence_id": "2162800-M3",
-          "sha256": "d7cd24b2c40a7d872901a9f70a0ccea5fae4c788dcc69f66826acbd2359f1689",
+          "sha256": "81f6356ddba5b46c59bd11533c550de680f029c13740a92428c3b7d2028b9876",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -1541,7 +1541,7 @@
           "角色设计",
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "卡通风",
           "漫画风"
@@ -1967,7 +1967,7 @@
           "start_seconds": 9.99,
           "duration_seconds": 6,
           "evidence_id": "2366980-M1",
-          "sha256": "4bc0468617262b041458cfd061e52c16d73a90c72cd2078d62f5bda5c5e7aab4",
+          "sha256": "1cacd16741c8773bbeec14d9e458083e3beef317132cc08c8a466ab1fd6a0609",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -1979,7 +1979,7 @@
           "start_seconds": 18.13,
           "duration_seconds": 6,
           "evidence_id": "2366980-M2",
-          "sha256": "a92e73e467a9bf473b6a17ab70c0a58a2230f6347959672c6efaefe7ec829a1c",
+          "sha256": "ca5dc2dfd219e28abe5f9c52d034bd1444095b117aed91cffce13d09fcfb567a",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -1991,7 +1991,7 @@
           "start_seconds": 26.27,
           "duration_seconds": 6,
           "evidence_id": "2366980-M3",
-          "sha256": "73496d66320b4a1d0bc1a4743bff6c7c88cb389fae45228736d470dfb42b7db5",
+          "sha256": "a970219d6e06109eae3ed44991ef198b94704787e072c50d8c35abed3229bd7d",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -2242,11 +2242,10 @@
           "UI与平面视觉",
           "动画与特效"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "动漫风",
-          "漫画风",
-          "复古电子画面感"
+          "漫画风"
         ],
         "tech_status": "待核实",
         "form_motion": [
@@ -2633,7 +2632,7 @@
           "start_seconds": 25.68,
           "duration_seconds": 6,
           "evidence_id": "2111190-M1",
-          "sha256": "9725f0c12d4169e56c909742e207f1016c48cf9b4318e96c78e48d4ddfebd6b1",
+          "sha256": "0234f08370b690f47ed0b8e130ea62569c9160c287efaf19a695c36a1b604a54",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -2645,7 +2644,7 @@
           "start_seconds": 46.6,
           "duration_seconds": 6,
           "evidence_id": "2111190-M2",
-          "sha256": "4665d94505e2b7f94db44d3001f1e731aad90202ac74908b779f705162e6aa75",
+          "sha256": "9dcd56d762ff4adaec8c9a511f82f1121634e3e39f8f5006bebd0b26d6f763ac",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -2657,7 +2656,7 @@
           "start_seconds": 67.52,
           "duration_seconds": 6,
           "evidence_id": "2111190-M3",
-          "sha256": "58f8925924b8250fed39401bf4d3e39f7b62bb942c38a10936bdbe8617a2b8e3",
+          "sha256": "c535efef57c1d19e7950a265a16d4d52d790ce337bcccdc3b86edbbbc0018b2f",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -2909,7 +2908,7 @@
         "app_secondary": [
           "整体美术方向"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "手工艺风",
           "插画／绘本风"
@@ -3310,7 +3309,7 @@
           "start_seconds": 15.28,
           "duration_seconds": 6,
           "evidence_id": "2501600-M1",
-          "sha256": "e09909450bcb6d8e90bb5f9841ea4b0b08bb47203ac8cde2b1e945df3008ab29",
+          "sha256": "1601612aa6d01c24216fbb78a776733d6ac7d1d8aceef4d78c443a9e68be410f",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -3322,20 +3321,20 @@
           "start_seconds": 27.73,
           "duration_seconds": 6,
           "evidence_id": "2501600-M2",
-          "sha256": "c620aae385179484bfecf053f8f3832aa96e257794088866139516c17259a819",
+          "sha256": "7cc4fa74d7110aff4c09f78b252c6faac404fda38f21f6791cff971294bd726a",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
           "type": "video",
           "local_asset": "media/2501600/motion-3.mp4",
           "poster": "media/2501600/motion-3.jpg",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2501600/extras/f7334501e35efd7551bc2791d5f534fb.mp4",
-          "source_title": "官方商店动态演示",
-          "start_seconds": 0,
+          "url": "https://video.akamai.steamstatic.com/store_trailers/2501600/602470/1c957f4df390ae465d13b29fb8f706409439e90f/1750815912/hls_264_master.m3u8?t=1728545033",
+          "source_title": "DICEOMANCER TGS2024 PV EN",
+          "start_seconds": 36,
           "duration_seconds": 6,
           "evidence_id": "2501600-M3",
-          "sha256": "bfcfef0d4e1645251d783b7a5800ed3c4ac161191f4a90d28809cc66f2fc60b4",
-          "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
+          "sha256": "a5016f9793222adf9fab2cdf555ff8505828b866a566fe16c56bfb7b13856f42",
+          "description": "官方预告片画面",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
         {
@@ -3587,7 +3586,7 @@
         "app_secondary": [
           "UI与平面视觉"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "插画／绘本风"
         ],
@@ -3901,7 +3900,7 @@
           "start_seconds": 8.1,
           "duration_seconds": 6,
           "evidence_id": "1569580-M1",
-          "sha256": "7aa4f433b8780713fb12df61426beda876131bf500ee8139e2527b907aaf0792",
+          "sha256": "b0523b9c074d6bea837819d3ecf8873129007016226d4d19ebcd2a8f9add26e4",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -3913,7 +3912,7 @@
           "start_seconds": 14.7,
           "duration_seconds": 6,
           "evidence_id": "1569580-M2",
-          "sha256": "84ac84c4d825dea49de99142b524429d1e1896842c8541502f8a1c379f5bd288",
+          "sha256": "d149eff16f3af5b8d24b2ac1ee14288cd04ef5fc50dd0002b4f51ef4a4b23ab0",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -3925,7 +3924,7 @@
           "start_seconds": 21.3,
           "duration_seconds": 6,
           "evidence_id": "1569580-M3",
-          "sha256": "cba60d462c3e32658ba62978f93b1a25063fe2311aab2169c66778f1cffb7393",
+          "sha256": "6cff06fc55656c30a5960d7fc164bf39bface029611d032d5037ff530473cf22",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -4178,11 +4177,11 @@
           "UI与平面视觉",
           "角色设计"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "卡通风",
           "平面图形风",
-          "极简化表现"
+          "极简风"
         ],
         "tech_status": "待核实",
         "form_motion": [
@@ -4555,7 +4554,7 @@
           "start_seconds": 14.23,
           "duration_seconds": 6,
           "evidence_id": "3035120-M1",
-          "sha256": "887ffaf0b79ba2ea09af0d68534fabb2cfec9c26eeff61b3bb00fe3ac0ec159f",
+          "sha256": "05b53b96529529f42e94b21559cda8b1c9638eb3ff27178ea7d603b8bbc44d8f",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -4567,7 +4566,7 @@
           "start_seconds": 25.82,
           "duration_seconds": 6,
           "evidence_id": "3035120-M2",
-          "sha256": "c857d4d3b7a45c74624aba8002db8aa609f1976e3a931d6060d013e520b53006",
+          "sha256": "f15d6432de8447ad25e89fbb07f6abf8c835039ec3c984d723177cb52363419e",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -4579,7 +4578,7 @@
           "start_seconds": 6.32,
           "duration_seconds": 6,
           "evidence_id": "3035120-M3",
-          "sha256": "c34ff20ee59bcfc5f2d402b7d6b7b6d43bc2ba293e8885ca5493b59e5e377658",
+          "sha256": "2f420844174364f03bfa402809fd64eb94a24a80621970c6b4dadbb219e9d860",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
@@ -4828,7 +4827,7 @@
         "app_secondary": [
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "像素风"
         ],
@@ -4865,9 +4864,7 @@
           "大留白",
           "前后景分层"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": []
       },
       "editorial_review": {
@@ -5210,39 +5207,39 @@
           "type": "video",
           "local_asset": "media/3399960/motion-1.mp4",
           "poster": "media/3399960/motion-1.jpg",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3399960/extras/79b6c599c7b2beebc1e563d3a2a3c219.mp4",
-          "source_title": "官方商店动态演示",
-          "start_seconds": 0,
+          "url": "https://video.akamai.steamstatic.com/store_trailers/3399960/1003878853/292b38ac411dc50b61a587efb610c3a548f84d35/1750825917/hls_264_master.m3u8?t=1747875819",
+          "source_title": "Trailer EN",
+          "start_seconds": 8,
           "duration_seconds": 6,
           "evidence_id": "3399960-M1",
-          "sha256": "83d89a776a29386aafb7d8b2b75aff567d5211f642cf7bcb24392acd0049e48c",
-          "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
+          "sha256": "9e6d7569e7b77372b5f4b2817e16fc7edf2dc9361564115b75c548c9ba3fac9c",
+          "description": "官方预告片画面",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
         {
           "type": "video",
           "local_asset": "media/3399960/motion-2.mp4",
           "poster": "media/3399960/motion-2.jpg",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3399960/extras/b7b34b3955402bfbc8e7017cda900e32.mp4",
-          "source_title": "官方商店动态演示",
-          "start_seconds": 0,
+          "url": "https://video.akamai.steamstatic.com/store_trailers/3399960/1003878853/292b38ac411dc50b61a587efb610c3a548f84d35/1750825917/hls_264_master.m3u8?t=1747875819",
+          "source_title": "Trailer EN",
+          "start_seconds": 14,
           "duration_seconds": 6,
           "evidence_id": "3399960-M2",
-          "sha256": "f320f4d0489badcb85baf8ebffeb52913f078b4b1ac915a8ada083768927ba40",
-          "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
+          "sha256": "c3da3da39cd8499887acd3c1e4bea9d9d95115fa3b605e0c74b7171e7c128faa",
+          "description": "官方预告片画面",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
         {
           "type": "video",
           "local_asset": "media/3399960/motion-3.mp4",
           "poster": "media/3399960/motion-3.jpg",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3399960/extras/a3149012713a5fec516e3651347d2377.mp4",
-          "source_title": "官方商店动态演示",
-          "start_seconds": 0,
+          "url": "https://video.akamai.steamstatic.com/store_trailers/3399960/1003878853/292b38ac411dc50b61a587efb610c3a548f84d35/1750825917/hls_264_master.m3u8?t=1747875819",
+          "source_title": "Trailer EN",
+          "start_seconds": 20,
           "duration_seconds": 6,
           "evidence_id": "3399960-M3",
-          "sha256": "964a523dac51667edd5fa6a926cdee304ca54b86004a4651d24c319b9bfebf4b",
-          "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
+          "sha256": "a8a8de44ec8507feabca0c1460c632b09db00adf4a5bc57caae8c9c4a7b4cb4c",
+          "description": "官方预告片画面",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
         {
@@ -5492,7 +5489,7 @@
         "app_secondary": [
           "道具资产"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "卡通风",
           "玩具风"
@@ -5895,7 +5892,7 @@
           "start_seconds": 16.09,
           "duration_seconds": 6,
           "evidence_id": "4380490-M1",
-          "sha256": "d279477f4eb68157f7d054f05befb9131e2831b699e0711c3176bf9ad948f2af",
+          "sha256": "fd2665ab67c8eb27dc2426c7a58efd7aded6577d4bec487cb086fe48a35b39e4",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -5907,20 +5904,20 @@
           "start_seconds": 29.2,
           "duration_seconds": 6,
           "evidence_id": "4380490-M2",
-          "sha256": "f10fa706bec1061ab09e14a6fe0e8c29913a9a29a009266975f38d376fdd50f9",
+          "sha256": "96316c6b7e88a4ad045ae131e1cb1f4033388991e20f8eef1427e759274e4f27",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
           "type": "video",
           "local_asset": "media/4380490/motion-3.mp4",
           "poster": "media/4380490/motion-3.jpg",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4380490/extras/2b15e52aeb6b7e85528f42c20ce949c6.mp4",
-          "source_title": "官方商店动态演示",
-          "start_seconds": 0,
+          "url": "https://video.akamai.steamstatic.com/store_trailers/4380490/1250341123/97a954007c206919a2e5c0384b02d9bd094c0c80/1783604868/hls_264_master.m3u8?t=1783608404",
+          "source_title": "Release Trailer",
+          "start_seconds": 36,
           "duration_seconds": 6,
           "evidence_id": "4380490-M3",
-          "sha256": "dd03818d41b89700667724eda80d0221d76bd82f962adaaf95c35f7eb10420af",
-          "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
+          "sha256": "c766392ebb1893aa9e27c937ca48f651943e9c9871661d0bbece5baba5c76c91",
+          "description": "官方预告片画面",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
         {
@@ -6173,11 +6170,10 @@
           "角色设计",
           "UI与平面视觉"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "卡通风",
-          "漫画风",
-          "复古电子画面感"
+          "漫画风"
         ],
         "tech_status": "部分已核实",
         "form_motion": [
@@ -6575,20 +6571,20 @@
           "start_seconds": 16.25,
           "duration_seconds": 6,
           "evidence_id": "2416450-M1",
-          "sha256": "401812751edc12872b9ad45aff5132ad6cde7c20a6785691c9ed68ee3420a55b",
+          "sha256": "6fefd69a0a11cdbf56abb8845e8d957afbd6d4b449eeb437986d75714b8fbaa3",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
           "type": "video",
           "local_asset": "media/2416450/motion-2.mp4",
           "poster": "media/2416450/motion-2.jpg",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/extras/116d05397bdb4209647ea3beea7d72c4.mp4",
-          "source_title": "官方商店动态演示",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/2416450/784317990/4f2d22956b8a759f0433c3d00e6a31c76ab157b8/1779233305/hls_264_master.m3u8?t=1779251396",
+          "source_title": "MOUSE: Accolades trailer",
           "start_seconds": 0,
           "duration_seconds": 6,
           "evidence_id": "2416450-M2",
-          "sha256": "ed082ad87888de91dfa5520d1a13521e0ea1395ebe6f6cf3ccc2ffecd75f0531",
-          "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
+          "sha256": "2dedd5caf0871b22311b37b045fa4638fe6ad1b8d19ec2e027f3ccf4ba46f7dd",
+          "description": "官方预告片画面",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
         {
@@ -6600,7 +6596,7 @@
           "start_seconds": 42.74,
           "duration_seconds": 6,
           "evidence_id": "2416450-M3",
-          "sha256": "1f862a2cc9394117346d350381bb9f0a71b14907fad0e2230b97f4cb99740930",
+          "sha256": "bafc6f24531cf26d41244813a219a7188af4c050b5c225207de700674e0597fa",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -6852,7 +6848,7 @@
         "app_secondary": [
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "卡通风",
           "玩具风"
@@ -7228,7 +7224,7 @@
           "start_seconds": 15.66,
           "duration_seconds": 6,
           "evidence_id": "1657630-M1",
-          "sha256": "f979fe786218aebbb90ce491384472c974b87788f1ef242ff5e8ac21cfc42dfd",
+          "sha256": "3424cea9df0080e7988a716db66a04d5c7a1415b6cfb9d35c76e6e04fa77d178",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -7240,7 +7236,7 @@
           "start_seconds": 28.42,
           "duration_seconds": 6,
           "evidence_id": "1657630-M2",
-          "sha256": "9dc4d00ab9fcba28720907f7019da558ea40ce2d4607b5516c18bff2d4e78b20",
+          "sha256": "c67d49fe1780b437d99c4d5431eb6281b1cc64577d8b3729579b884beeebfad3",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -7252,7 +7248,7 @@
           "start_seconds": 41.18,
           "duration_seconds": 6,
           "evidence_id": "1657630-M3",
-          "sha256": "858eaff3c78735c55eaad4511ce62469e74593507bad53bb0b1695b804c72397",
+          "sha256": "e7524e7b3e6e4c3f3f6eca1f0ce42421505451d97a24552d8f9eac4e3a67236b",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -7504,7 +7500,7 @@
         "app_secondary": [
           "UI与平面视觉"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "插画／绘本风",
           "漫画风"
@@ -7896,7 +7892,7 @@
           "start_seconds": 14.63,
           "duration_seconds": 6,
           "evidence_id": "1649950-M1",
-          "sha256": "adc42e3fb2c00c699167ef8b641c76c7e749222302d0f05d11caeb10d4e8a99f",
+          "sha256": "cefd097200a7394c5fba3bc94e5c5dbd5d719d34129b7a6b36b82ca7b2491da9",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -7908,7 +7904,7 @@
           "start_seconds": 26.56,
           "duration_seconds": 6,
           "evidence_id": "1649950-M2",
-          "sha256": "72adb13c993ea1dabec33ef063e0cc7986a5d3e0cbf2ba8a7655d6c5a40e5a67",
+          "sha256": "48d9d8c0332e8d2e8bf0a28c3be3cf91ad375ac1b370c1f04790dd4d2c38ad0f",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -7920,7 +7916,7 @@
           "start_seconds": 38.48,
           "duration_seconds": 6,
           "evidence_id": "1649950-M3",
-          "sha256": "f2f88cf14d6e363a0622c15c7a509a0d9b3affd88db3ffdee39a933dff673430",
+          "sha256": "3152cd0fb1925041a5135aa51ac942c41d0be4e77714f682c98fd36d442f4d03",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -8172,7 +8168,7 @@
         "app_secondary": [
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "卡通风"
         ],
@@ -8194,7 +8190,6 @@
           "场景空间"
         ],
         "creative_method": [
-          "尺度反差",
           "视点变化"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -8555,7 +8550,7 @@
           "start_seconds": 26.49,
           "duration_seconds": 6,
           "evidence_id": "1177980-M1",
-          "sha256": "ccbffbf143b482b81a0c01657940e8b655a7060344cce00723be624d57fc8de1",
+          "sha256": "f5e3501e225464bc56678ffe1d1c9aa714fd9766a18dc71a3edb9d509ca855db",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -8567,7 +8562,7 @@
           "start_seconds": 48.07,
           "duration_seconds": 6,
           "evidence_id": "1177980-M2",
-          "sha256": "c75c774aa65be77a99c55b77c26e366baf0904b04ef97dd75469892ca30eb11b",
+          "sha256": "6db58a4f346c3ec84770bd209e212177ef62b12be247e428e4c948e618597e68",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -8579,7 +8574,7 @@
           "start_seconds": 69.65,
           "duration_seconds": 6,
           "evidence_id": "1177980-M3",
-          "sha256": "d12491958df7d1c9b68f6b0c89daaf3d199708a94e488cfd166c1dc85ce7d7e0",
+          "sha256": "176794a7985e399293b7fa9b5c17418724f645f5bd1dace8842edbcf8eb3261d",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -8835,10 +8830,9 @@
           "角色设计",
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
-          "玩具风",
-          "复古电子画面感"
+          "玩具风"
         ],
         "tech_status": "待核实",
         "form_motion": [
@@ -8858,8 +8852,7 @@
           "场景空间"
         ],
         "creative_method": [
-          "风格反差",
-          "尺度反差"
+          "风格反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -9232,7 +9225,7 @@
           "start_seconds": 20.25,
           "duration_seconds": 6,
           "evidence_id": "1996010-M1",
-          "sha256": "869d0f3619f7f4fdd78770f5e5f6b0a257ffbe055fcb9a3faa71312ab0b089e5",
+          "sha256": "52dfb9c350f9c4ee708b3db9b30d107ee41f8ea47fcf825808748e9a6cf02c69",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -9244,7 +9237,7 @@
           "start_seconds": 36.75,
           "duration_seconds": 6,
           "evidence_id": "1996010-M2",
-          "sha256": "8218b8ef0fbcd1a87b0566339e54951fd9e4d2d99be33bd99bd60f2c2dc1c95e",
+          "sha256": "3b0325b2cb0e3277ea23dd1b546e7567bb14441b79b3f6a51cee1a9fd3a34922",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -9256,7 +9249,7 @@
           "start_seconds": 53.25,
           "duration_seconds": 6,
           "evidence_id": "1996010-M3",
-          "sha256": "3f77d58eeeddae658a4a70107dc605d535fd2eed8f3430b390402f6bfba61f49",
+          "sha256": "83537ade8a6db23dcf2b03f762c9c0ac898b6cb76b09af68ff225cc7c408697d",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -9515,7 +9508,7 @@
         "app_secondary": [
           "UI与平面视觉"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "动漫风",
           "漫画风"
@@ -9866,7 +9859,7 @@
           "start_seconds": 30.67,
           "duration_seconds": 6,
           "evidence_id": "2592160-M1",
-          "sha256": "e19c6d8b4c21eb215bfe9cbed614c0eef08cce73b54a8b86e422bb5a5519123d",
+          "sha256": "3685df111ee5ef19f2786576c7e7141c5b12c5262cee9ef32099e40eac8a3657",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -9878,7 +9871,7 @@
           "start_seconds": 55.66,
           "duration_seconds": 6,
           "evidence_id": "2592160-M2",
-          "sha256": "958ba6bb4307f9b55c952df412624d3e21e0d7d3e65590b26cb50eced1353271",
+          "sha256": "4584b7a53493a1840218d91ed7236ff8b1cbab6a663deee00db2e396844af4d8",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -9890,7 +9883,7 @@
           "start_seconds": 80.66,
           "duration_seconds": 6,
           "evidence_id": "2592160-M3",
-          "sha256": "10cee4d9efe88cc63c7ef6eda0f84090d72418f10ecfd5cefb1778ac5c5d2220",
+          "sha256": "5769c2afacc2a88be3c93e8c78436d6654ffa17061d09681be50da5f95e2d949",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -10143,7 +10136,7 @@
           "角色设计",
           "游戏视觉交互"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "漫画风",
           "平面图形风"
@@ -10539,7 +10532,7 @@
           "start_seconds": 19.12,
           "duration_seconds": 6,
           "evidence_id": "2097570-M1",
-          "sha256": "45ee66450b79e35c86e3dfec3c8da0e1650ac07d570642c87f8cd6269a5ca6ef",
+          "sha256": "c875cacf5f4a5109cfe21ea0b3831684ae8859264a282105ccc9e07ce469bc94",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -10551,7 +10544,7 @@
           "start_seconds": 34.69,
           "duration_seconds": 6,
           "evidence_id": "2097570-M2",
-          "sha256": "57d6affcf6890524c61f8b687e7fc0169ac9a780a0d0abeb6855017c33364598",
+          "sha256": "05d1aae40d8125a6992f0076ef00e8c7cc2b772dd9a58ecda6240097a391b722",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -10563,7 +10556,7 @@
           "start_seconds": 50.27,
           "duration_seconds": 6,
           "evidence_id": "2097570-M3",
-          "sha256": "d73b1ff8ee4ea3f28f024eaabf9e2aaefae3a3432dd37495f38f983a161dcc45",
+          "sha256": "f8b05d48540f30926a9a79e5b6ca5983dbf1e09878409773f6abac5cd7f801a5",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -10818,8 +10811,7 @@
         ],
         "style_main": "写实倾向",
         "style_look": [
-          "电影摄影感",
-          "复古电子画面感"
+          "电影式构图与布光"
         ],
         "tech_status": "待核实",
         "form_motion": [
@@ -10832,7 +10824,7 @@
         "mood": [
           "压迫",
           "孤独",
-          "恐惧"
+          "恐怖"
         ],
         "experience_basis": "仅素材观察，未验证",
         "creative_locus": [
@@ -10852,7 +10844,7 @@
           "低饱和"
         ],
         "form_light": [
-          "低调布光"
+          "暗部为主"
         ],
         "form_material": [
           "金属",
@@ -11220,7 +11212,7 @@
           "start_seconds": 21.63,
           "duration_seconds": 6,
           "evidence_id": "606160-M1",
-          "sha256": "f968d8aefc185e618d661f13faf6bcec190d62ee11cc4f53afa27a9d8e9ad437",
+          "sha256": "cb876de232af91ba5ccc0a19b39aa8b2df7986cfbc043540c070aae73272c5dd",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -11232,20 +11224,20 @@
           "start_seconds": 39.25,
           "duration_seconds": 6,
           "evidence_id": "606160-M2",
-          "sha256": "d6b8f913b7db664d17fdc845c9e828a47934bf9f36e6928694ed777f8da00ce8",
+          "sha256": "8ceaa9646c73d0399e28c9d406fee995f076514f4bcd8dcee2b5059cb07bd766",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
           "type": "video",
           "local_asset": "media/606160/motion-3.mp4",
           "poster": "media/606160/motion-3.jpg",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606160/extras/1184551c8a284c2edb0100f23dff7d07.mp4",
-          "source_title": "官方商店动态演示",
-          "start_seconds": 0,
+          "url": "https://video.akamai.steamstatic.com/store_trailers/606160/1987130420/2adfb6270eb23fdb55912e2593996465c651dc9d/1764766634/hls_264_master.m3u8?t=1764860213",
+          "source_title": "Launch trailer",
+          "start_seconds": 46,
           "duration_seconds": 6,
           "evidence_id": "606160-M3",
-          "sha256": "f1f7d55883f70d4885fdd14d13f0b942232333b9bae181346b6ceaf00b03ec0e",
-          "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
+          "sha256": "9353d5ca5979a7fdf37722905fc51f516771a966f00b2f3e71ebdd1605539378",
+          "description": "官方预告片画面",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
         {
@@ -11497,10 +11489,9 @@
           "场景环境",
           "角色设计"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
-          "像素风",
-          "迷幻视觉"
+          "像素风"
         ],
         "tech_status": "部分已核实",
         "form_motion": [
@@ -11512,7 +11503,7 @@
         ],
         "mood": [
           "神秘",
-          "奇诡",
+          "怪诞",
           "不安"
         ],
         "experience_basis": "仅素材观察，未验证",
@@ -11521,7 +11512,6 @@
           "整体视觉系统"
         ],
         "creative_method": [
-          "尺度反差",
           "色光反差"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -11539,9 +11529,7 @@
         "form_space": [
           "尺度反差"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": [
           "自研引擎/渲染器",
           "像素美术"
@@ -11904,7 +11892,7 @@
           "start_seconds": 22.28,
           "duration_seconds": 6,
           "evidence_id": "813230-M1",
-          "sha256": "1813cedb1e7553213a93d4554d45997848fd5713c787b1f5ab37da7b4436bd0b",
+          "sha256": "6bb81476de261d61b0bef9852c37ecff0b166b86399c966051bffacc4f9535d5",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -11916,7 +11904,7 @@
           "start_seconds": 40.42,
           "duration_seconds": 6,
           "evidence_id": "813230-M2",
-          "sha256": "60286041d6083140df39534aaf72b876b1ff52d1c5e4f48cce88c6731423b7fd",
+          "sha256": "1b996b35da99c97d2ef638db82ab1ca7646f6f6522d947f1934c0f6e528bbe2e",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -11928,7 +11916,7 @@
           "start_seconds": 58.57,
           "duration_seconds": 6,
           "evidence_id": "813230-M3",
-          "sha256": "2ef7ebeff3112efad8d3e39f9cc513d897faf3839f8d66f60faa430830ba35df",
+          "sha256": "43202c95b170797841addc9e8a7d3f4370566cc4aba74075bfe74bd4f384c7c6",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -12181,7 +12169,7 @@
         "app_secondary": [
           "角色设计"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "卡通风",
           "玩具风"
@@ -12204,8 +12192,7 @@
           "题材视觉重构"
         ],
         "creative_method": [
-          "形体简化",
-          "尺度反差"
+          "形体简化"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -12594,7 +12581,7 @@
           "start_seconds": 23.6,
           "duration_seconds": 6,
           "evidence_id": "2305840-M1",
-          "sha256": "6c41642eb35a5dbafe58d29db3a589d3026917ee70bd8f9a908de2b13acb1215",
+          "sha256": "05499fcd5c312644a1f69a359675b8b40383f24222f5c15cfa7447d8e426b534",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -12606,7 +12593,7 @@
           "start_seconds": 42.83,
           "duration_seconds": 6,
           "evidence_id": "2305840-M2",
-          "sha256": "86d87e7ea6c0d7250712ea4c6d5e0fb5c8fb1ef1dad7e1221d084ad58b57ee4e",
+          "sha256": "a353c51df72ef286f6c808664e6848cdad664ace299a8b9ed2017c5a240dff82",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -12618,7 +12605,7 @@
           "start_seconds": 62.05,
           "duration_seconds": 6,
           "evidence_id": "2305840-M3",
-          "sha256": "67d3df06dbb0f878e4ece833d7c251f565fb2f254ba4132545d0906d1cf6f539",
+          "sha256": "8200310df05732e7f8be5f1a7dfe6ecdd487940b84a4d15b7c210649f213cfc7",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -12871,7 +12858,7 @@
       "classification": {
         "app_primary": "场景环境",
         "app_secondary": [],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "像素风",
           "插画／绘本风"
@@ -12894,8 +12881,7 @@
           "色彩与光影"
         ],
         "creative_method": [
-          "色光反差",
-          "尺度反差"
+          "色光反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -12912,9 +12898,7 @@
           "前后景分层",
           "大留白"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": []
       },
       "editorial_review": {
@@ -13256,7 +13240,7 @@
           "start_seconds": 27.76,
           "duration_seconds": 6,
           "evidence_id": "3483740-M1",
-          "sha256": "f62ecc1a9423f1dc78b43cb67001c4bd50941d8c5f131f39195db139d745d09b",
+          "sha256": "47dd18ea78fb0a35dd80240d0c901aab94bc9190c0b423c2623b13e4fc30355d",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -13268,7 +13252,7 @@
           "start_seconds": 50.37,
           "duration_seconds": 6,
           "evidence_id": "3483740-M2",
-          "sha256": "499ffe1d5816d107e40117bc608f54a30414be7955385d6319ecd87268f59cbf",
+          "sha256": "a5430705e5a7831c566e2f73d9b8e3dce705fa4025a78786becd4cfd6c7f6a29",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -13280,7 +13264,7 @@
           "start_seconds": 72.99,
           "duration_seconds": 6,
           "evidence_id": "3483740-M3",
-          "sha256": "3c3ede6568286fdf0f1f656cb7bbb749712be85414a653d75b023689118182d0",
+          "sha256": "6c8261c879e7fb317d112998ef0f64561bd55d8f1f5829133f706faf93f413f7",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -13534,7 +13518,7 @@
           "角色设计",
           "UI与平面视觉"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "漫画风",
           "卡通风"
@@ -13925,20 +13909,20 @@
           "start_seconds": 14.45,
           "duration_seconds": 6,
           "evidence_id": "2073250-M1",
-          "sha256": "09ac14814e83d6bc8a78b6c1f8bb26869e188a95482fee0e1be0ea0acf1e561a",
+          "sha256": "156179fed3dd83494542825ae2cf17a769ddbe92be470a5ce10dd74f9b7ac51c",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
           "type": "video",
           "local_asset": "media/2073250/motion-2.mp4",
           "poster": "media/2073250/motion-2.jpg",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073250/extras/3a83d936a5c273b94542ad904e8f9f57.mp4",
-          "source_title": "官方商店动态演示",
-          "start_seconds": 0,
+          "url": "https://video.akamai.steamstatic.com/store_trailers/2073250/823055/aa6499bbf46c19ff9fede2a04a3e666394bf4145/1750747047/hls_264_master.m3u8?t=1738776623",
+          "source_title": "Rift of the NecroDancer Launch Trailer",
+          "start_seconds": 46,
           "duration_seconds": 6,
           "evidence_id": "2073250-M2",
-          "sha256": "d12f92142da7d9bd134e7d38fd7f3ba9f9e398b203e5ce49ed683175a67656f3",
-          "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
+          "sha256": "0bc6d31d933f0093f744d357ac5f68f927d04009144298bec6a6060e20993e59",
+          "description": "官方预告片画面",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
         {
@@ -13950,7 +13934,7 @@
           "start_seconds": 37.98,
           "duration_seconds": 6,
           "evidence_id": "2073250-M3",
-          "sha256": "4f67fa3f9811764ed0fbd46349665531c8c2dfaa4caf2eb9c0569d71bc4cd446",
+          "sha256": "5730505097ea4df2c41514da102fb41ea615eff940d7c838fe76465baf9fe2a0",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -14204,7 +14188,7 @@
           "角色设计",
           "游戏视觉交互"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "像素风",
           "玩具风"
@@ -14246,9 +14230,7 @@
         "form_space": [
           "轴测视角"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": []
       },
       "editorial_review": {
@@ -14608,7 +14590,7 @@
           "start_seconds": 19.09,
           "duration_seconds": 6,
           "evidence_id": "2013730-M1",
-          "sha256": "23ae34e1ee345367d229469de6ea0c7f201a861a8a5184bf9018674622caeac4",
+          "sha256": "35d1550db09ecba39061b3b2766417b17aea0d39705e132cffd318791a35b666",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -14620,7 +14602,7 @@
           "start_seconds": 34.64,
           "duration_seconds": 6,
           "evidence_id": "2013730-M2",
-          "sha256": "c6a1d4374a86404211c672965814b8364e990114f75216f0d14bc9780e9a8933",
+          "sha256": "944af2a6d5f5a7c5e919f8162d95c13836dffba4e414ba01ab234adfcb90067c",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -14632,7 +14614,7 @@
           "start_seconds": 50.2,
           "duration_seconds": 6,
           "evidence_id": "2013730-M3",
-          "sha256": "89186a80b37d114002d3d56e75a53cfba9c2895cebd13d00ea239b921b041a3e",
+          "sha256": "d5668017e788c7af557b04079ae62e86365819e36a6d6b31ad29fb56f070df00",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -14884,10 +14866,9 @@
         "app_secondary": [
           "游戏视觉交互"
         ],
-        "style_main": "混合表现",
+        "style_main": "写实与风格化混合",
         "style_look": [
-          "平面图形风",
-          "迷幻视觉"
+          "平面图形风"
         ],
         "tech_status": "待核实",
         "form_motion": [
@@ -15258,7 +15239,7 @@
           "start_seconds": 49.25,
           "duration_seconds": 6,
           "evidence_id": "858210-M1",
-          "sha256": "9be906a86f1faaec365e4e046b1b195fe9ffc9bf1684259623a01b0d98f9fc6d",
+          "sha256": "80823907f18ed1de4f49345a1399ad218b757f2cf14bb394ea19fcb6fd521cd0",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -15270,7 +15251,7 @@
           "start_seconds": 89.38,
           "duration_seconds": 6,
           "evidence_id": "858210-M2",
-          "sha256": "a2d3eb239930a31558e7025e281ed73054a58b0fe45ffb9c6e88f63144e710e1",
+          "sha256": "cb32cc6c233a2742bf43f525ae9e9ae78533103db41271d9a82d47a9efd1573e",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -15282,7 +15263,7 @@
           "start_seconds": 129.5,
           "duration_seconds": 6,
           "evidence_id": "858210-M3",
-          "sha256": "5793ffdcf102cbeab6122310ff8198d9540349262680a319cbb225988a6d1a35",
+          "sha256": "cc456cfe42b8c0f7a21ff4cbe28ccf7d7e23b32d2d7e8898b32b2ba5711223fa",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -15535,10 +15516,9 @@
         "app_secondary": [
           "道具资产"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
-          "像素风",
-          "复古电子画面感"
+          "像素风"
         ],
         "tech_status": "部分已核实",
         "form_motion": [
@@ -15557,7 +15537,6 @@
           "整体视觉系统"
         ],
         "creative_method": [
-          "元素重新组合",
           "功能可视化"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -15571,9 +15550,7 @@
           "高信息密度",
           "中央构图"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": [
           "像素美术"
         ]
@@ -15878,7 +15855,7 @@
           "start_seconds": 10.42,
           "duration_seconds": 6,
           "evidence_id": "2379780-M1",
-          "sha256": "45be87ed44b70a2ee246f02158b0a9ad5054982f6f20a73b55fbae37a2c200a0",
+          "sha256": "fa1ab740e3139d868ed39196f4d4215ed692465ad4aa660798b8ec1a20e0eede",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -15890,7 +15867,7 @@
           "start_seconds": 4.63,
           "duration_seconds": 6,
           "evidence_id": "2379780-M2",
-          "sha256": "f404bbcf2ab5e4de41a581d7b507055aea899e5d24eda727f229221696dcb2c6",
+          "sha256": "54fe6a8c2e1f96d58be1ba909735f5caea7f45789eb45b38c36007c84617c138",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
@@ -15903,7 +15880,7 @@
           "start_seconds": 27.41,
           "duration_seconds": 6,
           "evidence_id": "2379780-M3",
-          "sha256": "b884b99d53e9569d9a9db50f32d9522124225628f5244509a26c700cce191454",
+          "sha256": "718cca87c188d02ce75ed08ddb9c843f827cbcbdf10091f23838927025fa4664",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -16155,7 +16132,7 @@
           "角色设计",
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "像素风",
           "动漫风"
@@ -16179,8 +16156,7 @@
           "场景空间"
         ],
         "creative_method": [
-          "视点变化",
-          "尺度反差"
+          "视点变化"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -16196,9 +16172,7 @@
           "前后景分层",
           "高信息密度"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": [
           "Godot",
           "手绘美术",
@@ -16546,7 +16520,7 @@
           "start_seconds": 26.51,
           "duration_seconds": 6,
           "evidence_id": "1574820-M1",
-          "sha256": "f068d5dd45269ac3c024cf1eda6487ba11924399488331a2cfc1a8f39d276251",
+          "sha256": "e317f3452c9adb45d2fb363d89cb2d0596b6d0fed117bf2bd3b6944a33abb457",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -16558,7 +16532,7 @@
           "start_seconds": 48.12,
           "duration_seconds": 6,
           "evidence_id": "1574820-M2",
-          "sha256": "5388332e19c016069a5428969211b5cac6c4ecd05a3723276b1ecbff65f0718d",
+          "sha256": "f649a868e0e5e9eea6f6eec4150f80e034c000e59598276f49302ecf605329f9",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -16570,7 +16544,7 @@
           "start_seconds": 69.72,
           "duration_seconds": 6,
           "evidence_id": "1574820-M3",
-          "sha256": "efdec52256c550393906795c31b9eacbfb631c053deb3062a9efae3ae6891d0d",
+          "sha256": "a24b17dafcbb99e7e3912210c240face47ad3931bf2355c19020e49f575628d7",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -16823,7 +16797,7 @@
           "整体美术方向",
           "场景环境"
         ],
-        "style_main": "混合表现",
+        "style_main": "写实与风格化混合",
         "style_look": [
           "插画／绘本风",
           "卡通风"
@@ -17233,7 +17207,7 @@
           "start_seconds": 17.58,
           "duration_seconds": 6,
           "evidence_id": "1627570-M1",
-          "sha256": "da2be56f59be8a538e69c2566f55793afc0529b9021cd168378df06abab87ee1",
+          "sha256": "5a61905db29511ddd4a49c8d892869dafd8a5fb780d679a3197a28a6f649a0b7",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -17245,7 +17219,7 @@
           "start_seconds": 31.9,
           "duration_seconds": 6,
           "evidence_id": "1627570-M2",
-          "sha256": "66038365d5fdc3b6978e370f8f91b434a688d0e120662015a1614fbb614eda36",
+          "sha256": "4067995db3faae2da33ef9b68295c30d4c6779c7ada1c27e85e6d6023b73cf2d",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -17257,7 +17231,7 @@
           "start_seconds": 46.22,
           "duration_seconds": 6,
           "evidence_id": "1627570-M3",
-          "sha256": "017522b1baaf793df437fd21787c653c3c9c413e7aafaea390f7033f04e732dd",
+          "sha256": "c02a293da30757bd98500e07b187d81451e16bedebf6999c1d49d3c9efc7fee8",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -17511,7 +17485,7 @@
           "场景环境",
           "UI与平面视觉"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "像素风",
           "玩具风"
@@ -17549,9 +17523,7 @@
           "房间剖面",
           "高信息密度"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": []
       },
       "editorial_review": {
@@ -17907,7 +17879,7 @@
           "start_seconds": 16.71,
           "duration_seconds": 6,
           "evidence_id": "3511030-M1",
-          "sha256": "85b423f36efc189c7f59863b818de977b2c40f6817e098cbef2327f293afc120",
+          "sha256": "73630cf728515b8aa595da9522883a518f84bfb12af4db2646fdaac822347018",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -17919,7 +17891,7 @@
           "start_seconds": 30.33,
           "duration_seconds": 6,
           "evidence_id": "3511030-M2",
-          "sha256": "173660fdc680ce5718e2a020c35ade98489791d422cf7446b228edcd105c4a29",
+          "sha256": "876815940c6fb47d98a60db7e0ab3589d6015031acc48bd566ceded08b869c29",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -17931,7 +17903,7 @@
           "start_seconds": 43.95,
           "duration_seconds": 6,
           "evidence_id": "3511030-M3",
-          "sha256": "134c8323c108c1c86c8d963c50e6198b2dc0a30402eb2d9745ed65ae32bbb7c8",
+          "sha256": "23c9ee3291dcd1034c860d88f41e27a0b3d5a85cc1992abcfe086c09fc751156",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -18186,7 +18158,7 @@
         ],
         "style_main": "写实倾向",
         "style_look": [
-          "电影摄影感"
+          "电影式构图与布光"
         ],
         "tech_status": "待核实",
         "form_motion": [
@@ -18218,7 +18190,7 @@
           "低饱和"
         ],
         "form_light": [
-          "低调布光"
+          "暗部为主"
         ],
         "form_material": [
           "金属",
@@ -18576,7 +18548,7 @@
           "start_seconds": 15.53,
           "duration_seconds": 6,
           "evidence_id": "2747330-M1",
-          "sha256": "113282300ad728987d5e1d74670556f391bec68fad37e3980b07b498834bb45e",
+          "sha256": "174af4e61bc6c93edd1630012bad59b49430e195135c0598c0282d7973210bb6",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -18588,7 +18560,7 @@
           "start_seconds": 28.18,
           "duration_seconds": 6,
           "evidence_id": "2747330-M2",
-          "sha256": "ada585a9aea7af20fb2f71865715172bb657a335fefe17a6bb6800dcc9a32554",
+          "sha256": "ce6edbfd86ba5a87ed01dcaa4088ba3cdb1eba9919011ef8d6f6b1e8fd94e8cf",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -18600,7 +18572,7 @@
           "start_seconds": 40.82,
           "duration_seconds": 6,
           "evidence_id": "2747330-M3",
-          "sha256": "d551738554bdd8ffc33945f0d01dcc26527678a9534d0ecc50eb3ad66be3eef8",
+          "sha256": "1c2f4289de84c31780c20c2cffafa5a578938c2f78de39c0beabb14a28a55e33",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -18854,7 +18826,7 @@
           "角色设计",
           "UI与平面视觉"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "像素风"
         ],
@@ -18891,9 +18863,7 @@
           "前后景分层",
           "大留白"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": []
       },
       "editorial_review": {
@@ -19241,7 +19211,7 @@
           "start_seconds": 20.25,
           "duration_seconds": 6,
           "evidence_id": "2581950-M1",
-          "sha256": "aa469c1417ad52d9f3ec6607708d4518700e5adfa9eedbeedb19bc768db88f58",
+          "sha256": "1c17882a8e2cbdbdd451def4df4f59e8b385a46aed38f1e1b72123c451d64128",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -19253,7 +19223,7 @@
           "start_seconds": 36.75,
           "duration_seconds": 6,
           "evidence_id": "2581950-M2",
-          "sha256": "d3ca1931ab320490e1ca9f79213d0fbc02b5dbab3024982b48ca4a21f30d5978",
+          "sha256": "0b4d57656f60ce6612e32cf8bcd6a3b321f8b6de2d126e965b93f5acdcd27d1f",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -19265,7 +19235,7 @@
           "start_seconds": 53.25,
           "duration_seconds": 6,
           "evidence_id": "2581950-M3",
-          "sha256": "e7e47088d93724a934976fd6f3652081129c27d922ea6a317442fc6a210843ea",
+          "sha256": "3154b37c2af1cee7debf5095b20beaee76a56d7c9b3f522fc42e27494c9db92b",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -19519,7 +19489,7 @@
           "UI与平面视觉",
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "插画／绘本风",
           "手工艺风"
@@ -19907,7 +19877,7 @@
           "start_seconds": 25.3,
           "duration_seconds": 6,
           "evidence_id": "4160210-M1",
-          "sha256": "7464f890e381cf687e7167a1cf08c8f7807284b2215059c73ecea6770967415b",
+          "sha256": "dca2509338e5d039866b861e4157f14e556bac30352f0cf8e21a36ad5e9b2cf7",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -19919,7 +19889,7 @@
           "start_seconds": 45.91,
           "duration_seconds": 6,
           "evidence_id": "4160210-M2",
-          "sha256": "d4d094b11c5b513bc067796583b71bd1492964d2c5c0a38e4bd7a98433784510",
+          "sha256": "00ea0af69ed9fa7f02781f6248af478542780ffe873f07414c47ae99c71666df",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -19931,7 +19901,7 @@
           "start_seconds": 66.53,
           "duration_seconds": 6,
           "evidence_id": "4160210-M3",
-          "sha256": "3d3cf84c4100146a2ce28403655514caf8467ac67807a523b7546b19d481d488",
+          "sha256": "7c1489b462219f4ffd5676df1fedadab8e22c23268ea7e711121767f2f7e416a",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -20186,7 +20156,7 @@
           "角色设计",
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "像素风"
         ],
@@ -20208,7 +20178,6 @@
           "场景空间"
         ],
         "creative_method": [
-          "元素重新组合",
           "剖面展开"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -20224,9 +20193,7 @@
           "高信息密度",
           "前后景分层"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": []
       },
       "editorial_review": {
@@ -20576,7 +20543,7 @@
           "start_seconds": 22.87,
           "duration_seconds": 6,
           "evidence_id": "1735700-M1",
-          "sha256": "73da4fabc6b8a76f83dedf37e3bdf718003b459936abda5f130bce10865e4ec3",
+          "sha256": "286fd815c25779664408f74fa8a05a299b145a180be1867bf55f9399c3781c57",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -20588,20 +20555,20 @@
           "start_seconds": 41.5,
           "duration_seconds": 6,
           "evidence_id": "1735700-M2",
-          "sha256": "b72e1c1b0a676d32b0d7eafd16a39a3e0437b6a6d0540ac15d33a31faff24c71",
+          "sha256": "8860b738a258f452ad5fa5a4bf2ae99513b97915dedc01090740cfa5a399c2d0",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
           "type": "video",
           "local_asset": "media/1735700/motion-3.mp4",
           "poster": "media/1735700/motion-3.jpg",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1735700/extras/801ae48bde0ce4c694b859d73facb476.mp4",
-          "source_title": "官方商店动态演示",
-          "start_seconds": 0,
+          "url": "https://video.akamai.steamstatic.com/store_trailers/1735700/1667239332/6045d0d13e9fd90f05c2233e43a0c738b5414f44/1752633276/hls_264_master.m3u8?t=1752805952",
+          "source_title": "BTTD_Full Launch_EN",
+          "start_seconds": 58,
           "duration_seconds": 6,
           "evidence_id": "1735700-M3",
-          "sha256": "52e51fb362537659fbc7481e34104af9279b1024245f8a58decb5a09dba64c73",
-          "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
+          "sha256": "b0e2308f05fc0e6f085ad03905e24fb25ad51ab005b39d319e7892142f61de3a",
+          "description": "官方预告片画面",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
         {
@@ -20849,10 +20816,9 @@
         "app_secondary": [
           "道具资产"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
-          "卡通风",
-          "复古电子画面感"
+          "卡通风"
         ],
         "tech_status": "待核实",
         "form_motion": [
@@ -21261,7 +21227,7 @@
           "start_seconds": 21.01,
           "duration_seconds": 6,
           "evidence_id": "3177890-M1",
-          "sha256": "78febd16234f994cfad663b4d9ac79facfc7fe222862cf03dc85ada58c28a4d2",
+          "sha256": "e55c99d11374b1cce0309cec6bb90213a68ccf3353534d4b8375d87971fbaf59",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -21273,7 +21239,7 @@
           "start_seconds": 38.12,
           "duration_seconds": 6,
           "evidence_id": "3177890-M2",
-          "sha256": "fc9383d923f8b7e12c3d00ba2a229497f52caa5f1deba0a7c80d19fc16e693fe",
+          "sha256": "44bf36aafbb60bca8155e45ba8a078fbca07c6071f006dc3c2e649983ee97ee7",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -21285,7 +21251,7 @@
           "start_seconds": 55.24,
           "duration_seconds": 6,
           "evidence_id": "3177890-M3",
-          "sha256": "8680a05e3a6f4428c9809825e71363f08e05ed30f9ff9096efc696333de2be46",
+          "sha256": "ab2eec486d3eeb330443058deebbe2277a56dab99eae70f454b54cd1689d5115",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -21538,7 +21504,7 @@
           "角色设计",
           "UI与平面视觉"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "插画／绘本风",
           "漫画风"
@@ -21890,7 +21856,7 @@
           "start_seconds": 40.26,
           "duration_seconds": 6,
           "evidence_id": "1885110-M1",
-          "sha256": "d01667b819b430142fe940b48a6eab17b25c85d8e1e881bbfffb2c0cecef54ff",
+          "sha256": "85e1ef41f0dd9905f2c23c8f8184d58afea229930e83e9a48e7bd7b203c517e2",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -21902,7 +21868,7 @@
           "start_seconds": 73.06,
           "duration_seconds": 6,
           "evidence_id": "1885110-M2",
-          "sha256": "5d453321bdeddb810e26ed9f58c62fbe782b1048e6f00265432ee5f490ef1787",
+          "sha256": "af82cea33d4f016cb4f04cb22d7d53321f0678f6ef2b5af88a0c20bd35ade266",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -21914,7 +21880,7 @@
           "start_seconds": 105.86,
           "duration_seconds": 6,
           "evidence_id": "1885110-M3",
-          "sha256": "ea4a31834a87b0b12f2117ec1cd0766a28e11ee6056c6e387ac7fd81ea32263b",
+          "sha256": "f575029f0ab27c07f7aea83479399c144b710e3bfc3a20fd2aab63f0ca561092",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -22168,7 +22134,7 @@
         "app_secondary": [
           "角色设计"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "像素风",
           "卡通风"
@@ -22208,9 +22174,7 @@
         "form_space": [
           "前后景分层"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": []
       },
       "editorial_review": {
@@ -22521,7 +22485,7 @@
           "start_seconds": 14.72,
           "duration_seconds": 6,
           "evidence_id": "3862670-M1",
-          "sha256": "83a761912f8bc686a4a2569c7f42984adb42edd3d0f7081d75cb60f5be2f677a",
+          "sha256": "66ed644b90a72f5f70e9a66913b80a7c7721fbd2a558b28b7a5464c4c3a85b3a",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -22533,7 +22497,7 @@
           "start_seconds": 26.7,
           "duration_seconds": 6,
           "evidence_id": "3862670-M2",
-          "sha256": "054ba9175c5ae45c3b1a772dfda7e983f3859b49331fd9cdd95b08d4123285ec",
+          "sha256": "9fb3a94ac97f2a8c6ab7deb34f928bf5fe22ad1d5e710592b500de83ce05fbca",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -22545,7 +22509,7 @@
           "start_seconds": 38.7,
           "duration_seconds": 6,
           "evidence_id": "3862670-M3",
-          "sha256": "726a1790b60b58b2eef4aadbf0ce39d25f448e9013774fdcb582292a2ab95058",
+          "sha256": "38fe34cc833bad2470da9047790862dd6d48a5aedcf22cd8cd3c2d02714d3b20",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -22797,7 +22761,7 @@
         "app_secondary": [
           "游戏视觉交互"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "像素风",
           "卡通风"
@@ -22836,9 +22800,7 @@
         "form_space": [
           "大留白"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": []
       },
       "editorial_review": {
@@ -23182,7 +23144,7 @@
           "start_seconds": 18.17,
           "duration_seconds": 6,
           "evidence_id": "3167550-M1",
-          "sha256": "e109d78c9fcd21bb9f899c4d5e1a7d7ce906dbb2d0cfdb45903a70c13ebb51b3",
+          "sha256": "2daf9007a56327a3ad8e49fb784b44b9d34f0939372ec89ae738c4ea57b9bda1",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -23194,7 +23156,7 @@
           "start_seconds": 32.98,
           "duration_seconds": 6,
           "evidence_id": "3167550-M2",
-          "sha256": "2c17043a9dae0a914876df0651ad0724929b8afcc570285d445ac2cdb638cdee",
+          "sha256": "809fd1cfbc4dcd8343b89bdfb739516873061256ae3649ac316c66b9dd04d3dc",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -23206,7 +23168,7 @@
           "start_seconds": 47.78,
           "duration_seconds": 6,
           "evidence_id": "3167550-M3",
-          "sha256": "725297ff76a778e3e2578d2798188497fafd0bf4794dacfdd64944ec69097198",
+          "sha256": "edc32faafa62a24b6e961ca46ea6f173932618a9ad18c69103384647a77454ed",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -23460,7 +23422,7 @@
           "角色设计",
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "插画／绘本风",
           "卡通风"
@@ -23809,7 +23771,7 @@
           "start_seconds": 34.61,
           "duration_seconds": 6,
           "evidence_id": "2444750-M1",
-          "sha256": "901557f1f13a8f8631ae3a69158da8a8fa2ac21b68878134ce9e0ec9caea68b7",
+          "sha256": "f19fb9b671e9759e45e80d41012083e4f1b71bf9b28812c3857a3e6a1fac7b1d",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -23821,7 +23783,7 @@
           "start_seconds": 62.82,
           "duration_seconds": 6,
           "evidence_id": "2444750-M2",
-          "sha256": "ed06c3ef96fb5c6388969c73c3995e984c9b0dcf08d24f2d619fbd217c9bed9a",
+          "sha256": "2fdf68459e43f7b39230c2f21f916029bcda17943da4c2fe764d071fbe1a9934",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -23833,7 +23795,7 @@
           "start_seconds": 91.02,
           "duration_seconds": 6,
           "evidence_id": "2444750-M3",
-          "sha256": "3082da52d7b62b8b19494f6a122e369d7b3f198e7e733ef1dd995a08209fa461",
+          "sha256": "c630bcc7164ac13f72cd29621222db58ed0510f73380de13c63ea1ba130f395d",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -24086,9 +24048,8 @@
         "app_secondary": [
           "UI与平面视觉"
         ],
-        "style_main": "混合表现",
+        "style_main": "写实与风格化混合",
         "style_look": [
-          "复古电子画面感",
           "像素风"
         ],
         "tech_status": "待核实",
@@ -24128,9 +24089,7 @@
         "form_space": [
           "中央构图"
         ],
-        "form_medium": [
-          "低清／色偏观感"
-        ],
+        "form_medium": [],
         "tech_categories": []
       },
       "editorial_review": {
@@ -24443,7 +24402,7 @@
           "start_seconds": 16.93,
           "duration_seconds": 6,
           "evidence_id": "3525970-M1",
-          "sha256": "34240f977d5f8c5cce980c01c277b372656f573252ecad279f2dfa4d5a6febf7",
+          "sha256": "f861483fe0894bd0a094e3d9eeca74ddd183faa36f1283ccdade702586f9bfb2",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -24455,7 +24414,7 @@
           "start_seconds": 30.72,
           "duration_seconds": 6,
           "evidence_id": "3525970-M2",
-          "sha256": "78a33c3493fb8e8eb1e842bfd86fbd3cafdca9d662f924e3b586721babd9fe38",
+          "sha256": "e1dc6fb71811b3cc60479a00ca28003a272aaaa9e120dc1caf348280edb07550",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -24467,7 +24426,7 @@
           "start_seconds": 44.52,
           "duration_seconds": 6,
           "evidence_id": "3525970-M3",
-          "sha256": "be06626ec238355227482c6c0114b71905de3c4f4e85fb459d44a49bd6333ef1",
+          "sha256": "80e5d6bdde50cfbbfb279b4ff3dfc77c94de08d34fe3fa2e54d8872fe45ef050",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -24720,7 +24679,7 @@
           "角色设计",
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "漫画风",
           "插画／绘本风"
@@ -25093,7 +25052,7 @@
           "start_seconds": 24.41,
           "duration_seconds": 6,
           "evidence_id": "1411910-M1",
-          "sha256": "c547402a24196d462f883ec927c5fabdbad1d66cd9c79eebdb9ee5673aa88d4a",
+          "sha256": "b480e4db200a743a981bb80530bba308600f9ba91c07e111f91fe2458a0d9fc2",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -25105,7 +25064,7 @@
           "start_seconds": 44.3,
           "duration_seconds": 6,
           "evidence_id": "1411910-M2",
-          "sha256": "c5f597170b1d03e1a1e3b50691f4c01fecd54e790d1976ecab8582e6cfcf7e54",
+          "sha256": "9bef1a7530ab033323b2df3d25ffcb48e5b43563b581daa092c7b65590f97dd1",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -25117,7 +25076,7 @@
           "start_seconds": 64.18,
           "duration_seconds": 6,
           "evidence_id": "1411910-M3",
-          "sha256": "a99f45e7bba736af7c010d933da4d1ac79988f550eaeb14b031a5fd1e67a700a",
+          "sha256": "1a2e38de906f51a085810b0c7b7ee9cc14fc76e01990cdcd2db55087b307a783",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -25373,7 +25332,7 @@
           "角色设计",
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "动漫风",
           "插画／绘本风"
@@ -25397,7 +25356,6 @@
           "整体视觉系统"
         ],
         "creative_method": [
-          "元素重新组合",
           "符号重复与变奏"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -25785,7 +25743,7 @@
           "start_seconds": 20.63,
           "duration_seconds": 6,
           "evidence_id": "1809540-M1",
-          "sha256": "c0db9cbd1639cc90afa50b535ae32c4732be0284a4179e4e52717233a2f38111",
+          "sha256": "9ab73932ecdecf114966cf77e7a6be66aff75b66be00e04583e8a80ce1ad6c81",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -25797,20 +25755,20 @@
           "start_seconds": 37.44,
           "duration_seconds": 6,
           "evidence_id": "1809540-M2",
-          "sha256": "c218988a90c86b9c803acb9a847723a110665af110897738c3804a3309c4ce29",
+          "sha256": "e2ef30620994bc67205563b27d957b7cc65334701b03fd324b734c7cf7fc8438",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
           "type": "video",
           "local_asset": "media/1809540/motion-3.mp4",
           "poster": "media/1809540/motion-3.jpg",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/extras/ea3bb84400e1aa985934c365b8e0b49c.mp4",
-          "source_title": "官方商店动态演示",
-          "start_seconds": 0,
+          "url": "https://video.akamai.steamstatic.com/store_trailers/1809540/706461/7def859a76fd49482082d089a437e55d4a3da2eb/1750737040/hls_264_master.m3u8?t=1716982388",
+          "source_title": "Release Trailer",
+          "start_seconds": 46,
           "duration_seconds": 6,
           "evidence_id": "1809540-M3",
-          "sha256": "63ce2080f5aa7d136213366e5078128a35c30fbc8299ff6e100337a6a82a52d4",
-          "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
+          "sha256": "c7ebe3e4c54736b147eccf36207bc1b48fe168c22b449c107f2ff7f2f347837d",
+          "description": "官方预告片画面",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
         {
@@ -26065,7 +26023,7 @@
           "角色设计",
           "游戏视觉交互"
         ],
-        "style_main": "混合表现",
+        "style_main": "写实与风格化混合",
         "style_look": [
           "动漫风",
           "漫画风"
@@ -26452,7 +26410,7 @@
           "start_seconds": 18.9,
           "duration_seconds": 6,
           "evidence_id": "2240620-M1",
-          "sha256": "4820736e8eba2bef10bb4a1c7cdee8f48860b24ba5f3b06c2668084ecdde8343",
+          "sha256": "6660287d1ac168464d00dbce4ca391ac7588064f68c1f5fc52903359f1d4cacc",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -26464,7 +26422,7 @@
           "start_seconds": 34.3,
           "duration_seconds": 6,
           "evidence_id": "2240620-M2",
-          "sha256": "8e3c1e8e833e5ac46cca5b2c5d924546b770409c94df7fc32b57333b7ad2e010",
+          "sha256": "58ee71b578da59228a7da3875c00267ca58a7fdf329e082102b6c27488bcd0b1",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -26476,7 +26434,7 @@
           "start_seconds": 49.7,
           "duration_seconds": 6,
           "evidence_id": "2240620-M3",
-          "sha256": "b49f8c434c9238a2be27096bf23684d1b50b74a8c60e69735b99604ef2a3c731",
+          "sha256": "e03ef58c0bc7b08debe66696c58333b639662923e3624a73960720aaad77e44e",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -26728,7 +26686,7 @@
         "app_secondary": [
           "角色设计"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "插画／绘本风",
           "剪影风"
@@ -26752,7 +26710,6 @@
           "视觉叙事与象征"
         ],
         "creative_method": [
-          "尺度反差",
           "色光反差"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -27120,7 +27077,7 @@
           "start_seconds": 17.12,
           "duration_seconds": 6,
           "evidence_id": "2420660-M1",
-          "sha256": "b8ca9ecb64e35900db2ca1489e4fa3dcd5cbe4be9683fa393222bca99531fee3",
+          "sha256": "f78a01e78a845820fc382faa96cf5332728ec0428235a3d82c0fab09adbc0ef0",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -27132,7 +27089,7 @@
           "start_seconds": 31.07,
           "duration_seconds": 6,
           "evidence_id": "2420660-M2",
-          "sha256": "ba0c2cca54f13f7ab87a06afbd97e3848f64d1b7d062b67d51b9e63920ecc00b",
+          "sha256": "d108ac9597ba20e262c5aea5ea354204bccd1ef25c1e0c4086c13e28b6689a5d",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -27144,7 +27101,7 @@
           "start_seconds": 45.01,
           "duration_seconds": 6,
           "evidence_id": "2420660-M3",
-          "sha256": "122c0dab8519f0ec04f53235da4caf497665c77841260878eb341ccf77c2e829",
+          "sha256": "30361673fe21bd53c28f756c8b1b4e6ce6b344d6b61f4cc09c3497db27794d85",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -27396,9 +27353,8 @@
         "app_secondary": [
           "UI与平面视觉"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
-          "复古电子画面感",
           "像素风"
         ],
         "tech_status": "部分已核实",
@@ -27434,9 +27390,7 @@
           "高信息密度",
           "俯视"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": [
           "预渲染美术",
           "Godot"
@@ -27778,7 +27732,7 @@
           "start_seconds": 14.31,
           "duration_seconds": 6,
           "evidence_id": "2218750-M1",
-          "sha256": "d0d674fcd971d76520e586f5365bccb2a77fbf64c2d6dfecbe5c4d727dd3d64e",
+          "sha256": "5c977531c52421f3c32b0cd633f75921b5822db3f46b0024a801e90fbfa47fc4",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -27790,20 +27744,20 @@
           "start_seconds": 25.97,
           "duration_seconds": 6,
           "evidence_id": "2218750-M2",
-          "sha256": "b39c569a8e1389c3111d6f8724b65de5d4af404c999ae7e46869bf5752fd183f",
+          "sha256": "38174427c736218e2605d257773fce123f87bed246061032295f8226e981cd05",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
           "type": "video",
           "local_asset": "media/2218750/motion-3.mp4",
           "poster": "media/2218750/motion-3.jpg",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218750/extras/f0c9400d9fab239e9c04135b05627220.mp4",
-          "source_title": "官方商店动态演示",
-          "start_seconds": 0,
+          "url": "https://video.akamai.steamstatic.com/store_trailers/2218750/2110869672/43b265985609d940f38e24cdcf3d5c30d677a4e2/1756713335/hls_264_master.m3u8?t=1756714776",
+          "source_title": "Halls of Torment Gameplay",
+          "start_seconds": 36,
           "duration_seconds": 6,
           "evidence_id": "2218750-M3",
-          "sha256": "d6b4945dee0d8ff866ca6dab219a9dd4c247f89cb356bc38d14a86dd636a00a2",
-          "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
+          "sha256": "611c33a006d63973622aa7a1fe115696168b00676822c1030c8ff2b181b914f9",
+          "description": "官方预告片画面",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
         {
@@ -28063,7 +28017,7 @@
           "角色设计",
           "场景环境"
         ],
-        "style_main": "混合表现",
+        "style_main": "写实与风格化混合",
         "style_look": [
           "动漫风",
           "像素风",
@@ -28105,7 +28059,6 @@
           "高信息密度"
         ],
         "form_medium": [
-          "像素外观",
           "文字主导"
         ],
         "tech_categories": []
@@ -28453,7 +28406,7 @@
           "start_seconds": 24.98,
           "duration_seconds": 6,
           "evidence_id": "1477070-M1",
-          "sha256": "01795e2c3bb34dabaf03b4e3b9e0c5c139a58db005d929ffe05143965c38101a",
+          "sha256": "42937c5c17f37ee2a64e8ad3a268a27bdaede595f6412b67111daecb1cf300c4",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -28465,7 +28418,7 @@
           "start_seconds": 45.32,
           "duration_seconds": 6,
           "evidence_id": "1477070-M2",
-          "sha256": "4ef18d226b88745ddc8f135c6f89d0786d2061b5312f1896e91a9f6b927e597d",
+          "sha256": "d8b722fe7f1109c0b9bac98fe515b18c74a8ae2555b0a04c3bef1429b3c396b2",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -28477,7 +28430,7 @@
           "start_seconds": 65.67,
           "duration_seconds": 6,
           "evidence_id": "1477070-M3",
-          "sha256": "32e80ac2386acc12be23ade4f3338ed13431afc93d39be8a9852d2b0e864724e",
+          "sha256": "88210e7e7ff7ea5f5e0eeb467a204927b501060ee9312cdc8d40bc42e9d00045",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -28732,7 +28685,7 @@
           "角色设计",
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "卡通风",
           "插画／绘本风"
@@ -29136,7 +29089,7 @@
           "start_seconds": 25.73,
           "duration_seconds": 6,
           "evidence_id": "1030300-M1",
-          "sha256": "cf76c4cfd7613c7b22606628003ada0a8903549f4e6bd10eba5fff6ce530c48c",
+          "sha256": "e1533962c6499f5cb343fe1427bde0975eb2451ed517885f03d1918d569024f8",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -29148,7 +29101,7 @@
           "start_seconds": 46.7,
           "duration_seconds": 6,
           "evidence_id": "1030300-M2",
-          "sha256": "9442c176fb8dfc5706c5ecd06cde49a2d1c5ef335204eef2ce94fd8f71a76902",
+          "sha256": "a0dc8068deaf7a42735f390173b683501557e9a8bbcd14de6afd8b69943a8830",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -29160,7 +29113,7 @@
           "start_seconds": 67.66,
           "duration_seconds": 6,
           "evidence_id": "1030300-M3",
-          "sha256": "13fa80ab0730e5073a66c79cc53604eef94d3922c4926d78536d2684b0b9831c",
+          "sha256": "6ac5ad59a6127c4185c4e201ad05d76e4437d85f0113af42d831945cb710e172",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -29415,9 +29368,9 @@
           "场景环境",
           "UI与平面视觉"
         ],
-        "style_main": "混合表现",
+        "style_main": "写实与风格化混合",
         "style_look": [
-          "电影摄影感",
+          "电影式构图与布光",
           "像素风"
         ],
         "tech_status": "部分已核实",
@@ -29451,15 +29404,13 @@
           "低饱和"
         ],
         "form_light": [
-          "低调布光"
+          "暗部为主"
         ],
         "form_space": [
           "尺度反差",
           "高信息密度"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": [
           "像素美术"
         ]
@@ -29826,13 +29777,13 @@
           "type": "video",
           "local_asset": "media/1373960/motion-1.mp4",
           "poster": "media/1373960/motion-1.jpg",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1373960/extras/b9eab9902525282d4f6ce3a65a08b3e2.mp4",
-          "source_title": "官方商店动态演示",
-          "start_seconds": 0,
+          "url": "https://video.akamai.steamstatic.com/store_trailers/1373960/658890/6ea562aefb3e0ff1c823f5af2894f3dbec7118b2/1750680502/hls_264_master.m3u8?t=1707155656",
+          "source_title": "Gameplay Trailer",
+          "start_seconds": 36,
           "duration_seconds": 6,
           "evidence_id": "1373960-M1",
-          "sha256": "55cf49dff4393a665601dd09f3b6ee7cfbdb6d45d03d9f230541f61b854f1bad",
-          "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
+          "sha256": "a4316e15402a0eea8829d761786e00348ab751834454a128c021657deea9eef1",
+          "description": "官方预告片画面",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
         {
@@ -29844,7 +29795,7 @@
           "start_seconds": 65.22,
           "duration_seconds": 6,
           "evidence_id": "1373960-M2",
-          "sha256": "98713981b2308c04fb2ededd93f998c641b32baf29c9380112ffb77da938d1e3",
+          "sha256": "abd545629ad9a6f602a950af17f151ca750f7507814108d413b69f42f579e1e1",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -29856,7 +29807,7 @@
           "start_seconds": 94.5,
           "duration_seconds": 6,
           "evidence_id": "1373960-M3",
-          "sha256": "d0640c08c46ed1ee07de35154b1e62878f6ae9d38cd08ad3b1c5d88803887df2",
+          "sha256": "66052bcb09801cdaffa96e03367212f534c6d32a94e59795067d459df66455dc",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -30107,10 +30058,10 @@
         "app_secondary": [
           "UI与平面视觉"
         ],
-        "style_main": "混合表现",
+        "style_main": "写实与风格化混合",
         "style_look": [
           "插画／绘本风",
-          "电影摄影感"
+          "电影式构图与布光"
         ],
         "tech_status": "待核实",
         "form_motion": [
@@ -30122,7 +30073,7 @@
         "mood": [
           "不安",
           "神秘",
-          "恐惧"
+          "恐怖"
         ],
         "experience_basis": "仅素材观察，未验证",
         "creative_locus": [
@@ -30502,7 +30453,7 @@
           "start_seconds": 24.17,
           "duration_seconds": 6,
           "evidence_id": "2302660-M1",
-          "sha256": "d0d01e3dfcb2e814d73ae04d59bcc6bddbd80ea1139f1d5401a642e4e4447d0e",
+          "sha256": "8e6c56e2192f51d793eeb5aea44b7a957095084195538599b6eafcb488fc402c",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -30514,7 +30465,7 @@
           "start_seconds": 43.85,
           "duration_seconds": 6,
           "evidence_id": "2302660-M2",
-          "sha256": "bf4c60f101f03c00d3de8f28a3d0fee41296a63d04efe531bff401a1d315fbbc",
+          "sha256": "71bb5c39fb320cf61b35429629d132da2a8e4939ec903f4e9c4393243100844f",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -30526,7 +30477,7 @@
           "start_seconds": 63.54,
           "duration_seconds": 6,
           "evidence_id": "2302660-M3",
-          "sha256": "9d95c9a8002303352529be432503f9717c95059d6847a4c0dd946813bb6120fe",
+          "sha256": "12808fd5f050d2f5badc9ac3556761065bd93d65ea278af91bb147a30bb584c7",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -30784,7 +30735,7 @@
           "UI与平面视觉",
           "道具资产"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "卡通风",
           "平面图形风"
@@ -30806,8 +30757,7 @@
           "UI与信息呈现"
         ],
         "creative_method": [
-          "功能可视化",
-          "元素重新组合"
+          "功能可视化"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -31179,7 +31129,7 @@
           "start_seconds": 16.17,
           "duration_seconds": 6,
           "evidence_id": "2356780-M1",
-          "sha256": "d4002c813c3fe666432e32a79fa71cca2ff6360aebc7865d57ffc3a30aef1392",
+          "sha256": "a5148fc440377954dad95c8ee571ece2db52e6c27bd6a6e62492df7e219720ca",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -31191,7 +31141,7 @@
           "start_seconds": 29.35,
           "duration_seconds": 6,
           "evidence_id": "2356780-M2",
-          "sha256": "169c55502f51d9d2d13ba59e3515bac7d112abbdde74b6c0e2f4818f8e8ce870",
+          "sha256": "77d1945a64bc537392b7cc66d902755caaebb1ff479fcc54cd9e46e89889d86d",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -31203,7 +31153,7 @@
           "start_seconds": 42.53,
           "duration_seconds": 6,
           "evidence_id": "2356780-M3",
-          "sha256": "7b1564297299c3856511248e186c598ab8f1ffb1e71cac147416ec8d0b87f106",
+          "sha256": "cade63c8b379479119dcd274dfd247c13fe125fb285b898fc1def8c918247fa0",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -31460,7 +31410,7 @@
         ],
         "style_main": "写实倾向",
         "style_look": [
-          "电影摄影感"
+          "电影式构图与布光"
         ],
         "tech_status": "部分已核实",
         "form_motion": [
@@ -31488,7 +31438,7 @@
           "解谜冒险"
         ],
         "form_light": [
-          "低调布光"
+          "暗部为主"
         ],
         "form_material": [
           "木质",
@@ -31856,7 +31806,7 @@
           "start_seconds": 18.47,
           "duration_seconds": 6,
           "evidence_id": "2879840-M1",
-          "sha256": "81b08ac0b3ef43dc846a0036cfaa791e850b12e820ae8db4faf125ae28a217bd",
+          "sha256": "a5f4961035df2cc76b9e6533d2e125938697246ec3ca4b72a253920c683dac74",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -31868,20 +31818,20 @@
           "start_seconds": 33.52,
           "duration_seconds": 6,
           "evidence_id": "2879840-M2",
-          "sha256": "7590fca7edfb4a4b1de5860e80bc5a0816a6e8419b30bf627054f2c5306893b5",
+          "sha256": "14b665557e68cccc8e4722aa06f8663fee0c45121d2055d0fa97bc5a68a5fe32",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
           "type": "video",
           "local_asset": "media/2879840/motion-3.mp4",
           "poster": "media/2879840/motion-3.jpg",
-          "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2879840/extras/0d1faa1a054a1a08d8655069fb417c85.mp4",
-          "source_title": "官方商店动态演示",
-          "start_seconds": 0,
+          "url": "https://video.akamai.steamstatic.com/store_trailers/2879840/108339930/0c07fa111312142f433228d12ffeb12dc4d4c457/1760128556/hls_264_master.m3u8?t=1789460368",
+          "source_title": "Escape Simulator 2: OUT NOW!",
+          "start_seconds": 46,
           "duration_seconds": 6,
           "evidence_id": "2879840-M3",
-          "sha256": "d585208c2a0d4a26bd8a1116e112c13aa553e45404d077a691bc8cc0cbd6fe36",
-          "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画",
+          "sha256": "33d08e8b6a7ca8df8c5b0e19174dd96dfe729b76893b9ffc78ff135f032a76a1",
+          "description": "官方预告片画面",
           "qa_note": "替换宣传字卡、黑场或跨作品联动片段"
         },
         {
@@ -32135,7 +32085,7 @@
         "app_secondary": [
           "角色设计"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "像素风",
           "插画／绘本风"
@@ -32159,8 +32109,7 @@
           "色彩与光影"
         ],
         "creative_method": [
-          "色光反差",
-          "尺度反差"
+          "色光反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -32177,9 +32126,7 @@
           "前后景分层",
           "尺度反差"
         ],
-        "form_medium": [
-          "像素外观"
-        ],
+        "form_medium": [],
         "tech_categories": [
           "像素美术",
           "像素动画"
@@ -32549,7 +32496,7 @@
           "start_seconds": 16.77,
           "duration_seconds": 6,
           "evidence_id": "1747760-M1",
-          "sha256": "5083d146d6e0110c4ed3d21f4907939e564b56c7ddc926fbc35fd1f47f75c0ed",
+          "sha256": "22680b9040bcedd9887deec9043d5164f4e8f7302f9ab5ca36a2c8169eec631c",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -32561,7 +32508,7 @@
           "start_seconds": 30.43,
           "duration_seconds": 6,
           "evidence_id": "1747760-M2",
-          "sha256": "389d3c7624d062f47b85f3410001c450626b058bd25decc97b236687f8a0ab98",
+          "sha256": "baa6d798cc40a8baa0cf54a7022b76c9316a6f98b48ee127267adafe4ea82726",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -32573,7 +32520,7 @@
           "start_seconds": 44.09,
           "duration_seconds": 6,
           "evidence_id": "1747760-M3",
-          "sha256": "b63c443c8abd812de509b3539039f0911010a6fd2041751670a00814a0a5dbbf",
+          "sha256": "5d622ad4fe169bbe2df443f42d87476cd11875313e48e74bfebc1673a1e5c8db",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -32669,15 +32616,13 @@
         "app_secondary": [
           "游戏视觉交互"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "玩具风",
           "卡通风"
         ],
         "tech_status": "待核实",
-        "form_shape": [
-          "形体层级"
-        ],
+        "form_shape": [],
         "form_color": [
           "主辅色分区"
         ],
@@ -32699,8 +32644,7 @@
           "角色造型"
         ],
         "creative_method": [
-          "形体简化",
-          "对比与重复"
+          "形体简化"
         ],
         "product_genre": [
           "探索冒险"
@@ -33029,7 +32973,7 @@
           "start_seconds": 62.32,
           "duration_seconds": 6,
           "evidence_id": "big-walk-M1",
-          "sha256": "d42239284ee87f624a330a5d75b977b90c93d9806dee4a7ff58b62bf4cd72ac8",
+          "sha256": "326505e7d18d69b53cc5574db2fe91ab2c5c6af388b41204d425690c119bd3a7",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -33041,7 +32985,7 @@
           "start_seconds": 113.11,
           "duration_seconds": 6,
           "evidence_id": "big-walk-M2",
-          "sha256": "1b219c500f1982c797f0fdc9a870ff52bd4617447a62fb346376995f07f0bb81",
+          "sha256": "045bd8fe0ddc8df01bf298485915f95f87fb03ed93be027df088a081ba0c7cfb",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -33053,7 +32997,7 @@
           "start_seconds": 163.89,
           "duration_seconds": 6,
           "evidence_id": "big-walk-M3",
-          "sha256": "77872c175ebb7294d9e5a6a4713e2a639e53876d18972440284f5b9ab61efdd2",
+          "sha256": "8f31004585fe9894a2b6097b3c4ecea884695a63256539dc1b0cbe769dfd06d6",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -33150,12 +33094,10 @@
         ],
         "style_main": "写实倾向",
         "style_look": [
-          "电影摄影感"
+          "电影式构图与布光"
         ],
         "tech_status": "待核实",
-        "form_shape": [
-          "形体层级"
-        ],
+        "form_shape": [],
         "form_color": [
           "主辅色分区"
         ],
@@ -33178,8 +33120,7 @@
           "场景空间"
         ],
         "creative_method": [
-          "形体简化",
-          "对比与重复"
+          "形体简化"
         ],
         "product_genre": [
           "探索冒险",
@@ -33408,7 +33349,7 @@
           "start_seconds": 18.85,
           "duration_seconds": 6,
           "evidence_id": "3629430-M1",
-          "sha256": "c0baab97aa3c698b28266bcb7220d5a313cae8a6df9fe80908e67073da035b2c",
+          "sha256": "9e58aa59bcf34a078e6b8357ea140e65f0023aece53662a821ce8c1242f3190c",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -33420,7 +33361,7 @@
           "start_seconds": 34.2,
           "duration_seconds": 6,
           "evidence_id": "3629430-M2",
-          "sha256": "b7f44d48d9d6674ea3efa074fa91374b566d90b61d0c81aca3f7cc9c529d2458",
+          "sha256": "ca6a25d9bb21d9c7c8b04572e5494674b25e54ab91a1c2ea0a00919b3c5fc58a",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -33432,7 +33373,7 @@
           "start_seconds": 49.56,
           "duration_seconds": 6,
           "evidence_id": "3629430-M3",
-          "sha256": "6a0d6e9af4cc95fde275b74603b6b6956ebd41ef6651e46c9093df601926263e",
+          "sha256": "e3a7da1c365fe5caae1d679551a218dd5a2c7f6a77794b20fdd59e0c0c9edabc",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -33473,10 +33414,10 @@
         }
       ],
       "release_stage": {
-        "status": "unreleased",
-        "label": "未上线",
-        "source": "未上线新游池.json",
-        "snapshot": "2026-11-09"
+        "status": "released",
+        "label": "已上线",
+        "source": "Steam 商店",
+        "snapshot": "2026-11-12"
       },
       "youtube_review": {
         "status": "partial",
@@ -33760,14 +33701,12 @@
           "场景环境",
           "UI与平面视觉"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
-          "低多边形观感"
+          "低多边形风格"
         ],
         "tech_status": "待核实",
-        "form_shape": [
-          "形体层级"
-        ],
+        "form_shape": [],
         "form_color": [
           "主辅色分区"
         ],
@@ -33782,15 +33721,14 @@
         ],
         "mood": [
           "宁静",
-          "奇诡"
+          "怪诞"
         ],
         "experience_basis": "仅官方素材静态观察",
         "creative_locus": [
           "整体视觉系统"
         ],
         "creative_method": [
-          "形体简化",
-          "对比与重复"
+          "形体简化"
         ],
         "product_genre": [
           "探索冒险",
@@ -34109,7 +34047,7 @@
           "start_seconds": 28.35,
           "duration_seconds": 6,
           "evidence_id": "1562430-M1",
-          "sha256": "a6633be506493f4ebf5e8f8dfd9a5ce0f4b48fe39ca8f994397407841caee46d",
+          "sha256": "e23ab4e7042ae02b0eb373720fd031cab44567b270535f5c211a311c38c431dc",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -34121,7 +34059,7 @@
           "start_seconds": 51.45,
           "duration_seconds": 6,
           "evidence_id": "1562430-M2",
-          "sha256": "cbfdba4781dba03880fba6e366c8b2936ef9c23d6fd9d0977164586dbf403895",
+          "sha256": "ffd517c53cd091b84e793799c9851f4f703ac85882376aebbb467e6f5320e673",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -34133,7 +34071,7 @@
           "start_seconds": 74.55,
           "duration_seconds": 6,
           "evidence_id": "1562430-M3",
-          "sha256": "36f46a53df4201e106447daa330a2016a0fb84a68e4c7d28638a5285b0c937c1",
+          "sha256": "9bd4d88d6bfb710ea91db7e2e759323380d70094e0d2f9caed2650a832d0e3fe",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -34231,12 +34169,10 @@
         ],
         "style_main": "写实倾向",
         "style_look": [
-          "复古影像观感"
+          "复古录像风"
         ],
         "tech_status": "待核实",
-        "form_shape": [
-          "形体层级"
-        ],
+        "form_shape": [],
         "form_color": [
           "主辅色分区"
         ],
@@ -34251,15 +34187,14 @@
         ],
         "mood": [
           "荒凉",
-          "奇诡"
+          "怪诞"
         ],
         "experience_basis": "仅官方素材静态观察",
         "creative_locus": [
           "场景空间"
         ],
         "creative_method": [
-          "形体简化",
-          "对比与重复"
+          "形体简化"
         ],
         "product_genre": [
           "驾驶模拟",
@@ -34491,7 +34426,7 @@
           "start_seconds": 16.17,
           "duration_seconds": 6,
           "evidence_id": "4067370-M1",
-          "sha256": "01afbd792788075de019fe0156da0fbaeea8fe82e423b700ac5aca2e926095e4",
+          "sha256": "1bad1899d4e475400687822e1eaa4cbc3a85fb3c8e7d3c69a421833494a6613f",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -34503,7 +34438,7 @@
           "start_seconds": 29.35,
           "duration_seconds": 6,
           "evidence_id": "4067370-M2",
-          "sha256": "bc77caca9611b4552e576409f2f5700406050a758f94b222487a44a055865270",
+          "sha256": "1920d1536c36d8c2e2011157851bc332c88353c962ca2702c85658f6c3b7caf4",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -34515,7 +34450,7 @@
           "start_seconds": 42.53,
           "duration_seconds": 6,
           "evidence_id": "4067370-M3",
-          "sha256": "8952887a01299a4d2b3de3d6908fb5ed509f5ce00875cf51c83056095cf79e59",
+          "sha256": "78119f8162d40c59f23ff48d3b06ebdc14798b51298a8ee247ccac1bf81b1022",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -34826,14 +34761,12 @@
           "角色设计",
           "UI与平面视觉"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "漫画风"
         ],
         "tech_status": "待核实",
-        "form_shape": [
-          "形体层级"
-        ],
+        "form_shape": [],
         "form_color": [
           "主辅色分区"
         ],
@@ -34856,8 +34789,7 @@
           "整体视觉系统"
         ],
         "creative_method": [
-          "形体简化",
-          "对比与重复"
+          "形体简化"
         ],
         "product_genre": [
           "射击动作",
@@ -35089,7 +35021,7 @@
           "start_seconds": 18.9,
           "duration_seconds": 6,
           "evidence_id": "3804800-M1",
-          "sha256": "1a7d2538d0c00fae8b63dfc7dbd501e9fa52de440c7fbadba899f0791ca85d5c",
+          "sha256": "a49177a6f00bbc929466bd454ce62c5545bf4d8b414d6747631e615973d5a6ca",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -35101,7 +35033,7 @@
           "start_seconds": 34.3,
           "duration_seconds": 6,
           "evidence_id": "3804800-M2",
-          "sha256": "9d46004cdc0e59d388769ae28681dc5fce5c9bbef76daa090ea6d7cc850abf6f",
+          "sha256": "6333596a317c3c328f455812177594685294483ea1fc63d844b9a81295da6575",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -35113,7 +35045,7 @@
           "start_seconds": 49.7,
           "duration_seconds": 6,
           "evidence_id": "3804800-M3",
-          "sha256": "52422f511e36d065dbf2ba1975c1c549bd795f37aa6b193f67778e5f98df3bbd",
+          "sha256": "ba6d97f5d345b5dd1be2483aefb2b1239d22276443ae83196b725655f0f1ba9a",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -35403,7 +35335,7 @@
         "app_secondary": [
           "整体美术方向"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "卡通风"
         ],
@@ -35431,8 +35363,7 @@
           "角色造型"
         ],
         "creative_method": [
-          "形体简化",
-          "对比与重复"
+          "形体简化"
         ],
         "product_genre": [
           "平台动作"
@@ -35630,7 +35561,7 @@
           "start_seconds": 1.09,
           "duration_seconds": 0.8099999999999999,
           "evidence_id": "bowser-M1",
-          "sha256": "f7608ac8e00345c00e97bc5ef080c28a0d5d3f2f58520832ee99572e03fecb9e",
+          "sha256": "19222e08553b706833ccd51f1176caa3cc63ecbb03432ecb1998b4b77ffc4f9d",
           "description": "官方视频片段；循环播放，保留原始画面与运动，不模拟图片动画"
         },
         {
@@ -35745,7 +35676,7 @@
           "start_seconds": 9,
           "duration_seconds": 6,
           "evidence_id": "1055540-M1",
-          "sha256": "10df311ff27529e7eec82df65a8c717f546e21ce50223dc98cb53ab2117e8fd1",
+          "sha256": "c2201f4542ea8a3cc372103130f89f5d7ca0266da179c3ea5955d8159535b87f",
           "description": "沿山路移动与攀高"
         },
         {
@@ -35757,8 +35688,20 @@
           "start_seconds": 29,
           "duration_seconds": 6,
           "evidence_id": "1055540-M2",
-          "sha256": "3a5018b94ab07d596c0782bebef779e9f5feaf28a0b69733a49d405e9770fc63",
+          "sha256": "f8f1c8ab0898e8e471af2397a0f029136987b4d2cd4f5411f46804e97dc8ae2f",
           "description": "滑翔与岛屿高差"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/1055540/motion-3.mp4",
+          "poster": "media/1055540/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/1055540/232619/db12cb0eed3e04cbd8762810eb1046e0b26dfde6/1750610204/hls_264_master.m3u8?t=1562963541",
+          "source_title": "Launch Date Trailer",
+          "start_seconds": 19,
+          "duration_seconds": 6,
+          "evidence_id": "1055540-M3",
+          "description": "官方预告片画面",
+          "sha256": "e897a8a479bcdfc95c61a63d329a480d070531550359149a97debe7155dd7f57"
         },
         {
           "type": "image",
@@ -35811,9 +35754,9 @@
         "app_secondary": [
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
-          "低多边形观感",
+          "低多边形风格",
           "玩具风"
         ],
         "tech_status": "待核实",
@@ -35834,7 +35777,6 @@
         ],
         "creative_method": [
           "形体简化",
-          "尺度反差",
           "功能可视化"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -36047,7 +35989,7 @@
           "start_seconds": 20,
           "duration_seconds": 6,
           "evidence_id": "1092790-M1",
-          "sha256": "c818f070f767f73bade57f9b0decdfd9d71f459affba5734e514370e9ff485a1",
+          "sha256": "d1c56d8d0806d09a144d58831c98e772fb37a4c77e49ec52d4686ca51844354e",
           "description": "桌面卡牌与出牌演出"
         },
         {
@@ -36059,8 +36001,20 @@
           "start_seconds": 37,
           "duration_seconds": 6,
           "evidence_id": "1092790-M2",
-          "sha256": "6117264ba6dd2e056b061e9d8bb1ad80ea51d3a376fe758be05991f71f898b91",
+          "sha256": "64e0ba8bbb496bbd56beca155a98da348994dfc3ec8c286c27c8017338a593b0",
           "description": "木屋调查与局部光照"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/1092790/motion-3.mp4",
+          "poster": "media/1092790/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/1092790/302287/ab0d21c6b888e99deba7fb8ca48e0f34ebba0332/1750618102/hls_264_master.m3u8?t=1597161792",
+          "source_title": "Inscryption - Trailer",
+          "start_seconds": 62,
+          "duration_seconds": 6,
+          "evidence_id": "1092790-M3",
+          "description": "官方预告片画面",
+          "sha256": "3ae58d73d97453f6cb43e7a4ea2ff58968d97d97c2d3df77bd81411f3b1416f8"
         },
         {
           "type": "image",
@@ -36113,10 +36067,8 @@
         "app_secondary": [
           "UI与平面视觉"
         ],
-        "style_main": "混合表现",
-        "style_look": [
-          "复古电子画面感"
-        ],
+        "style_main": "写实与风格化混合",
+        "style_look": [],
         "tech_status": "待核实",
         "form_motion": [
           "未观察动态"
@@ -36149,15 +36101,13 @@
           "低明度"
         ],
         "form_light": [
-          "低调布光",
+          "暗部为主",
           "舞台光"
         ],
         "form_space": [
           "舞台式空间"
         ],
-        "form_medium": [
-          "低清／色偏观感"
-        ]
+        "form_medium": []
       },
       "assessment": {
         "rule_id": "two-dimensions-20261101",
@@ -36353,7 +36303,7 @@
           "start_seconds": 42,
           "duration_seconds": 6,
           "evidence_id": "2638890-M1",
-          "sha256": "8fce19aaf34e472827aaa93133d06efa1f4490721bca8f8351fff930518dc81c",
+          "sha256": "e8b87da8c78f75093a096d60e6bbf55e175e0a4c79d7b6e819a38758473fe015",
           "description": "京都街巷与建筑氛围"
         },
         {
@@ -36365,8 +36315,20 @@
           "start_seconds": 104,
           "duration_seconds": 6,
           "evidence_id": "2638890-M2",
-          "sha256": "d71454c39917f1348cf7edde00fd63f5ebb9ccc45ca6c1d3a6cc1d522ff321aa",
+          "sha256": "7d21863754b2287f1708674c5d844d7b4d44570afab7a5e8de48a313cb72fb0e",
           "description": "剑戟交锋与命中反馈"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/2638890/motion-3.mp4",
+          "poster": "media/2638890/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/2638890/1239377413/231dac227be72d0ce9efb83fe2b54de91f700e58/1788937540/hls_264_master.m3u8?t=1789430727",
+          "source_title": "03_PV7_Multi_TC_None_FullHD",
+          "start_seconds": 68,
+          "duration_seconds": 6,
+          "evidence_id": "2638890-M3",
+          "description": "官方预告片画面",
+          "sha256": "d142184a664e0c09a479729c71d33c78e3aaf8cb213770bf0fb23441eeb1ad28"
         },
         {
           "type": "image",
@@ -36421,7 +36383,7 @@
         ],
         "style_main": "写实倾向",
         "style_look": [
-          "电影摄影感"
+          "电影式构图与布光"
         ],
         "tech_status": "待核实",
         "form_motion": [
@@ -36657,7 +36619,7 @@
           "start_seconds": 13,
           "duration_seconds": 6,
           "evidence_id": "2766910-M1",
-          "sha256": "7ed17c979ed67c610eb91d7ffbb7807e84a736c9b9f8a2a99dda45e36e51b8b1",
+          "sha256": "901f99453180d9608a8635bf77797caa217c7058e560c05ae8977e530cac2958",
           "description": "弹球轨迹与弹幕"
         },
         {
@@ -36669,8 +36631,20 @@
           "start_seconds": 48,
           "duration_seconds": 6,
           "evidence_id": "2766910-M2",
-          "sha256": "86062f9c70870453196fa521c33880be92631deade1ca94470af99d783128c45",
+          "sha256": "e6f6160f789da5f2d2a83bb709f01448216bd11175a90664c0eff828ccd62f9c",
           "description": "下注空间与道具"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/2766910/motion-3.mp4",
+          "poster": "media/2766910/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/2766910/1350159254/7c78ab91a50d1fe1ada6d566fb229be80e49bc88/1787570728/hls_264_master.m3u8?t=1787571594",
+          "source_title": "Launch Trailer",
+          "start_seconds": 30,
+          "duration_seconds": 6,
+          "evidence_id": "2766910-M3",
+          "description": "官方预告片画面",
+          "sha256": "27e7287d35ff7a28268aa0634731ab7491862dab1070f03be9ad5f52f8bd8a5e"
         },
         {
           "type": "image",
@@ -36723,7 +36697,7 @@
         "app_secondary": [
           "游戏视觉交互"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "卡通风"
         ],
@@ -36745,8 +36719,7 @@
           "UI与信息呈现"
         ],
         "creative_method": [
-          "功能可视化",
-          "元素重新组合"
+          "功能可视化"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -36956,7 +36929,7 @@
           "start_seconds": 13,
           "duration_seconds": 6,
           "evidence_id": "2795000-M1",
-          "sha256": "6aa7f978a7ccbdb87f8889958fb3fc18f4352dffa835ceca3c6ff39172e75352",
+          "sha256": "080fa4ae8aaaf3a4b5d7fb287f5247bc4e090df8493baeb1857f912573d40ddc",
           "description": "轴测办公室与清洁路线"
         },
         {
@@ -36968,8 +36941,20 @@
           "start_seconds": 24,
           "duration_seconds": 6,
           "evidence_id": "2795000-M2",
-          "sha256": "9ded9cf8f90bdb9290f4779a27405a9685b054fc8b1a2e84b03b327ffa7c29ed",
+          "sha256": "2abad9d4f9b5532a0ff459814e342d15f67f57d8146be75e83e78e33d6d3ad06",
           "description": "警戒与失控演出"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/2795000/motion-3.mp4",
+          "poster": "media/2795000/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/2795000/690308/9ed6875e0224b162f0de49d359aa48137f1c219d/1750900840/hls_264_master.m3u8?t=1715718904",
+          "source_title": "Gameplay Trailer",
+          "start_seconds": 1,
+          "duration_seconds": 6,
+          "evidence_id": "2795000-M3",
+          "description": "官方预告片画面",
+          "sha256": "98f1dc69b4d3169bb15ced2f2016c21c3b8f351630d0d313bba15849bd1ac4ab"
         },
         {
           "type": "image",
@@ -37022,7 +37007,7 @@
         "app_secondary": [
           "角色设计"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "卡通风"
         ],
@@ -37256,7 +37241,7 @@
           "start_seconds": 10,
           "duration_seconds": 6,
           "evidence_id": "3405340-M1",
-          "sha256": "935bc8ca597eee8c15d8f9927729771a5a47aba088da7400c653a5210061e2d1",
+          "sha256": "a472a77c0b822195d542b3e6b7dabc698d5364130513402125fd5ffa9ee58261",
           "description": "早期跑位与怪潮"
         },
         {
@@ -37268,8 +37253,20 @@
           "start_seconds": 28,
           "duration_seconds": 6,
           "evidence_id": "3405340-M2",
-          "sha256": "caa30076a7170d70b38a3b5fc543f330c760914d635f729b2914152388d3152f",
+          "sha256": "b3d481cccbc9ac2262aca5df515b9a89ec77791a7123891dfd31b4349302e272",
           "description": "进阶攻击与数值反馈"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/3405340/motion-3.mp4",
+          "poster": "media/3405340/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/3405340/812784606/5b46f6fdaa53e5fbc456785234d21932a94fdd14/1758154057/hls_264_master.m3u8?t=1758158530",
+          "source_title": "Megabonk Trailer Launch",
+          "start_seconds": 20,
+          "duration_seconds": 6,
+          "evidence_id": "3405340-M3",
+          "description": "官方预告片画面",
+          "sha256": "c46305b6e12d9ce7201b2714335da5c1fa69b315f6422614f12d3d19fa42a222"
         },
         {
           "type": "image",
@@ -37322,9 +37319,9 @@
         "app_secondary": [
           "角色设计"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
-          "低多边形观感"
+          "低多边形风格"
         ],
         "tech_status": "待核实",
         "form_motion": [
@@ -37498,7 +37495,7 @@
           "start_seconds": 24,
           "duration_seconds": 6,
           "evidence_id": "3470550-M1",
-          "sha256": "9aa67f06369767b20768685d7f9c473f59a9e1873d71e3cd11bc4adb5fcc3dfc",
+          "sha256": "2a3adeb9f655a71bbb2bb2a449c099eb6d16ee606cdaae695ae62aded6960b30",
           "description": "旧物拼贴与变形"
         },
         {
@@ -37510,8 +37507,20 @@
           "start_seconds": 42,
           "duration_seconds": 6,
           "evidence_id": "3470550-M2",
-          "sha256": "1b9d263d9c8ac1f3cc1b2a21cd5af070d14676fd8a611b026de9a433f7fdfe97",
+          "sha256": "2427ffab2e0ac86cf6263d63d6541081780e1e0a3d7cdbd7aa446171455b31be",
           "description": "篝火展示与竞猜"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/3470550/motion-3.mp4",
+          "poster": "media/3470550/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/3470550/1177135669/bcc75ca7f5894a0ff2ddca29dce75ffafb0b3aeb/1785830711/hls_264_master.m3u8?t=1786071634",
+          "source_title": "pv6_EN",
+          "start_seconds": 33,
+          "duration_seconds": 6,
+          "evidence_id": "3470550-M3",
+          "description": "官方预告片画面",
+          "sha256": "c1ae8b4e082c260633a3d7468d7eccc42fff1c17a59e4fa70037aa64bbff8f7b"
         },
         {
           "type": "image",
@@ -37564,7 +37573,7 @@
         "app_secondary": [
           "道具资产"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "手工艺风"
         ],
@@ -37586,7 +37595,6 @@
         ],
         "creative_method": [
           "材质迁移",
-          "元素重新组合",
           "视觉隐喻"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -37798,7 +37806,7 @@
           "start_seconds": 60,
           "duration_seconds": 6,
           "evidence_id": "3669870-M1",
-          "sha256": "784e9b6120c8da6c37ae8fca551796af7e18cd4f3556523eae7f2659b958f9f7",
+          "sha256": "76ff948379b788c9fa78769983af9aa336aeea1a32a1d3cd4e2149002c6fbf1f",
           "description": "重力异常与空间翻转"
         },
         {
@@ -37810,8 +37818,20 @@
           "start_seconds": 136,
           "duration_seconds": 6,
           "evidence_id": "3669870-M2",
-          "sha256": "c6a40330ea73be9c5d00940cfa663039f6dfb427bb69122fe129f624b42a56e6",
+          "sha256": "a3db1034bf65aae0c61d1e9c663db16ac12c03014937cf5ba1f726b4451736e3",
           "description": "异常街区里的战斗反馈"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/3669870/motion-3.mp4",
+          "poster": "media/3669870/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/3669870/2055822377/0a972f9696c444c721696c6c13f9da50509a12ee/1770968744/hls_264_master.m3u8?t=1770973945",
+          "source_title": "GAMEPLAY TRAILER EN",
+          "start_seconds": 88,
+          "duration_seconds": 6,
+          "evidence_id": "3669870-M3",
+          "description": "官方预告片画面",
+          "sha256": "54a8b112cd7f88358923ce2d15e5dcd2af081494b32e3fcebe3be1efe115a0b8"
         },
         {
           "type": "image",
@@ -37866,8 +37886,7 @@
         ],
         "style_main": "写实倾向",
         "style_look": [
-          "电影摄影感",
-          "照片级真实感"
+          "电影式构图与布光"
         ],
         "tech_status": "部分已核实",
         "form_motion": [
@@ -37892,8 +37911,7 @@
         ],
         "creative_method": [
           "空间错位",
-          "日常与异常并置",
-          "尺度反差"
+          "日常与异常并置"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -38126,7 +38144,7 @@
           "start_seconds": 8,
           "duration_seconds": 6,
           "evidence_id": "3934250-M1",
-          "sha256": "707ee310921a9f05df910cab8451a1573e2ad13794d0a9d27e6d3c96936b94f5",
+          "sha256": "04a9452f0e4daafa06336d55436cec6bca4dd2a9e03b0ae35dc5e57948493d67",
           "description": "田地与乡村日常"
         },
         {
@@ -38138,8 +38156,20 @@
           "start_seconds": 72,
           "duration_seconds": 6,
           "evidence_id": "3934250-M2",
-          "sha256": "73c033c7d0a621b57cc805b92b326ab237f23ec4f6cac701ca724a019d658350",
+          "sha256": "f512d81202936b4269a4b86f47a84298ac3652e1298065a43b37a43ec2434394",
           "description": "夜间规则与氛围变化"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/3934250/motion-3.mp4",
+          "poster": "media/3934250/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/3934250/559930801/926904dfcff188376dbf8605c5fbd05d0bcbfd83/1793046855/hls_264_master.m3u8?t=1793105748",
+          "source_title": "English Launch",
+          "start_seconds": 32,
+          "duration_seconds": 6,
+          "evidence_id": "3934250-M3",
+          "description": "官方预告片画面",
+          "sha256": "e81b3e6cd4cd60c93273c5dbcaf1f42deedfb9f8ff82c66d58133f940cbfbb8c"
         },
         {
           "type": "image",
@@ -38192,7 +38222,7 @@
         "app_secondary": [
           "场景环境"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "插画／绘本风"
         ],
@@ -38426,7 +38456,7 @@
           "start_seconds": 14,
           "duration_seconds": 6,
           "evidence_id": "3948120-M1",
-          "sha256": "55da773f7b25d18c94ed67fe99eaa2807b85d8a74d3aed5ed89fa837f6ee1b37",
+          "sha256": "290b793a6ce6fab216e30212d0f05daebd331f4e69c38f12a25d142003aece6d",
           "description": "刮票与图案揭晓"
         },
         {
@@ -38438,8 +38468,20 @@
           "start_seconds": 52,
           "duration_seconds": 6,
           "evidence_id": "3948120-M2",
-          "sha256": "f4b85340ed04a03086d791a2eb273f9e4e56b9a814232c088f9fdf974ab0f726",
+          "sha256": "466f8feacb02d66a3a59d60d46d19ae140a2e1af039b33e7a3c580abc6ed2ba8",
           "description": "工具升级与奖励效果"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/3948120/motion-3.mp4",
+          "poster": "media/3948120/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/3948120/467252375/cd5a0431ff55e6b8caa4c3afcef1acc458d29fe3/1773814779/hls_264_master.m3u8?t=1773822558",
+          "source_title": "Launch Trailer",
+          "start_seconds": 31,
+          "duration_seconds": 6,
+          "evidence_id": "3948120-M3",
+          "description": "官方预告片画面",
+          "sha256": "96f73c73bcf67a6c5b32babb8856d2fae58d0a85b68cd9b269e51684a0b0551f"
         },
         {
           "type": "image",
@@ -38492,7 +38534,7 @@
         "app_secondary": [
           "UI与平面视觉"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "像素风"
         ],
@@ -38527,9 +38569,7 @@
         "form_space": [
           "高信息密度"
         ],
-        "form_medium": [
-          "像素外观"
-        ]
+        "form_medium": []
       },
       "assessment": {
         "rule_id": "two-dimensions-20261101",
@@ -38682,7 +38722,7 @@
           "start_seconds": 15,
           "duration_seconds": 6,
           "evidence_id": "4108000-M1",
-          "sha256": "75b2c7a0668e83f5c9fbcda7173afd32defa0befac914544a6b634c5d2b3083e",
+          "sha256": "a778d5584ffee1e0dcf4e205ba0305f7279cf3013793134b8fbb74a57c27c48d",
           "description": "设施空间与回合规则"
         },
         {
@@ -38694,8 +38734,20 @@
           "start_seconds": 47,
           "duration_seconds": 6,
           "evidence_id": "4108000-M2",
-          "sha256": "4c518d09451ed34e0e6b9753d4aed5b933b19cf5680e9474502989d457752cab",
+          "sha256": "50b5918659715f8b4c921766a13fc31bd08d1b36ff38f199d51bc744829fbd59",
           "description": "多人回合与失败演出"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/4108000/motion-3.mp4",
+          "poster": "media/4108000/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/4108000/81551079/ae9d6b148d4e75c0e61c5508e99e676852991401/1785412649/hls_264_master.m3u8?t=1785413491",
+          "source_title": "Machine Party | Available Now Trailer",
+          "start_seconds": 31,
+          "duration_seconds": 6,
+          "evidence_id": "4108000-M3",
+          "description": "官方预告片画面",
+          "sha256": "a01df3c853c23b70b47863d5579a53a9d2209137c4b609e6a98122019aff474f"
         },
         {
           "type": "image",
@@ -38750,7 +38802,7 @@
         ],
         "style_main": "写实倾向",
         "style_look": [
-          "复古影像观感"
+          "复古录像风"
         ],
         "tech_status": "待核实",
         "form_motion": [
@@ -38780,14 +38832,12 @@
           "低明度"
         ],
         "form_light": [
-          "低调布光"
+          "暗部为主"
         ],
         "form_space": [
           "低信息密度"
         ],
-        "form_medium": [
-          "低清／色偏观感"
-        ]
+        "form_medium": []
       },
       "assessment": {
         "rule_id": "two-dimensions-20261101",
@@ -38972,7 +39022,7 @@
           "start_seconds": 47,
           "duration_seconds": 6,
           "evidence_id": "4115450-M1",
-          "sha256": "42439411186efc8b3bfee6fb9f27bbac24cccaadb4eb7a1b19df347f8b001a3f",
+          "sha256": "83197932eaac409b9299ff9d39f0d803d6947dd56dc077015090a83f1d97cbb2",
           "description": "近身交锋与敌人姿态"
         },
         {
@@ -38984,8 +39034,20 @@
           "start_seconds": 248,
           "duration_seconds": 6,
           "evidence_id": "4115450-M2",
-          "sha256": "ede69c2a68e8f069008c3fbc93527e90424663e88666e07a675b81a38a440e8c",
+          "sha256": "fae5c82dad81471cf9485f25bde920ac64bf6ba5f135080fe7e648af78cc855f",
           "description": "强敌招式与火光环境"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/4115450/motion-3.mp4",
+          "poster": "media/4115450/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/4115450/2061584490/a70ec30e56624f05d2b4d6c30f172031c6e09121/1765775351/hls_264_master.m3u8?t=1765779154",
+          "source_title": "Phantom Blade Zero - Year of the Snake Gameplay Trailer",
+          "start_seconds": 118,
+          "duration_seconds": 6,
+          "evidence_id": "4115450-M3",
+          "description": "官方预告片画面",
+          "sha256": "f32f425fbc3b7ea3f3aacba263d38938e9e486bc779336fca355c36984861e06"
         },
         {
           "type": "image",
@@ -39040,7 +39102,7 @@
         ],
         "style_main": "写实倾向",
         "style_look": [
-          "电影摄影感"
+          "电影式构图与布光"
         ],
         "tech_status": "部分已核实",
         "form_motion": [
@@ -39062,7 +39124,6 @@
           "整体视觉系统"
         ],
         "creative_method": [
-          "元素重新组合",
           "风格反差"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -39293,7 +39354,7 @@
           "start_seconds": 31,
           "duration_seconds": 6,
           "evidence_id": "499170-M1",
-          "sha256": "39b4598a3f9de20b2a0481f0ee7e4c7d66e6811dca694c2aafd47a50e138808c",
+          "sha256": "35964a628d6668f667a10938d93ceeb8467670d793e3ce9315f5eab17f1093a4",
           "description": "关卡格网与角色交互"
         },
         {
@@ -39305,8 +39366,20 @@
           "start_seconds": 96,
           "duration_seconds": 6,
           "evidence_id": "499170-M2",
-          "sha256": "92e046d888f8d6d49f48478e9fc220c91e46db8822f0019cce4135be65819c63",
+          "sha256": "6937cf946b6cec4c26f717978805d15eed400baa141703db2899851eaf3ad343",
           "description": "机关、颜色和空间关系"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/499170/motion-3.mp4",
+          "poster": "media/499170/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/499170/1971892670/627b67fe2831cbd145b18f66a08e02b4a6ba2a8f/1778802047/hls_264_master.m3u8?t=1778803561",
+          "source_title": "Order of the Sinking Star - Overview Trailer",
+          "start_seconds": 74,
+          "duration_seconds": 6,
+          "evidence_id": "499170-M3",
+          "description": "官方预告片画面",
+          "sha256": "5f41150f6b53325fbebbee8a043daeb8bf4470d250c767688d5c126a58ed6a1c"
         },
         {
           "type": "image",
@@ -39359,9 +39432,9 @@
         "app_secondary": [
           "游戏视觉交互"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
-          "低多边形观感"
+          "低多边形风格"
         ],
         "tech_status": "待核实",
         "form_motion": [
@@ -39384,7 +39457,6 @@
         ],
         "creative_method": [
           "功能可视化",
-          "视觉规则参与玩法",
           "符号重复与变奏"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -39596,7 +39668,7 @@
           "start_seconds": 7,
           "duration_seconds": 6,
           "evidence_id": "5053820-M1",
-          "sha256": "4ae45495576b0e16c77e467f35ac8104268d06c7881954bff25f0e9df6e7c22b",
+          "sha256": "9279c669557fe0a4dae5d37559b2abe84f848a39978235dbf387c9db0a284b13",
           "description": "派对舞台与玩家位置"
         },
         {
@@ -39608,8 +39680,20 @@
           "start_seconds": 18,
           "duration_seconds": 6,
           "evidence_id": "5053820-M2",
-          "sha256": "4c67356ca1b1bbc69b8a861eaf397dae7aa071fa7ee9f6afe5416561c2da15c8",
+          "sha256": "b5f4c18e74d4ca461401fde77d9e93fc5acda759f78b67c4534d53402cea2ba0",
           "description": "录音回放与评分"
+        },
+        {
+          "type": "video",
+          "local_asset": "media/5053820/motion-3.mp4",
+          "poster": "media/5053820/motion-3.jpg",
+          "url": "https://video.akamai.steamstatic.com/store_trailers/5053820/352844902/5a74ecb159f2211e0dda7483b4a6c11303282b30/1787559917/hls_264_master.m3u8?t=1787561212",
+          "source_title": "Trailer",
+          "start_seconds": 26,
+          "duration_seconds": 6,
+          "evidence_id": "5053820-M3",
+          "description": "官方预告片画面",
+          "sha256": "44a5256606e549590054aba53c12078f1ae9fd006ac0c9c4396af1a9050ffc85"
         },
         {
           "type": "image",
@@ -39662,7 +39746,7 @@
         "app_secondary": [
           "UI与平面视觉"
         ],
-        "style_main": "风格化具象",
+        "style_main": "风格化",
         "style_look": [
           "玩具风"
         ],
@@ -39804,10 +39888,10 @@
   "content_archived_count": 69,
   "formal_approved_count": 0,
   "classification_version": "2.0",
-  "updated_date": "2026-11-11",
+  "updated_date": "2026-11-12",
   "visual_asset_count": 497,
   "filter_taxonomy": {
-    "version": "2.0",
+    "version": "2.1",
     "policy": "固定词表；同一子类内多选为或，不同子类之间为且。未知标签拒绝进入筛选；具体对象和活动仅供搜索；技术分类须有来源。",
     "dimensions": [
       {
@@ -39845,9 +39929,9 @@
             ],
             "options": [
               "写实倾向",
-              "风格化具象",
-              "非具象抽象",
-              "混合表现"
+              "风格化",
+              "抽象",
+              "写实与风格化混合"
             ],
             "id": "d2g1"
           },
@@ -39857,9 +39941,7 @@
               "style_look"
             ],
             "options": [
-              "照片级真实感",
-              "电影摄影感",
-              "纪实影像感",
+              "电影式构图与布光",
               "卡通风",
               "动漫风",
               "漫画风",
@@ -39869,11 +39951,9 @@
               "玩具风",
               "手工艺风",
               "像素风",
-              "极简化表现",
-              "迷幻视觉",
-              "复古电子画面感",
-              "低多边形观感",
-              "复古影像观感"
+              "极简风",
+              "低多边形风格",
+              "复古录像风"
             ],
             "id": "d2g2"
           }
@@ -39957,8 +40037,7 @@
               "修长比例",
               "写实比例",
               "夸张变形",
-              "非对称",
-              "形体层级"
+              "非对称"
             ],
             "id": "d4g1"
           },
@@ -40005,8 +40084,8 @@
               "form_light"
             ],
             "options": [
-              "高调布光",
-              "低调布光",
+              "亮部为主",
+              "暗部为主",
               "逆光",
               "轮廓光",
               "柔光",
@@ -40087,11 +40166,8 @@
               "素描观感",
               "拼贴观感",
               "剪纸观感",
-              "像素外观",
               "漫画分格",
-              "文字主导",
-              "照片观感",
-              "低清／色偏观感"
+              "文字主导"
             ],
             "id": "d4g7"
           },
@@ -40107,7 +40183,6 @@
               "定格感",
               "节奏同步",
               "流体形变",
-              "实时变形",
               "镜头节奏变化"
             ],
             "id": "d4g8"
@@ -40195,7 +40270,7 @@
               "梦幻",
               "神秘",
               "空灵",
-              "奇诡",
+              "怪诞",
               "孤独",
               "荒凉",
               "疏离",
@@ -40203,12 +40278,11 @@
               "紧张",
               "不安",
               "压迫",
-              "恐惧",
+              "恐怖",
               "悲伤",
               "热血",
               "震撼",
-              "荒诞",
-              "怪诞"
+              "荒诞"
             ],
             "id": "d6g1"
           }
@@ -40225,9 +40299,7 @@
               "creative_method"
             ],
             "options": [
-              "元素重新组合",
               "日常与异常并置",
-              "尺度反差",
               "比例夸张",
               "形体简化",
               "形体变异",
@@ -40242,9 +40314,7 @@
               "视觉隐喻",
               "功能可视化",
               "信息融入世界",
-              "动态变形",
-              "视觉规则参与玩法",
-              "对比与重复"
+              "动态变形"
             ],
             "id": "d7g2"
           }
@@ -40285,7 +40355,7 @@
         "description": "可借鉴的产品类型，仅为应用假设，并非商业验证。"
       }
     ],
-    "date": "2026-11-10"
+    "date": "2026-11-12"
   },
   "semantic_admission_rule": {
     "version": "2026-11-10-semantic-v2",
