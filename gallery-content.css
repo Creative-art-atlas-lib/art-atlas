@@ -84,7 +84,7 @@ html:has(.collection){scrollbar-gutter:stable}
 .detail--case .case-tech-date{font-size:16px;line-height:1.65}
 
 /* Taxonomy v2: separate dimensions, subgroups and selectable categories. */
-.filters .taxonomy-help{font-size:12px;line-height:1.7;color:#666;padding:0 0 16px}
+.filters .taxonomy-help{font-size:12px;line-height:1.7;color:#666;padding:8px 0 16px}
 .filters .filters__body__elem ul .taxonomy-description{font-size:12px;line-height:1.7;color:#666;padding:8px 0 6px;list-style:none}
 .filters .filters__body__elem ul .taxonomy-group{font-size:12px;font-weight:700;letter-spacing:.04em;padding:16px 0 6px;border-top:1px solid #ddd;margin-top:10px;list-style:none}
 .filters .filters__body__elem ul label{display:flex;justify-content:space-between;gap:12px;line-height:1.6}
