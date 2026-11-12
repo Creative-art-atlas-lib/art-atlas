@@ -15008,7 +15008,9 @@
         "form_motion": [
           "未观察动态"
         ],
-        "theme": [],
+        "theme": [
+          "都市日常"
+        ],
         "mood": [
           "神秘",
           "轻松"
@@ -32173,7 +32175,9 @@
           "角色设计"
         ],
         "style_main": "写实倾向",
-        "style_look": [],
+        "style_look": [
+          "电影摄影感"
+        ],
         "tech_status": "待核实",
         "form_shape": [
           "形体层级"
