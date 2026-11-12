@@ -199,7 +199,7 @@
               h('span',{class:'case-release'},c.release_stage?.label||'上线状态待核查'),
               ...(c.semantic_review?.status!=='complete' && !isPartialImport(c) && !c.youtube_review?[h('span',{class:['semantic-badge','semantic-pending']},reviewLabel(c))]:[]),
               ...(c.youtube_review?[h('span',{class:'semantic-metric'},'美术相关 '+c.youtube_review.totals.related.toLocaleString('zh-CN')+' 条 · 纯正向 '+(100*c.youtube_review.totals.positive/c.youtube_review.totals.related).toFixed(2)+'%（视频评论抽样）')]:[]),
-              ...(reviewMetric(c)?[h('span',{class:'semantic-metric'},reviewMetric(c))]:[])
+              ...(reviewMetric(c)?[h('span',{class:'semantic-metric'},reviewMetric(c).split(' · 美术相关中纯正向 ').flatMap((part,i)=>i?[h('br'),'美术相关中纯正向 '+part]:[part]))]:[])
             ]);
           }
         });
