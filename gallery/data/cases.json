@@ -281,9 +281,9 @@
         ]
       },
       "editorial_review": {
-        "observation": "从空地搭起墙、塔和屋顶时，建筑会随摆放关系改变细节，植被、窗灯和昼夜光线再把结构融进地景。搭建过程和观赏成品共用一套柔和的建筑语言。",
-        "comment": "它的价值在于让搭建工具持续维护微缩景观的完整感。适合参考建筑连接处如何补足细节，以及灯光怎样在不改变结构的情况下重塑同一地点。",
-        "transfer": "用于家园、城建编辑器和截图展示：先控制体块层级，再让装饰依附结构自动补足细节。",
+        "observation": "玩家在空地上搭墙、塔和屋顶，接在一起的地方会随摆放方式变化。植物和窗灯让房子看起来像是长在这片地形里的。",
+        "comment": "墙、屋顶和小装饰接在一起，很容易搭出一座像微缩模型的小镇。同一栋房子换一换光线，白天和夜晚就有不同的味道。",
+        "transfer": "做建造工具时，可以让墙和屋顶先顺利接上，再按摆放位置自动补上窗沿、藤蔓之类的小装饰。",
         "limitations": "截图可支持形体与光色判断；自动细节的具体生成技术及搭建体验需另行测试。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -572,7 +572,13 @@
           "highlight_excerpts": [
             "好看"
           ],
-          "full_text_sha256": "f2aedcbd1c742e2b312585329b19a0df71a53188b6790b0760ae4f6320af85cb"
+          "full_text_sha256": "f2aedcbd1c742e2b312585329b19a0df71a53188b6790b0760ae4f6320af85cb",
+          "highlight_ranges": [
+            [
+              0,
+              2
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -583,7 +589,13 @@
           "highlight_excerpts": [
             "画风很治愈"
           ],
-          "full_text_sha256": "56de3745f68d72753ce477241bb735bc901d2ff52e9e8fdc763757fd2f96729c"
+          "full_text_sha256": "56de3745f68d72753ce477241bb735bc901d2ff52e9e8fdc763757fd2f96729c",
+          "highlight_ranges": [
+            [
+              0,
+              5
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -594,7 +606,13 @@
           "highlight_excerpts": [
             "很唯美的游戏"
           ],
-          "full_text_sha256": "99eeec7e6ceec4d5a989bafac89894e4003f6ac60a11711c52d317349f950f63"
+          "full_text_sha256": "99eeec7e6ceec4d5a989bafac89894e4003f6ac60a11711c52d317349f950f63",
+          "highlight_ranges": [
+            [
+              0,
+              6
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -603,9 +621,15 @@
           "review_id": "176090573",
           "full_text": "每天涂十分钟，解压的美丽小废物",
           "highlight_excerpts": [
-            "每天涂十分钟，解压的美丽小废物"
+            "美丽小废物"
           ],
-          "full_text_sha256": "1ea6541a01763c416763e04153658cad4cd2b34a4ca1465b5fa0329adad23bdd"
+          "full_text_sha256": "1ea6541a01763c416763e04153658cad4cd2b34a4ca1465b5fa0329adad23bdd",
+          "highlight_ranges": [
+            [
+              10,
+              15
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -614,9 +638,15 @@
           "review_id": "176581376",
           "full_text": "好可愛，中世纪风情令我代暈了。",
           "highlight_excerpts": [
-            "好可愛，中世纪风情令我代暈了。"
+            "中世纪风情令我代暈了"
           ],
-          "full_text_sha256": "34e263c58f05cb1495e1d449e903823e8ed3baff6d576a2ec47d962148209430"
+          "full_text_sha256": "34e263c58f05cb1495e1d449e903823e8ed3baff6d576a2ec47d962148209430",
+          "highlight_ranges": [
+            [
+              4,
+              14
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -947,8 +977,8 @@
       },
       "editorial_review": {
         "observation": "从局部传送带到跨平台工厂，产品的几何外形与颜色一路随切割、组合、运输发生变化；视角拉远后，设备和流向仍能被读成生产网络。",
-        "comment": "抽象造型让复杂生产关系可以被跟踪。对物流和建造游戏，最值得借鉴的是让物料、设备、路线在不同缩放层级延续同一套识别规则。",
-        "transfer": "用于自动化、物流和策略地图：让物料形状、色彩及流程节点一一对应，并区分近景操作与全局总览。",
+        "comment": "放大能看清物料怎么进出机器，缩小也能顺着传送带找到整条产线。做工厂游戏时，可以让物料的形状和颜色在远近两个视角里都容易认。",
+        "transfer": "在近景测试能不能看懂一台机器，在远景测试能不能顺着传送带找到整条产线。",
         "limitations": "高密度线路在运动和缩放下是否可读，尚需动态验证。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -1229,9 +1259,15 @@
           "review_id": "172382045",
           "full_text": "比一代画面舒服太多了,立体布局支持更复杂的工厂设计,还有奶奶都能看懂的新手教程,总之我目前玩了三个小时还没发现什么缺点.神",
           "highlight_excerpts": [
-            "比一代画面舒服太多了,立体布局支持更复杂的工厂设计,还有奶奶都能看懂的新手教程,总之我目前玩了三个小时还没发现什么缺点.神"
+            "比一代画面舒服太多了"
           ],
-          "full_text_sha256": "6cd69503a7b82cd171ae21446e99809d605fa8efff1e0deb857cc30c9a9c8d7a"
+          "full_text_sha256": "6cd69503a7b82cd171ae21446e99809d605fa8efff1e0deb857cc30c9a9c8d7a",
+          "highlight_ranges": [
+            [
+              0,
+              10
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -1240,9 +1276,15 @@
           "review_id": "175547527",
           "full_text": "很纯粹的流水线建造类游戏，原料无限，你只需要专注于优化你的产线，二代比一代精美，也更加易懂上手，难度比较简单，目前4分图形6分图形全通，希望后续更新丰富内容把！",
           "highlight_excerpts": [
-            "很纯粹的流水线建造类游戏，原料无限，你只需要专注于优化你的产线，二代比一代精美，也更加易懂上手，难度比较简单，目前4分图形6分图形全通，希望后续更新丰富内容把！"
+            "二代比一代精美"
           ],
-          "full_text_sha256": "4742342bcd5eb55d75fe05b2b7916e492b50e25be998ffa11a71cb221abe5eab"
+          "full_text_sha256": "4742342bcd5eb55d75fe05b2b7916e492b50e25be998ffa11a71cb221abe5eab",
+          "highlight_ranges": [
+            [
+              32,
+              39
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -1251,9 +1293,15 @@
           "review_id": "176702372",
           "full_text": "自动化游戏标杆\r\n美术精美，耐看，这对一个需要长时间泡在里面的游戏来说很重要\r\n自动化方面更不用说，前代便是神中神\r\n这代对传送带有一些优化，操作便捷也能更快达到自己想要的结果",
           "highlight_excerpts": [
-            "自动化游戏标杆\r\n美术精美，耐看，这对一个需要长时间泡在里面的游戏来说很重要\r\n自动化方面更不用说，前代便是神中神\r\n这代对传送带有一些优化，操作便捷也能更快达到自己想要的结果"
+            "美术精美，耐看"
           ],
-          "full_text_sha256": "daba6f7467ea3f2e37bcc0be773f0a608b3202c8643c602304bf0501fb1e39eb"
+          "full_text_sha256": "daba6f7467ea3f2e37bcc0be773f0a608b3202c8643c602304bf0501fb1e39eb",
+          "highlight_ranges": [
+            [
+              9,
+              16
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -1591,8 +1639,8 @@
       },
       "editorial_review": {
         "observation": "推销员在小镇串门、接杂活，游戏在俯视街区和侧视小段落间切换。人物比例、道具尺度与弹性的手绘动作贯穿这两种视角，随动作不断制造笑点。",
-        "comment": "本作把小镇喜剧建立在统一的夸张尺度上。值得借鉴如何让场景陈设、人物反应和可操作的笑料来自同一套造型规则。",
-        "transfer": "用于喜剧叙事和轻冒险：固定一套夸张规则，再将其扩展到角色、物件和空间关系。",
+        "comment": "夸张的表情、街上的摆设和能碰的东西一起制造笑点。做喜剧游戏时，可以先想清楚一件东西怎么让人发笑，再决定它的样子和玩家能怎么碰它。",
+        "transfer": "给人物、道具和场景定一套相近的夸张幅度，例如让人物的反应和道具的尺寸都大一点。",
         "limitations": "英国地域文化梗的理解依赖语境，借用造型规则时需重建本土生活细节。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -1902,7 +1950,13 @@
           "highlight_excerpts": [
             "角色设计也很有趣"
           ],
-          "full_text_sha256": "fe9d1a48ea79ea49cec1ef2c386aab234f6c2d374228719b685d0b329b81d410"
+          "full_text_sha256": "fe9d1a48ea79ea49cec1ef2c386aab234f6c2d374228719b685d0b329b81d410",
+          "highlight_ranges": [
+            [
+              116,
+              124
+            ]
+          ]
         },
         {
           "review_id": "188716049",
@@ -1915,7 +1969,13 @@
           "highlight_excerpts": [
             "畫風很棒"
           ],
-          "full_text_sha256": "21f3b56db29671f52856f67059f1d68cf29703b2c191ea4c30ce082a85c558e0"
+          "full_text_sha256": "21f3b56db29671f52856f67059f1d68cf29703b2c191ea4c30ce082a85c558e0",
+          "highlight_ranges": [
+            [
+              12,
+              16
+            ]
+          ]
         },
         {
           "review_id": "189334822",
@@ -1926,9 +1986,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "畫風.玩法.劇情都很幽默，很不錯",
           "highlight_excerpts": [
-            "畫風.玩法.劇情都很幽默"
+            "畫風"
           ],
-          "full_text_sha256": "6671bcb9f23b2f3bf89e71ce52fc8c3e85f8e76b6be181850aa6335ca7ba5940"
+          "full_text_sha256": "6671bcb9f23b2f3bf89e71ce52fc8c3e85f8e76b6be181850aa6335ca7ba5940",
+          "highlight_ranges": [
+            [
+              0,
+              2
+            ]
+          ]
         },
         {
           "review_id": "231274992",
@@ -1941,7 +2007,13 @@
           "highlight_excerpts": [
             "画风实在太可爱了，动画量超大"
           ],
-          "full_text_sha256": "17d4aefbd6ac4338d88b5c955ad3d19b0723424c36e9a77cd5892792b0b3e98d"
+          "full_text_sha256": "17d4aefbd6ac4338d88b5c955ad3d19b0723424c36e9a77cd5892792b0b3e98d",
+          "highlight_ranges": [
+            [
+              0,
+              14
+            ]
+          ]
         },
         {
           "review_id": "178442994",
@@ -1954,7 +2026,13 @@
           "highlight_excerpts": [
             "精美的动画"
           ],
-          "full_text_sha256": "6e748fca3fc2ad13a1985677e60395836312e65e6bf6f96dfe3e374816094355"
+          "full_text_sha256": "6e748fca3fc2ad13a1985677e60395836312e65e6bf6f96dfe3e374816094355",
+          "highlight_ranges": [
+            [
+              107,
+              112
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -2286,8 +2364,8 @@
       },
       "editorial_review": {
         "observation": "逐层冲刺和近距离击杀构成高速循环，厚轮廓、亮色切块与近景武器贯穿关卡。击中特写、爆炸和倒计时界面用近似复古动画的图形强调节拍。",
-        "comment": "它将动画式的夸张压进射击反馈。可参考在高密度色彩下如何让敌人、武器和计时信息保持视觉优先级。",
-        "transfer": "用于风格化射击与战斗宣传：先建立武器、敌人、环境和UI共享的色彩层级，再组织关键反馈。",
+        "comment": "画面到处都是鲜艳的颜色，打起来仍能分清敌人、武器和倒计时。做类似的射击游戏时，可以把最抢眼的颜色留给玩家必须马上看到的东西。",
+        "transfer": "把敌人、武器和界面放到同一张战斗截图里检查，看最亮的东西是不是玩家最需要看到的。",
         "limitations": "高饱和爆炸和文字可能争夺注意力；可读性与眩光风险需实机测试。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -2567,7 +2645,14 @@
           "highlight_excerpts": [
             "Art style and general aesthetics of the game are great"
           ],
-          "full_text_sha256": "aee098b72721aeb2f84ceea7909e9fba38f05f4de46de34fbbeed2bef176b51f"
+          "full_text_sha256": "aee098b72721aeb2f84ceea7909e9fba38f05f4de46de34fbbeed2bef176b51f",
+          "highlight_ranges": [
+            [
+              106,
+              160
+            ]
+          ],
+          "highlight_translation_zh": "游戏的美术风格和整体美学都很棒。"
         },
         {
           "review_id": "168406253",
@@ -2580,7 +2665,13 @@
           "highlight_excerpts": [
             "我个人很喜欢这种画风"
           ],
-          "full_text_sha256": "e88c14d6b6e3c45cc69db2ce4709e8245119a899ec7086b458095fa28a3393ce"
+          "full_text_sha256": "e88c14d6b6e3c45cc69db2ce4709e8245119a899ec7086b458095fa28a3393ce",
+          "highlight_ranges": [
+            [
+              113,
+              123
+            ]
+          ]
         },
         {
           "review_id": "230124218",
@@ -2593,7 +2684,13 @@
           "highlight_excerpts": [
             "复古未来（风味90s）的表皮所吸引"
           ],
-          "full_text_sha256": "7e284e3c7a2c332aa75640f1f9d26ee09d9929c87980f4c107685f05bf91b1ff"
+          "full_text_sha256": "7e284e3c7a2c332aa75640f1f9d26ee09d9929c87980f4c107685f05bf91b1ff",
+          "highlight_ranges": [
+            [
+              12,
+              29
+            ]
+          ]
         },
         {
           "review_id": "165459729",
@@ -2606,7 +2703,13 @@
           "highlight_excerpts": [
             "画面风格倒是挺讨巧"
           ],
-          "full_text_sha256": "ba78e1d3b397632885b83c5b015a8136d9f3ded14e50f5dadba50eb0b1bdb3a9"
+          "full_text_sha256": "ba78e1d3b397632885b83c5b015a8136d9f3ded14e50f5dadba50eb0b1bdb3a9",
+          "highlight_ranges": [
+            [
+              18,
+              27
+            ]
+          ]
         },
         {
           "review_id": "165602504",
@@ -2619,7 +2722,13 @@
           "highlight_excerpts": [
             "霓虹配色赛璐璐"
           ],
-          "full_text_sha256": "c7e6e742cd48359bf256c954b7760f664401c50a561ba397293958be757b2d96"
+          "full_text_sha256": "c7e6e742cd48359bf256c954b7760f664401c50a561ba397293958be757b2d96",
+          "highlight_ranges": [
+            [
+              20,
+              27
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -2956,8 +3065,8 @@
       },
       "editorial_review": {
         "observation": "玩家在旅途中走地图、查看手牌并用骰子改变数值。背景、卡面和地图共享纸面底色与手绘线，数字和骰面保留清晰轮廓，便于读规则变化。",
-        "comment": "最有参考价值的是让手绘世界和卡牌计算保持一体感。功能信息可以借用冒险日志和桌面物件的材料语言，同时保留数字层级。",
-        "transfer": "用于卡牌、桌游改编和冒险日志：统一纸面、描线与图标的材料语法，使功能面板成为世界中的物件。",
+        "comment": "卡牌和桌面物件都有手绘质感，重要数字仍然看得清。做成桌游或冒险笔记的样子时，可以让纸张和手绘线条负责气氛，给数字留出干净的地方。",
+        "transfer": "给卡牌做旧纸边和手绘图标时，把点数周围留空，免得纹理盖过数字。",
         "limitations": "外观像纸张不等于真实扫描素材；制作管线不从截图推断。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -3242,9 +3351,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "手绘画风好看极了。防御加盾安全感很足。刚玩一局打60分钟感觉时间好长啊。小怪在卡组小有成型之后都是秒杀，怪物特性不是很突出。",
           "highlight_excerpts": [
-            "手绘画风好看极了。防御加盾安全感很足。刚玩一局打60分钟感觉时间好长啊。小怪在卡组小有成型之后都是秒杀，怪物特性不是很突出。"
+            "手绘画风好看极了"
           ],
-          "full_text_sha256": "e803c506a630c3559f5a379161c8a74dc67783fe51450132a880a6af1a9d3a71"
+          "full_text_sha256": "e803c506a630c3559f5a379161c8a74dc67783fe51450132a880a6af1a9d3a71",
+          "highlight_ranges": [
+            [
+              0,
+              8
+            ]
+          ]
         },
         {
           "review_id": "185112086",
@@ -3255,9 +3370,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "大就是好！\r\n说真的，创意而言绝对是一等一的，美术画风也相当有诚意，玩梗也恰到好处，绝对是小品游戏里的上佳作。",
           "highlight_excerpts": [
-            "大就是好！\r\n说真的，创意而言绝对是一等一的，美术画风也相当有诚意，玩梗也恰到好处，绝对是小品游戏里的上佳作。"
+            "美术画风也相当有诚意"
           ],
-          "full_text_sha256": "4d5681409f8d75b4e5924486588536dbe3d211f939a65581f6bfa71c537bdc61"
+          "full_text_sha256": "4d5681409f8d75b4e5924486588536dbe3d211f939a65581f6bfa71c537bdc61",
+          "highlight_ranges": [
+            [
+              23,
+              33
+            ]
+          ]
         },
         {
           "review_id": "177412674",
@@ -3268,9 +3389,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "喜欢：画风，游戏模式新奇，职业种类多\n\n不喜欢：卡牌种类、遗物种类、小怪种类和boss种类太少，没有无尽模式，我终于无敌之后游戏也快结束了，导致我无法测试我卡牌的上限和虐小怪的快感，让我有很强烈的失落感\n\n建议：先把无尽模式出了，然后陆续把敌人种类遗物种类增加",
           "highlight_excerpts": [
-            "喜欢：画风，游戏模式新奇，职业种类多\n\n不喜欢：卡牌种类、遗物种类、小怪种类和boss种类太少，没有无尽模式，我终于无敌之后游戏也快结束了，导致我无法测试我卡牌的上限和虐小怪的快感，让我有很强烈的失落感\n\n建议：先把无尽模式出了，然后陆续把敌人种类遗物种类增加"
+            "画风"
           ],
-          "full_text_sha256": "35ad7b2b5b54311afc17e44ad66e95d380c49d874938f02634b62ca7e1d9ec1e"
+          "full_text_sha256": "35ad7b2b5b54311afc17e44ad66e95d380c49d874938f02634b62ca7e1d9ec1e",
+          "highlight_ranges": [
+            [
+              3,
+              5
+            ]
+          ]
         },
         {
           "review_id": "208481440",
@@ -3281,9 +3408,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "骰子机制很有新意，不仅仅可以改血量在局外养成之后也可以改金币，能量条和宝物充能进度等等，画风也比较对本人胃口，游戏整体是比较简单的，但是一开始会有大量名词要熟悉，可能会有点麻烦，各职业强度差别还是有的，工匠和野蛮人很强，德鲁伊和大聪明就稍弱一点，新手解锁工匠之后可以去试试，我觉得应该算最强职业了，也好玩，如果想挑战一下也可以不用骰子去玩，可惜的是内容比较少，如果有DLC或者创意工坊就更好了，最好再加一个无尽模式，有时候成型后boss不够打的，总体体验还是不错的",
           "highlight_excerpts": [
-            "骰子机制很有新意，不仅仅可以改血量在局外养成之后也可以改金币，能量条和宝物充能进度等等，画风也比较对本人胃口，游戏整体是比较简单的，但是一开始会有大量名词要熟悉，可能会有点麻烦，各职业强度差别还是有的，工匠和野蛮人很强，德鲁伊和大聪明就稍弱一点，新手解锁工匠之后可以去试试，我觉得应该算最强职业了，也好玩，如果想挑战一下也可以不用骰子去玩，可惜的是内容比较少，如果有DLC或者创意工坊就更好了，最好再加一个无尽模式，有时候成型后boss不够打的，总体体验还是不错的"
+            "画风也比较对本人胃口"
           ],
-          "full_text_sha256": "afa866444931bf446b98b21046a244f07d1d8ecfc58db5e0053a347d23b12f8b"
+          "full_text_sha256": "afa866444931bf446b98b21046a244f07d1d8ecfc58db5e0053a347d23b12f8b",
+          "highlight_ranges": [
+            [
+              44,
+              54
+            ]
+          ]
         },
         {
           "review_id": "188237980",
@@ -3294,9 +3427,20 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "做到了许多卡牌肉鸽做不到的事：没那么类塔\n以及出牌攻击时的动画差分又精致又可爱，怪物也萌萌的不忍心打（接着拿铳枪突突了",
           "highlight_excerpts": [
-            "做到了许多卡牌肉鸽做不到的事：没那么类塔\n以及出牌攻击时的动画差分又精致又可爱，怪物也萌萌的不忍心打（接着拿铳枪突突了"
+            "出牌攻击时的动画差分又精致又可爱",
+            "怪物也萌萌的"
           ],
-          "full_text_sha256": "0c49460984a0b36efc2da78a9371a17a94f7ba4dddc2b2a95f63318bcded1866"
+          "full_text_sha256": "0c49460984a0b36efc2da78a9371a17a94f7ba4dddc2b2a95f63318bcded1866",
+          "highlight_ranges": [
+            [
+              23,
+              39
+            ],
+            [
+              40,
+              46
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -3629,9 +3773,9 @@
         "tech_categories": []
       },
       "editorial_review": {
-        "observation": "玩家每天从庄园入口重新组合房间，反复辨认门、家具、信件和陈设。克制的冷暖、简化的房间轮廓和规整的纵深让移动中的庄园保持可记忆性。",
-        "comment": "房间美术同时服务氛围和推理。可参考如何在重复出现的房间之间建立一眼可辨的结构，再把线索藏进可信的日常物件。",
-        "transfer": "用于拼房解谜与叙事建筑：用稳定的比例、材质和灯光规则连接不同房间，再以局部异常提示线索。",
+        "observation": "玩家每天从庄园入口重新拼房间，在门、家具和信件里找线索。各间房的形状和布置有区别，走过几次后就能认出来。",
+        "comment": "房间各有样子，摆放的家具又像真的有人用过，线索就能自然地藏在里面。做密室时，可以先把房间布置得像日常空间，再挑几件东西让玩家留意。",
+        "transfer": "先统一房门和家具的基本比例，再用一件摆放不对或有明显磨痕的物件提示线索。",
         "limitations": "房间变化的实际机制依据官方介绍，当前静帧不证明导航或谜题难度。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -4222,8 +4366,8 @@
       },
       "editorial_review": {
         "observation": "座位谜题在不同场地间变化，俯视布局始终清楚交代可坐位置和人物相邻关系，简化人物、需求图标和气泡帮助玩家逐个处理偏好。",
-        "comment": "它把社交摩擦转成看得见的空间关系。可借鉴将人物个性和限制条件附到同一枚易辨识的棋子上。",
-        "transfer": "用于排布解谜和轻社交系统：优先给角色需求建立图标，再用少量服装与表情形成个性。",
+        "comment": "人物的表情和小图标能让人快速明白谁想坐哪儿、谁不能挨着谁。做同类解谜时，可以把角色的个性和规则放在同一个容易认的图形上。",
+        "transfer": "人物的座位要求用图标表示，服装和表情负责让不同人物好认。",
         "limitations": "需求识别还受文字和语言影响；不能只凭截图断言无需阅读。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -4489,7 +4633,13 @@
           "highlight_excerpts": [
             "形状们都太可爱了"
           ],
-          "full_text_sha256": "bfae8c1f8309703503ea875e6157c9a12c6dac9da050f36d1f110f73835a4d7a"
+          "full_text_sha256": "bfae8c1f8309703503ea875e6157c9a12c6dac9da050f36d1f110f73835a4d7a",
+          "highlight_ranges": [
+            [
+              33,
+              41
+            ]
+          ]
         },
         {
           "review_id": "232331110",
@@ -4500,9 +4650,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "画风很可爱的益智小游戏，能不能更新让所有人都不满意的关卡",
           "highlight_excerpts": [
-            "画风很可爱的益智小游戏"
+            "画风很可爱"
           ],
-          "full_text_sha256": "cf50f94a2120f7edbc5a67a6e392663447437cba64b2b49b56381fe2fa05faca"
+          "full_text_sha256": "cf50f94a2120f7edbc5a67a6e392663447437cba64b2b49b56381fe2fa05faca",
+          "highlight_ranges": [
+            [
+              0,
+              5
+            ]
+          ]
         },
         {
           "review_id": "201865944",
@@ -4515,7 +4671,13 @@
           "highlight_excerpts": [
             "风格很可爱"
           ],
-          "full_text_sha256": "c58dba2cd262f87ed215f15c1b1e79b240bfa30f83d4a6255496473135a6eeb7"
+          "full_text_sha256": "c58dba2cd262f87ed215f15c1b1e79b240bfa30f83d4a6255496473135a6eeb7",
+          "highlight_ranges": [
+            [
+              6,
+              11
+            ]
+          ]
         },
         {
           "review_id": "214614946",
@@ -4528,7 +4690,13 @@
           "highlight_excerpts": [
             "画风也萌"
           ],
-          "full_text_sha256": "dd511730c487d094fab617dddb33f1b6621f27904080d37516f421de936ea8ec"
+          "full_text_sha256": "dd511730c487d094fab617dddb33f1b6621f27904080d37516f421de936ea8ec",
+          "highlight_ranges": [
+            [
+              3,
+              7
+            ]
+          ]
         },
         {
           "review_id": "227424776",
@@ -4541,7 +4709,13 @@
           "highlight_excerpts": [
             "画风很可爱"
           ],
-          "full_text_sha256": "7ec60adeaca8897246e974a41baaa2a3b3469281b2de9674b696ae657f2f5f3d"
+          "full_text_sha256": "7ec60adeaca8897246e974a41baaa2a3b3469281b2de9674b696ae657f2f5f3d",
+          "highlight_ranges": [
+            [
+              0,
+              5
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -5536,9 +5710,9 @@
         "tech_categories": []
       },
       "editorial_review": {
-        "observation": "白天围绕邮包分类与投递展开，货架、箱体和标签把邮局做成可辨的工作空间；入夜后月光改变同一批包裹的含义，熟悉的空间逐步出现异常。",
-        "comment": "最有价值的是通过日夜改变资产的叙事作用。邮包白天负责操作秩序，夜里又能成为调查线索，适合参考日常经营向悬疑过渡的做法。",
-        "transfer": "用于治愈经营和轻悬疑：保留日常物件的可识别结构，再通过光色、标记和少量异常物件引出叙事。",
+        "observation": "白天可以按货架上的箱子和标签分拣邮包。到了晚上，月光照进邮局，玩家开始在同一个地方寻找异常。",
+        "comment": "白天，邮包是工作要用的东西；到了夜里，熟悉的物件也能成为线索。想从日常经营转入悬疑，可以先让玩家认熟物件，再用光线和少量变化提示异常。",
+        "transfer": "白天先让玩家认熟邮局的日常摆设，晚上只改几处灯光或物件，让异常更容易被发现。",
         "limitations": "昼夜揭示包裹秘密来自官方说明；截图不足以评价其机制效果。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -5820,7 +5994,14 @@
           "highlight_excerpts": [
             "The animation, characters and decorations in the office are also super cute"
           ],
-          "full_text_sha256": "40b051afbab4d9b6f057b13ca79d4cb90af7773cd0e397f1e97f2671d70175b1"
+          "full_text_sha256": "40b051afbab4d9b6f057b13ca79d4cb90af7773cd0e397f1e97f2671d70175b1",
+          "highlight_ranges": [
+            [
+              93,
+              168
+            ]
+          ],
+          "highlight_translation_zh": "办公室里的动画、角色和装饰也都超级可爱。"
         },
         {
           "review_id": "232956050",
@@ -5837,10 +6018,9 @@
           "selection_note": "V2正向美术评价精选；仅摘录相关内容，不代表全部玩家意见",
           "curated_at": "2026-11-10",
           "full_text": "I love my action packed, horror filled story games but sometimes it's nice to take a break from em to play something like this, rarely do I get into cozy games due to the gameplay mechanics/loops or artstyle (I'm not a fan of what almost every cozy game seem to stick with) BUT this one OOOOO this one I genuinely love it, from the moment I tried the demo, it's something I can easily slip into and spend an hour or more playing.\n\nthe soundtrack is great, the gameplay loop is easy to understand and follow even when it changes slightly and I like cats in general lol.\n\nI only just 100% the game as of writing this and yet I'm still down to hop back in and sort through more mail because yes, this game is just that fun to me.",
-          "highlight_excerpts": [
-            "or artstyle (I'm not a fan of what almost every cozy game seem to stick with) BUT this one OOOOO this one I genuinely love it"
-          ],
-          "full_text_sha256": "e901cd9d17822a2b8b5c08274181eaa1a68a68a564055ea6a5a28aae57c76e5d"
+          "highlight_excerpts": [],
+          "full_text_sha256": "e901cd9d17822a2b8b5c08274181eaa1a68a68a564055ea6a5a28aae57c76e5d",
+          "highlight_ranges": []
         },
         {
           "review_id": "231575082",
@@ -5853,7 +6033,13 @@
           "highlight_excerpts": [
             "这游戏比较好的就是画风清透明亮"
           ],
-          "full_text_sha256": "22bcb800fceeaaabc0072440c4f4da54af00eea35690311af73e2df2aa0c2b63"
+          "full_text_sha256": "22bcb800fceeaaabc0072440c4f4da54af00eea35690311af73e2df2aa0c2b63",
+          "highlight_ranges": [
+            [
+              350,
+              365
+            ]
+          ]
         },
         {
           "review_id": "230919103",
@@ -5864,9 +6050,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "画风挺不错的小游戏，玩法也很有意思，期待后续增加更多的内容",
           "highlight_excerpts": [
-            "画风挺不错的小游戏"
+            "画风挺不错"
           ],
-          "full_text_sha256": "ffb82d9507b40ff17ebdbd1a97080b5361a643996c0c23f292e5687759bc30a9"
+          "full_text_sha256": "ffb82d9507b40ff17ebdbd1a97080b5361a643996c0c23f292e5687759bc30a9",
+          "highlight_ranges": [
+            [
+              0,
+              5
+            ]
+          ]
         },
         {
           "review_id": "230059690",
@@ -5879,7 +6071,13 @@
           "highlight_excerpts": [
             "画风好可爱"
           ],
-          "full_text_sha256": "b72d270158b09e1d3a38ad7dba3ab3eefed2ad474d7207063448f4b23b74fdc9"
+          "full_text_sha256": "b72d270158b09e1d3a38ad7dba3ab3eefed2ad474d7207063448f4b23b74fdc9",
+          "highlight_ranges": [
+            [
+              79,
+              84
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -6220,8 +6418,8 @@
       },
       "editorial_review": {
         "observation": "黑白橡皮管卡通从侦探街区延伸到第一人称枪战、人物演出和案件板。鞋、手套、口鼻和武器轮廓被夸张处理，黑白环境里主要靠形状和明度区分信息。",
-        "comment": "它把早期卡通的形体和动作带进一套可操作的射击世界。可参考如何在严格的色彩约束下，让战斗、叙事和菜单共享识别规则。",
-        "transfer": "用于漫画化动作和侦探题材：先限定色彩与轮廓体系，再把它落实到HUD、交互物和叙事资料。",
+        "comment": "黑白画面、圆手套和夸张动作像早期卡通。把这种画风用在射击游戏里，仍要让敌人和能操作的东西从背景里显出来。",
+        "transfer": "试着只用黑白灰做一张战斗截图，检查敌人、可操作物品和界面能否一眼分开。",
         "limitations": "橡皮管动画的时序质量需要视频验证；本次只评价静态造型与系统一致性。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -6512,9 +6710,15 @@
           "review_id": "223694436",
           "full_text": "冲着美术就值这个价，同时也不开汉化当练英语了",
           "highlight_excerpts": [
-            "冲着美术就值这个价，同时也不开汉化当练英语了"
+            "冲着美术"
           ],
-          "full_text_sha256": "ddcf873f196d23322eb4a32416c18a189256a0c2454cb8347958221d9a1a580f"
+          "full_text_sha256": "ddcf873f196d23322eb4a32416c18a189256a0c2454cb8347958221d9a1a580f",
+          "highlight_ranges": [
+            [
+              0,
+              4
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -6523,9 +6727,15 @@
           "review_id": "225818163",
           "full_text": "画风好\n然后没什么优点了\n关卡设计越往后越烂",
           "highlight_excerpts": [
-            "画风好\n然后没什么优点了\n关卡设计越往后越烂"
+            "画风好"
           ],
-          "full_text_sha256": "ed8ebe7080847e9fb31332a0260a409a605b4df94deccb0b46aca9d4085c6cca"
+          "full_text_sha256": "ed8ebe7080847e9fb31332a0260a409a605b4df94deccb0b46aca9d4085c6cca",
+          "highlight_ranges": [
+            [
+              0,
+              3
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -6534,9 +6744,15 @@
           "review_id": "225681459",
           "full_text": "有失真唱片机音效和噪点画面设置绝对是复古游戏的画龙点睛之笔",
           "highlight_excerpts": [
-            "有失真唱片机音效和噪点画面设置绝对是复古游戏的画龙点睛之笔"
+            "噪点画面设置"
           ],
-          "full_text_sha256": "a0e9daea51e3f2f74e61e331f385fcde52a411dfb15887cf1f7b5d3902b8b3a4"
+          "full_text_sha256": "a0e9daea51e3f2f74e61e331f385fcde52a411dfb15887cf1f7b5d3902b8b3a4",
+          "highlight_ranges": [
+            [
+              9,
+              15
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -6545,9 +6761,15 @@
           "review_id": "224278279",
           "full_text": "很好玩，画风、音乐、游戏性都非常棒。就是结合时事、打破第四面墙的地方略有点多。",
           "highlight_excerpts": [
-            "很好玩，画风、音乐、游戏性都非常棒。就是结合时事、打破第四面墙的地方略有点多。"
+            "画风"
           ],
-          "full_text_sha256": "b13024e35fa5a532b0116ab6423de415e3ba171072a6c7d6c4851dde5ec89361"
+          "full_text_sha256": "b13024e35fa5a532b0116ab6423de415e3ba171072a6c7d6c4851dde5ec89361",
+          "highlight_ranges": [
+            [
+              4,
+              6
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -6556,9 +6778,15 @@
           "review_id": "225212929",
           "full_text": "非常出色的类DOOM射击游戏，画风非常别致，价格不贵，量足管饱，剧情也挺有意思的，除了打击感一般以外基本没什么缺点，非常推荐！",
           "highlight_excerpts": [
-            "非常出色的类DOOM射击游戏，画风非常别致，价格不贵，量足管饱，剧情也挺有意思的，除了打击感一般以外基本没什么缺点，非常推荐！"
+            "画风非常别致"
           ],
-          "full_text_sha256": "12858e8e2253b4d96e345d3c43fc8e57a664bcc7f28799645a1343c8e7c65a91"
+          "full_text_sha256": "12858e8e2253b4d96e345d3c43fc8e57a664bcc7f28799645a1343c8e7c65a91",
+          "highlight_ranges": [
+            [
+              15,
+              21
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -6894,8 +7122,8 @@
       },
       "editorial_review": {
         "observation": "探索彩虹岛、捕捉史莱姆和回牧场照料它们构成往返循环。不同生物沿用圆润身体，再靠耳、角和颜色变化区分；岛屿植物和地形也保持柔软、明亮的造型。",
-        "comment": "它用稳定的造型母题组织不断增加的生物与地区，收藏辨识和世界风格彼此支持。适合参考如何扩展同族角色又保持识别速度。",
-        "transfer": "用于宠物收集、生态经营和角色合成：约束共同体型，把差异集中在轮廓附件、表情和配色。",
+        "comment": "史莱姆大多圆滚滚，靠耳朵、表情和颜色就能分出不同种类。做收集游戏时，可以保留同一种基本身形，再改几个远看也认得出的特征。",
+        "transfer": "设计新种类时，可以只改耳朵、角和花色，看看缩到很小时还能不能认出来。",
         "limitations": "外观可爱不代表适合所有年龄或商业目标；融合变体的辨识仍需逐一验证。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -7167,7 +7395,13 @@
           "highlight_excerpts": [
             "新出的兔兔史莱姆太可爱了"
           ],
-          "full_text_sha256": "042e42f8640c7a49b5ee76a85f7f04521c779a80cf404c7b4181e9d134056a05"
+          "full_text_sha256": "042e42f8640c7a49b5ee76a85f7f04521c779a80cf404c7b4181e9d134056a05",
+          "highlight_ranges": [
+            [
+              0,
+              12
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -7176,9 +7410,15 @@
           "review_id": "211666512",
           "full_text": "真好玩，场景相比一代好看很多",
           "highlight_excerpts": [
-            "真好玩，场景相比一代好看很多"
+            "场景相比一代好看很多"
           ],
-          "full_text_sha256": "4973f7eeab14364cefba57e0c26123ec5dc7fbd55fc38db91714d596170e1385"
+          "full_text_sha256": "4973f7eeab14364cefba57e0c26123ec5dc7fbd55fc38db91714d596170e1385",
+          "highlight_ranges": [
+            [
+              4,
+              14
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -7189,7 +7429,13 @@
           "highlight_excerpts": [
             "史萊姆比普丁跟維尼可愛多了：）"
           ],
-          "full_text_sha256": "6cfb9aa818e8b11b59f6e8a71b4fd38d69460df8d71026a6c448ae9c79e1b923"
+          "full_text_sha256": "6cfb9aa818e8b11b59f6e8a71b4fd38d69460df8d71026a6c448ae9c79e1b923",
+          "highlight_ranges": [
+            [
+              0,
+              15
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -7198,9 +7444,15 @@
           "review_id": "126161204",
           "full_text": "wuuuuu，ye，又好看，又好玩，",
           "highlight_excerpts": [
-            "wuuuuu，ye，又好看，又好玩，"
+            "又好看"
           ],
-          "full_text_sha256": "a5a2c148c9086bc61511733d96e24479b0f800ecec953f1419d6d287afbc4d1e"
+          "full_text_sha256": "a5a2c148c9086bc61511733d96e24479b0f800ecec953f1419d6d287afbc4d1e",
+          "highlight_ranges": [
+            [
+              10,
+              13
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -7209,9 +7461,15 @@
           "review_id": "123760461",
           "full_text": "好萌的史莱姆们，完全无法拒绝啊！！！！",
           "highlight_excerpts": [
-            "好萌的史莱姆们，完全无法拒绝啊！！！！"
+            "好萌的史莱姆们"
           ],
-          "full_text_sha256": "1fac820c7aab1eb5e86addb24e032ee98d7fec3276f20adc53ef84bf980d6aab"
+          "full_text_sha256": "1fac820c7aab1eb5e86addb24e032ee98d7fec3276f20adc53ef84bf980d6aab",
+          "highlight_ranges": [
+            [
+              0,
+              7
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -7545,8 +7803,8 @@
       },
       "editorial_review": {
         "observation": "报社从采编走到排版、印刷和发行，楼层剖面把人物、机器和工作关系同时摊开；报纸及纸质面板延续同一时代的图形语言。",
-        "comment": "剖面让经营因果长在建筑里。适合参考如何把多工序进度变成可巡视的空间，并让报纸这类最终产物承接经营反馈。",
-        "transfer": "用于经营管理和设施建设：以剖面组织部门，再用时代一致的图标与卡片承接事件信息。",
+        "comment": "从楼房剖面能看见各个部门在忙什么，也能顺着工序看一份报纸怎么做出来。经营游戏可以借这种布局，让玩家少翻菜单也能了解进度。",
+        "transfer": "用楼层剖面摆放不同部门，让玩家看到报纸从采编、排版到印刷经过了哪些地方。",
         "limitations": "宣传评分画面不作为鉴赏依据；评语依据所选对话与建筑实机截图。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -7825,9 +8083,16 @@
           "curated_at": "2026-11-10",
           "full_text": "Fantastic Game!\n\nIt really immerses you in the 1930s with the aesthetic and historical correlation.\n",
           "highlight_excerpts": [
-            "Fantastic Game!\n\nIt really immerses you in the 1930s with the aesthetic and historical correlation."
+            "aesthetic"
           ],
-          "full_text_sha256": "1f2dfe48a61183ea629bbb64ac956bca21eac3d74c25dd3cb10ce015614a9ddb"
+          "full_text_sha256": "1f2dfe48a61183ea629bbb64ac956bca21eac3d74c25dd3cb10ce015614a9ddb",
+          "highlight_ranges": [
+            [
+              62,
+              71
+            ]
+          ],
+          "highlight_translation_zh": "美术风格"
         },
         {
           "review_id": "188489411",
@@ -7838,9 +8103,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "正式发售了，有中文，我们有救了！！\n----------------------------------\n完美还原1930年报业的一款模拟经营游戏，画风音乐都十分出色，模拟玩法也足够有趣，让人有不断游玩的欲望。\n最可怕的是这个游戏竟然还在EA，竟然还在不断更新大内容。",
           "highlight_excerpts": [
-            "正式发售了，有中文，我们有救了！！\n----------------------------------\n完美还原1930年报业的一款模拟经营游戏，画风音乐都十分出色，模拟玩法也足够有趣，让人有不断游玩的欲望。\n最可怕的是这个游戏竟然还在EA，竟然还在不断更新大内容。"
+            "画风"
           ],
-          "full_text_sha256": "38ebf4b41d71e73facedd64d1899e4887a49402e26746b39292417a2e98cec1b"
+          "full_text_sha256": "38ebf4b41d71e73facedd64d1899e4887a49402e26746b39292417a2e98cec1b",
+          "highlight_ranges": [
+            [
+              74,
+              76
+            ]
+          ]
         },
         {
           "review_id": "160470637",
@@ -7851,9 +8122,21 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "游戏是个好游戏，但是不建议现在入手。\n画面，音乐都可以给 10/10，可是重玩性特别低。到后期基本都是机械性重复工作，很容易感到枯燥。\n应该出个可以自动忽略掉价值不高或者特定tag的新闻的功能（哪怕是开个工位专门干这工作都可以接受）\n[strike]目前报社还是只能在美国国内打转找新闻，我报社名字叫 \"Oriental Express\"结果天天报道美国的花边新闻像话吗？[/strike]\n\n而且，我记得1930年还是禁酒令期间吧？这不开个地下室贩卖私酒赚点外快？\n\n============================================================\n更新，现在勉强能玩了，就是后期补充物资特别烦人，一周要吃1000张纸，全靠搬运工一个个搬上去\n\n\n啥时候出正式版啥时候改好评\n\n===============\n正式版出了，遵守诺言，改成好评\n\nThe game is a good one, but I don’t recommend buying it now.\nI can give it a 10/10 for the graphics and music, but the replayability is extremely low. In the later stage, the work is basically mechanical and repetitive, and it is easy to feel boring.\nThere should be a function that can automatically ignore news with low value or specific tags (even if it opens a workstation dedicated to this work, it is acceptable)\nCurrently, newspapers can only search for news in the United States. The name of my newspaper is \"Oriental Express\", but is it true that it reports gossipy news about the United States every day?\n\nAlso, I remember 1930 was during Prohibition, right? Why don't you open a basement and sell bootleg liquor to make some extra money?\n\n\nWhen the official version dropped out, I will change the review to positive.",
           "highlight_excerpts": [
-            "游戏是个好游戏，但是不建议现在入手。\n画面，音乐都可以给 10/10，可是重玩性特别低。到后期基本都是机械性重复工作，很容易感到枯燥。\n应该出个可以自动忽略掉价值不高或者特定tag的新闻的功能（哪怕是开个工位专门干这工作都可以接受）\n[strike]目前报社还是只能在美国国内打转找新闻，我报社名字叫 \"Oriental Express\"结果天天报道美国的花边新闻像话吗？[/strike]\n\n而且，我记得1930年还是禁酒令期间吧？这不开个地下室贩卖私酒赚点外快？\n\n============================================================\n更新，现在勉强能玩了，就是后期补充物资特别烦人，一周要吃1000张纸，全靠搬运工一个个搬上去\n\n\n啥时候出正式版啥时候改好评\n\n===============\n正式版出了，遵守诺言，改成好评\n\nThe game is a good one, but I don’t recommend buying it now.\nI can give it a 10/10 for the graphics and music, but the replayability is extremely low. In the later stage, the work is basically mechanical and repetitive, and it is easy to feel boring.\nThere should be a function that can automatically ignore news with low value or specific tags (even if it opens a workstation dedicated to this work, it is acceptable)\nCurrently, newspapers can only search for news in the United States. The name of my newspaper is \"Oriental Express\", but is it true that it reports gossipy news about the United States every day?\n\nAlso, I remember 1930 was during Prohibition, right? Why don't you open a basement and sell bootleg liquor to make some extra money?\n\n\nWhen the official version dropped out, I will change the review to positive."
+            "画面",
+            "graphics"
           ],
-          "full_text_sha256": "cd822bad5acabdc8f0151fb4bce1c9ce9b16fa026e1edea79763ef6a1a72f12c"
+          "full_text_sha256": "cd822bad5acabdc8f0151fb4bce1c9ce9b16fa026e1edea79763ef6a1a72f12c",
+          "highlight_ranges": [
+            [
+              19,
+              21
+            ],
+            [
+              484,
+              492
+            ]
+          ],
+          "highlight_translation_zh": "画面"
         },
         {
           "review_id": "216084558",
@@ -7864,9 +8147,20 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "画风精良，玩法有趣，在纽约市建立一家自己的报社，采风、编辑、排版等等都要靠我的指挥，简直令人兴奋。\n我本以为这是一个架空的世界观，可玩着玩着发现记者带回的新闻里竟然有罗斯福、胡佛什么的，才知道原来这还是真实的1930年代（）。这令我更加兴奋地去搜寻欧洲的新闻，记录法西斯主义席卷欧洲的那段历史，有种身临其境的感觉。不过我没有玩到很晚期，不知道到40年代二战爆发之后游戏会不会强制结档。\n最最重要的是我超喜欢里面的画风和配乐，让人真的有一种回到了上个世纪的感觉。",
           "highlight_excerpts": [
-            "画风精良，玩法有趣，在纽约市建立一家自己的报社，采风、编辑、排版等等都要靠我的指挥，简直令人兴奋。\n我本以为这是一个架空的世界观，可玩着玩着发现记者带回的新闻里竟然有罗斯福、胡佛什么的，才知道原来这还是真实的1930年代（）。这令我更加兴奋地去搜寻欧洲的新闻，记录法西斯主义席卷欧洲的那段历史，有种身临其境的感觉。不过我没有玩到很晚期，不知道到40年代二战爆发之后游戏会不会强制结档。\n最最重要的是我超喜欢里面的画风和配乐，让人真的有一种回到了上个世纪的感觉。"
+            "画风精良",
+            "我超喜欢里面的画风"
           ],
-          "full_text_sha256": "e4f58e81156bdd78f3b7ccc5427d2c36473ee5f37e464f7f2a2000ea4ec5062e"
+          "full_text_sha256": "e4f58e81156bdd78f3b7ccc5427d2c36473ee5f37e464f7f2a2000ea4ec5062e",
+          "highlight_ranges": [
+            [
+              0,
+              4
+            ],
+            [
+              199,
+              208
+            ]
+          ]
         },
         {
           "review_id": "209822767",
@@ -7877,9 +8171,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "音乐和美术相当有沉浸感，新闻内容是根据时间进度刷新，熟悉间战期美国的话会非常喜欢。\n补充物资的逻辑感觉还有优化的空间，气动管道也是，经常需要手操。\n海外新闻目前只有西欧，希望将来能继续扩展地图，设立驻外记者站什么的，期待后续更新。（看完1.0路线图里制作组说中日战争和阿比西尼亚意大利战争不好做进游戏里，看来东亚通讯无了，遗憾！）\n[spoiler]终于通关了，爵士乐下的最后一个头版头条是B-24的首飞，不确定的未来需要这样的兵器，令人感叹于一个时代真的结束了。另外叔叔和主角一个去夏威夷一个回欧洲老家，感觉都不如在纽约好好待着（ [/spoiler]",
           "highlight_excerpts": [
-            "音乐和美术相当有沉浸感，新闻内容是根据时间进度刷新，熟悉间战期美国的话会非常喜欢。\n补充物资的逻辑感觉还有优化的空间，气动管道也是，经常需要手操。\n海外新闻目前只有西欧，希望将来能继续扩展地图，设立驻外记者站什么的，期待后续更新。（看完1.0路线图里制作组说中日战争和阿比西尼亚意大利战争不好做进游戏里，看来东亚通讯无了，遗憾！）\n[spoiler]终于通关了，爵士乐下的最后一个头版头条是B-24的首飞，不确定的未来需要这样的兵器，令人感叹于一个时代真的结束了。另外叔叔和主角一个去夏威夷一个回欧洲老家，感觉都不如在纽约好好待着（ [/spoiler]"
+            "美术相当有沉浸感"
           ],
-          "full_text_sha256": "0ea4a37638c53aa904c36864309a4244ebae2887bd7db8f5290101de92085627"
+          "full_text_sha256": "0ea4a37638c53aa904c36864309a4244ebae2887bd7db8f5290101de92085627",
+          "highlight_ranges": [
+            [
+              3,
+              11
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -8213,8 +8513,8 @@
       },
       "editorial_review": {
         "observation": "猫在城市里攀爬、钻过缝隙、拾取物件和结识动物。低视点放大了围栏、车与招牌，黑猫的简洁轮廓、帽子和肢体反应维持角色识别和喜剧节奏。",
-        "comment": "它用猫的尺度重解释普通城市，使同一件街道设施既能讲清环境又能提供攀爬或玩闹机会。值得借鉴从角色身体出发重做地标与路线。",
-        "transfer": "用于动物主角与轻探索：按主角身高重新安排镜头、障碍尺度和交互物识别层级。",
+        "comment": "从小猫的高度看，普通街道也有了高低差，熟悉的街边设施成了可攀爬的路线。做小动物主角时，可以先从它的视线和能跳到的高度安排场景。",
+        "transfer": "把镜头放到主角眼睛的高度，再检查围栏是否能翻、缝隙是否能钻。",
         "limitations": "碰撞、攀爬与角色动作手感不能从静帧得出结论。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -8483,9 +8783,20 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "[h1] 毛茸茸统治世界 [/h1]\n好耶是章鱼送来的赛博小咪=^ ^=\n\n是非常可爱的猫猫模拟器，玩下来的整体手感很不错，猫猫的小动作、小表情都很现实化，例如碰到水会哈气炸毛，碰到黄瓜也会被吓一跳。小黑猫萌萌的样子更是让我想到了自己家的猫猫(´∀`)，成功治愈一枚玩游戏的两脚兽，猫猫队立大功！\n\n故事的主线很简单也很温暖，小黑猫不慎掉落窗台来到外面的世界，在回家的过程中遇见不同的动物朋友，拥有了猫生第一个待办清单，开心了就喵喵叫，捣蛋恶作剧的时候就随机绊倒一名人类。小猫为城市清洁垃圾，小猫好，人类低头看手机被绊倒，人类该hhh\n游戏里的对白也本土化得另类的有趣，在完成变色龙的任务时，最后变色龙吐槽说：[spoiler]“可我像颗青春痘一样明显啊！我根本是个显眼包，你为什么不早点告诉我。”[/spoiler]看到这句话的我真的笑得不行.....\n\n游戏大部分成就很好完成，对于成就党来说非常的友好。缺点大概就是个别成就很无聊，例如小小清洁工竟然要回收100个垃圾，谁知道我绊了多少次人类和撞了多少次饮料机，就为了得到几个易拉罐...（对不起了两脚兽，为了成就我化身邪恶毛茸茸）\n\n最后，和小猫度过了很愉快的几小时，这个游戏对我来说在冬季的夜晚就像被子一样温暖。毛茸茸的存在令人心软软。",
           "highlight_excerpts": [
-            "[h1] 毛茸茸统治世界 [/h1]\n好耶是章鱼送来的赛博小咪=^ ^=\n\n是非常可爱的猫猫模拟器，玩下来的整体手感很不错，猫猫的小动作、小表情都很现实化，例如碰到水会哈气炸毛，碰到黄瓜也会被吓一跳。小黑猫萌萌的样子更是让我想到了自己家的猫猫(´∀`)，成功治愈一枚玩游戏的两脚兽，猫猫队立大功！\n\n故事的主线很简单也很温暖，小黑猫不慎掉落窗台来到外面的世界，在回家的过程中遇见不同的动物朋友，拥有了猫生第一个待办清单，开心了就喵喵叫，捣蛋恶作剧的时候就随机绊倒一名人类。小猫为城市清洁垃圾，小猫好，人类低头看手机被绊倒，人类该hhh\n游戏里的对白也本土化得另类的有趣，在完成变色龙的任务时，最后变色龙吐槽说：[spoiler]“可我像颗青春痘一样明显啊！我根本是个显眼包，你为什么不早点告诉我。”[/spoiler]看到这句话的我真的笑得不行.....\n\n游戏大部分成就很好完成，对于成就党来说非常的友好。缺点大概就是个别成就很无聊，例如小小清洁工竟然要回收100个垃圾，谁知道我绊了多少次人类和撞了多少次饮料机，就为了得到几个易拉罐...（对不起了两脚兽，为了成就我化身邪恶毛茸茸）\n\n最后，和小猫度过了很愉快的几小时，这个游戏对我来说在冬季的夜晚就像被子一样温暖。毛茸茸的存在令人心软软。"
+            "猫猫的小动作、小表情都很现实化，例如碰到水会哈气炸毛，碰到黄瓜也会被吓一跳",
+            "小黑猫萌萌的样子"
           ],
-          "full_text_sha256": "63e1573d7e33962512916ede04c8cbd91fc47b985e8047a1d9554457b948dad2"
+          "full_text_sha256": "63e1573d7e33962512916ede04c8cbd91fc47b985e8047a1d9554457b948dad2",
+          "highlight_ranges": [
+            [
+              62,
+              99
+            ],
+            [
+              100,
+              108
+            ]
+          ]
         },
         {
           "review_id": "168388498",
@@ -8498,7 +8809,13 @@
           "highlight_excerpts": [
             "香蕉猫好看"
           ],
-          "full_text_sha256": "94542dd899b4c01b5849c16dc1740886f09fd45a2675f637bf59953922c44ef0"
+          "full_text_sha256": "94542dd899b4c01b5849c16dc1740886f09fd45a2675f637bf59953922c44ef0",
+          "highlight_ranges": [
+            [
+              0,
+              5
+            ]
+          ]
         },
         {
           "review_id": "167329056",
@@ -8509,9 +8826,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "太可爱了啊啊啊啊！！！猫咪动画和交互动作设计得非常灵动，与场景和小物件的交互细节非常有趣，NPC的台词设计和任务也都非常可爱啊啊啊啊！！不足是可玩内容比较少，流程太短了玩不够啊啊啊啊啊！！我不做人了我要做猫！！！",
           "highlight_excerpts": [
-            "太可爱了啊啊啊啊！！！猫咪动画和交互动作设计得非常灵动，与场景和小物件的交互细节非常有趣，NPC的台词设计和任务也都非常可爱啊啊啊啊！！不足是可玩内容比较少，流程太短了玩不够啊啊啊啊啊！！我不做人了我要做猫！！！"
+            "猫咪动画和交互动作设计得非常灵动"
           ],
-          "full_text_sha256": "2c41d980b06514f216842b3a3a78b7c83656a5edc6f2dd9bfe7fda3a42012997"
+          "full_text_sha256": "2c41d980b06514f216842b3a3a78b7c83656a5edc6f2dd9bfe7fda3a42012997",
+          "highlight_ranges": [
+            [
+              11,
+              27
+            ]
+          ]
         },
         {
           "review_id": "196240022",
@@ -8522,9 +8845,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "有貓就推\r\n遊戲很好的展現了貓的動作與習性，能看出製作組對貓咪的喜愛\r\n關卡採小型開放式地圖，主線不長，忽略支線任務與成就的話很快就能通關\r\n但提示與引導稍弱，有時會不清楚下一步該做什麼\r\n加上玩法以攀爬跟解謎為主，經常要上下左右轉鏡頭找路或道具，有嚴重3D暈者容易產生不適\r\n撇開這點的話，扮演貓咪在街上閒晃，體驗小鎮風情還挺不錯的",
           "highlight_excerpts": [
-            "有貓就推\r\n遊戲很好的展現了貓的動作與習性，能看出製作組對貓咪的喜愛\r\n關卡採小型開放式地圖，主線不長，忽略支線任務與成就的話很快就能通關\r\n但提示與引導稍弱，有時會不清楚下一步該做什麼\r\n加上玩法以攀爬跟解謎為主，經常要上下左右轉鏡頭找路或道具，有嚴重3D暈者容易產生不適\r\n撇開這點的話，扮演貓咪在街上閒晃，體驗小鎮風情還挺不錯的"
+            "遊戲很好的展現了貓的動作與習性"
           ],
-          "full_text_sha256": "c8e7c9ecbedbe8588f90da8b562fd911f8b62e53c60c588476f0317106a51e35"
+          "full_text_sha256": "c8e7c9ecbedbe8588f90da8b562fd911f8b62e53c60c588476f0317106a51e35",
+          "highlight_ranges": [
+            [
+              6,
+              21
+            ]
+          ]
         },
         {
           "review_id": "164999312",
@@ -8535,9 +8864,20 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "[h1] 《小猫咪大城市》赛博吸猫就在今日 [/h1]\n《小猫咪大城市》为玩家提供了一个化身为猫的机会，让你过足猫咪瘾。游戏中你将扮演一只从窗台失足坠落的小黑猫，在脚下陌生的城市中四处探索，寻找回家的道路。你将结识新朋友，帮助动物居民，调皮捣蛋，尽情释放猫的天性。\n绊倒路人、打破花盆、捕捉小鸟都是基操，抢走钓鱼佬的鱼、在日光最好的点位打盹，张开喉咙引吭高喵……\n可爱的画风，逼真的动作，还原出小猫灵动的神态和灵活的身姿，更有几十种帽子收藏品让你的猫萌上加萌。\n游戏的城市设计加深了纵向探索的乐趣，也很符合猫猫小巧的形态，穿梭后院小巷，跨越楼顶间隙，切身体会猫眼看世界，可以说是猫奴必备了。\n但也正是因为要与猫的大小相匹配，城市规模称不上“大”这个字，支线任务数量有限，游戏内容有限，快的话两三个小时就能通关，全成就也不会超过七小时（玩的时候建议先看一下成就列表，以免错过收集物品和任务道具）。\n游戏音乐异常寡淡，听着十分催眠，我都得单独开QQ音乐打才不至于睡着，看了一眼商店居然还单独出售OST，也不知道谁给的自信。\n简而言之这是一部质量合格的轻量级休闲游戏，喜欢猫猫的玩家值得一试，对猫无感的或者重度晕3D的玩家自行斟酌。\n\n[code] 点击关注[url=https://store.steampowered.com/curator/26214428] 電玩狂熱愛好者 [/url] ，以获取更多游戏评测、资讯、攻略 [/code]",
           "highlight_excerpts": [
-            "[h1] 《小猫咪大城市》赛博吸猫就在今日 [/h1]\n《小猫咪大城市》为玩家提供了一个化身为猫的机会，让你过足猫咪瘾。游戏中你将扮演一只从窗台失足坠落的小黑猫，在脚下陌生的城市中四处探索，寻找回家的道路。你将结识新朋友，帮助动物居民，调皮捣蛋，尽情释放猫的天性。\n绊倒路人、打破花盆、捕捉小鸟都是基操，抢走钓鱼佬的鱼、在日光最好的点位打盹，张开喉咙引吭高喵……\n可爱的画风，逼真的动作，还原出小猫灵动的神态和灵活的身姿，更有几十种帽子收藏品让你的猫萌上加萌。\n游戏的城市设计加深了纵向探索的乐趣，也很符合猫猫小巧的形态，穿梭后院小巷，跨越楼顶间隙，切身体会猫眼看世界，可以说是猫奴必备了。\n但也正是因为要与猫的大小相匹配，城市规模称不上“大”这个字，支线任务数量有限，游戏内容有限，快的话两三个小时就能通关，全成就也不会超过七小时（玩的时候建议先看一下成就列表，以免错过收集物品和任务道具）。\n游戏音乐异常寡淡，听着十分催眠，我都得单独开QQ音乐打才不至于睡着，看了一眼商店居然还单独出售OST，也不知道谁给的自信。\n简而言之这是一部质量合格的轻量级休闲游戏，喜欢猫猫的玩家值得一试，对猫无感的或者重度晕3D的玩家自行斟酌。\n\n[code] 点击关注[url=https://store.steampowered.com/curator/26214428] 電玩狂熱愛好者 [/url] ，以获取更多游戏评测、资讯、攻略 [/code]"
+            "可爱的画风，逼真的动作，还原出小猫灵动的神态和灵活的身姿",
+            "几十种帽子收藏品让你的猫萌上加萌"
           ],
-          "full_text_sha256": "3761b22979cae2387db53f892c891086e3caac183b39c71e9bdb0dfa857b5134"
+          "full_text_sha256": "3761b22979cae2387db53f892c891086e3caac183b39c71e9bdb0dfa857b5134",
+          "highlight_ranges": [
+            [
+              182,
+              210
+            ],
+            [
+              213,
+              229
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -9555,8 +9895,8 @@
       },
       "editorial_review": {
         "observation": "超英群像的办公室对话、私下关系和城市调度互相穿插。动画中的服装、身体比例和表情延伸到英雄档案与调度列表，玩家能把人物冲突和能力选择对应起来。",
-        "comment": "它把角色美术同时用作群像叙事和资源调度的记忆线索。适合借鉴动画角色、信息卡和管理界面共享同一套人物身份设计。",
-        "transfer": "用于群像叙事和角色管理：把角色识别特征转译为档案头像、属性图和任务反馈。",
+        "comment": "角色在剧情动画、头像和管理界面里都容易认出来。群像游戏可以给每个人留一两个醒目的造型特点，玩家换到任务界面也知道自己在调谁。",
+        "transfer": "先从角色身上挑出容易记住的发型、服装或配色，再把它们保留在小头像上。",
         "limitations": "角色表演和选择后果的质量需完整剧情与动态素材支持。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -9821,10 +10161,9 @@
           "url": "https://steamcommunity.com/profiles/76561198407537120/recommended/2592160/",
           "review_id": "215420527",
           "full_text": "這遊戲真馬的法克正點，好喜歡\n(而且有奶子...和屌)",
-          "highlight_excerpts": [
-            "這遊戲真馬的法克正點，好喜歡\n(而且有奶子...和屌)"
-          ],
-          "full_text_sha256": "34081a93e6113636bfd445b588406461f15060ff341cb6133476d555d6ff3c7c"
+          "highlight_excerpts": [],
+          "full_text_sha256": "34081a93e6113636bfd445b588406461f15060ff341cb6133476d555d6ff3c7c",
+          "highlight_ranges": []
         },
         {
           "sentiment": "positive",
@@ -9833,9 +10172,15 @@
           "review_id": "207331243",
           "full_text": "前六集不错，第八集剧情一坨屎，太低能了。音乐全程拉跨，动画无敌。无敌少侠看着这经费馋哭了。瑕不掩瑜勉强给个赞，还是好游戏。\n",
           "highlight_excerpts": [
-            "前六集不错，第八集剧情一坨屎，太低能了。音乐全程拉跨，动画无敌。无敌少侠看着这经费馋哭了。瑕不掩瑜勉强给个赞，还是好游戏。\n"
+            "动画无敌"
           ],
-          "full_text_sha256": "7c62e989633ff321726f0f1a9b465b3fd14c528c18ec9d6fe63379042fea6260"
+          "full_text_sha256": "7c62e989633ff321726f0f1a9b465b3fd14c528c18ec9d6fe63379042fea6260",
+          "highlight_ranges": [
+            [
+              27,
+              31
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -9844,9 +10189,15 @@
           "review_id": "213787968",
           "full_text": "emmmm,还不错\n结构上是比较经典的，人物性格有很好的体现，演出表现也不俗套，对于核心命题的演绎也是可圈可点\n虽然对不上我个人的电波，或许我应该等半价的时候再买",
           "highlight_excerpts": [
-            "emmmm,还不错\n结构上是比较经典的，人物性格有很好的体现，演出表现也不俗套，对于核心命题的演绎也是可圈可点\n虽然对不上我个人的电波，或许我应该等半价的时候再买"
+            "演出表现也不俗套"
           ],
-          "full_text_sha256": "1e72f6ae8d02671ef8d76194ad92d5ba775833e67040caa7292a3974148d7120"
+          "full_text_sha256": "1e72f6ae8d02671ef8d76194ad92d5ba775833e67040caa7292a3974148d7120",
+          "highlight_ranges": [
+            [
+              31,
+              39
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -10181,9 +10532,9 @@
         "tech_categories": []
       },
       "editorial_review": {
-        "observation": "机甲、敌人和危险位置在战棋格上靠轮廓和对比色建立优先级；手牌、升级和路线事件延续厚线与亮色，使规划和执行仍处于同一图形世界。",
-        "comment": "可借鉴它如何让卡牌构筑的图形提示能在战场直接找到对应对象。棋盘清晰度与角色个性可以用同一套轮廓规则来维护。",
-        "transfer": "用于卡牌战棋：为行动、资源与事件建立共同视觉字典，控制装饰与操作按钮的竞争。",
+        "observation": "机甲、敌人和危险格的形状与颜色各不相同。手牌和升级界面也用了醒目的亮色和粗线条。",
+        "comment": "卡牌上的图形提示和棋盘上的对象能对得上。设计这类战棋时，玩家最好能从卡面直接认出技能会作用在哪里。",
+        "transfer": "卡牌上的危险、范围和状态图标，可以直接在棋盘上复用。",
         "limitations": "静态布局只能支持信息组织观察，不能证明实战决策效率。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -10465,9 +10816,16 @@
           "curated_at": "2026-11-10",
           "full_text": "I absolutely love this game. An amazing deckbuilder with really lovely art. Blow up them aliens",
           "highlight_excerpts": [
-            "I absolutely love this game. An amazing deckbuilder with really lovely art. Blow up them aliens"
+            "really lovely art"
           ],
-          "full_text_sha256": "3588fb9458ec8f97af4633714d45c347b21d83a6cc0ea488d7b00c2506d33b2a"
+          "full_text_sha256": "3588fb9458ec8f97af4633714d45c347b21d83a6cc0ea488d7b00c2506d33b2a",
+          "highlight_ranges": [
+            [
+              57,
+              74
+            ]
+          ],
+          "highlight_translation_zh": "美术真的很讨人喜欢"
         },
         {
           "review_id": "195571814",
@@ -10478,9 +10836,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "机制结合很有趣，音乐美术都不错，牌组构筑无穷尽，内容多多值好评！",
           "highlight_excerpts": [
-            "机制结合很有趣，音乐美术都不错，牌组构筑无穷尽，内容多多值好评！"
+            "美术都不错"
           ],
-          "full_text_sha256": "d80cabce7022f7e53416abca9ae2cc4fa69f456c9321c52897e79ffcbce7b290"
+          "full_text_sha256": "d80cabce7022f7e53416abca9ae2cc4fa69f456c9321c52897e79ffcbce7b290",
+          "highlight_ranges": [
+            [
+              10,
+              15
+            ]
+          ]
         },
         {
           "review_id": "194429815",
@@ -10491,9 +10855,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "杀戮尖塔+战旗的排列组合，画风很可爱，玩起来也有不少新鲜感，还是挺快乐的",
           "highlight_excerpts": [
-            "杀戮尖塔+战旗的排列组合，画风很可爱，玩起来也有不少新鲜感，还是挺快乐的"
+            "画风很可爱"
           ],
-          "full_text_sha256": "f1875ffb7fe3a243252d4d7a2bd2de61f7401bca7b0e8f023c3faf04640f0b3b"
+          "full_text_sha256": "f1875ffb7fe3a243252d4d7a2bd2de61f7401bca7b0e8f023c3faf04640f0b3b",
+          "highlight_ranges": [
+            [
+              13,
+              18
+            ]
+          ]
         },
         {
           "review_id": "194269225",
@@ -10504,9 +10874,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "虽然是有借鉴，但是也很有自己的特色，画风音效也很优秀，玩法扎实。",
           "highlight_excerpts": [
-            "虽然是有借鉴，但是也很有自己的特色，画风音效也很优秀，玩法扎实。"
+            "画风"
           ],
-          "full_text_sha256": "10eb1ea6a90e2aae1047f4b08361ee0809f976c23d119ffdd53422c04570c53a"
+          "full_text_sha256": "10eb1ea6a90e2aae1047f4b08361ee0809f976c23d119ffdd53422c04570c53a",
+          "highlight_ranges": [
+            [
+              18,
+              20
+            ]
+          ]
         },
         {
           "review_id": "222325920",
@@ -10517,9 +10893,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "爽游，属于更适合休闲玩家的陷阵之志，二号机体观赏性很高，强推",
           "highlight_excerpts": [
-            "爽游，属于更适合休闲玩家的陷阵之志，二号机体观赏性很高，强推"
+            "二号机体观赏性很高"
           ],
-          "full_text_sha256": "27f916efd0c15d4e93b190e1775e58cbd47e524133b7f51c94252b06c982e45e"
+          "full_text_sha256": "27f916efd0c15d4e93b190e1775e58cbd47e524133b7f51c94252b06c982e45e",
+          "highlight_ranges": [
+            [
+              18,
+              27
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -10856,9 +11238,9 @@
         "tech_categories": []
       },
       "editorial_review": {
-        "observation": "探索废弃月面基地时，厚重显示器、设备外壳和手持终端把交互压回第一人称空间；冷暗走廊让光源、屏幕和逼近的异常成为注意焦点。",
-        "comment": "最有参考价值的是将复古未来感落实在可操作的设备上。屏幕、照明和遮挡共同决定玩家何时读到信息，形成持续的恐怖节奏。",
-        "transfer": "用于科幻恐怖：统一设备年代语法，再以光源位置、屏幕亮区和结构尺度组织线索。",
+        "observation": "废弃月面基地里到处是厚重的显示器和老式设备。走廊很暗，玩家主要靠设备屏幕、手持终端和少量灯光观察四周。",
+        "comment": "老式屏幕、按钮和有限的照明让设施显得可信，也决定了玩家能看清多少。做科幻恐怖时，可以先想清楚哪些设备能照亮路、哪些读数要凑近才看得见。",
+        "transfer": "让按钮和屏幕像同一个年代的设备，再用局部亮光提示哪里能读、哪里能操作。",
         "limitations": "不由截图推断渲染技术；音效、追逐与动态可读性另行评估。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -11145,9 +11527,16 @@
           "curated_at": "2026-11-10",
           "full_text": "The visual and audio aesthetics of this game are polished and very pleasing.\r\nIt’s a delightful retrofuture design. Cathode Ray Tube computer terminal screens with monocolour displays that typically only render text and have load times that are long enough to feel authentic. The sound or appearance of spinning drive platters. Chunky mainframe computers and more.\r\n\r\nYou’re given a special tool to interact with many things in the environment called the “Cosmonaut Assistance Tool” or just “CAT”. It resembles a chunky looking ray gun with a full colour viewfinder display for precise aim with a really slow smeary refresh rate and poor screen resolution. The limited output of the viewfinder makes precise aim in a hurry a very tense experience. The CAT has many modes of interaction which you select by physically bringing up the device to look at it and then clicking on the module which will give you the mode of interaction you want. This can lead to some tense moments where you know you need to change to a specific mode fast because your life depends on it but the method of changing the mode requires some doing.\r\n\r\nI did have some issues with the layout of the environments. I found that I got lost many times where I knew the name of the place I needed to go to but was having trouble finding it.\r\nI think that the somewhat labyrinthine layout of the environment was a deliberate design to make it so that you’ll panic when being pursued by things that will do you harm. But I found it frustrating sometimes.\r\n\r\nNote that the escape menu does NOT pause the game.\r\nI was flipping through menus at one point when all of the sudden I heard the footfalls of a pursuer and it scared the daylights out of me.\r\nI kind of like this choice. You can’t just hit escape and make the horror stop, you’re always vulnerable.\r\n\r\nI did not understand the story but that’s OK, it was compelling enough to keep me intrigued throughout playing. Perhaps when I play it again in the future I’ll understand the meaning of it.",
           "highlight_excerpts": [
-            "The visual and audio aesthetics of this game are polished"
+            "visual"
           ],
-          "full_text_sha256": "81889631d379813cae2f55c33f77a469289b7d85763c003d1f8c2514a7fe4b3b"
+          "full_text_sha256": "81889631d379813cae2f55c33f77a469289b7d85763c003d1f8c2514a7fe4b3b",
+          "highlight_ranges": [
+            [
+              4,
+              10
+            ]
+          ],
+          "highlight_translation_zh": "视觉"
         },
         {
           "review_id": "212842453",
@@ -11160,7 +11549,13 @@
           "highlight_excerpts": [
             "复古未来式美术风格"
           ],
-          "full_text_sha256": "84842427e2c3dd638de94d3101e8a08ee664fcece231c7f0dbc9602ea1860312"
+          "full_text_sha256": "84842427e2c3dd638de94d3101e8a08ee664fcece231c7f0dbc9602ea1860312",
+          "highlight_ranges": [
+            [
+              3,
+              12
+            ]
+          ]
         },
         {
           "review_id": "220070397",
@@ -11173,7 +11568,13 @@
           "highlight_excerpts": [
             "光影美术称得上优秀"
           ],
-          "full_text_sha256": "eae8aa9a467ade25c07cfade3eb6ede8fd25d7c51f21209a7ed4d1f3d788dfea"
+          "full_text_sha256": "eae8aa9a467ade25c07cfade3eb6ede8fd25d7c51f21209a7ed4d1f3d788dfea",
+          "highlight_ranges": [
+            [
+              54,
+              63
+            ]
+          ]
         },
         {
           "review_id": "229039509",
@@ -11186,7 +11587,13 @@
           "highlight_excerpts": [
             "复古科幻画风令人着迷"
           ],
-          "full_text_sha256": "8c32989e54c005253149f1a5d8e2d277f9c05e52020899d854aa1dd852860752"
+          "full_text_sha256": "8c32989e54c005253149f1a5d8e2d277f9c05e52020899d854aa1dd852860752",
+          "highlight_ranges": [
+            [
+              0,
+              10
+            ]
+          ]
         },
         {
           "review_id": "221639128",
@@ -11199,7 +11606,13 @@
           "highlight_excerpts": [
             "美术和氛围营造的还不错"
           ],
-          "full_text_sha256": "4355fbbba5c142109ac74d1badcfed8b4632c9f24be5323e82b689a187474ae0"
+          "full_text_sha256": "4355fbbba5c142109ac74d1badcfed8b4632c9f24be5323e82b689a187474ae0",
+          "highlight_ranges": [
+            [
+              101,
+              112
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -11536,9 +11949,9 @@
         ]
       },
       "editorial_review": {
-        "observation": "小主角在互联的黑暗洞穴中借工具探索，发光点、动物轮廓、环境变化与道具反馈在像素尺度下传递可疑之处。不同区域共享暗底，却有不同生态与光色。",
-        "comment": "它让光和生物形态参与谜题阅读。可参考如何把环境线索融进可探索的画面，使秘密在反复观察和换工具时逐渐显现。",
-        "transfer": "用于像素探索：建立暗底上的亮度层级，以尺度差和局部发光控制注意力及环境神秘感。",
+        "observation": "洞穴很暗，动物轮廓和零星的亮光格外显眼。换一种工具试探，原本不起眼的地方也可能有反应。",
+        "comment": "暗处一点光、动物的轮廓，都可能是解谜线索。做像素探索时，可以把最亮的位置留给玩家值得走近查看的东西。",
+        "transfer": "在暗处先试几种亮度，最亮的位置留给想让玩家停下来查看的地方。",
         "limitations": "隐藏线索是否公平、闪烁和拖影是否舒适，需要连续游玩验证。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -11833,9 +12246,15 @@
           "review_id": "182948733",
           "full_text": "完美的解谜游戏！！把像素风做到了极致，是今年最爱的独游",
           "highlight_excerpts": [
-            "完美的解谜游戏！！把像素风做到了极致，是今年最爱的独游"
+            "把像素风做到了极致"
           ],
-          "full_text_sha256": "7c30a3175e3761043906d15fa82c12fb7c3da6b5947246988c8eaa1ddff55999"
+          "full_text_sha256": "7c30a3175e3761043906d15fa82c12fb7c3da6b5947246988c8eaa1ddff55999",
+          "highlight_ranges": [
+            [
+              9,
+              18
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -11844,9 +12263,15 @@
           "review_id": "165295958",
           "full_text": "像素艺术品，居然只有33M大小，不懂怎么做到的有点太强了",
           "highlight_excerpts": [
-            "像素艺术品，居然只有33M大小，不懂怎么做到的有点太强了"
+            "像素艺术品"
           ],
-          "full_text_sha256": "b4e4a6d3773dc5b26920652b5e254b8661b3cad85ba8f56ee902443930747d13"
+          "full_text_sha256": "b4e4a6d3773dc5b26920652b5e254b8661b3cad85ba8f56ee902443930747d13",
+          "highlight_ranges": [
+            [
+              0,
+              5
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -11855,9 +12280,15 @@
           "review_id": "205964133",
           "full_text": "很喜欢这个游戏的画面，很漂亮\n各种小道具的谜题设计也很棒，\n",
           "highlight_excerpts": [
-            "很喜欢这个游戏的画面，很漂亮\n各种小道具的谜题设计也很棒，\n"
+            "很喜欢这个游戏的画面，很漂亮"
           ],
-          "full_text_sha256": "cbf813eae2b04e642a9ade9861d1a0a744f7a79b26825aa88b7f1d539c0cbd99"
+          "full_text_sha256": "cbf813eae2b04e642a9ade9861d1a0a744f7a79b26825aa88b7f1d539c0cbd99",
+          "highlight_ranges": [
+            [
+              0,
+              14
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -11865,10 +12296,9 @@
           "url": "https://steamcommunity.com/profiles/76561198218106055/recommended/813230/",
           "review_id": "225822151",
           "full_text": "這款遊戲精美到一個程度\n他不紅是因為多數玩家無法跟上作者 \n",
-          "highlight_excerpts": [
-            "這款遊戲精美到一個程度\n他不紅是因為多數玩家無法跟上作者 \n"
-          ],
-          "full_text_sha256": "01867f48174a6f62664b08b5607899977ceb945e3e1fb6f53bd7138be3072c4f"
+          "highlight_excerpts": [],
+          "full_text_sha256": "01867f48174a6f62664b08b5607899977ceb945e3e1fb6f53bd7138be3072c4f",
+          "highlight_ranges": []
         },
         {
           "sentiment": "positive",
@@ -11877,9 +12307,15 @@
           "review_id": "166282087",
           "full_text": "有趣的解密过程，自由的探险历程，还有这游戏实在是太美了吧！！！",
           "highlight_excerpts": [
-            "有趣的解密过程，自由的探险历程，还有这游戏实在是太美了吧！！！"
+            "这游戏实在是太美了吧"
           ],
-          "full_text_sha256": "300ff92976c3f55f7edb1a89d2af925e262782b0e621f22330cbfc27c3193069"
+          "full_text_sha256": "300ff92976c3f55f7edb1a89d2af925e262782b0e621f22330cbfc27c3193069",
+          "highlight_ranges": [
+            [
+              18,
+              28
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -12903,8 +13339,8 @@
       },
       "editorial_review": {
         "observation": "湖泊、河流和海岸轮换，垂钓者与船始终让位于水面、植物与远山；天候、反射和拉线动作在低频操作间形成缓慢变化。",
-        "comment": "本作把风景变化做成钓鱼等待的一部分。可参考在低操作频率下用天气、波纹和远近层次维持场景生命力。",
-        "transfer": "用于放置、钓鱼和桌面氛围：先设计风景构图与时段配色，再把操作角色压到合适尺度。",
+        "comment": "钓鱼等候时，水波、天气和远处风景都在变。操作不多的游戏，可以靠这些细小变化让玩家愿意多看一会儿。",
+        "transfer": "给水面和远山留出足够空间，让船和人物小一点，等鱼咬钩时仍有风景可看。",
         "limitations": "静帧不证明水面动画或节奏体验；不可将舒适感直接等同于用户研究结论。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -13173,9 +13609,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "风景优美的挂机游戏，有一些减负设计。换钓竿和钓饵比较麻烦，因为是像素的外形都差不多，不好记。",
           "highlight_excerpts": [
-            "风景优美的挂机游戏"
+            "风景优美"
           ],
-          "full_text_sha256": "2c16802ceee9cd8ed4ef5392dc1bfc5613f940b949b9c3d0c8cdd5b6159a54cf"
+          "full_text_sha256": "2c16802ceee9cd8ed4ef5392dc1bfc5613f940b949b9c3d0c8cdd5b6159a54cf",
+          "highlight_ranges": [
+            [
+              0,
+              4
+            ]
+          ]
         },
         {
           "review_id": "229625045",
@@ -13188,7 +13630,13 @@
           "highlight_excerpts": [
             "畫面超級美"
           ],
-          "full_text_sha256": "c433f9be66bead04b962cfe9b13788fdc91137181f8bf22436c0e20c7fd8bb34"
+          "full_text_sha256": "c433f9be66bead04b962cfe9b13788fdc91137181f8bf22436c0e20c7fd8bb34",
+          "highlight_ranges": [
+            [
+              0,
+              5
+            ]
+          ]
         },
         {
           "review_id": "214352131",
@@ -13199,9 +13647,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "画风精致的像素放置类游戏",
           "highlight_excerpts": [
-            "画风精致的像素放置类游戏"
+            "画风精致的像素"
           ],
-          "full_text_sha256": "4125f4ba9c563b05759f28e457ffecf69ccbdacbeaaf484d3390db330a4295bb"
+          "full_text_sha256": "4125f4ba9c563b05759f28e457ffecf69ccbdacbeaaf484d3390db330a4295bb",
+          "highlight_ranges": [
+            [
+              0,
+              7
+            ]
+          ]
         },
         {
           "review_id": "197632599",
@@ -13214,7 +13668,13 @@
           "highlight_excerpts": [
             "像素美术非常有水平"
           ],
-          "full_text_sha256": "b596849e0d57907288c7ae78b813a84e9099d3b25456a9a920602b4891404959"
+          "full_text_sha256": "b596849e0d57907288c7ae78b813a84e9099d3b25456a9a920602b4891404959",
+          "highlight_ranges": [
+            [
+              5,
+              14
+            ]
+          ]
         },
         {
           "review_id": "225325782",
@@ -13227,7 +13687,13 @@
           "highlight_excerpts": [
             "绚烂多彩的各种风景"
           ],
-          "full_text_sha256": "850cc0452170c75eddd0bacb1dc9c6435c9d8ece190509910a7b41f48d9d3245"
+          "full_text_sha256": "850cc0452170c75eddd0bacb1dc9c6435c9d8ece190509910a7b41f48d9d3245",
+          "highlight_ranges": [
+            [
+              48,
+              57
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -13561,8 +14027,8 @@
       },
       "editorial_review": {
         "observation": "怪物从裂隙进入节奏轨道，分道、轮廓和颜色标明输入位置，判定和分数贴近操作区；角色与舞台图形负责烘托歌曲，核心读谱区持续保持清楚。",
-        "comment": "它把战斗对象做成节奏指令。适合参考在演出密集的音乐游戏里如何维护读谱层级，并用敌人动作丰富节拍。",
-        "transfer": "用于音游和节奏交互：给每类可操作对象稳定的轮廓编码，装饰角色留在轨道之外。",
+        "comment": "怪物的外形和动作既是角色演出，也告诉玩家该怎么打节拍。做类似音游时，先让每种怪物的动作好认，再加装饰和特效。",
+        "transfer": "让每类音符或敌人有好认的外形，把装饰性的角色和特效移到轨道外。",
         "limitations": "本次未观察连续动态，不评价判定时序和节奏同步效果。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -13842,9 +14308,16 @@
           "curated_at": "2026-11-10",
           "full_text": "It's Guitar Hero, but with your keyboard and with custom track support and a cute art style. It's awesome.",
           "highlight_excerpts": [
-            "It's Guitar Hero, but with your keyboard and with custom track support and a cute art style. It's awesome."
+            "a cute art style"
           ],
-          "full_text_sha256": "c5cbc4b28db7256510345370fdeca6a335452d28fabf2e4e05e73c21a1a26fae"
+          "full_text_sha256": "c5cbc4b28db7256510345370fdeca6a335452d28fabf2e4e05e73c21a1a26fae",
+          "highlight_ranges": [
+            [
+              75,
+              91
+            ]
+          ],
+          "highlight_translation_zh": "可爱的美术风格"
         },
         {
           "review_id": "188473632",
@@ -13855,9 +14328,20 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "凯登丝可爱可爱可爱可爱可爱可爱可爱可爱可爱可爱可爱可爱\r\n朵芙可爱可爱可爱可爱可爱可爱可爱可爱可爱可爱可爱可爱",
           "highlight_excerpts": [
-            "凯登丝可爱可爱可爱可爱可爱可爱可爱可爱可爱可爱可爱可爱\r\n朵芙可爱可爱可爱可爱可爱可爱可爱可爱可爱可爱可爱可爱"
+            "凯登丝可爱",
+            "朵芙可爱"
           ],
-          "full_text_sha256": "d731380a23ccc87cc57af65c555e1ce80eef1956c8ea85a43e3bae3495f0b518"
+          "full_text_sha256": "d731380a23ccc87cc57af65c555e1ce80eef1956c8ea85a43e3bae3495f0b518",
+          "highlight_ranges": [
+            [
+              0,
+              5
+            ],
+            [
+              29,
+              33
+            ]
+          ]
         },
         {
           "review_id": "202099753",
@@ -13868,9 +14352,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "除了好玩想不到其他更纯粹的词来评价这一作\r\n可以说是音游吃出了类魂的感觉，难度梯度体验很舒适，剧情节奏和学习反馈也很优秀。当然，还有美术（打人，爽！\r\n有一定下落式基础和反射弧的可以直接上困难，不过boss战无目押半拍+欺骗不靠背板真的是人能玩的吗？？？",
           "highlight_excerpts": [
-            "除了好玩想不到其他更纯粹的词来评价这一作\r\n可以说是音游吃出了类魂的感觉，难度梯度体验很舒适，剧情节奏和学习反馈也很优秀。当然，还有美术（打人，爽！\r\n有一定下落式基础和反射弧的可以直接上困难，不过boss战无目押半拍+欺骗不靠背板真的是人能玩的吗？？？"
+            "还有美术"
           ],
-          "full_text_sha256": "5d6817c79ecb3dec8eb800ac95a23ce6a741ec18ff2d61b8bfb8fc51a37a3010"
+          "full_text_sha256": "5d6817c79ecb3dec8eb800ac95a23ce6a741ec18ff2d61b8bfb8fc51a37a3010",
+          "highlight_ranges": [
+            [
+              64,
+              68
+            ]
+          ]
         },
         {
           "review_id": "187314777",
@@ -13881,9 +14371,20 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "三合一的節奏遊戲\n下落式的主要關卡，節奏天國的小遊戲和像osu!的boss戰\n主要關卡老實說有夠難...每隻怪都有自己不同的移動方式和變體，高難度下一堆不同的怪混在一起高速朝你飛過來真的不知道自己在按什麼\n這模式不只要求你有節奏感，同時還要有極高的讀譜能力，比起音樂遊戲帶來的爽感，大多數時間都在努力想這些怪接下來會怎麼移動，其實不太喜歡\n\n小遊戲做得很可愛，美術非常棒，但美中不足的是關卡有點少只有5種\nboss戰反倒是太簡單了，只要看準時機按下相對按鍵就好，沒有節奏感的人目押也能輕鬆通過\n-\n遊戲性有點微妙，但美術和音樂我很喜歡所以還是給個好評",
           "highlight_excerpts": [
-            "三合一的節奏遊戲\n下落式的主要關卡，節奏天國的小遊戲和像osu!的boss戰\n主要關卡老實說有夠難...每隻怪都有自己不同的移動方式和變體，高難度下一堆不同的怪混在一起高速朝你飛過來真的不知道自己在按什麼\n這模式不只要求你有節奏感，同時還要有極高的讀譜能力，比起音樂遊戲帶來的爽感，大多數時間都在努力想這些怪接下來會怎麼移動，其實不太喜歡\n\n小遊戲做得很可愛，美術非常棒，但美中不足的是關卡有點少只有5種\nboss戰反倒是太簡單了，只要看準時機按下相對按鍵就好，沒有節奏感的人目押也能輕鬆通過\n-\n遊戲性有點微妙，但美術和音樂我很喜歡所以還是給個好評"
+            "美術非常棒",
+            "美術"
           ],
-          "full_text_sha256": "1966cc0af6de1944bb7936833086ab06b9cd466b35e7533313b2fe24cc35f371"
+          "full_text_sha256": "1966cc0af6de1944bb7936833086ab06b9cd466b35e7533313b2fe24cc35f371",
+          "highlight_ranges": [
+            [
+              180,
+              185
+            ],
+            [
+              258,
+              260
+            ]
+          ]
         },
         {
           "review_id": "187749091",
@@ -13894,9 +14395,25 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "节奏地牢那边一发公告说发售了就来了\n从类肉鸽变成了音游，但与节奏地牢同样正式过程中只需要上下左右四个方向键，同样需要了解怪的行动模式才能获得好的成绩\n\n详细介绍的话：\n1.画风是和节奏地牢一样的漫画风，非常好看，所有角色着装都更换成了现代一些的服装，哦对了，还有一点和节奏地牢一样，角色和怪每一拍都会跟着摇一下；\n\n2.游戏系统：\n①基础是简单的3key下落式音游\n②读谱难度很大，要及时根据怪的行动模式读谱并安排好按键，并且还有半拍间隔，反拍和不跟拍，1/3拍间隔，2/3拍间隔等多样的按键节奏，怪的位置到怪的行动模式到读谱结果的多一层转化实在太烧脑了！\n③跟别的音游不一样，多按乱按会断连，故事模式下为了过关，忽略分数全部糊过去来保血量也没问题，但就算是糊，也不要过高频率按，否则会被视为消极游戏锁按键，就是短时间内按上下左右都无反应，下面也会出现三把锁，这期间所有伤害硬吃；随意游玩的时候想要高分高评级的话就要必须做到稳准狠了，尽量做到一点都不按错\n\n3.音乐如何说实话因人而异，我个人感觉是很不错的，且有很多原节奏地牢BGM的改编曲，对有节奏地牢情怀的各位是好球区\n\n总而言之，我很推荐，难度问题就先找适合自己的难度玩吧，比传统音游多一层烧脑确实有难度\n价格我个人觉得适中吧，如果不急着玩的话还是等更好的折扣的再入手",
           "highlight_excerpts": [
-            "节奏地牢那边一发公告说发售了就来了\n从类肉鸽变成了音游，但与节奏地牢同样正式过程中只需要上下左右四个方向键，同样需要了解怪的行动模式才能获得好的成绩\n\n详细介绍的话：\n1.画风是和节奏地牢一样的漫画风，非常好看，所有角色着装都更换成了现代一些的服装，哦对了，还有一点和节奏地牢一样，角色和怪每一拍都会跟着摇一下；\n\n2.游戏系统：\n①基础是简单的3key下落式音游\n②读谱难度很大，要及时根据怪的行动模式读谱并安排好按键，并且还有半拍间隔，反拍和不跟拍，1/3拍间隔，2/3拍间隔等多样的按键节奏，怪的位置到怪的行动模式到读谱结果的多一层转化实在太烧脑了！\n③跟别的音游不一样，多按乱按会断连，故事模式下为了过关，忽略分数全部糊过去来保血量也没问题，但就算是糊，也不要过高频率按，否则会被视为消极游戏锁按键，就是短时间内按上下左右都无反应，下面也会出现三把锁，这期间所有伤害硬吃；随意游玩的时候想要高分高评级的话就要必须做到稳准狠了，尽量做到一点都不按错\n\n3.音乐如何说实话因人而异，我个人感觉是很不错的，且有很多原节奏地牢BGM的改编曲，对有节奏地牢情怀的各位是好球区\n\n总而言之，我很推荐，难度问题就先找适合自己的难度玩吧，比传统音游多一层烧脑确实有难度\n价格我个人觉得适中吧，如果不急着玩的话还是等更好的折扣的再入手"
+            "画风是和节奏地牢一样的漫画风，非常好看",
+            "所有角色着装都更换成了现代一些的服装",
+            "角色和怪每一拍都会跟着摇一下"
           ],
-          "full_text_sha256": "79f1790b37211f6a72757445ed04369da5c615dbce8f67854be9f605e92f9714"
+          "full_text_sha256": "79f1790b37211f6a72757445ed04369da5c615dbce8f67854be9f605e92f9714",
+          "highlight_ranges": [
+            [
+              86,
+              105
+            ],
+            [
+              106,
+              124
+            ],
+            [
+              141,
+              155
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -14911,8 +15428,8 @@
       },
       "editorial_review": {
         "observation": "街机式太空战斗围绕飞船变形与构筑升级展开。简化飞船轮廓对上高亮的光束、电弧和弹丸，玩家的武器变化会直接改写画面上的攻击形态。",
-        "comment": "它让构筑结果在战斗画面里可以被认出来。适合参考在高密度弹幕里用明确的形状、方向和颜色表现不同攻击。",
-        "transfer": "用于街机射击与技能组合：为攻击形态定义独立的几何规则和颜色，再控制同时出现的亮度峰值。",
+        "comment": "弹幕再多，攻击也能靠形状、方向和颜色区分。给不同武器做特效时，可以先定好各自的外形，再控制同时出现的亮光。",
+        "transfer": "让光束、电弧和弹丸各有清楚的外形，避免几种攻击同时出现时糊成一片。",
         "limitations": "截图只展示特效形态，不评价完整时序；高亮叠加可能造成遮挡。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -15182,7 +15699,13 @@
           "highlight_excerpts": [
             "简洁且优秀的美术"
           ],
-          "full_text_sha256": "b5a7f08769ce1a7442045115b0c8712011a44460b76c37bb9e07e1dee3bcd7aa"
+          "full_text_sha256": "b5a7f08769ce1a7442045115b0c8712011a44460b76c37bb9e07e1dee3bcd7aa",
+          "highlight_ranges": [
+            [
+              7,
+              15
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -15193,7 +15716,13 @@
           "highlight_excerpts": [
             "畫面的表現上也很不錯"
           ],
-          "full_text_sha256": "eba8e9eb06fb3f5c57d147f7e273572b6e7ad23c5020b16df8bafe776aa5f28a"
+          "full_text_sha256": "eba8e9eb06fb3f5c57d147f7e273572b6e7ad23c5020b16df8bafe776aa5f28a",
+          "highlight_ranges": [
+            [
+              90,
+              100
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -15204,7 +15733,13 @@
           "highlight_excerpts": [
             "画风简约却炫目"
           ],
-          "full_text_sha256": "4e4a322bed84e2dab08f5363c4bfc07a52492305b9eb1120d31db1624ea1c772"
+          "full_text_sha256": "4e4a322bed84e2dab08f5363c4bfc07a52492305b9eb1120d31db1624ea1c772",
+          "highlight_ranges": [
+            [
+              0,
+              7
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -15213,9 +15748,15 @@
           "review_id": "123015884",
           "full_text": "    第一次買覺得操作太反人類所以退費+給差評，不過這次買了之後發現其實很好玩，說是同類遊戲中最優秀也不為過，無論是可玩性或者畫面美術都是。\n    重點是要去設定那把手把轉向改成\"定向\"，不改根本沒辦法玩(不過改了還是蠻反人類的..只能說其他方面太好了導致這一大缺點可以被接受= =，但如果改成普遍的那種移動方式，絕對直接變神作....)",
           "highlight_excerpts": [
-            "無論是可玩性或者畫面美術都是"
+            "畫面美術"
           ],
-          "full_text_sha256": "58dac07afb4aa8b7cccd2ab720ceb346af53f1f6198965a29cbf7a37e22797b2"
+          "full_text_sha256": "58dac07afb4aa8b7cccd2ab720ceb346af53f1f6198965a29cbf7a37e22797b2",
+          "highlight_ranges": [
+            [
+              64,
+              68
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -15226,7 +15767,13 @@
           "highlight_excerpts": [
             "这个画风"
           ],
-          "full_text_sha256": "34569fd7b1f53ade5fb309afba295996ecba06fee33dfca23b6a20a823354587"
+          "full_text_sha256": "34569fd7b1f53ade5fb309afba295996ecba06fee33dfca23b6a20a823354587",
+          "highlight_ranges": [
+            [
+              82,
+              86
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -15557,8 +16104,8 @@
       },
       "editorial_review": {
         "observation": "每局围绕传统扑克牌运转，小丑牌、商店和倍率模块构成额外规则层。出牌后的数字、火焰和短动画把叠乘过程转成可感知的节奏。",
-        "comment": "它用熟悉牌面降低入门成本，再把陌生规则放进插画与反馈。可借鉴保留核心符号、突出构筑差异、逐步放大结算这套组织方法。",
-        "transfer": "用于卡牌和数值驱动产品：稳定核心符号、区分规则牌与奖励牌，让视觉异常对应玩法变化。",
+        "comment": "玩家一眼就认得出常规扑克牌，带特殊规则的小丑牌则靠插画区分。新机制很多时，可以留住大家熟悉的符号，把变化放在需要特别注意的地方。",
+        "transfer": "普通牌继续用熟悉的花色，带特殊规则的牌再用插画和动画提醒玩家。",
         "limitations": "主题为纸牌玩法，并非现实赌博收益建议；动态反馈和可读性需另行验证。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -15840,9 +16387,15 @@
           "review_id": "171425166",
           "full_text": "好玩，希望多一些这种游戏，画面也舒服",
           "highlight_excerpts": [
-            "好玩，希望多一些这种游戏，画面也舒服"
+            "画面也舒服"
           ],
-          "full_text_sha256": "adf8d7f29552d45d1a789badf7fd040053052a4c169392a4c58b34e510d1f9ce"
+          "full_text_sha256": "adf8d7f29552d45d1a789badf7fd040053052a4c169392a4c58b34e510d1f9ce",
+          "highlight_ranges": [
+            [
+              13,
+              18
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -16592,9 +17145,9 @@
         "date": "Jun 25, 2024"
       },
       "display_policy": {
-        "visible": true,
+        "visible": false,
         "version": "2026-11-12-sample-display",
-        "basis": "沿用迁移前的收录及隐藏决定；样本统计不自动决定入库"
+        "basis": "用户要求暂时下架（2026-11-12）"
       },
       "semantic_quote_scope": "existing_sample"
     },
@@ -16846,8 +17399,8 @@
       },
       "editorial_review": {
         "observation": "角色在绘本页内行动，也会跳进书外的三维空间。平涂轮廓、纸页边界和桌面道具让两个空间始终可辨，跨越页面会改变可通行的路线与解法。",
-        "comment": "二维与三维切换本身就是关卡语言。可参考先用美术建立两个明确的空间规则，再让出入边界成为可操作的谜题。",
-        "transfer": "用于绘本互动和解谜：先规定纸面与立体空间的转换条件，再保持角色符号和颜色连续。",
+        "comment": "从书页里的平面插画跳到立体桌面，切换本身就是谜题的一部分。两个世界的样子可以差得很远，主角的颜色和外形要让人换个场景也能认出来。",
+        "transfer": "先画清楚书页边缘和桌面之间的关系，让玩家看得出哪里可以进出。",
         "limitations": "跨空间机制依据官方介绍；所选初批截图偏重二维页面，完整切换过程需视频复核。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -17140,9 +17693,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "很棒的场景转换，崭新的游戏主意，我很喜欢",
           "highlight_excerpts": [
-            "很棒的场景转换，崭新的游戏主意，我很喜欢"
+            "很棒的场景转换"
           ],
-          "full_text_sha256": "176951824140af98b089d56cd07877c197abce9379a86ae00299e87f040e3361"
+          "full_text_sha256": "176951824140af98b089d56cd07877c197abce9379a86ae00299e87f040e3361",
+          "highlight_ranges": [
+            [
+              0,
+              7
+            ]
+          ]
         },
         {
           "review_id": "217507513",
@@ -17153,9 +17712,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "手感僵硬 敌人重复 还有好多bug 唯一能称赞的就是画风 解密中规中矩",
           "highlight_excerpts": [
-            "手感僵硬 敌人重复 还有好多bug 唯一能称赞的就是画风 解密中规中矩"
+            "唯一能称赞的就是画风"
           ],
-          "full_text_sha256": "d6d2fab5f1268c494aba5482f6e32afc3c8c8c5860a53edb48b2f2bd050bc657"
+          "full_text_sha256": "d6d2fab5f1268c494aba5482f6e32afc3c8c8c5860a53edb48b2f2bd050bc657",
+          "highlight_ranges": [
+            [
+              18,
+              28
+            ]
+          ]
         },
         {
           "review_id": "196241327",
@@ -17166,9 +17731,25 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "画风可爱，游戏性欠缺。\r\n\r\n绘本的画风很可爱，刚进游戏会感觉很有特色。但是玩了一会就会感觉没什么意思。\r\n玩法上类似塞尔达的战斗与解谜。但是战斗和解谜部分都做得一般，做的不差，就是无聊。\r\n虽然有脱离书本，进入现实世界的能力，但也不过是把2d的战斗和解谜放改成3d的。3d世界影响2d的能力也没有深入设计。而且两边的地图都没什么探索的乐趣。\r\n并且平台跳跃和射箭关卡的手感有点别扭。\r\n\r\n总结：画风有特点但是游戏性平庸的作品",
           "highlight_excerpts": [
-            "画风可爱，游戏性欠缺。\r\n\r\n绘本的画风很可爱，刚进游戏会感觉很有特色。但是玩了一会就会感觉没什么意思。\r\n玩法上类似塞尔达的战斗与解谜。但是战斗和解谜部分都做得一般，做的不差，就是无聊。\r\n虽然有脱离书本，进入现实世界的能力，但也不过是把2d的战斗和解谜放改成3d的。3d世界影响2d的能力也没有深入设计。而且两边的地图都没什么探索的乐趣。\r\n并且平台跳跃和射箭关卡的手感有点别扭。\r\n\r\n总结：画风有特点但是游戏性平庸的作品"
+            "画风可爱",
+            "绘本的画风很可爱",
+            "画风有特点"
           ],
-          "full_text_sha256": "1fbbba2c2c1432a23c7ca7847931c51cd7861bb3b07e7ff32c3df4781bee23c0"
+          "full_text_sha256": "1fbbba2c2c1432a23c7ca7847931c51cd7861bb3b07e7ff32c3df4781bee23c0",
+          "highlight_ranges": [
+            [
+              0,
+              4
+            ],
+            [
+              15,
+              23
+            ],
+            [
+              199,
+              204
+            ]
+          ]
         },
         {
           "review_id": "177572457",
@@ -17179,9 +17760,20 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "[h1] 《勇敢小骑士》：仿佛置身于童话故事之中~ [/h1]\r\n随着生活压力的倍增，不知多久没有玩到一款纯粹快乐的游戏了，虽然成年人的世界并没有小时候想的那么美好，但童年的各种童话故事绝对是不少人心目中的幻想乡，本作就很有意思的将童话故事以游戏的形式表现了出来，童趣的手绘风格加上2D/3D玩法的转化， 仿佛置身于童话世界中，再次感受到游戏和童话带来的快乐。\r\n\r\n游戏的故事发生在一个叫作山姆的房间之中，翻开一本儿童故事，里面的主角是一位勇敢小骑士乔特，抵御着邪恶的巫师，守护着这片魔久之境，而游戏也会随着旁白的对话开始，你将扮演小骑士乔特展开一场奇特的冒险之旅。\r\n\r\n游戏整体采用手绘风格设计，每个场景和角色都设计的童趣十足，而更有意思的是本作的玩法也是应有尽有，上一页你还只是一位普通的小骑士，下一页你将成为拳击手与敌人展开搏斗，又到了下一页，是男人就下一百层？竖版、横板、大世界的各种转换，使得游戏的可玩性相当高，同时跟随剧情循序渐进的过程更不会让人感到枯燥乏味，体验下来一直都是抱着好奇惊喜的心态游玩的，非常有意思。\r\n\r\n而到了后续游戏解锁了3D的玩法，游戏内容将会得到进一步的拓展，玩家可以化身小骑士在故事中进行冒险，也可以跑出故事书外携带各种外部的物品进行转换，各种现实的物品加入到故事书中，手套、印章，天马行空的玩法不禁让人感叹制作组的创新力是多么强大，并且这还只是它们的处女座，真的太好玩了。\r\n\r\n而除了常规的战斗和平台跳跃玩法之外，游戏还设计了一些解谜要素，通过各种文字的组合从而使得游戏故事发生变化，利用各种道具进行改变，也是特别有意思的设计。\r\n\r\n总的来说，《勇敢小骑士》这部作品无论是剧情、美术还是玩法都是非常不错的一款作品，让人真正意义上感受到游戏的快乐，非常值得一试~\r\n[code]欢迎加入我们Steam组： [url=https://steamcommunity.com/groups/SB_Master]社保大师[/url]←点击加入，一起分享游戏的乐趣\r\n欢迎关注我们的鉴赏家：[url=https://store.steampowered.com/curator/33626473]社保大师鉴赏家[/url] ←点击关注，查看精彩评测[/code]",
           "highlight_excerpts": [
-            "[h1] 《勇敢小骑士》：仿佛置身于童话故事之中~ [/h1]\r\n随着生活压力的倍增，不知多久没有玩到一款纯粹快乐的游戏了，虽然成年人的世界并没有小时候想的那么美好，但童年的各种童话故事绝对是不少人心目中的幻想乡，本作就很有意思的将童话故事以游戏的形式表现了出来，童趣的手绘风格加上2D/3D玩法的转化， 仿佛置身于童话世界中，再次感受到游戏和童话带来的快乐。\r\n\r\n游戏的故事发生在一个叫作山姆的房间之中，翻开一本儿童故事，里面的主角是一位勇敢小骑士乔特，抵御着邪恶的巫师，守护着这片魔久之境，而游戏也会随着旁白的对话开始，你将扮演小骑士乔特展开一场奇特的冒险之旅。\r\n\r\n游戏整体采用手绘风格设计，每个场景和角色都设计的童趣十足，而更有意思的是本作的玩法也是应有尽有，上一页你还只是一位普通的小骑士，下一页你将成为拳击手与敌人展开搏斗，又到了下一页，是男人就下一百层？竖版、横板、大世界的各种转换，使得游戏的可玩性相当高，同时跟随剧情循序渐进的过程更不会让人感到枯燥乏味，体验下来一直都是抱着好奇惊喜的心态游玩的，非常有意思。\r\n\r\n而到了后续游戏解锁了3D的玩法，游戏内容将会得到进一步的拓展，玩家可以化身小骑士在故事中进行冒险，也可以跑出故事书外携带各种外部的物品进行转换，各种现实的物品加入到故事书中，手套、印章，天马行空的玩法不禁让人感叹制作组的创新力是多么强大，并且这还只是它们的处女座，真的太好玩了。\r\n\r\n而除了常规的战斗和平台跳跃玩法之外，游戏还设计了一些解谜要素，通过各种文字的组合从而使得游戏故事发生变化，利用各种道具进行改变，也是特别有意思的设计。\r\n\r\n总的来说，《勇敢小骑士》这部作品无论是剧情、美术还是玩法都是非常不错的一款作品，让人真正意义上感受到游戏的快乐，非常值得一试~\r\n[code]欢迎加入我们Steam组： [url=https://steamcommunity.com/groups/SB_Master]社保大师[/url]←点击加入，一起分享游戏的乐趣\r\n欢迎关注我们的鉴赏家：[url=https://store.steampowered.com/curator/33626473]社保大师鉴赏家[/url] ←点击关注，查看精彩评测[/code]"
+            "童趣的手绘风格",
+            "游戏整体采用手绘风格设计，每个场景和角色都设计的童趣十足"
           ],
-          "full_text_sha256": "559e57fa87902337cb3f205c1a7bb49b6d232ddaf99f3f1c15a4efdb8b510fca"
+          "full_text_sha256": "559e57fa87902337cb3f205c1a7bb49b6d232ddaf99f3f1c15a4efdb8b510fca",
+          "highlight_ranges": [
+            [
+              132,
+              139
+            ],
+            [
+              288,
+              316
+            ]
+          ]
         },
         {
           "review_id": "234003306",
@@ -17192,9 +17784,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "非常好游戏 画风精美 难度适中 原来不卡关是这么的舒适",
           "highlight_excerpts": [
-            "非常好游戏 画风精美 难度适中 原来不卡关是这么的舒适"
+            "画风精美"
           ],
-          "full_text_sha256": "241c124a5c80db1228676e218d2d27d911e305339dcbe0ce0f4bc8506dc34d11"
+          "full_text_sha256": "241c124a5c80db1228676e218d2d27d911e305339dcbe0ce0f4bc8506dc34d11",
+          "highlight_ranges": [
+            [
+              6,
+              10
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -17951,9 +18549,9 @@
         "date": "Mar 30, 2025"
       },
       "display_policy": {
-        "visible": true,
+        "visible": false,
         "version": "2026-11-12-sample-display",
-        "basis": "沿用迁移前的收录及隐藏决定；样本统计不自动决定入库"
+        "basis": "用户要求暂时下架（2026-11-12）"
       },
       "semantic_quote_scope": "fixed_sample"
     },
@@ -18203,8 +18801,8 @@
       },
       "editorial_review": {
         "observation": "合作队员在废弃船内执行高风险任务，局部光照限定可见范围，手持屏幕、武器和队友装备提供方向与行动线索，狭窄空间放大未知生物的威胁。",
-        "comment": "它将低照度、工具读数和团队站位连成调查体验。可借鉴如何让恐怖来自信息差，同时给队伍足够清楚的协作提示。",
-        "transfer": "用于合作恐怖：让必要信息有稳定的光源或设备载体，将不确定性留给外围空间。",
+        "comment": "队伍靠手里的设备和有限的灯光判断周围发生了什么。做合作恐怖时，可以让危险藏在暗处，但队友位置和关键读数要看得清。",
+        "transfer": "队友位置和关键读数用稳定的颜色或光源表示，把黑暗留给玩家暂时看不清的地方。",
         "limitations": "只作静态美术参考；怪物行为、多人沟通和实际视认距离仍待动态验证。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -18487,9 +19085,16 @@
           "curated_at": "2026-11-10",
           "full_text": "Very promising game, with amazing atmosphere and nice graphics.\n\nAlso very fun to play with friends :)",
           "highlight_excerpts": [
-            "Very promising game, with amazing atmosphere and nice graphics.\n\nAlso very fun to play with friends :)"
+            "nice graphics"
           ],
-          "full_text_sha256": "cdf7da29511dd2a2259e9a4072dab978dc7203db655f051cd658d77fd49267c4"
+          "full_text_sha256": "cdf7da29511dd2a2259e9a4072dab978dc7203db655f051cd658d77fd49267c4",
+          "highlight_ranges": [
+            [
+              49,
+              62
+            ]
+          ],
+          "highlight_translation_zh": "画面不错"
         },
         {
           "review_id": "210790700",
@@ -18507,9 +19112,16 @@
           "curated_at": "2026-11-10",
           "full_text": "The game may only be $10 but it has visuals and a game loop to rival any AAA title released this year.",
           "highlight_excerpts": [
-            "The game may only be $10 but it has visuals and a game loop to rival any AAA title released this year."
+            "visuals"
           ],
-          "full_text_sha256": "1b2c76be487d884901f15f25940b9bfd3afb5de3a5df968936b0b1f86b05483b"
+          "full_text_sha256": "1b2c76be487d884901f15f25940b9bfd3afb5de3a5df968936b0b1f86b05483b",
+          "highlight_ranges": [
+            [
+              36,
+              43
+            ]
+          ],
+          "highlight_translation_zh": "画面"
         },
         {
           "review_id": "226690150",
@@ -18520,9 +19132,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "是的，增加游戏时长的方法就是硬拖。神了，制作组这么喜欢教人玩游戏啊。\n别人：嘿，我们有一个超棒超棒的成就系统，你只要完成就可以得到Steam成就，完成所有成就就可以白金。\n这里：嘿，我们有一个超麻烦超麻烦的成就系统，你不按我们的想法玩就不能买高级装备。\n删档ok，算你们要底层大改，提前做好预防。\n教玩家玩游戏，再见，毕竟我只是一个喜欢挑战高难度，时不时休闲一下的玩家，不是一个被强迫去吃屎的机器人。\n26.11.2---分割线---\n很不错的类SCP（像是CB与SL的合体，更像纯PVE的SL），要在躲与战之间平衡，氛围感十足，画面很好，有挺棒的小解谜设计，不是特别适合单人游玩（除非你真的很厉害），内容还有点少，不过价格挺便宜，如果坚持更新感觉可以达到上百的价格的内容。\n\n给新手的建议：\n不要把这当成收容失效或者逃离后室，没这么紧张，有复活，稍微放松一点。\n\n最希望的更新：（有剧透，不建议新手观看，会失去一点点紧张感）\n[spoiler]现在的全图只有一种怪，没有所谓“生态”。一但背版完毕，就失去了紧张感，出仓一眼就看出是什么怪，稍微听一下马上就知道了。最开始我还以为像收容失效，全图到处都是，结果就是只有一种跟着人。最好是加入全图各种各样的怪，比如次要样本是大狗占宿舍，小机器人占实验，它们与任务无关（或者有额外奖励），然后主要目标终结者会全图追人。然后双方遇到了会产生交互，最多的情况是逼退，然后可能产生互斗，甚至有极少部分的合作（比如小机器人和终结者的侦察机相互报点）。然后区域怪物一般追逐出领地后就会失去大部分进攻欲望，每个地方的尸体除了表现主要怪的击杀之外还有区域对应的怪物击杀 [/spoiler]这样子又不用占用多少产能，又能够高效地利用好现有的东西。（排列组合好吧）[strike] 我说拉了自毁就应该全图一起追杀邪恶的人类有没有懂的 [/strike]\n\n然后一些希望的改动：\n小机器人转阶段太快了，收容太难。简单点\n噩梦难度中毒变身太快了，调长一点，或者跟护甲等升级之类的挂钩。\n\n一些希望添加的内容：\n玩家自身的升级。比如枪械操控性之类的。\n更长的发展路线，比如抓捕成功后，可以解锁与怪物有关的升级。\n更多枪械，现在没有那种能泼水超高射速的1、2类，冲锋枪和机关手枪感觉一点也不快。\n更多怪物和地图。（产能不够的话优先考虑其它的吧。）",
           "highlight_excerpts": [
-            "是的，增加游戏时长的方法就是硬拖。神了，制作组这么喜欢教人玩游戏啊。\n别人：嘿，我们有一个超棒超棒的成就系统，你只要完成就可以得到Steam成就，完成所有成就就可以白金。\n这里：嘿，我们有一个超麻烦超麻烦的成就系统，你不按我们的想法玩就不能买高级装备。\n删档ok，算你们要底层大改，提前做好预防。\n教玩家玩游戏，再见，毕竟我只是一个喜欢挑战高难度，时不时休闲一下的玩家，不是一个被强迫去吃屎的机器人。\n26.11.2---分割线---\n很不错的类SCP（像是CB与SL的合体，更像纯PVE的SL），要在躲与战之间平衡，氛围感十足，画面很好，有挺棒的小解谜设计，不是特别适合单人游玩（除非你真的很厉害），内容还有点少，不过价格挺便宜，如果坚持更新感觉可以达到上百的价格的内容。\n\n给新手的建议：\n不要把这当成收容失效或者逃离后室，没这么紧张，有复活，稍微放松一点。\n\n最希望的更新：（有剧透，不建议新手观看，会失去一点点紧张感）\n[spoiler]现在的全图只有一种怪，没有所谓“生态”。一但背版完毕，就失去了紧张感，出仓一眼就看出是什么怪，稍微听一下马上就知道了。最开始我还以为像收容失效，全图到处都是，结果就是只有一种跟着人。最好是加入全图各种各样的怪，比如次要样本是大狗占宿舍，小机器人占实验，它们与任务无关（或者有额外奖励），然后主要目标终结者会全图追人。然后双方遇到了会产生交互，最多的情况是逼退，然后可能产生互斗，甚至有极少部分的合作（比如小机器人和终结者的侦察机相互报点）。然后区域怪物一般追逐出领地后就会失去大部分进攻欲望，每个地方的尸体除了表现主要怪的击杀之外还有区域对应的怪物击杀 [/spoiler]这样子又不用占用多少产能，又能够高效地利用好现有的东西。（排列组合好吧）[strike] 我说拉了自毁就应该全图一起追杀邪恶的人类有没有懂的 [/strike]\n\n然后一些希望的改动：\n小机器人转阶段太快了，收容太难。简单点\n噩梦难度中毒变身太快了，调长一点，或者跟护甲等升级之类的挂钩。\n\n一些希望添加的内容：\n玩家自身的升级。比如枪械操控性之类的。\n更长的发展路线，比如抓捕成功后，可以解锁与怪物有关的升级。\n更多枪械，现在没有那种能泼水超高射速的1、2类，冲锋枪和机关手枪感觉一点也不快。\n更多怪物和地图。（产能不够的话优先考虑其它的吧。）"
+            "画面很好"
           ],
-          "full_text_sha256": "f40b0afad9cd7e0412780bd831fc71586919df84ad6dc4fc5f1831af761ab493"
+          "full_text_sha256": "f40b0afad9cd7e0412780bd831fc71586919df84ad6dc4fc5f1831af761ab493",
+          "highlight_ranges": [
+            [
+              265,
+              269
+            ]
+          ]
         },
         {
           "review_id": "209477496",
@@ -18533,9 +19151,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "游戏内容其实非常不错，挺有意思的；画面也不错，感觉整体潜力很大。\n但是简单体验了一下，其实不太合我和几个朋友的胃口，玩的挺难受的，具体的下面详细说一下：\n首先这游戏，在生存冒险的玩法上跟致命公司那类游戏比较像，躲怪或者靠着机制牵制、消灭“怪物”以推进流程；不过流程上要更偏向GTFO一点，不像致命公司是摸宝，而是像GTFO一样是为了达成某个关卡的任务目标。本来看宣传图感觉可能是这种空间舱爽射的游戏，结果玩上来发现与想象中的相差甚远，并不是让你射击的游戏，甚至手中的枪其实没啥鸟用，主要还是完成任务和靠机制对敌。本来期待的一场酣畅淋漓的火力释放，结果发现是打个怪也要靠特定机制的游戏。\n然后在实际体验上，以第一关为例，怪物（一个球，不确定是否是随机的，具体是什么机制就不剧透了）刷的太频繁了，虽然其实我们很快就摸清了这个怪的机制，但还是觉得这个刷新频率太高太烦了，尤其是后面撤离的时候，黑匣子一拿这怪就强制追杀，秒杀怪，那小房间堵路先杀一个，然后过那个闪光房还要有足够的体力，躲这个怪又要体力，这怪又没法反抗，怪一追又追好久好久，最后追上飞船又捣鼓了一番。其实这个怪秒杀也还好，毕竟你能很轻易地在它每次攻击时躲掉，但还是希望能有队友救援的机制，哪怕是让我用枪打一枪让它晕头转向一小会儿呢？不然这实在是太烦了。\n其实玩过一次后搞清楚了后，这种低难度地图也不算难，就是真的玩着很难受，感觉还是缺少一些让玩家放开了探索、让玩家多喘两口气、给玩家创造一个空闲窗口的机会。并且这个怪切入的有些无厘头了，没啥提示突然就出来了，也不知道是干啥的；一下子在船长室塞一堆信息我是懒得第一次玩就全记住啦，要是是像那种每多一个怪就给你一个一眼能看出这怪是干什么的明显提示，起码告诉你要怎么生存，然后再从信息里塞解决方案也好的嘛。\n不过毕竟early access嘛，希望后续能让体验好一些吧。",
           "highlight_excerpts": [
-            "游戏内容其实非常不错，挺有意思的；画面也不错，感觉整体潜力很大。\n但是简单体验了一下，其实不太合我和几个朋友的胃口，玩的挺难受的，具体的下面详细说一下：\n首先这游戏，在生存冒险的玩法上跟致命公司那类游戏比较像，躲怪或者靠着机制牵制、消灭“怪物”以推进流程；不过流程上要更偏向GTFO一点，不像致命公司是摸宝，而是像GTFO一样是为了达成某个关卡的任务目标。本来看宣传图感觉可能是这种空间舱爽射的游戏，结果玩上来发现与想象中的相差甚远，并不是让你射击的游戏，甚至手中的枪其实没啥鸟用，主要还是完成任务和靠机制对敌。本来期待的一场酣畅淋漓的火力释放，结果发现是打个怪也要靠特定机制的游戏。\n然后在实际体验上，以第一关为例，怪物（一个球，不确定是否是随机的，具体是什么机制就不剧透了）刷的太频繁了，虽然其实我们很快就摸清了这个怪的机制，但还是觉得这个刷新频率太高太烦了，尤其是后面撤离的时候，黑匣子一拿这怪就强制追杀，秒杀怪，那小房间堵路先杀一个，然后过那个闪光房还要有足够的体力，躲这个怪又要体力，这怪又没法反抗，怪一追又追好久好久，最后追上飞船又捣鼓了一番。其实这个怪秒杀也还好，毕竟你能很轻易地在它每次攻击时躲掉，但还是希望能有队友救援的机制，哪怕是让我用枪打一枪让它晕头转向一小会儿呢？不然这实在是太烦了。\n其实玩过一次后搞清楚了后，这种低难度地图也不算难，就是真的玩着很难受，感觉还是缺少一些让玩家放开了探索、让玩家多喘两口气、给玩家创造一个空闲窗口的机会。并且这个怪切入的有些无厘头了，没啥提示突然就出来了，也不知道是干啥的；一下子在船长室塞一堆信息我是懒得第一次玩就全记住啦，要是是像那种每多一个怪就给你一个一眼能看出这怪是干什么的明显提示，起码告诉你要怎么生存，然后再从信息里塞解决方案也好的嘛。\n不过毕竟early access嘛，希望后续能让体验好一些吧。"
+            "画面也不错"
           ],
-          "full_text_sha256": "17e81b185609bb3f0304ec744d767517b31d9c09629af58d22b5ef1613c23075"
+          "full_text_sha256": "17e81b185609bb3f0304ec744d767517b31d9c09629af58d22b5ef1613c23075",
+          "highlight_ranges": [
+            [
+              17,
+              22
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -19283,9 +19907,9 @@
         "date": "Jun 23, 2025"
       },
       "display_policy": {
-        "visible": true,
+        "visible": false,
         "version": "2026-11-12-sample-display",
-        "basis": "沿用迁移前的收录及隐藏决定；样本统计不自动决定入库"
+        "basis": "用户要求暂时下架（2026-11-12）"
       },
       "semantic_quote_scope": "fixed_sample"
     },
@@ -19536,8 +20160,8 @@
       },
       "editorial_review": {
         "observation": "玩家走访云上王国，用上色谜题修复玻璃作品。色块既是解题单位又决定最终图案，柔和岛屿和建筑为不同作品提供可识别的环境背景。",
-        "comment": "本作让解题结果成为世界里看得见的修复成果。适合参考把规则格块与装饰材料合在一起，让进度本身改善场景。",
-        "transfer": "用于工艺、装饰与逻辑解谜：把材料纹理限制在清晰格块内，避免材质细节破坏规则识别。",
+        "comment": "拼完一道题，就能看到对应的玻璃装饰变完整。做装饰解谜时，可以让玩家直接看到自己修好了什么，同时保留清楚的格线。",
+        "transfer": "把玻璃纹理控制在每个格子里，避免花纹让人看错边界。",
         "limitations": "实际玻璃工艺和数字制作方式不可从外观推断；解谜效果依据玩法说明而非本轮游玩。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -19810,9 +20434,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "好玩，题目设计合理，难度曲线很照顾第一次接触解谜的玩家，除了部分相同大图形需要通灵，剩下的都非常有逻辑性，而且量大管饱，每个区块都有各自的特色。音乐美术上乘，很有沉浸感，一杯茶，一包烟，一块玻璃涂一天。（骗你的不用一天，实在想不出来也有提示给你用",
           "highlight_excerpts": [
-            "好玩，题目设计合理，难度曲线很照顾第一次接触解谜的玩家，除了部分相同大图形需要通灵，剩下的都非常有逻辑性，而且量大管饱，每个区块都有各自的特色。音乐美术上乘，很有沉浸感，一杯茶，一包烟，一块玻璃涂一天。（骗你的不用一天，实在想不出来也有提示给你用"
+            "美术上乘"
           ],
-          "full_text_sha256": "dbff1a1cbcf6efb9182e63dd3cadfe03c009a18bfd47cf2242da574b80b62717"
+          "full_text_sha256": "dbff1a1cbcf6efb9182e63dd3cadfe03c009a18bfd47cf2242da574b80b62717",
+          "highlight_ranges": [
+            [
+              74,
+              78
+            ]
+          ]
         },
         {
           "review_id": "224765537",
@@ -19823,9 +20453,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "一周干了30h 解谜也可以这么诱人吗。题做得很安心，不用担心开学一个月碰到期末考（指见证者）.大部分能推理，偶尔会碰到一些纯通灵的。画风和音乐在解谜游戏里也是优秀，好玩喜欢！\nbtw中文名不叫花砖物语不是很认可\n------------------------------------------------------------\n被大题板吓晕。我突破口呢？小题板怡情，大题板伤身😭\n-----------------------------------------------------------\n最后的区域太难了... 摆",
           "highlight_excerpts": [
-            "一周干了30h 解谜也可以这么诱人吗。题做得很安心，不用担心开学一个月碰到期末考（指见证者）.大部分能推理，偶尔会碰到一些纯通灵的。画风和音乐在解谜游戏里也是优秀，好玩喜欢！\nbtw中文名不叫花砖物语不是很认可\n------------------------------------------------------------\n被大题板吓晕。我突破口呢？小题板怡情，大题板伤身😭\n-----------------------------------------------------------\n最后的区域太难了... 摆"
+            "画风"
           ],
-          "full_text_sha256": "a220eecbf00449578e7814512f820a49c0ed57d31c42964ea917579f76d1e3ae"
+          "full_text_sha256": "a220eecbf00449578e7814512f820a49c0ed57d31c42964ea917579f76d1e3ae",
+          "highlight_ranges": [
+            [
+              66,
+              68
+            ]
+          ]
         },
         {
           "review_id": "227771139",
@@ -19836,9 +20472,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "优秀且量大管饱的谜题，严密且层层递进的逻辑，随着深入游玩会发现自己对关卡机制的理解逐步加深\n[spoiler] “相同”区域的谜题除外（ [/spoiler]\n地图美观，音乐舒缓，每天打开游戏解上几道谜题就能感到身心放松\n",
           "highlight_excerpts": [
-            "优秀且量大管饱的谜题，严密且层层递进的逻辑，随着深入游玩会发现自己对关卡机制的理解逐步加深\n[spoiler] “相同”区域的谜题除外（ [/spoiler]\n地图美观，音乐舒缓，每天打开游戏解上几道谜题就能感到身心放松\n"
+            "地图美观"
           ],
-          "full_text_sha256": "a32938c9d179c1c6c58c13ed9f7ed835db4ead174a4246972323efa5b4cbf655"
+          "full_text_sha256": "a32938c9d179c1c6c58c13ed9f7ed835db4ead174a4246972323efa5b4cbf655",
+          "highlight_ranges": [
+            [
+              80,
+              84
+            ]
+          ]
         },
         {
           "review_id": "237378471",
@@ -19849,9 +20491,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "美术音乐都很宁静的解谜，猪脑过载的时候还有与唯一解的校对可以用，总之上头能连着玩很久",
           "highlight_excerpts": [
-            "美术音乐都很宁静的解谜，猪脑过载的时候还有与唯一解的校对可以用，总之上头能连着玩很久"
+            "美术"
           ],
-          "full_text_sha256": "a7996ff47a93617614e941a463142863376e7085796ddad522f0e49be6df1c66"
+          "full_text_sha256": "a7996ff47a93617614e941a463142863376e7085796ddad522f0e49be6df1c66",
+          "highlight_ranges": [
+            [
+              0,
+              2
+            ]
+          ]
         },
         {
           "review_id": "223826886",
@@ -19862,9 +20510,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "玩法上前期还好，后面的难度6，7的大题不用提醒真的很难找到突破口，这两个普遍图大规则多，越后期的图5难度以下的就越少，这就导致越到后面的图成就感越匮乏\n美术音乐没的说，十分顶级，就是开久了电脑容易烫，不知道为什么这个游戏需要这么高的配置\n总体来说十分优秀体量很大可以玩很久",
           "highlight_excerpts": [
-            "玩法上前期还好，后面的难度6，7的大题不用提醒真的很难找到突破口，这两个普遍图大规则多，越后期的图5难度以下的就越少，这就导致越到后面的图成就感越匮乏\n美术音乐没的说，十分顶级，就是开久了电脑容易烫，不知道为什么这个游戏需要这么高的配置\n总体来说十分优秀体量很大可以玩很久"
+            "美术"
           ],
-          "full_text_sha256": "2493fc17e0cb6072c48b09fb4a767f73834a04d2f8ee6021758a2ab10339d571"
+          "full_text_sha256": "2493fc17e0cb6072c48b09fb4a767f73834a04d2f8ee6021758a2ab10339d571",
+          "highlight_ranges": [
+            [
+              76,
+              78
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -20198,8 +20852,8 @@
       },
       "editorial_review": {
         "observation": "监狱作息、派系和调查在不同功能空间里展开。动物体态、服装和岗位道具帮助辨认人物，像素剖面将牢房、工作区域和活动边界交代清楚。",
-        "comment": "动物身份与制度空间在同一套像素语言里互相解释。可借鉴如何通过可记忆的人物造型和房间职责，支撑多角色长线调查。",
-        "transfer": "用于群像RPG：先建立角色轮廓差异，再让床位、工作区和随身物件补充人物处境。",
+        "comment": "监狱里的宿舍、工作区和随身物件能交代角色每天怎么过。人物多的像素游戏里，先让人能从外形分清角色，再用他们周围的东西补足背景。",
+        "transfer": "先从外形上分清人物，再用床位、工作区和随身物件说明各自的生活。",
         "limitations": "角色物种与性格的对应不应直接泛化为刻板印象；剧情判断需完整文本。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -20478,7 +21132,14 @@
           "highlight_excerpts": [
             "The art style is charming and the character design really fits their personality"
           ],
-          "full_text_sha256": "1ff27b77926a2ae2c1f2e086a0165e6e590107d113c53ceafd8603e04338a617"
+          "full_text_sha256": "1ff27b77926a2ae2c1f2e086a0165e6e590107d113c53ceafd8603e04338a617",
+          "highlight_ranges": [
+            [
+              46,
+              126
+            ]
+          ],
+          "highlight_translation_zh": "美术风格很有魅力，角色设计也非常符合各自的性格。"
         },
         {
           "review_id": "237536378",
@@ -20489,9 +21150,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "有了配音之后不知道为什么感觉故事更精彩了，很喜欢游戏的设定和美工，游戏的体验也是独一份的，还没玩完，先支持一下制作者",
           "highlight_excerpts": [
-            "很喜欢游戏的设定和美工"
+            "美工"
           ],
-          "full_text_sha256": "374e2d82acc0262379980d119d759f3ca99ccdba52128899f47eadaa5f8f1951"
+          "full_text_sha256": "374e2d82acc0262379980d119d759f3ca99ccdba52128899f47eadaa5f8f1951",
+          "highlight_ranges": [
+            [
+              30,
+              32
+            ]
+          ]
         },
         {
           "review_id": "201146215",
@@ -20504,7 +21171,13 @@
           "highlight_excerpts": [
             "优秀的像素画风"
           ],
-          "full_text_sha256": "1dfc5aa78946e9a84aa0f28340449eb4bf838551b98fdfb6f744b80288d9ac4f"
+          "full_text_sha256": "1dfc5aa78946e9a84aa0f28340449eb4bf838551b98fdfb6f744b80288d9ac4f",
+          "highlight_ranges": [
+            [
+              50,
+              57
+            ]
+          ]
         },
         {
           "review_id": "185446486",
@@ -20515,9 +21188,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "很好玩，画风很喜欢，很上瘾的好玩",
           "highlight_excerpts": [
-            "很好玩，画风很喜欢，很上瘾的好玩"
+            "画风很喜欢"
           ],
-          "full_text_sha256": "52299cb7f5987fa00db26ffc6edba7f3324e3a1134f4c46b56778295ce7bd291"
+          "full_text_sha256": "52299cb7f5987fa00db26ffc6edba7f3324e3a1134f4c46b56778295ce7bd291",
+          "highlight_ranges": [
+            [
+              4,
+              9
+            ]
+          ]
         },
         {
           "review_id": "149637196",
@@ -20530,7 +21209,13 @@
           "highlight_excerpts": [
             "画风也是我喜欢的类型"
           ],
-          "full_text_sha256": "23e2013b3738a1178b53ba738ab07688823c990b18447c56397b29cf9adc7528"
+          "full_text_sha256": "23e2013b3738a1178b53ba738ab07688823c990b18447c56397b29cf9adc7528",
+          "highlight_ranges": [
+            [
+              7,
+              17
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -22179,8 +22864,8 @@
       },
       "editorial_review": {
         "observation": "潜水抓水母、回到岸上经营、升级后再下潜构成循环。海域用岩层与水色区分，发光生物和资源在深浅不同的环境中保持醒目。",
-        "comment": "它让水域的光色变化承担成长路线的提示。适合参考如何用统一像素尺度表现多种水下生态和清晰的收集目标。",
-        "transfer": "用于轻采集与生态探索：按海域控制背景主色，再给可交互生物稳定的亮度和轮廓。",
+        "comment": "水下不同区域靠颜色和光线就能认出来，能采集的生物也容易从背景里找出来。做水下地图时，可以先定每个区域的主色，再检查小目标是否显眼。",
+        "transfer": "各片水域可以换背景色，能采集的生物则保留醒目的亮度和轮廓。",
         "limitations": "发光层级在高密度目标下是否稳定，需要动态与密集场景测试。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -22426,9 +23111,15 @@
           "review_id": "209911879",
           "full_text": "小品级游戏，美术风格我很喜欢",
           "highlight_excerpts": [
-            "小品级游戏，美术风格我很喜欢"
+            "美术风格我很喜欢"
           ],
-          "full_text_sha256": "1bc94049ea62d0dc124341d0d2cf8ba868e1933cab094460e2c6f8026fc9c9b5"
+          "full_text_sha256": "1bc94049ea62d0dc124341d0d2cf8ba868e1933cab094460e2c6f8026fc9c9b5",
+          "highlight_ranges": [
+            [
+              6,
+              14
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -22437,9 +23128,15 @@
           "review_id": "234530969",
           "full_text": "休闲小品游戏，过程很爽升级很丝滑，美术也很有味道",
           "highlight_excerpts": [
-            "休闲小品游戏，过程很爽升级很丝滑，美术也很有味道"
+            "美术也很有味道"
           ],
-          "full_text_sha256": "61d9fae001efb46d9053263b5a1b5a26982fa933e01ea0ca277d62d3f122b3ee"
+          "full_text_sha256": "61d9fae001efb46d9053263b5a1b5a26982fa933e01ea0ca277d62d3f122b3ee",
+          "highlight_ranges": [
+            [
+              17,
+              24
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -22448,9 +23145,15 @@
           "review_id": "218970654",
           "full_text": "很上头，游戏性高，美术优秀，15快爽玩四个小时，值得",
           "highlight_excerpts": [
-            "很上头，游戏性高，美术优秀，15快爽玩四个小时，值得"
+            "美术优秀"
           ],
-          "full_text_sha256": "dda8c8d375ba607715e30f93cde238c568cb79017fd92de460d06d0e08a588b2"
+          "full_text_sha256": "dda8c8d375ba607715e30f93cde238c568cb79017fd92de460d06d0e08a588b2",
+          "highlight_ranges": [
+            [
+              9,
+              13
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -22459,9 +23162,15 @@
           "review_id": "231904341",
           "full_text": "这游戏画风不错，肉鸽玩法平衡的挺好的，当个短程游戏是十分优秀的",
           "highlight_excerpts": [
-            "这游戏画风不错，肉鸽玩法平衡的挺好的，当个短程游戏是十分优秀的"
+            "这游戏画风不错"
           ],
-          "full_text_sha256": "6baff8534e37e9ea69e39e5e30890920b895ec4abddce6a3ac3fcfea0b39c39a"
+          "full_text_sha256": "6baff8534e37e9ea69e39e5e30890920b895ec4abddce6a3ac3fcfea0b39c39a",
+          "highlight_ranges": [
+            [
+              0,
+              7
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -22470,9 +23179,15 @@
           "review_id": "211350544",
           "full_text": "太爽了，好久没玩过这种不怎么动脑纯爽而且音乐清新画风可爱的像素小游戏了",
           "highlight_excerpts": [
-            "太爽了，好久没玩过这种不怎么动脑纯爽而且音乐清新画风可爱的像素小游戏了"
+            "画风可爱"
           ],
-          "full_text_sha256": "f6f2dc0cf811093955699cd648c34d021abf02d5ca813d808935af71f2f0605b"
+          "full_text_sha256": "f6f2dc0cf811093955699cd648c34d021abf02d5ca813d808935af71f2f0605b",
+          "highlight_ranges": [
+            [
+              24,
+              28
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -22805,8 +23520,8 @@
       },
       "editorial_review": {
         "observation": "动物会在桌面底边睡觉、奔跑或互动，养成与装饰只占一条窄带。耳尾和脸部色块便于在很小尺寸下辨认不同动物，短动作维持陪伴感。",
-        "comment": "对桌面陪伴产品而言，可借鉴的是小轮廓与短行为的组合。动物的个性来自重复可认的动作与形体，对主工作区的干扰很低。",
-        "transfer": "用于桌面宠物与轻养成：约束角色高度、活动边界和视觉节奏，以少量关键部件支持品种扩展。",
+        "comment": "小动物只占屏幕一角，靠花色和几个短动作就有了区别。做桌面宠物时，不妨先做好走路、休息和被摸时的反应。",
+        "transfer": "把宠物缩到实际桌面大小再检查，优先保留小尺寸下也看得清的耳朵、尾巴和动作。",
         "limitations": "官方图包含桌面用途示意；不据此断言不会影响工作注意力。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -23079,7 +23794,13 @@
           "highlight_excerpts": [
             "画面可爱花色多样"
           ],
-          "full_text_sha256": "9c6ecb586732797b0626f827a86ad3b31cac6cf2e45a9055a5e7be5456f85309"
+          "full_text_sha256": "9c6ecb586732797b0626f827a86ad3b31cac6cf2e45a9055a5e7be5456f85309",
+          "highlight_ranges": [
+            [
+              0,
+              8
+            ]
+          ]
         },
         {
           "review_id": "188853638",
@@ -23092,7 +23813,13 @@
           "highlight_excerpts": [
             "画风真的很可爱"
           ],
-          "full_text_sha256": "cef57a615f6ffa2624ad68aac91f26a996da70a3eab1a60e9ea7ac87fb7f0964"
+          "full_text_sha256": "cef57a615f6ffa2624ad68aac91f26a996da70a3eab1a60e9ea7ac87fb7f0964",
+          "highlight_ranges": [
+            [
+              5,
+              12
+            ]
+          ]
         },
         {
           "review_id": "188884200",
@@ -23105,7 +23832,13 @@
           "highlight_excerpts": [
             "这个画风超级好看"
           ],
-          "full_text_sha256": "172058eba481fea3fae26b2ee1004b65dd3f572afa6002c896ecbadd39cdd791"
+          "full_text_sha256": "172058eba481fea3fae26b2ee1004b65dd3f572afa6002c896ecbadd39cdd791",
+          "highlight_ranges": [
+            [
+              39,
+              47
+            ]
+          ]
         },
         {
           "review_id": "210304415",
@@ -23118,7 +23851,13 @@
           "highlight_excerpts": [
             "每个动物的抚摸动画做得也很用心"
           ],
-          "full_text_sha256": "53d886870ed82c949c47691b4d41284eb7896277a2f25e3b3194efe993ef0baa"
+          "full_text_sha256": "53d886870ed82c949c47691b4d41284eb7896277a2f25e3b3194efe993ef0baa",
+          "highlight_ranges": [
+            [
+              8,
+              23
+            ]
+          ]
         },
         {
           "review_id": "191950774",
@@ -23131,7 +23870,13 @@
           "highlight_excerpts": [
             "每一种小动物都有不同的待机和抚摸动画"
           ],
-          "full_text_sha256": "395aab33acd6200f49b8b733a2591887ec14598fab47c8581468ffc6ac5ce9a2"
+          "full_text_sha256": "395aab33acd6200f49b8b733a2591887ec14598fab47c8581468ffc6ac5ce9a2",
+          "highlight_ranges": [
+            [
+              23,
+              41
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -23468,9 +24213,9 @@
         "tech_categories": []
       },
       "editorial_review": {
-        "observation": "多角色在俯视场地上快速移动，连携技能和弹幕覆盖战场。断裂地块和晶体先交代地形，发光技能、角色轮廓与色块再叠出战斗优先级。",
-        "comment": "它的参考点是高密度合作战斗中的图层关系。让地形先稳定、角色可追踪、关键技能从其他效果里冒出来，才能支持快速判断。",
-        "transfer": "用于动作与技能构筑：先控制场景亮度，再以不同轮廓和颜色分离角色、危险区与命中反馈。",
+        "observation": "俯视战场里，碎裂的地面和晶体划出地形。多人放技能时，可以靠各自的颜色和轮廓找到角色。",
+        "comment": "多人一起放技能时，还能看清自己在哪儿、哪里需要躲。做类似战斗时，可以先压住背景亮度，再让角色轮廓和危险区比装饰特效更显眼。",
+        "transfer": "先用不同颜色和外形分出角色、危险区和命中提示，再加背景装饰。",
         "limitations": "连续战斗的遮挡和技能时序尚未验证，不能把静态清晰直接等同于实战可读。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -23714,7 +24459,13 @@
           "highlight_excerpts": [
             "优美的画面"
           ],
-          "full_text_sha256": "c44d4ef07ea945f32b36e63467afb98c66b0dc199fab667425b89b4cb781e06b"
+          "full_text_sha256": "c44d4ef07ea945f32b36e63467afb98c66b0dc199fab667425b89b4cb781e06b",
+          "highlight_ranges": [
+            [
+              0,
+              5
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -23723,9 +24474,15 @@
           "review_id": "210313699",
           "full_text": "非常好玩的肉鸽+moba游戏，画面也很好",
           "highlight_excerpts": [
-            "非常好玩的肉鸽+moba游戏，画面也很好"
+            "画面也很好"
           ],
-          "full_text_sha256": "1c5bd403cd269429cd7e77d63ae32aead1e68786dbea439fc9f1185176429081"
+          "full_text_sha256": "1c5bd403cd269429cd7e77d63ae32aead1e68786dbea439fc9f1185176429081",
+          "highlight_ranges": [
+            [
+              15,
+              20
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -23734,9 +24491,20 @@
           "review_id": "230362551",
           "full_text": "动作丝滑，画面和音乐都很棒！就是内容再多些就更好玩了 ~",
           "highlight_excerpts": [
-            "动作丝滑，画面和音乐都很棒！就是内容再多些就更好玩了 ~"
+            "动作丝滑",
+            "画面"
           ],
-          "full_text_sha256": "d0040345cb342f31472c1cfcf3d0c44a44f60cf65b43156f5e37a517a85df618"
+          "full_text_sha256": "d0040345cb342f31472c1cfcf3d0c44a44f60cf65b43156f5e37a517a85df618",
+          "highlight_ranges": [
+            [
+              0,
+              4
+            ],
+            [
+              5,
+              7
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -23745,9 +24513,15 @@
           "review_id": "204374150",
           "full_text": "好玩，强推。在传说法师2的模式上更进一步缝了不少系统！画面音效也很棒",
           "highlight_excerpts": [
-            "好玩，强推。在传说法师2的模式上更进一步缝了不少系统！画面音效也很棒"
+            "画面"
           ],
-          "full_text_sha256": "aa48e4676b437e2b2f007f5a5ad5beeabafb28d9c20d83e648ac8357312f4801"
+          "full_text_sha256": "aa48e4676b437e2b2f007f5a5ad5beeabafb28d9c20d83e648ac8357312f4801",
+          "highlight_ranges": [
+            [
+              27,
+              29
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -23756,9 +24530,15 @@
           "review_id": "218779387",
           "full_text": "肉鸽类型玩得很爽，里面的美术资源非常精美，还有功夫国风地图，爽死我了",
           "highlight_excerpts": [
-            "肉鸽类型玩得很爽，里面的美术资源非常精美，还有功夫国风地图，爽死我了"
+            "美术资源非常精美，还有功夫国风地图"
           ],
-          "full_text_sha256": "886a8d593c50a80a35bfb2ddca973ee89698d668ff381dbebe376f4cb5886939"
+          "full_text_sha256": "886a8d593c50a80a35bfb2ddca973ee89698d668ff381dbebe376f4cb5886939",
+          "highlight_ranges": [
+            [
+              12,
+              29
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -24474,9 +25254,9 @@
         "date": "Feb 20, 2026"
       },
       "display_policy": {
-        "visible": true,
+        "visible": false,
         "version": "2026-11-12-sample-display",
-        "basis": "沿用迁移前的收录及隐藏决定；样本统计不自动决定入库"
+        "basis": "用户要求暂时下架（2026-11-12）"
       },
       "semantic_quote_scope": "fixed_sample"
     },
@@ -24730,8 +25510,8 @@
       },
       "editorial_review": {
         "observation": "城市街巷和室内冲突采用夸张漫画轮廓，角色、通缉物和战斗动画延续同一笔触；第一人称近景把肢体、临时武器和环境互动推到画面中心。",
-        "comment": "它把黑色漫画的重量落到可操作的肢体和场景里。可借鉴怎样让近身战斗的表情、姿势和受击反应维持同一风格。",
-        "transfer": "用于漫画化动作：让海报、广告、人物脸部和建筑暗部遵循相同的笔触与阴影规则。",
+        "comment": "近身战斗像黑色漫画动起来了，挥拳、挨打和人物表情都很夸张。参考这套画风时，也可以把同样的线条和阴影用到街上的招牌和海报上。",
+        "transfer": "街上的海报、招牌和人物表情可以沿用同样的粗线条与大片阴影。",
         "limitations": "画面具有复古漫画观感，不据此推断所有资产均为手绘或二维实现。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -25026,7 +25806,13 @@
           "highlight_excerpts": [
             "复古美漫的美术风格"
           ],
-          "full_text_sha256": "48c953626c102dd4dd629c8990580a4edd00d0bae96d81b2ab6227710539851b"
+          "full_text_sha256": "48c953626c102dd4dd629c8990580a4edd00d0bae96d81b2ab6227710539851b",
+          "highlight_ranges": [
+            [
+              53,
+              62
+            ]
+          ]
         },
         {
           "review_id": "208117070",
@@ -25039,7 +25825,13 @@
           "highlight_excerpts": [
             "画风独特"
           ],
-          "full_text_sha256": "f745c30418ff6c5349a4957ff78d40175a5e4cad35cb875a63a291cb29fa6030"
+          "full_text_sha256": "f745c30418ff6c5349a4957ff78d40175a5e4cad35cb875a63a291cb29fa6030",
+          "highlight_ranges": [
+            [
+              0,
+              4
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -25385,8 +26177,8 @@
       },
       "editorial_review": {
         "observation": "探索新昆仑时，祠庙、植物、机械装置和异质空间共享东方线条与清晰轮廓。战斗转为高速弹反，角色姿势、攻击光效和停顿使时机可以被读出来。",
-        "comment": "道家意象与科幻设施的并置贯穿世界；手绘动作又让视觉风格服务精确操作。可参考让题材混搭和战斗读招使用相同的轮廓控制。",
-        "transfer": "用于东方幻想和科幻融合：先提炼器物、仪式与建筑的组织规律，再转换为角色和设施的共同语汇。",
+        "comment": "道家意象和科幻设备出现在同一个世界里，打斗时仍能从敌人的动作看出下一招。做题材混搭时，可以让造型大胆一点，出招的轮廓则要清楚。",
+        "transfer": "让祠庙、机械装置和武器在造型上互相呼应，战斗里的起手姿势则要能一眼看清。",
         "limitations": "具体宗教或历史出处需逐项考证；不将装饰符号直接当成准确文化复原。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -25683,10 +26475,9 @@
           "url": "https://steamcommunity.com/profiles/76561198272495675/recommended/1809540/",
           "review_id": "166744630",
           "full_text": "這遊戲害我變成獸控",
-          "highlight_excerpts": [
-            "這遊戲害我變成獸控"
-          ],
-          "full_text_sha256": "ca39f77e05473266ce0204ff2e9543c38c407bd42908b9422ba652c82d1afc63"
+          "highlight_excerpts": [],
+          "full_text_sha256": "ca39f77e05473266ce0204ff2e9543c38c407bd42908b9422ba652c82d1afc63",
+          "highlight_ranges": []
         },
         {
           "sentiment": "positive",
@@ -25695,9 +26486,15 @@
           "review_id": "170209354",
           "full_text": "美術精美，遊戲好玩，我愛貓咪",
           "highlight_excerpts": [
-            "美術精美，遊戲好玩，我愛貓咪"
+            "美術精美"
           ],
-          "full_text_sha256": "728ec2647a3d3f26d257f9ef406ed3b2a9f270406c9eba9eecd8a4551d5bf01a"
+          "full_text_sha256": "728ec2647a3d3f26d257f9ef406ed3b2a9f270406c9eba9eecd8a4551d5bf01a",
+          "highlight_ranges": [
+            [
+              0,
+              4
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -25705,10 +26502,9 @@
           "url": "https://steamcommunity.com/profiles/76561198849780011/recommended/1809540/",
           "review_id": "194403612",
           "full_text": "小空洞骑士，喜欢国风无脑入，太有文化感了",
-          "highlight_excerpts": [
-            "小空洞骑士，喜欢国风无脑入，太有文化感了"
-          ],
-          "full_text_sha256": "f1b3d1320b6425fbd3fd9b1f6297797ddf9e4fa8b881e20f99a617a78cdf7018"
+          "highlight_excerpts": [],
+          "full_text_sha256": "f1b3d1320b6425fbd3fd9b1f6297797ddf9e4fa8b881e20f99a617a78cdf7018",
+          "highlight_ranges": []
         },
         {
           "sentiment": "positive",
@@ -25717,9 +26513,15 @@
           "review_id": "167552575",
           "full_text": "劇情設計佳，操作流暢，音樂美術皆為上乘，推薦務必遊玩。",
           "highlight_excerpts": [
-            "劇情設計佳，操作流暢，音樂美術皆為上乘，推薦務必遊玩。"
+            "美術皆為上乘"
           ],
-          "full_text_sha256": "be6c29cc1ac07be112698b621b769be07dec9a49897b3270753465c2e6684bbe"
+          "full_text_sha256": "be6c29cc1ac07be112698b621b769be07dec9a49897b3270753465c2e6684bbe",
+          "highlight_ranges": [
+            [
+              13,
+              19
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -25728,9 +26530,15 @@
           "review_id": "199450751",
           "full_text": "直接治好我的电子养胃，完美游戏，好喜欢小猫人设，装杯理科男",
           "highlight_excerpts": [
-            "直接治好我的电子养胃，完美游戏，好喜欢小猫人设，装杯理科男"
+            "好喜欢小猫人设"
           ],
-          "full_text_sha256": "62c6a2231bd17cb1df0425c498d2e93aea19abafd6d510a6e4d7d4f447ab84c7"
+          "full_text_sha256": "62c6a2231bd17cb1df0425c498d2e93aea19abafd6d510a6e4d7d4f447ab84c7",
+          "highlight_ranges": [
+            [
+              16,
+              23
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -26067,9 +26875,9 @@
         "tech_categories": []
       },
       "editorial_review": {
-        "observation": "乐队在故事中穿过道路、城市和舞台，音乐演出又切进双向节奏操作。高辨识角色色、手绘线条与空间透视在叙事和演奏段落之间持续出现。",
-        "comment": "它把乐队的角色形象延续到可演奏的节奏场面。适合参考叙事动画和节奏操作如何共用表演语气，同时保留输入焦点。",
-        "transfer": "用于音乐与青春叙事：统一角色色彩锚点，并让不同玩法界面沿用同一线条和图形节奏。",
+        "observation": "故事从城市街道走到乐队舞台，进入音游关卡后仍能从手绘轮廓和配色认出角色。",
+        "comment": "剧情里的乐队成员到了演奏关卡仍然很好认。做带剧情的音游时，可以让角色沿用同样的线条和配色，把节拍提示留在最容易看到的位置。",
+        "transfer": "同一个角色从剧情切到演奏时保留好认的配色，把最亮的位置留给按键提示。",
         "limitations": "节奏同步、动画流畅度及镜头转场尚未通过视频验证。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -26345,7 +27153,13 @@
           "highlight_excerpts": [
             "本游亮点漫画风格"
           ],
-          "full_text_sha256": "fefc890628722b9137e8c0c34d5191390b4a5fbc6c98705aa0dbea8d743490f3"
+          "full_text_sha256": "fefc890628722b9137e8c0c34d5191390b4a5fbc6c98705aa0dbea8d743490f3",
+          "highlight_ranges": [
+            [
+              8,
+              16
+            ]
+          ]
         },
         {
           "review_id": "231746319",
@@ -26358,7 +27172,13 @@
           "highlight_excerpts": [
             "独具一格的美术风格"
           ],
-          "full_text_sha256": "343a22417c259be6568c4e21fa8c3cf360a690c888e98f069544a43ef8c216db"
+          "full_text_sha256": "343a22417c259be6568c4e21fa8c3cf360a690c888e98f069544a43ef8c216db",
+          "highlight_ranges": [
+            [
+              16,
+              25
+            ]
+          ]
         },
         {
           "review_id": "237693679",
@@ -26371,7 +27191,13 @@
           "highlight_excerpts": [
             "动画帧率也很高"
           ],
-          "full_text_sha256": "6dec45b2630553dbe4bca09d83264571e72393fa5e4f03f8d6fa6d61a127c5d2"
+          "full_text_sha256": "6dec45b2630553dbe4bca09d83264571e72393fa5e4f03f8d6fa6d61a127c5d2",
+          "highlight_ranges": [
+            [
+              239,
+              246
+            ]
+          ]
         },
         {
           "review_id": "213197954",
@@ -26384,7 +27210,13 @@
           "highlight_excerpts": [
             "最出色的地方在于艺术风格"
           ],
-          "full_text_sha256": "257e67263620c09255847f399856164a1f9e25e6ea450cca45d58d5d9995b18c"
+          "full_text_sha256": "257e67263620c09255847f399856164a1f9e25e6ea450cca45d58d5d9995b18c",
+          "highlight_ranges": [
+            [
+              35,
+              47
+            ]
+          ]
         },
         {
           "review_id": "212930352",
@@ -26395,9 +27227,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "终于正式发布了简体中文汉化。这款游戏的定位其实是结合音游的剧情冒险游戏，但也有专门的音游模式（街机）。在内容上来看两位数的定价在纯音游中不算太高，仅从原创的专辑谱面来看也物超所值。街机模式中的部分歌曲需要通过游玩剧情模式或街机模式中其他谱面进行解锁。\n\n虽然在细节上还存在许多的小问题，但开发团队自发行以来仍在不断进行更新。致敬！\n\n游戏的音乐和大部分美术设计是杰出的，而在剧情叙事上，前半段的节奏偏慢（因为要留伏笔，角色设定上使用倒叙），偏向逛地图，剧情上的体验并不算是太好。后面的节奏就开始起飞（但整体上也有些过快，显得粗糙），与音游玩法的结合也开始更多。最后的15分钟长演出，效果和游玩体验是很棒的（上一个这么干的是Cytus 2，有异曲同工之妙）。完全游玩剧情全程约8-12小时，总的上我会推荐时间充裕的玩家去游玩剧情模式。\n\n记得在ESC设置中开启字幕！似乎不是默认启用的。播片中的英文和对话只有字幕有翻译，此外在仅限剧情模式的打歌中也会显示歌词。\n\n[spoiler]and you're just a part of my life[/spoiler]",
           "highlight_excerpts": [
-            "游戏的音乐和大部分美术设计是杰出的"
+            "大部分美术设计是杰出的"
           ],
-          "full_text_sha256": "90f636d73b7f322448d48afe8e0014af5f48b755d955b2b5b82640eee09565e0"
+          "full_text_sha256": "90f636d73b7f322448d48afe8e0014af5f48b755d955b2b5b82640eee09565e0",
+          "highlight_ranges": [
+            [
+              173,
+              184
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -26731,9 +27569,9 @@
         "tech_categories": []
       },
       "editorial_review": {
-        "observation": "少女和白狼在变化的季节中移动、战斗，狼的体量和动作随旅程改变。大面积主色、层叠剪影和环境异化把关系成长与世界衰败放在同一条视觉线上。",
-        "comment": "本作以角色尺度和环境季节共同叙事。可借鉴用场景色调、陪伴对象的姿态和相对体量，让长线情绪变化在游玩中可见。",
-        "transfer": "用于情绪叙事和轻动作：先设计各章节的色彩关系与主体尺度，再放入操作路径和局部焦点。",
+        "observation": "少女带着白狼穿过不同季节。白狼从幼崽慢慢长大，跑动和战斗时的姿势也变了。树木、远山和剪影随着季节换色，后来一些地方还出现了被侵蚀的痕迹。",
+        "comment": "白狼起初比少女小得多，后来长到能和她并肩战斗。每个季节也换了不同的颜色，玩家一路能看见狼长大、两人的关系发生变化。",
+        "transfer": "想表现伙伴一路长大，可以先画出它在每章里站在主角身旁有多高，再分别设计它跑动、停下和战斗时的姿势。",
         "limitations": "情绪标签为素材分析，不代表玩家研究；场景观赏性不能替代可玩路径验证。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -27012,7 +27850,13 @@
           "highlight_excerpts": [
             "wonderful art"
           ],
-          "full_text_sha256": "47568ff43711b35d460bcc8317f2d7999e103d7804c68aaf4efc42916f107cb2"
+          "full_text_sha256": "47568ff43711b35d460bcc8317f2d7999e103d7804c68aaf4efc42916f107cb2",
+          "highlight_ranges": [
+            [
+              0,
+              13
+            ]
+          ]
         },
         {
           "review_id": "193262191",
@@ -27025,7 +27869,13 @@
           "highlight_excerpts": [
             "美术简直超一流"
           ],
-          "full_text_sha256": "379b3096b34d071b2ad1e4f7bc737fb00a3cd949ecf2543165fac7409ec93f74"
+          "full_text_sha256": "379b3096b34d071b2ad1e4f7bc737fb00a3cd949ecf2543165fac7409ec93f74",
+          "highlight_ranges": [
+            [
+              25,
+              32
+            ]
+          ]
         },
         {
           "review_id": "180333720",
@@ -27038,7 +27888,13 @@
           "highlight_excerpts": [
             "相同的画面制作方式，却给人不同的感受，仍然让人感到新鲜，我觉得很好。"
           ],
-          "full_text_sha256": "7d99d6c3140e6c08309c955a0dadd749708cf6c65c60b65a842ecb5108d5176d"
+          "full_text_sha256": "7d99d6c3140e6c08309c955a0dadd749708cf6c65c60b65a842ecb5108d5176d",
+          "highlight_ranges": [
+            [
+              231,
+              265
+            ]
+          ]
         },
         {
           "review_id": "205690039",
@@ -27051,7 +27907,13 @@
           "highlight_excerpts": [
             "大面积饱和纯色调十分突出"
           ],
-          "full_text_sha256": "fde7be32d123531c66dbf0e29691b86e2adc1b1829a9de2765e43523a7f10385"
+          "full_text_sha256": "fde7be32d123531c66dbf0e29691b86e2adc1b1829a9de2765e43523a7f10385",
+          "highlight_ranges": [
+            [
+              5,
+              17
+            ]
+          ]
         },
         {
           "review_id": "202765892",
@@ -27062,9 +27924,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "相比于GRIS而言，这作算不上好。画面和音乐仍然保持高水准，也有令人惊喜的画面场景。但前作主打解密，此作是战斗，战斗方面感觉缺少了与环境的融合设计（有，但不多），不像gris各个章节都让人眼前一亮。流程很短，大约15分钟一个小节，可以推荐打折时入手，当作可交互的电影来看故事。（另游戏时长有问题，我断网玩的玩了5个小时）",
           "highlight_excerpts": [
-            "画面和音乐仍然保持高水准"
+            "画面"
           ],
-          "full_text_sha256": "765fe97124d1dced27ae7b65600124188acde909eb840e35d25c47459c80bfc5"
+          "full_text_sha256": "765fe97124d1dced27ae7b65600124188acde909eb840e35d25c47459c80bfc5",
+          "highlight_ranges": [
+            [
+              17,
+              19
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -28064,9 +28932,9 @@
         "tech_categories": []
       },
       "editorial_review": {
-        "observation": "独立篇章通过探索、人物立绘、掷骰和文本选择推进。像素地图负责行动，立绘与文本提高叙事密度，边框和装饰在不同题材之间维持阅读习惯。",
-        "comment": "它用清楚的画面层级连接桌游式规则和章节叙事。适合参考如何在多题材项目中保留统一的操作界面与章节个性。",
-        "transfer": "用于跑团与多章节叙事：明确插画、地图、文本界面的职责，统一边框、字体和色彩锚点。",
+        "observation": "各篇故事靠探索、掷骰和文字选择推进。行动发生在像素地图上，人物插画会在对话时出现。",
+        "comment": "地图、人物插画和文字各有位置，章节换了题材，基本操作仍然熟悉。做多章节叙事时，可以统一界面的字体和边框，把每章的特色留给地图和插画。",
+        "transfer": "先定好地图、人物插画和文字分别在哪出现，再统一各章的字体与边框。",
         "limitations": "角色插画不代表全部实机场景；不同章节风格一致性尚未全量核查。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -28341,7 +29209,14 @@
           "highlight_excerpts": [
             "Its visual style combines pixel art environments with detailed character illustrations"
           ],
-          "full_text_sha256": "3e3727c4255c22f25ff9f10832c0a422239ebdaf75cb439315ca100c960a1c71"
+          "full_text_sha256": "3e3727c4255c22f25ff9f10832c0a422239ebdaf75cb439315ca100c960a1c71",
+          "highlight_ranges": [
+            [
+              2659,
+              2745
+            ]
+          ],
+          "highlight_translation_zh": "其视觉风格把像素场景与精细的角色插画结合在一起。"
         },
         {
           "review_id": "137362219",
@@ -28351,10 +29226,9 @@
           "url": "https://steamcommunity.com/profiles/76561198374752948/recommended/1477070/",
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "裡面的故事很有趣，最重要的是泡泡真的香!!!",
-          "highlight_excerpts": [
-            "泡泡真的香"
-          ],
-          "full_text_sha256": "914507210f7df2fa5a5cff6845d0d141a02c9fe074fba13dee818713efed3619"
+          "highlight_excerpts": [],
+          "full_text_sha256": "914507210f7df2fa5a5cff6845d0d141a02c9fe074fba13dee818713efed3619",
+          "highlight_ranges": []
         },
         {
           "review_id": "128899173",
@@ -28367,7 +29241,13 @@
           "highlight_excerpts": [
             "虽然是像素画面但表现仍然十分优秀"
           ],
-          "full_text_sha256": "8fdc51b4a9be1db486eff5cd514bb680c97eb1989d077642d009a3509960bf4b"
+          "full_text_sha256": "8fdc51b4a9be1db486eff5cd514bb680c97eb1989d077642d009a3509960bf4b",
+          "highlight_ranges": [
+            [
+              11,
+              27
+            ]
+          ]
         },
         {
           "review_id": "137047452",
@@ -28380,7 +29260,13 @@
           "highlight_excerpts": [
             "像素风格的表现力非常强悍"
           ],
-          "full_text_sha256": "fd8e794e15ef194eecd811535a51f2e75fcc7fb745acacd2912bc3dc7be45437"
+          "full_text_sha256": "fd8e794e15ef194eecd811535a51f2e75fcc7fb745acacd2912bc3dc7be45437",
+          "highlight_ranges": [
+            [
+              184,
+              196
+            ]
+          ]
         },
         {
           "review_id": "163291683",
@@ -28391,9 +29277,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "有这美术力不去做像素黄油真是黄油届的损失T T",
           "highlight_excerpts": [
-            "有这美术力不去做像素黄油真是黄油届的损失"
+            "美术力"
           ],
-          "full_text_sha256": "a94c78d15b74298a40febfafa980132f7207a0950f2ad7021f2dd257bc28f221"
+          "full_text_sha256": "a94c78d15b74298a40febfafa980132f7207a0950f2ad7021f2dd257bc28f221",
+          "highlight_ranges": [
+            [
+              2,
+              5
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -28736,8 +29628,8 @@
       },
       "editorial_review": {
         "observation": "玩家从苔绿洞穴经珊瑚地带攀向圣堡，地区靠主色、材质轮廓和纵深区分。大黄蜂的浅色头部与红披风在高速移动、用针攻击和机关之间持续可认。",
-        "comment": "它以区域层次建立上升旅程的方向感，再用角色轮廓维持行动焦点。适合参考复杂二维世界如何同时服务地图记忆和快速战斗阅读。",
-        "transfer": "用于横向探索与角色IP：将主角的轮廓和亮度锚点固定，再让区域生态在背景层变化。",
+        "comment": "不同区域有自己的景色和高低落差，跑过几次就容易记住方向。打起来时，大黄蜂的外形又能从背景里认出来，这两点都值得参考。",
+        "transfer": "区域可以换配色、地形和植物，主角的头部与披风要在每种背景里都好认。",
         "limitations": "动画、战斗可读性与关卡引导需动态验证；公司差异性不由系列知名度推断。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -29030,9 +29922,15 @@
           "review_id": "203946173",
           "full_text": "瑕不掩瑜，最后第三幕的演出效果很好。",
           "highlight_excerpts": [
-            "瑕不掩瑜，最后第三幕的演出效果很好。"
+            "最后第三幕的演出效果很好"
           ],
-          "full_text_sha256": "ebe3665b510940feb8acf8e646501e0660da6df1b454632469660db25c791e63"
+          "full_text_sha256": "ebe3665b510940feb8acf8e646501e0660da6df1b454632469660db25c791e63",
+          "highlight_ranges": [
+            [
+              5,
+              17
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -29040,10 +29938,9 @@
           "url": "https://steamcommunity.com/profiles/76561198885032556/recommended/1030300/",
           "review_id": "204157966",
           "full_text": "最后深渊的几幕泪目了，空洞老玩家情怀拉满",
-          "highlight_excerpts": [
-            "最后深渊的几幕泪目了，空洞老玩家情怀拉满"
-          ],
-          "full_text_sha256": "5fcecebea560197163aca55c4a480c70173e12e9fbfcc3fc0dd15c14d61af439"
+          "highlight_excerpts": [],
+          "full_text_sha256": "5fcecebea560197163aca55c4a480c70173e12e9fbfcc3fc0dd15c14d61af439",
+          "highlight_ranges": []
         },
         {
           "sentiment": "positive",
@@ -29052,9 +29949,15 @@
           "review_id": "207391010",
           "full_text": "绝美的画面和精致的剧情，越玩感觉越少玩的游戏",
           "highlight_excerpts": [
-            "绝美的画面和精致的剧情，越玩感觉越少玩的游戏"
+            "绝美的画面"
           ],
-          "full_text_sha256": "3b711439f9bafa0db5800b283b65d7c7bba62cb13d1617675347c9b02b300886"
+          "full_text_sha256": "3b711439f9bafa0db5800b283b65d7c7bba62cb13d1617675347c9b02b300886",
+          "highlight_ranges": [
+            [
+              0,
+              5
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -29062,10 +29965,9 @@
           "url": "https://steamcommunity.com/profiles/76561199194602757/recommended/1030300/",
           "review_id": "204933949",
           "full_text": "当看到结局小骑士与大黄蜂的再次相遇，我就知道这场跨越数年的冒险绝对值得！！！！",
-          "highlight_excerpts": [
-            "当看到结局小骑士与大黄蜂的再次相遇，我就知道这场跨越数年的冒险绝对值得！！！！"
-          ],
-          "full_text_sha256": "4fde69eeb93f17264f886eb190b704264a5c10f6fbe1291fc466b495f19a165e"
+          "highlight_excerpts": [],
+          "full_text_sha256": "4fde69eeb93f17264f886eb190b704264a5c10f6fbe1291fc466b495f19a165e",
+          "highlight_ranges": []
         },
         {
           "sentiment": "positive",
@@ -29074,9 +29976,15 @@
           "review_id": "203821589",
           "full_text": "有攻略之后真的太好玩了说实话，少走十年弯路，美术好手感好机动性强，飞针和漫游者神力",
           "highlight_excerpts": [
-            "有攻略之后真的太好玩了说实话，少走十年弯路，美术好手感好机动性强，飞针和漫游者神力"
+            "美术好"
           ],
-          "full_text_sha256": "8e728256067d9904c661a732b4bf4abfa07ce1f279e0085b657162fa7a8b3e2c"
+          "full_text_sha256": "8e728256067d9904c661a732b4bf4abfa07ce1f279e0085b657162fa7a8b3e2c",
+          "highlight_ranges": [
+            [
+              22,
+              25
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -29417,8 +30325,8 @@
       },
       "editorial_review": {
         "observation": "近写实的冷色俄国街巷、工业设备与像素回忆段落交替出现。修女被放进巨大结构和不稳定的空间比例中，视觉切换对应现实、记忆和内心经验。",
-        "comment": "它用画面语言的变化区分叙事状态。可借鉴如何让短暂的低分辨率段落承担明确的记忆功能，并与主世界形成可理解的关系。",
-        "transfer": "用于心理和宗教题材叙事：为每种视觉语言规定叙事功能，再通过稳定的象征物建立连接。",
+        "comment": "主故事和插入的像素画面看起来明显不同，玩家很快就知道叙事切换了。做类似段落时，可以给每种画风一个明确用途。",
+        "transfer": "给现实和回忆用两种一眼可分的画风，也可以保留一个反复出现的物件把它们联系起来。",
         "limitations": "涉及宗教与历史的解释需回到完整剧情和资料，不能仅凭视觉符号作价值判断。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -29714,10 +30622,9 @@
           "url": "https://steamcommunity.com/profiles/76561198284460986/recommended/1373960/",
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "这游戏过场动画拥有顶尖的影视级脚本，幽默的手笔和悲剧的发展引人入胜，游戏引向的结局在戏剧性上的表现非常震撼。与心中的撒旦进行一系列关于信仰、关于善恶、关于意义、关于二元论的辩论，看似是为了表达反基督立场的哲学思辨，但这可能有一定的误导性。实际上剧情与基督教的互动非常有限，浅入浅出的辩论使得反基督立场仅仅变成了背景板，并不能给情节的发展带来足够的解释。个人认为其主旨应该是反盲信的，在虔诚的包装下，自由意志对救赎的信仰给主角二人带来了力量，而自由意志对利己的盲目也终于诞生了悲剧。故始终是利己的自由意志在引导主角前进，虔诚只是自由意志的自我安慰，而盲信成倍的放大了自由意志的力量，或好或坏，最后步入癫狂。\n\nPS：看了一篇采访，作者本人的创作意图似乎是单纯的反保守派、反普京政府和东正教合作的。但本人还是想尽量避免以自由派的单一视角来的解读这部作品。",
-          "highlight_excerpts": [
-            "过场动画拥有顶尖的影视级脚本"
-          ],
-          "full_text_sha256": "eac9bf2b6cc7552de832de622193e2e583e8d6f0e92b4e7a3f99297b9fa5a843"
+          "highlight_excerpts": [],
+          "full_text_sha256": "eac9bf2b6cc7552de832de622193e2e583e8d6f0e92b4e7a3f99297b9fa5a843",
+          "highlight_ranges": []
         },
         {
           "review_id": "200748736",
@@ -29730,7 +30637,13 @@
           "highlight_excerpts": [
             "雪像盐粒似的反光，水滴在墙面滑下，柔软布料效果等都蛮逼真"
           ],
-          "full_text_sha256": "1ac2dfc9cd448f7826e1d6c287f180e50470d7150c63d303677a746f0290c1c7"
+          "full_text_sha256": "1ac2dfc9cd448f7826e1d6c287f180e50470d7150c63d303677a746f0290c1c7",
+          "highlight_ranges": [
+            [
+              114,
+              142
+            ]
+          ]
         },
         {
           "review_id": "193629214",
@@ -29741,9 +30654,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "魔幻现实主义感极强，似乎在文学性、镜头语言和游戏叙事上都做得相当好，我很喜欢。有用到我自己非常想用的一个叙事手段，游戏风格也很能对上。最大的惊喜是，以往游戏设计的“规范”被颠覆，形成了新的叙事语言。\n比如说：1、ui怎么能跟游戏风格不统一呢，但就是为了提醒你这是游戏；2、收集的金币怎么能没有用呢，但就是可以没有用，和信仰一样；3、怎么能让玩家机械性跑腿+打5桶水呢，然后这个水还被一脚踢翻。\n玩家交互之后的反馈，塑造了玩家情绪的同时，也具备叙事意义。每一次交互都是叙事。例如：收集，销毁，销毁收集的物品，逃跑，重复，死亡。\n喜欢温暖的过去用轻松的像素游戏来传达，冰冷压抑的永远是现实，每一次触发在视觉和故事上都很巧妙。\n游戏里好几个荒诞的桥段也很妙，相应的非常规镜头加强了这种魔幻，比如修女的嘴巴跑出来一个鬼畜小人，大官要死了下属在旁边拉琴……玩家不同的死法也遵循这这种风格，怎么能被大狗追被大鱼撞下水！\n结局的反转相当精彩，不仅是剧情的反转，更是玩法的反转。视角切换（第三人称转第一人称）作为伏笔的基础，最终让修女（和玩家）一同发现镜子里的自己变成了怪物，面目全非的不仅是经历了整个游戏的人，更是圣物匣和金币的无用指向的信仰的无用，现实世界基准的坍塌。\n总之就！太棒了！我太喜欢了！风格是一个很巧妙的东西，这是我最喜欢的风格。（突然想到伊丹十三的电影也给人这种感觉！玩到了喜欢的游戏可以开心一整年了！",
           "highlight_excerpts": [
-            "在文学性、镜头语言和游戏叙事上都做得相当好"
+            "镜头语言"
           ],
-          "full_text_sha256": "875db36ac5a24a6a9c7b83e84f19074aeeb158427f7975918cd17c0f06e97738"
+          "full_text_sha256": "875db36ac5a24a6a9c7b83e84f19074aeeb158427f7975918cd17c0f06e97738",
+          "highlight_ranges": [
+            [
+              17,
+              21
+            ]
+          ]
         },
         {
           "review_id": "227944837",
@@ -29756,7 +30675,13 @@
           "highlight_excerpts": [
             "绝佳运镜"
           ],
-          "full_text_sha256": "942f323d52883b1469320d6e27282c789468e6421e291d35518bfeecc7e1d368"
+          "full_text_sha256": "942f323d52883b1469320d6e27282c789468e6421e291d35518bfeecc7e1d368",
+          "highlight_ranges": [
+            [
+              378,
+              382
+            ]
+          ]
         },
         {
           "review_id": "189790051",
@@ -29769,7 +30694,13 @@
           "highlight_excerpts": [
             "极其夸张的场景设计与极度风格化的镜头"
           ],
-          "full_text_sha256": "3b57fc81d67b9c31bc12dcd0222227c0a90a7940c85886e225ec12e45b0ad986"
+          "full_text_sha256": "3b57fc81d67b9c31bc12dcd0222227c0a90a7940c85886e225ec12e45b0ad986",
+          "highlight_ranges": [
+            [
+              0,
+              18
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -31452,8 +32383,8 @@
       },
       "editorial_review": {
         "observation": "玩家在餐室、遗迹等不同主题空间查看、搬动和组合物件；线索依附家具、机关及表面图案，光照和物件摆放共同引导注意。",
-        "comment": "它的美术价值在于让布景能被当作谜题阅读。适合参考哪些细节负责主题、哪些细节必须足够突出，避免把解谜变成扫屏。",
-        "transfer": "用于密室和合作解谜：先制定房间的材料与装饰规则，再用重复符号、磨损或光线突出关键物。",
+        "comment": "密室的布景既要像城堡或飞船，也要让人知道哪些东西值得检查。关键物件可以靠重复符号、磨痕或光线提醒，不必把整间房都布置得很抢眼。",
+        "transfer": "先布置出城堡或飞船的样子，再用磨痕、重复图案或灯光提示能检查的东西。",
         "limitations": "截图不能证明每个物件实际可交互，也不能判断谜题提示是否公平。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -31732,9 +32663,16 @@
           "curated_at": "2026-11-10",
           "full_text": "Much better than the first gen. Better graphics and interaction. Enjoyed a lot so far after 4 rooms!",
           "highlight_excerpts": [
-            "Much better than the first gen. Better graphics and interaction. Enjoyed a lot so far after 4 rooms!"
+            "Better graphics"
           ],
-          "full_text_sha256": "abebd9122731f8d726759532f8f1a6e7c58c3b86706b6191559c50d0b73dbf65"
+          "full_text_sha256": "abebd9122731f8d726759532f8f1a6e7c58c3b86706b6191559c50d0b73dbf65",
+          "highlight_ranges": [
+            [
+              32,
+              47
+            ]
+          ],
+          "highlight_translation_zh": "画面更好了"
         },
         {
           "review_id": "207743906",
@@ -31752,9 +32690,16 @@
           "curated_at": "2026-11-10",
           "full_text": "A fantastic sequel to the original Escape Simulator. Better in every way, not just the graphics.",
           "highlight_excerpts": [
-            "A fantastic sequel to the original Escape Simulator. Better in every way, not just the graphics."
+            "graphics"
           ],
-          "full_text_sha256": "a0d3ecb75ce088b50e976dade02a884c5660f4cdbb745da076343161bd7c39e8"
+          "full_text_sha256": "a0d3ecb75ce088b50e976dade02a884c5660f4cdbb745da076343161bd7c39e8",
+          "highlight_ranges": [
+            [
+              87,
+              95
+            ]
+          ],
+          "highlight_translation_zh": "画面"
         },
         {
           "review_id": "229397229",
@@ -31765,9 +32710,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "画风精致，谜题丰富，非常适合喜欢解谜的玩家",
           "highlight_excerpts": [
-            "画风精致，谜题丰富，非常适合喜欢解谜的玩家"
+            "画风精致"
           ],
-          "full_text_sha256": "d105ede083e1e2117a317f87c3bf842c708cfce1ee4461b9bec1fa6f07ad4d6b"
+          "full_text_sha256": "d105ede083e1e2117a317f87c3bf842c708cfce1ee4461b9bec1fa6f07ad4d6b",
+          "highlight_ranges": [
+            [
+              0,
+              4
+            ]
+          ]
         },
         {
           "review_id": "208439398",
@@ -31778,9 +32729,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "有了一代的成功作为打底，《密室逃脱模拟器2》无疑更加细腻也更加大胆，以更加丰富的关卡带来全新的挑战和冒险，本作延续了一代第一人称的视角，带来的关卡既可以一个人独自思考通关，也可以双人一起承受折磨，算是今年已经发行的最有趣的密室逃脱作品，适合喜欢烧脑解谜的部分玩家。\n\n首当其冲的就是内容上的丰富度，十二个截然不同的关卡加上全收集的最黑暗的谜题带来了全新的体验，德古拉城堡中摇曳的烛光在石墙上投下斑驳阴影，星船 EOS 的金属舱壁泛着冷光，海盗岛的潮湿气息仿佛透过屏幕溢出，每个主题之下都有着相当有趣的关卡设计，而且探索上更急自由，所有未固定物品都能自由移动重组，彻底摆脱了传统解谜游戏的点击局限，让玩家可以尽情探索解谜。\n\n而且单人/多人都可以体验的模式彻底激活了游戏潜力。单人可以自己开动脑筋找寻思路，多人联机也能更好地分工协作一起解谜，比如一个专注搜索线索，一个钻研机关原理，内置语音系统让思路碰撞毫无障碍。而黑暗谜题等高阶挑战更需要紧密配合，单人难以攻克的难题在团队智慧下迎刃而解，完美复刻了现实密室的社交乐趣。​\n\n如果说官方关卡是精致正餐，密室编辑器2.0就是永不枯竭的自助餐。制作组吸收前作开放创意工坊的独特经验，进一步将编辑器工具打磨得既强大又易用。新手可借助预设模板快速上手，资深创作者则能打造完整剧情向密室，能更好的进行二次创作。​这一系统让游戏突破了“通关即吃灰”的局限。配合通关时间排行榜和隐藏拼图收集，无论是追求速通的硬核玩家，还是沉迷创作的创意达人，都能找到长期游玩的动力。​\n\n不过游戏也并非完美无瑕，比如线索引导略显吝啬，尤其是单人模式下，面对空荡荡场景和零剧情铺垫的开局，总会感觉有些摸不着头脑，提示系统数量稀少且指向模糊，相比前作更考验玩家的联想能力。此外​游戏在细节上仍有提升空间，部分机关交互存在延迟感。\n\n不过总体来说，《密室逃脱模拟器 2》站在前作肩膀上实现了全面进化，更沉浸的场景、更精妙的谜题、更自由的创作，将密室逃脱的核心乐趣放大到新维度。对于热爱动脑且想要体验社交属性喜的玩家而言，这款游戏无疑是今年以来解谜品类的标杆之作。\n\n[quote]\n游玩百态，将游玩心得用汉语化作玩家的指明灯，(๑•̀ㅂ•́)و✧\n[url=https://store.steampowered.com/curator/35402408/]点击这里关注汉化语录~[/url] 如果喜欢这个评测，请点个赞让更多人看见\n[/quote]",
           "highlight_excerpts": [
-            "有了一代的成功作为打底，《密室逃脱模拟器2》无疑更加细腻也更加大胆，以更加丰富的关卡带来全新的挑战和冒险，本作延续了一代第一人称的视角，带来的关卡既可以一个人独自思考通关，也可以双人一起承受折磨，算是今年已经发行的最有趣的密室逃脱作品，适合喜欢烧脑解谜的部分玩家。\n\n首当其冲的就是内容上的丰富度，十二个截然不同的关卡加上全收集的最黑暗的谜题带来了全新的体验，德古拉城堡中摇曳的烛光在石墙上投下斑驳阴影，星船 EOS 的金属舱壁泛着冷光，海盗岛的潮湿气息仿佛透过屏幕溢出，每个主题之下都有着相当有趣的关卡设计，而且探索上更急自由，所有未固定物品都能自由移动重组，彻底摆脱了传统解谜游戏的点击局限，让玩家可以尽情探索解谜。\n\n而且单人/多人都可以体验的模式彻底激活了游戏潜力。单人可以自己开动脑筋找寻思路，多人联机也能更好地分工协作一起解谜，比如一个专注搜索线索，一个钻研机关原理，内置语音系统让思路碰撞毫无障碍。而黑暗谜题等高阶挑战更需要紧密配合，单人难以攻克的难题在团队智慧下迎刃而解，完美复刻了现实密室的社交乐趣。​\n\n如果说官方关卡是精致正餐，密室编辑器2.0就是永不枯竭的自助餐。制作组吸收前作开放创意工坊的独特经验，进一步将编辑器工具打磨得既强大又易用。新手可借助预设模板快速上手，资深创作者则能打造完整剧情向密室，能更好的进行二次创作。​这一系统让游戏突破了“通关即吃灰”的局限。配合通关时间排行榜和隐藏拼图收集，无论是追求速通的硬核玩家，还是沉迷创作的创意达人，都能找到长期游玩的动力。​\n\n不过游戏也并非完美无瑕，比如线索引导略显吝啬，尤其是单人模式下，面对空荡荡场景和零剧情铺垫的开局，总会感觉有些摸不着头脑，提示系统数量稀少且指向模糊，相比前作更考验玩家的联想能力。此外​游戏在细节上仍有提升空间，部分机关交互存在延迟感。\n\n不过总体来说，《密室逃脱模拟器 2》站在前作肩膀上实现了全面进化，更沉浸的场景、更精妙的谜题、更自由的创作，将密室逃脱的核心乐趣放大到新维度。对于热爱动脑且想要体验社交属性喜的玩家而言，这款游戏无疑是今年以来解谜品类的标杆之作。\n\n[quote]\n游玩百态，将游玩心得用汉语化作玩家的指明灯，(๑•̀ㅂ•́)و✧\n[url=https://store.steampowered.com/curator/35402408/]点击这里关注汉化语录~[/url] 如果喜欢这个评测，请点个赞让更多人看见\n[/quote]"
+            "德古拉城堡中摇曳的烛光在石墙上投下斑驳阴影，星船 EOS 的金属舱壁泛着冷光，海盗岛的潮湿气息仿佛透过屏幕溢出"
           ],
-          "full_text_sha256": "7f0c575fb98acef9ffddaeefcbf563c3cbb013f446c1966b7384848367b80cf0"
+          "full_text_sha256": "7f0c575fb98acef9ffddaeefcbf563c3cbb013f446c1966b7384848367b80cf0",
+          "highlight_ranges": [
+            [
+              180,
+              235
+            ]
+          ]
         },
         {
           "review_id": "235189133",
@@ -31791,9 +32748,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "最喜欢这种第一人称的3d密室类游戏了，可玩性好高，什么时候出3啊",
           "highlight_excerpts": [
-            "最喜欢这种第一人称的3d密室类游戏了，可玩性好高，什么时候出3啊"
+            "第一人称的3d密室"
           ],
-          "full_text_sha256": "d658124ea6b281047f8047ee6690f48151c5b5cc5ecce56cb0bcf889f403d52d"
+          "full_text_sha256": "d658124ea6b281047f8047ee6690f48151c5b5cc5ecce56cb0bcf889f403d52d",
+          "highlight_ranges": [
+            [
+              5,
+              14
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -32134,8 +33097,8 @@
       },
       "editorial_review": {
         "observation": "在森林、村庄和遗迹间推进时，像素前景和远景光束形成持续纵深；主角的亮色轮廓与攻击动作从枝叶、阴影及大型敌人前突出。",
-        "comment": "它通过分层场景维持密集像素画面的可读性。可借鉴让环境层负责气氛、人物和攻击层负责行动信息。",
-        "transfer": "用于像素动作与森林关卡：给前、中、后景不同的明度和色温范围，控制装饰对路径的干扰。",
+        "comment": "森林背景有好几层，人物和攻击却没有被树木盖住。做像素动作游戏时，可以把远处画得更柔和，把清楚的轮廓留给角色和危险。",
+        "transfer": "可以把远处的树和光画得柔和些，让近处的角色、道路和攻击边缘更清楚。",
         "limitations": "像素场景的观赏性不等于动作判定清晰；战斗和移动时的遮挡仍需验证。",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。",
         "review_type": "整作美术分析",
@@ -32431,7 +33394,14 @@
           "highlight_excerpts": [
             "it looks pretty"
           ],
-          "full_text_sha256": "ea66d0ebd9204532f70d8a2dae0d6be21cb42bf64a961efd9d5067a31edb9677"
+          "full_text_sha256": "ea66d0ebd9204532f70d8a2dae0d6be21cb42bf64a961efd9d5067a31edb9677",
+          "highlight_ranges": [
+            [
+              70,
+              85
+            ]
+          ],
+          "highlight_translation_zh": "画面很好看。"
         },
         {
           "review_id": "156003598",
@@ -32442,9 +33412,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "比起BOSS更恶心的是小怪，总体来说值得一玩，但不必特意去买，一开始手感的确有点粘滞，但多玩一会也就习惯了，如果有前作的话，还是蛮合算的，只是一开始没有硬核难度只有普通感觉游戏没什么太大的挑战性，BOSS也基本一遍过，恶心的小怪就属拿刀的胖恶魔和猪骑士。\n硬核和重构模式还没打，但总的来说这个价格是值得的。\n像素建模好，精灵女王大。",
           "highlight_excerpts": [
-            "比起BOSS更恶心的是小怪，总体来说值得一玩，但不必特意去买，一开始手感的确有点粘滞，但多玩一会也就习惯了，如果有前作的话，还是蛮合算的，只是一开始没有硬核难度只有普通感觉游戏没什么太大的挑战性，BOSS也基本一遍过，恶心的小怪就属拿刀的胖恶魔和猪骑士。\n硬核和重构模式还没打，但总的来说这个价格是值得的。\n像素建模好，精灵女王大。"
+            "像素建模好，精灵女王大"
           ],
-          "full_text_sha256": "99d1370af4a4c896edc38f4368c3691999d17834ae2e4424a59bd0a3f751b8e8"
+          "full_text_sha256": "99d1370af4a4c896edc38f4368c3691999d17834ae2e4424a59bd0a3f751b8e8",
+          "highlight_ranges": [
+            [
+              154,
+              165
+            ]
+          ]
         },
         {
           "review_id": "219435927",
@@ -32455,9 +33431,20 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "游戏流程本身很短，但是介于这个价格非常值得。\n游戏本身有难度选项，也有很多轮椅流派，人物性能也非常强悍所以还是很推荐上手游玩。\n和前作比画面与动画明显进步，画面更加唯美，人物设计更好看，动画更流畅。上作那沟槽的敌人攻击，以及跟领导一样我一背身就掉头来视奸我的反应相比，这一作ai真是好了不少。操作上也有了不小的改变，前作最后一击会使主角向前位移，很容易吃到碰撞伤害，站桩输出也及其不方便，很容易因为最后一下吃到伤害，这一作就不会有这么蠢的设定了。此外本作每个场景显示更大了，这样就更好看见敌人位置，而不像前作那样莫名其妙挨打。\n音乐方面感觉只有村庄内好听，其他的bgm都不够出彩。\n满分10分能给7分，画面和操作占比加分，让我找到了当年刚玩《餐饮地城》的感觉，想到了当年那无忧无虑的时光（可能只是我这么觉得吧）作为游戏来说刚刚及格是有的，但不出众，不过这个系列也是越做越好了。",
           "highlight_excerpts": [
-            "游戏流程本身很短，但是介于这个价格非常值得。\n游戏本身有难度选项，也有很多轮椅流派，人物性能也非常强悍所以还是很推荐上手游玩。\n和前作比画面与动画明显进步，画面更加唯美，人物设计更好看，动画更流畅。上作那沟槽的敌人攻击，以及跟领导一样我一背身就掉头来视奸我的反应相比，这一作ai真是好了不少。操作上也有了不小的改变，前作最后一击会使主角向前位移，很容易吃到碰撞伤害，站桩输出也及其不方便，很容易因为最后一下吃到伤害，这一作就不会有这么蠢的设定了。此外本作每个场景显示更大了，这样就更好看见敌人位置，而不像前作那样莫名其妙挨打。\n音乐方面感觉只有村庄内好听，其他的bgm都不够出彩。\n满分10分能给7分，画面和操作占比加分，让我找到了当年刚玩《餐饮地城》的感觉，想到了当年那无忧无虑的时光（可能只是我这么觉得吧）作为游戏来说刚刚及格是有的，但不出众，不过这个系列也是越做越好了。"
+            "和前作比画面与动画明显进步，画面更加唯美，人物设计更好看，动画更流畅",
+            "每个场景显示更大了，这样就更好看见敌人位置"
           ],
-          "full_text_sha256": "004037f68b51d5f229c00a715d07addea98ed2d7e73d0d21c21bb6d2f9aa5bcf"
+          "full_text_sha256": "004037f68b51d5f229c00a715d07addea98ed2d7e73d0d21c21bb6d2f9aa5bcf",
+          "highlight_ranges": [
+            [
+              64,
+              98
+            ],
+            [
+              227,
+              248
+            ]
+          ]
         },
         {
           "review_id": "221437325",
@@ -32468,9 +33455,25 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "赏月听曲，倚静撸猫\r\n类银河恶魔城，画面是比较精细的像素风。地图设计很不错，虽然还是不能标记，但做了区域颜色区分，而且有未收集的物品时地图会有“?”提示，这比ENDER MAGNOLIA: Bloom in the mist的地图变蓝还方便些。本作引入了法力值与耐力值的设定，纹章数量也大大增加，传送点也不再像月下遐想那样只是传送到区域，而是增加了固定的传送点。新增了幻影伙伴，虽然Boss战的时候不能用，但对跑图的辅助能力还是很强的。这一作的操作手感很棒，唯一可惜的是没有空中冲刺了，在刚玩完前作的基础上游玩本作能感受到巨大的进步。本地化方面，还是有个说火星文的小恶魔，但作为系列终章还是能感受到制作组满满的诚意，莫莫和多拉的出现也总算契合了游戏主题：莫莫多拉，就是好奇嘉赫是不是前作的嘉穗?\r\n剧情通关后有BossRush模式和Boss连战模式，Rush模式分为追忆和噩梦，全收集需要追忆模式全打一遍，这个比较简单，只需用上预言家、觉醒树叶、同调模式必定觉醒和魔法剑纹章，除了两个会飞的不好打以外其他基本站撸就能过。",
           "highlight_excerpts": [
-            "赏月听曲，倚静撸猫\r\n类银河恶魔城，画面是比较精细的像素风。地图设计很不错，虽然还是不能标记，但做了区域颜色区分，而且有未收集的物品时地图会有“?”提示，这比ENDER MAGNOLIA: Bloom in the mist的地图变蓝还方便些。本作引入了法力值与耐力值的设定，纹章数量也大大增加，传送点也不再像月下遐想那样只是传送到区域，而是增加了固定的传送点。新增了幻影伙伴，虽然Boss战的时候不能用，但对跑图的辅助能力还是很强的。这一作的操作手感很棒，唯一可惜的是没有空中冲刺了，在刚玩完前作的基础上游玩本作能感受到巨大的进步。本地化方面，还是有个说火星文的小恶魔，但作为系列终章还是能感受到制作组满满的诚意，莫莫和多拉的出现也总算契合了游戏主题：莫莫多拉，就是好奇嘉赫是不是前作的嘉穗?\r\n剧情通关后有BossRush模式和Boss连战模式，Rush模式分为追忆和噩梦，全收集需要追忆模式全打一遍，这个比较简单，只需用上预言家、觉醒树叶、同调模式必定觉醒和魔法剑纹章，除了两个会飞的不好打以外其他基本站撸就能过。"
+            "画面是比较精细的像素风",
+            "做了区域颜色区分",
+            "地图会有“?”提示"
           ],
-          "full_text_sha256": "283710f3aa0689995376cb761b4bed57794bc20105c54f33f17b9756720795fb"
+          "full_text_sha256": "283710f3aa0689995376cb761b4bed57794bc20105c54f33f17b9756720795fb",
+          "highlight_ranges": [
+            [
+              18,
+              29
+            ],
+            [
+              48,
+              56
+            ],
+            [
+              67,
+              76
+            ]
+          ]
         },
         {
           "review_id": "183900473",
@@ -32481,9 +33484,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "一如既往十分精致的像素风，尤其是主角的动作做得非常细致，收集物品十分简单，直接在地图上标了一个个问号，属于是愿意花点时间就能全收集的难度，但游戏本身比较平淡，平淡的战斗，平淡的BGM，所幸流程不是很长，即使是平淡的内容也能支撑到通关。",
           "highlight_excerpts": [
-            "一如既往十分精致的像素风，尤其是主角的动作做得非常细致，收集物品十分简单，直接在地图上标了一个个问号，属于是愿意花点时间就能全收集的难度，但游戏本身比较平淡，平淡的战斗，平淡的BGM，所幸流程不是很长，即使是平淡的内容也能支撑到通关。"
+            "一如既往十分精致的像素风，尤其是主角的动作做得非常细致"
           ],
-          "full_text_sha256": "a633c56077a3407b50283dd7631c0e696f564e8522ef340a22515f33b5d4e516"
+          "full_text_sha256": "a633c56077a3407b50283dd7631c0e696f564e8522ef340a22515f33b5d4e516",
+          "highlight_ranges": [
+            [
+              0,
+              27
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -32654,9 +33663,9 @@
       },
       "case_title": "用球状身体、长肢体与工具建立社交角色语言",
       "editorial_review": {
-        "observation": "多人结伴在自然地形里找路线、传递信息和解决空间问题。球形身体、彩色轮廓和工具姿态让远处队友也容易辨认，风景尺度把小队拉进共同探索。",
-        "comment": "值得借鉴的是从协作距离反推角色和道具：造型让人远远认出是谁，动作让队友看出他正在做什么。",
-        "transfer": "多人协作角色可优先分配身体色块、头部方向与手持工具，让远距离观察也能读出谁在做什么。",
+        "observation": "玩家结伴找路和解谜。球形身体、醒目的颜色和手里的工具，让人隔着一段距离也能认出队友。",
+        "comment": "合作时经常隔着一段距离看队友。鲜明的身体颜色和容易认的手持工具，能让人远远看出谁来了、正在干什么。",
+        "transfer": "从队友实际会站的距离看一遍角色，检查还认不认得出颜色、朝向和手里的工具。",
         "limitations": "静态截图不能验证动作衔接、语音系统与远距离实际可读性。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
@@ -32904,7 +33913,13 @@
           "highlight_excerpts": [
             "而且角色設計很可愛"
           ],
-          "full_text_sha256": "e8b03a722bb94b297e596c6481e9e637695fcb911d96de05ebc1153dd0b7fbc9"
+          "full_text_sha256": "e8b03a722bb94b297e596c6481e9e637695fcb911d96de05ebc1153dd0b7fbc9",
+          "highlight_ranges": [
+            [
+              231,
+              240
+            ]
+          ]
         },
         {
           "review_id": "236485608",
@@ -32916,9 +33931,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "如果让我推荐一款联机游戏 只有它是真正的联机游戏 风景和联机关卡满分",
           "highlight_excerpts": [
-            "风景和联机关卡满分"
+            "风景"
           ],
-          "full_text_sha256": "cf2ca7d064ce5571872797c3babe31a17417b8eb7de34b24ac71ee20fc14e986"
+          "full_text_sha256": "cf2ca7d064ce5571872797c3babe31a17417b8eb7de34b24ac71ee20fc14e986",
+          "highlight_ranges": [
+            [
+              25,
+              27
+            ]
+          ]
         },
         {
           "review_id": "232956017",
@@ -32930,9 +33951,15 @@
           "selection_note": "固定抽样内的正向美术评论摘录",
           "full_text": "用最怀念的画风带给你和朋友们最纯真的乐趣与感动，\n当行动胜过一切言语，当跨过万里以求共鸣，当友人的声音绕进无法感知的盲目之中，这大概就是这个游戏的精华所在罢",
           "highlight_excerpts": [
-            "用最怀念的画风带给你和朋友们最纯真的乐趣与感动"
+            "最怀念的画风"
           ],
-          "full_text_sha256": "757235bab2f42a85c7845c6e5af8dcb92da0bb1d3c312290a8c298de6b6ed971"
+          "full_text_sha256": "757235bab2f42a85c7845c6e5af8dcb92da0bb1d3c312290a8c298de6b6ed971",
+          "highlight_ranges": [
+            [
+              1,
+              7
+            ]
+          ]
         },
         {
           "review_id": "235914534",
@@ -32946,7 +33973,14 @@
           "highlight_excerpts": [
             "the beautiful scenery in-game"
           ],
-          "full_text_sha256": "0f9f671f404c6bf38cc6893a9d569a02d35ad81e015d43a3c11d59550381b27a"
+          "full_text_sha256": "0f9f671f404c6bf38cc6893a9d569a02d35ad81e015d43a3c11d59550381b27a",
+          "highlight_ranges": [
+            [
+              92,
+              121
+            ]
+          ],
+          "highlight_translation_zh": "游戏里美丽的风景"
         },
         {
           "review_id": "238489539",
@@ -32960,7 +33994,14 @@
           "highlight_excerpts": [
             "THE COLOR SELECTION IS AMAZINGGGGGGG"
           ],
-          "full_text_sha256": "9cd5648090709dcff15b711c529aac8bb8ebd2b426fa33045927e9cccbfe38a9"
+          "full_text_sha256": "9cd5648090709dcff15b711c529aac8bb8ebd2b426fa33045927e9cccbfe38a9",
+          "highlight_ranges": [
+            [
+              38,
+              74
+            ]
+          ],
+          "highlight_translation_zh": "配色太棒了！"
         }
       ],
       "gallery_media": [
@@ -33131,9 +34172,9 @@
       },
       "case_title": "用骨骸、异变生物与浑浊水域塑造危险生态",
       "editorial_review": {
-        "observation": "公开实机展示了湿地航行、近景钓竿和室内处理渔获。骨骸、巨型菌类与异变鱼在不同尺度上重复出现，昼夜照明使熟悉的捕鱼动作逐渐带上风险感。",
-        "comment": "已公开部分的参考价值在于将生物异化贯通地貌、捕捞对象和室内陈设，使探索与经营共享一个生态想象。",
-        "transfer": "恐怖探索场景可以先建立可识别的生活工具，再在骨骸尺度、生物构造或植被形态上施加偏差。",
+        "observation": "实机里能看到玩家开船穿过湿地、用钓竿捕鱼，再回室内处理渔获。巨大的骨头、菌类和变形的鱼，让原本熟悉的捕鱼场景有些不对劲。",
+        "comment": "巨大的骨骸、菌类和长相怪异的鱼，让熟悉的钓鱼活动慢慢变得不安。做类似场景时，可以先把船和钓具做得像日常用品，再在周围的生物上做变化。",
+        "transfer": "先画出玩家熟悉的钓具和船，再在骨骸大小、鱼的形状或植物长法上做几处反常的变化。",
         "limitations": "样本光色差异较大，尚不足以验证整作统一的视觉规则与实际恐怖体验。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
@@ -33592,7 +34633,14 @@
             "highlight_excerpts": [
               "it has such great art direction"
             ],
-            "full_text_sha256": "0caa60b284cacbbc0d44a02b6ebcfd3e3c078e658b4184e4853f521ba3d37682"
+            "full_text_sha256": "0caa60b284cacbbc0d44a02b6ebcfd3e3c078e658b4184e4853f521ba3d37682",
+            "highlight_ranges": [
+              [
+                79,
+                110
+              ]
+            ],
+            "highlight_translation_zh": "它的美术指导非常出色。"
           },
           {
             "excerpt": "Amazing visual and art",
@@ -33606,7 +34654,14 @@
             "highlight_excerpts": [
               "Amazing visual and art"
             ],
-            "full_text_sha256": "e46a15557870f12cd2a263207361b7c82d6fea26608a27ee4c10ac05b81951b3"
+            "full_text_sha256": "e46a15557870f12cd2a263207361b7c82d6fea26608a27ee4c10ac05b81951b3",
+            "highlight_ranges": [
+              [
+                0,
+                22
+              ]
+            ],
+            "highlight_translation_zh": "视觉和美术令人惊艳。"
           },
           {
             "excerpt": "Awesome colours and art style",
@@ -33620,7 +34675,14 @@
             "highlight_excerpts": [
               "Awesome colours and art style"
             ],
-            "full_text_sha256": "f990d2c6f9d3fafd9cba01eb6de8e9dd242b1230c47e72fba63e430bb53c39cd"
+            "full_text_sha256": "f990d2c6f9d3fafd9cba01eb6de8e9dd242b1230c47e72fba63e430bb53c39cd",
+            "highlight_ranges": [
+              [
+                0,
+                29
+              ]
+            ],
+            "highlight_translation_zh": "色彩和美术风格太棒了。"
           },
           {
             "excerpt": "the creature designs are mind-blowing",
@@ -33634,7 +34696,14 @@
             "highlight_excerpts": [
               "the creature designs are mind-blowing"
             ],
-            "full_text_sha256": "7992f2479951c96c4f0460758ff101efde245508f424cb67429215c136671867"
+            "full_text_sha256": "7992f2479951c96c4f0460758ff101efde245508f424cb67429215c136671867",
+            "highlight_ranges": [
+              [
+                77,
+                114
+              ]
+            ],
+            "highlight_translation_zh": "生物设计令人震撼。"
           },
           {
             "excerpt": "рисовка, стилистика, всё шикарно",
@@ -33648,7 +34717,14 @@
             "highlight_excerpts": [
               "рисовка, стилистика, всё шикарно"
             ],
-            "full_text_sha256": "5ce966c96fde58b45c4f74b34c0cafe66c2d99c0f3ca6f5bd5b1d6842c8fb21f"
+            "full_text_sha256": "5ce966c96fde58b45c4f74b34c0cafe66c2d99c0f3ca6f5bd5b1d6842c8fb21f",
+            "highlight_ranges": [
+              [
+                18,
+                50
+              ]
+            ],
+            "highlight_translation_zh": "画风、风格化表现，一切都非常棒。"
           }
         ]
       },
@@ -33739,9 +34815,9 @@
       },
       "case_title": "以块面海景和网格渔获连接航行与收纳",
       "editorial_review": {
-        "observation": "白天辨识岛岸、灯塔和渔点，入夜后雾、弱光与异常轮廓改变航行阅读；渔获随后进入格状货舱，造型直接影响摆放。",
-        "comment": "本作把剪影和光照同时用于导航、风险和收藏，格子里的鱼仍保留海上世界的形态特征。可借鉴同一套形体如何从远景走到操作界面。",
-        "transfer": "小尺度探索地图可用区域主色和地标剪影导航；收纳玩法可将物体外形转成有节奏的占格结构。",
+        "observation": "白天可以靠岛岸和灯塔找方向，入夜后雾和昏暗的光线让远处很难看清。钓上来的鱼形状各异，要转一转才能塞进货舱的格子。",
+        "comment": "海上的地标远远就能认出来，钓上来的鱼放进格子时也能靠外形区分。做探索和收纳时，可以让同样的形状在远景和界面里都好认。",
+        "transfer": "在海图上让地标远远就能认出来，在货舱里则用鱼的外形提示它会占几个格子。",
         "limitations": "当前素材不覆盖连续夜间与异常状态变化，不推断具体贴图或渲染管线。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
@@ -33988,9 +35064,15 @@
           "review_id": "140684449",
           "full_text": "世界美麗，劇情鋪陳不錯",
           "highlight_excerpts": [
-            "世界美麗，劇情鋪陳不錯"
+            "世界美麗"
           ],
-          "full_text_sha256": "6a159ca841f05ef13b4a628d8eb5251d8d22f5e75aa2c9900cae3efde4815336"
+          "full_text_sha256": "6a159ca841f05ef13b4a628d8eb5251d8d22f5e75aa2c9900cae3efde4815336",
+          "highlight_ranges": [
+            [
+              0,
+              4
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -33999,9 +35081,15 @@
           "review_id": "162360463",
           "full_text": "画风玩法故事线我都好喜欢！",
           "highlight_excerpts": [
-            "画风玩法故事线我都好喜欢！"
+            "画风"
           ],
-          "full_text_sha256": "8d4a3a741a9008b67ea6012aa992532e65068fc1feceb54e225daa07ca60c2a2"
+          "full_text_sha256": "8d4a3a741a9008b67ea6012aa992532e65068fc1feceb54e225daa07ca60c2a2",
+          "highlight_ranges": [
+            [
+              0,
+              2
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -34010,9 +35098,15 @@
           "review_id": "224107003",
           "full_text": "我很喜欢，克苏鲁风+捕鱼，好玩",
           "highlight_excerpts": [
-            "我很喜欢，克苏鲁风+捕鱼，好玩"
+            "克苏鲁风"
           ],
-          "full_text_sha256": "c60ce12a289f738351dd5a273989c6f31d6eac9e71f56c060ba0110439fca3c8"
+          "full_text_sha256": "c60ce12a289f738351dd5a273989c6f31d6eac9e71f56c060ba0110439fca3c8",
+          "highlight_ranges": [
+            [
+              5,
+              9
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -34021,9 +35115,15 @@
           "review_id": "144338734",
           "full_text": "故事說得不錯.美術蠻好看的.特別的小品遊戲",
           "highlight_excerpts": [
-            "故事說得不錯.美術蠻好看的.特別的小品遊戲"
+            "美術蠻好看的"
           ],
-          "full_text_sha256": "82a99b31ddcf8877b96f9679cb1a456d05f5e912386670a4a86e70c0d78f89d3"
+          "full_text_sha256": "82a99b31ddcf8877b96f9679cb1a456d05f5e912386670a4a86e70c0d78f89d3",
+          "highlight_ranges": [
+            [
+              7,
+              13
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -34032,9 +35132,15 @@
           "review_id": "151356310",
           "full_text": "优秀的美术风格和世界观，有趣的玩法，就是流程较短",
           "highlight_excerpts": [
-            "优秀的美术风格和世界观，有趣的玩法，就是流程较短"
+            "优秀的美术风格"
           ],
-          "full_text_sha256": "824eb13ec0589e1a5e8c0ca2e7b6693d3960c1f47fb3f05b6e7c4e51204d6e0b"
+          "full_text_sha256": "824eb13ec0589e1a5e8c0ca2e7b6693d3960c1f47fb3f05b6e7c4e51204d6e0b",
+          "highlight_ranges": [
+            [
+              0,
+              7
+            ]
+          ]
         }
       ],
       "gallery_media": [
@@ -34209,8 +35315,8 @@
       "case_title": "以橙色运输车和异常巨物建立荒野视觉锚点",
       "editorial_review": {
         "observation": "公开实机里的载货、行驶和手持探测围绕异常地区展开。灰雾、湿地和倾斜地形削弱远景辨识，暖色车体与探测器则在路线中给玩家稳定参照。",
-        "comment": "公开内容最值得参考的是把车、工具和异常地貌连成一条视觉信息链。车辆是行动中心，探测反馈把抽象异常变成可追踪的目标。",
-        "transfer": "运输或探索项目可用可控的小型暖色资产对照巨大的冷色环境，并让工具的视觉语言引导玩家注意异常点。",
+        "comment": "卡车和探测工具是玩家熟悉的东西，车窗外的地貌却不太对劲。让工具给出能看懂的提示，玩家才知道该往哪儿看、哪里可能有异常。",
+        "transfer": "让卡车和手持设备的暖光在灰雾里看得见，再用探测器提示玩家去哪里看。",
         "limitations": "截图只证明可见的色彩与尺度关系，不能验证地形驾驶、工具反馈或最终画质。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
@@ -34651,7 +35757,14 @@
             "highlight_excerpts": [
               "game over screen was so unique and cool"
             ],
-            "full_text_sha256": "20ebcda83236fc410eed8aac15805b6aa89d4fd472280a2f89c6e18346c00e39"
+            "full_text_sha256": "20ebcda83236fc410eed8aac15805b6aa89d4fd472280a2f89c6e18346c00e39",
+            "highlight_ranges": [
+              [
+                5,
+                44
+              ]
+            ],
+            "highlight_translation_zh": "游戏结束画面既独特又酷。"
           },
           {
             "excerpt": "the world looks very pretty and I like the lighting effects at sundown",
@@ -34665,7 +35778,14 @@
             "highlight_excerpts": [
               "the world looks very pretty and I like the lighting effects at sundown"
             ],
-            "full_text_sha256": "e27725ca57c62f3e9fd5c09872d2c7c5b3a5be208a2002d21e93db370e67a9df"
+            "full_text_sha256": "e27725ca57c62f3e9fd5c09872d2c7c5b3a5be208a2002d21e93db370e67a9df",
+            "highlight_ranges": [
+              [
+                166,
+                236
+              ]
+            ],
+            "highlight_translation_zh": "这个世界看起来很漂亮，我喜欢日落时的光照效果。"
           },
           {
             "excerpt": "love that truck design",
@@ -34679,7 +35799,14 @@
             "highlight_excerpts": [
               "love that truck design"
             ],
-            "full_text_sha256": "7a4c6292c2afbe171e51fac452545f941ec9a46b54b315e4f33ccaddfffdfc06"
+            "full_text_sha256": "7a4c6292c2afbe171e51fac452545f941ec9a46b54b315e4f33ccaddfffdfc06",
+            "highlight_ranges": [
+              [
+                13,
+                35
+              ]
+            ],
+            "highlight_translation_zh": "喜欢这辆卡车的设计。"
           },
           {
             "excerpt": "The suits look cute",
@@ -34693,7 +35820,14 @@
             "highlight_excerpts": [
               "The suits look cute"
             ],
-            "full_text_sha256": "f29153ea3887f072a2d17afa63b22478d8fa3858df143c74b4f933a32b1df48e"
+            "full_text_sha256": "f29153ea3887f072a2d17afa63b22478d8fa3858df143c74b4f933a32b1df48e",
+            "highlight_ranges": [
+              [
+                0,
+                19
+              ]
+            ],
+            "highlight_translation_zh": "这些防护服看起来很可爱。"
           },
           {
             "excerpt": "Пугающе-реалистичный газ66 получился",
@@ -34707,7 +35841,14 @@
             "highlight_excerpts": [
               "Пугающе-реалистичный газ66 получился"
             ],
-            "full_text_sha256": "2c9e0a6aebfb772854306a98e476e10d8535a70f5668c50b7aa471a2887bb502"
+            "full_text_sha256": "2c9e0a6aebfb772854306a98e476e10d8535a70f5668c50b7aa471a2887bb502",
+            "highlight_ranges": [
+              [
+                0,
+                36
+              ]
+            ],
+            "highlight_translation_zh": "这辆 GAZ-66 卡车逼真得有点吓人。"
           }
         ]
       },
@@ -34800,9 +35941,9 @@
       },
       "case_title": "让漫画角色、笨重工业结构与警报光形成科幻恐怖语言",
       "editorial_review": {
-        "observation": "公开展示把工业通道、断裂平台、巨型生物和角色对话放进同一废土语境。红色警报、金属构件与黑黄信息面板给俯视行动和叙事画面建立共同语气。",
-        "comment": "已公开内容的参考点是把尺度压力和工业色彩贯穿环境、敌人与界面，适合观察如何在俯视战斗里保持世界观与操作层级。",
-        "transfer": "科幻项目可围绕体块重量、警示色和轮廓节奏建立跨角色、场景与界面的共同规则。",
+        "observation": "实机里有工业通道、断开的平台和巨型生物。红色警报灯和黑黄相间的面板，把危险的地方标得很醒目。",
+        "comment": "厚重的机械、工业设施和警示色让环境很有压迫感。俯视战斗时，可以让背景少一点抢眼的细节，把醒目的颜色留给敌人和提示。",
+        "transfer": "工业设施和敌人可以共用厚重的金属外壳，战斗里用少量警示色标出真正需要避开的地方。",
         "limitations": "仅依据官方静态展示；未核验完整战斗、实际镜头或商业表现。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
@@ -35227,7 +36368,14 @@
             "highlight_excerpts": [
               "all the artwork needs proper appreciation"
             ],
-            "full_text_sha256": "7c981c244930b1468b62dfa84ab76c47910c118373a5fd640be8cb90556e6244"
+            "full_text_sha256": "7c981c244930b1468b62dfa84ab76c47910c118373a5fd640be8cb90556e6244",
+            "highlight_ranges": [
+              [
+                73,
+                114
+              ]
+            ],
+            "highlight_translation_zh": "所有美术作品都值得好好欣赏。"
           },
           {
             "excerpt": "the graphics, i love it",
@@ -35241,7 +36389,14 @@
             "highlight_excerpts": [
               "the graphics, i love it"
             ],
-            "full_text_sha256": "b3aea3d2ac383eb37e194760861f50c78e9f7c6ee62e517833a1ca249c56a767"
+            "full_text_sha256": "b3aea3d2ac383eb37e194760861f50c78e9f7c6ee62e517833a1ca249c56a767",
+            "highlight_ranges": [
+              [
+                27,
+                50
+              ]
+            ],
+            "highlight_translation_zh": "我喜欢这画面。"
           },
           {
             "excerpt": "love the art-style, sound design and general atmosphere",
@@ -35253,9 +36408,16 @@
             "source_file": "DUST_美术判读.json",
             "full_text": "This looks great, love the art-style, sound design and general atmosphere",
             "highlight_excerpts": [
-              "love the art-style, sound design and general atmosphere"
+              "love the art-style"
             ],
-            "full_text_sha256": "62f19980ce0b36264cc6801cf1a524fe12c12546e1fe8de9def6a8e222b5160b"
+            "full_text_sha256": "62f19980ce0b36264cc6801cf1a524fe12c12546e1fe8de9def6a8e222b5160b",
+            "highlight_ranges": [
+              [
+                18,
+                36
+              ]
+            ],
+            "highlight_translation_zh": "喜欢这个美术风格"
           },
           {
             "excerpt": "Graphically it's wonderful, it has a soft aesthetic look",
@@ -35269,7 +36431,14 @@
             "highlight_excerpts": [
               "Graphically it's wonderful, it has a soft aesthetic look"
             ],
-            "full_text_sha256": "a7ee3e8b6d9d0e919b4e0fdd097eab911a737884c6910b6140a913bd6ff4ebbe"
+            "full_text_sha256": "a7ee3e8b6d9d0e919b4e0fdd097eab911a737884c6910b6140a913bd6ff4ebbe",
+            "highlight_ranges": [
+              [
+                0,
+                56
+              ]
+            ],
+            "highlight_translation_zh": "画面非常漂亮，有一种柔和的美感。"
           },
           {
             "excerpt": "I need more Joe Mad art in my life",
@@ -35283,7 +36452,14 @@
             "highlight_excerpts": [
               "I need more Joe Mad art in my life"
             ],
-            "full_text_sha256": "7521b56675abb216c61769bce53561561189384207191d3ca4d3a32bc4c70489"
+            "full_text_sha256": "7521b56675abb216c61769bce53561561189384207191d3ca4d3a32bc4c70489",
+            "highlight_ranges": [
+              [
+                157,
+                191
+              ]
+            ],
+            "highlight_translation_zh": "我的生活里需要更多 Joe Mad 的美术作品。"
           }
         ]
       },
@@ -35821,8 +36997,8 @@
         "score_basis": "值得入库的是低多边形大色块与高差地标共同构成的可读探索景观。可参考其用地标、色块与高差支持随意探索的方法，而非只复制登山题材。"
       },
       "editorial_review": {
-        "observation": "徒步、攀爬和滑翔让玩家在小岛的林道、海岸和山峰间改变高度与视角；低多边形地景、大色块植被和小体型动物保留路线轮廓，远近景都容易读。",
-        "comment": "它把风景变成行动邀请：看得见高处和水岸，就能试着换一条走法。适合借鉴如何在小尺度开放世界里用地标、色块与高差支持随意探索。",
+        "observation": "玩家徒步、攀爬或滑翔，能从不同高度看到林道、海岸和山顶。地形用简单的形状和成片的颜色画出来，远处的路也能看清。",
+        "comment": "山顶和水岸远远就能看到，玩家自然会想找路过去。做小型开放地图时，可以先放好几个远处看得见的地标，再设计通往它们的路线。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
@@ -35885,9 +37061,15 @@
           "review_id": "239837302",
           "full_text": "《A Short Hike》\n标签：休闲探索、轻度解谜、像素后处理风格化\n制作组：adamgryu\n\n正如其名，全成就三小时，休闲类型游戏。我是偶尔听到此游戏的 OST 被吸引游玩的，迷幻电子风带着旷野感，搭配游戏画面相得益彰。游戏内容其实在这三小时内是非常充实的，各种小游戏不重样，鼓励玩家自行探索，并且作者肯定也是个资深任天堂迷，能看到很多任天堂的游戏设计元素。",
           "highlight_excerpts": [
-            "搭配游戏画面相得益彰"
+            "游戏画面"
           ],
-          "full_text_sha256": "621e98e7e29c5c3999e311743b4e9877620c7d86f068af959dffb941b9180de8"
+          "full_text_sha256": "621e98e7e29c5c3999e311743b4e9877620c7d86f068af959dffb941b9180de8",
+          "highlight_ranges": [
+            [
+              105,
+              109
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -35898,7 +37080,13 @@
           "highlight_excerpts": [
             "画面好"
           ],
-          "full_text_sha256": "3c4f134cd614b7bdd4100a7f91ebbc565c265457fa5957c2500db446b65939f6"
+          "full_text_sha256": "3c4f134cd614b7bdd4100a7f91ebbc565c265457fa5957c2500db446b65939f6",
+          "highlight_ranges": [
+            [
+              3,
+              6
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -35907,9 +37095,15 @@
           "review_id": "238615850",
           "full_text": "短小精悍的开放世界，内容量相当丰富，包括钓鱼、沙滩排球、摩托艇等玩法，音乐美术超大杯。\r\n小企鹅pia叽pia叽走路的声音好可爱，感觉让人很有步行的动力（？好几次接球接红温了听着歌又释怀了，感觉真的像在阳光明媚的下午和朋友一起打球。特别喜欢伴着音乐滑翔，人生是自由的，人生是旷野啊。",
           "highlight_excerpts": [
-            "音乐美术超大杯"
+            "美术超大杯"
           ],
-          "full_text_sha256": "f717814a5a0a5634e107e41afa0248629c32a5310076560ea54a71e414dca843"
+          "full_text_sha256": "f717814a5a0a5634e107e41afa0248629c32a5310076560ea54a71e414dca843",
+          "highlight_ranges": [
+            [
+              37,
+              42
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -35920,7 +37114,13 @@
           "highlight_excerpts": [
             "像素画风"
           ],
-          "full_text_sha256": "824520f4b8442f1d8652d56009172ed5b5b2fcddf46b9a6620703f7b87710682"
+          "full_text_sha256": "824520f4b8442f1d8652d56009172ed5b5b2fcddf46b9a6620703f7b87710682",
+          "highlight_ranges": [
+            [
+              71,
+              75
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -35931,7 +37131,13 @@
           "highlight_excerpts": [
             "可爱的像素风"
           ],
-          "full_text_sha256": "a3e50111fa3edad1c1e5f3c0364a5ef581e8047b8c04a784401951d2ea8b9e8b"
+          "full_text_sha256": "a3e50111fa3edad1c1e5f3c0364a5ef581e8047b8c04a784401951d2ea8b9e8b",
+          "highlight_ranges": [
+            [
+              2,
+              8
+            ]
+          ]
         }
       ],
       "library_selection": {
@@ -36135,8 +37341,8 @@
         "score_basis": "值得入库的是把卡牌界面当作叙事空间的媒介转换语言。可参考其让牌面符号在写实木桌与低清屏幕间保持效力的方法，而非只复制恐怖卡牌题材。"
       },
       "editorial_review": {
-        "observation": "牌桌、可起身调查的木屋和后续变化的游戏媒介共同参与叙事。牌面符号和角色身份贯穿其间，光线、画面材质与界面切换则改变同一套规则的心理氛围。",
-        "comment": "它把卡牌界面当作叙事空间，玩家对卡牌的熟悉感能在媒介转换时继续生效。适合参考怎样用界面与材质变化表现故事层级。",
+        "observation": "玩家既可以坐在桌边打牌，也可以站起来查看木屋。后续画面和界面会换风格，玩家熟悉的牌面符号仍然认得出来。",
+        "comment": "卡牌摆在桌面上，桌子和周围的房间也在讲故事。换场景时，可以改材质和灯光，但保留玩家已经认熟的卡牌操作。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
@@ -36201,7 +37407,13 @@
           "highlight_excerpts": [
             "画面也不错"
           ],
-          "full_text_sha256": "04fbeed0248254fa908c3b810a331d7b8962089a16d0e72de75dc74639ac93b0"
+          "full_text_sha256": "04fbeed0248254fa908c3b810a331d7b8962089a16d0e72de75dc74639ac93b0",
+          "highlight_ranges": [
+            [
+              18,
+              23
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -36212,7 +37424,13 @@
           "highlight_excerpts": [
             "材质和美工很有特点"
           ],
-          "full_text_sha256": "d95ebdeecef8bef7f9973bfde24a34a382cef6f6aa08273a4c55703cc85ab871"
+          "full_text_sha256": "d95ebdeecef8bef7f9973bfde24a34a382cef6f6aa08273a4c55703cc85ab871",
+          "highlight_ranges": [
+            [
+              70,
+              79
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -36220,10 +37438,9 @@
           "url": "https://steamcommunity.com/profiles/76561199882507266/recommended/1092790/",
           "review_id": "239465082",
           "full_text": "丹尼尔，你给我下了什么药我怎么玩完一边哭一遍重刷一边画同人。。。。剧情实在太喜欢了。三章的风格也都好有特点，年度最佳meta，破三开盒卢克有点难绷\n不管了我爱群像我爱第三章",
-          "highlight_excerpts": [
-            "三章的风格也都好有特点"
-          ],
-          "full_text_sha256": "3dcfa76563144d7b3dcc8ad1ecbae2ed2ab31e2343b2e5e7a0bab9daebd4f375"
+          "highlight_excerpts": [],
+          "full_text_sha256": "3dcfa76563144d7b3dcc8ad1ecbae2ed2ab31e2343b2e5e7a0bab9daebd4f375",
+          "highlight_ranges": []
         },
         {
           "sentiment": "positive",
@@ -36232,9 +37449,15 @@
           "review_id": "239228149",
           "full_text": "我看到low poly和像素风格就会快速吻上jpg\r\n\r\n玩法算是卡牌+轻量解密+[spoiler]轻量meta [/spoiler]，初见只觉得可以离开牌桌探索房间解密并对后续牌局产生影响的设计很好玩，打到第二章才发现...哇哦。[b] 哇哦？！？？ [/b] 每一章节有着极大的惊喜，玩法和剧情的结合以及节奏控制非常好，游玩完全不会感到乏味，真的是一部从头至尾都有着极高乐趣的佳作。特点迥异的三个章节也让人很是意犹未尽。要挑刺的话——房间的对局模拟解密有点太简单了，还没开始思考随便点了两下结果解开了*挠头*微妙地感觉少玩了五块钱的。\r\n\r\n卡牌方面，底层机制是使用造物牌对对方玩家方造成五点伤害差即为胜利，此外衍生出了四种主要体系：献祭、电量/回路、骨头和宝石。一开始以为是相对独立的四个体系，结果发现随着章节推进其实会出现跨体系的卡，可以混用发展出更多的可能性。私以为这四种机制完全都可以拿出来做一个单独的游戏，因此把它们全做在一起我只能觉得...太奢侈了！太好玩了！！每次机制随着章节更迭我的心情就像被收走玩具的小孩一样难过...完全没玩够啊！但是因为手里马上又被塞进一个更有趣的玩具，因此惊喜远大于怀念。玩到结尾心情真的十分依依不舍...本体结束后的凯西模组也很好玩，不过可惜只包含上述四种体系中的一种。\r\n\r\n美术和音乐都非常非常棒。不同章节虽然有着不同的风格但是叙事又很好地将其统一了，因此一点都不嫌得杂乱。每个头目的演出我都好喜欢啊，P03萌之萌之…我也非常喜欢莱西戴面具的演出（还有猎人boss背景的低声哼唱）好带感好舒服。\r\n\r\n这两天突然想起来打凯西模组，才发现我竟然一直忘记把写完的评论发在这里，于是补发。说到凯西模组，我也特别喜欢打完一个等级可以看到一篇开发日志的这一设计，对我这种没有lore方面的奖励内容就基本提不起兴趣挑战高难度的玩家来说这真的太有吸引力了。",
           "highlight_excerpts": [
-            "美术和音乐都非常非常棒"
+            "美术"
           ],
-          "full_text_sha256": "de5d1b6f9d3e8fcabdf05751868c3fb7587e39e7e1b0729119dec4cf0258591f"
+          "full_text_sha256": "de5d1b6f9d3e8fcabdf05751868c3fb7587e39e7e1b0729119dec4cf0258591f",
+          "highlight_ranges": [
+            [
+              562,
+              564
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -36245,7 +37468,13 @@
           "highlight_excerpts": [
             "美术的沉浸感做的真的很不错"
           ],
-          "full_text_sha256": "641fd8de4a8fc8de9376be56aa62ac2b722922e3884b91e0bda29aecd9a102b3"
+          "full_text_sha256": "641fd8de4a8fc8de9376be56aa62ac2b722922e3884b91e0bda29aecd9a102b3",
+          "highlight_ranges": [
+            [
+              10,
+              23
+            ]
+          ]
         }
       ],
       "library_selection": {
@@ -36450,8 +37679,8 @@
         "score_basis": "值得入库的是用武打演出解释战斗时机的动作可读性。可参考其敌人姿态、金属反馈与灯光控制的配合方法，而非只复制京都武士题材。"
       },
       "editorial_review": {
-        "observation": "京都的寺院、山道和暗处异形以灰冷建筑与阴影维持时代基调；剑戟中的抬手、交锋、火花和血色把读招、一闪与处决变成可见的动作节点。",
-        "comment": "它最值得借鉴的是用武打演出解释战斗时机。将敌人姿态、金属反馈和灯光控制配合起来，能让动作既有重量又可被判断。",
+        "observation": "京都的寺院和山道大多用偏冷的颜色，异形常藏在暗处。交手时，抬手、格挡和刀剑相撞都有明显动作，玩家能看出出招时机。",
+        "comment": "敌人的起手动作交代了何时该挡，刀剑相碰时的反光和动作又让人感到撞击。做武打演出时，可以先让动作好读，再加火花和灯光。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
@@ -36513,10 +37742,9 @@
           "url": "https://steamcommunity.com/profiles/76561199758663653/recommended/2638890/",
           "review_id": "239789043",
           "full_text": "作为ip重启新作，动作系统被无数厂商剖析烂了也搞不出个所以然，卡普空极其的聪明，铺好了本作的后置规划，故事的后面武藏二天一流，岩流岛之战，出云的阿国剑舞，完美的后续路线。动作系统，人物塑造，面部表情与举止细节极其丰富，神话与传统的故事融合，氛围的烘托堪称绝世第一，超过其的游戏还没有早期立项，太完美了，掩住了糟糕的地图设计和各种可有可无的通马桶任务",
-          "highlight_excerpts": [
-            "氛围的烘托堪称绝世第一"
-          ],
-          "full_text_sha256": "fc81dd4b0b68b1cd91b3c06749ff92ebf36b1af1d82ee64a2a40b478d84d0f14"
+          "highlight_excerpts": [],
+          "full_text_sha256": "fc81dd4b0b68b1cd91b3c06749ff92ebf36b1af1d82ee64a2a40b478d84d0f14",
+          "highlight_ranges": []
         },
         {
           "sentiment": "positive",
@@ -36527,7 +37755,13 @@
           "highlight_excerpts": [
             "视觉体验直接拉满"
           ],
-          "full_text_sha256": "9a912f80fbffd6bc38c44058248e9078e9f10473289cdd5d7f9cd700a274be86"
+          "full_text_sha256": "9a912f80fbffd6bc38c44058248e9078e9f10473289cdd5d7f9cd700a274be86",
+          "highlight_ranges": [
+            [
+              217,
+              225
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -36538,7 +37772,13 @@
           "highlight_excerpts": [
             "演出好"
           ],
-          "full_text_sha256": "cd396f8af22dfddeb746fdb4eea47204e5cfd6e370153ea9f9dd394d5e3fefc3"
+          "full_text_sha256": "cd396f8af22dfddeb746fdb4eea47204e5cfd6e370153ea9f9dd394d5e3fefc3",
+          "highlight_ranges": [
+            [
+              3,
+              6
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -36549,7 +37789,13 @@
           "highlight_excerpts": [
             "游戏观赏性十足"
           ],
-          "full_text_sha256": "52be9045e280898445603f3efdb44e5037a81939a9b6133fd2003a1c4a017269"
+          "full_text_sha256": "52be9045e280898445603f3efdb44e5037a81939a9b6133fd2003a1c4a017269",
+          "highlight_ranges": [
+            [
+              36,
+              43
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -36560,7 +37806,13 @@
           "highlight_excerpts": [
             "武藏的表情做得好"
           ],
-          "full_text_sha256": "e806a1eaa423164bf68e616609af38f8ba37e60bc2aae99e85d8e38316f7d724"
+          "full_text_sha256": "e806a1eaa423164bf68e616609af38f8ba37e60bc2aae99e85d8e38316f7d724",
+          "highlight_ranges": [
+            [
+              55,
+              63
+            ]
+          ]
         }
       ],
       "library_selection": {
@@ -36761,8 +38013,8 @@
         "score_basis": "值得入库的是高亮轨迹优先与桌面结算演出的分工。可参考其在高密度碰撞中保持操作提示可读的方法，而非只复制弹球赌博题材。"
       },
       "editorial_review": {
-        "observation": "弹球在弹幕与障碍间穿行，下注和结算又把玩法切回桌面。企鹅、杯具和纸质规则延续赌场卡通气质，亮轨迹、球体和计分在高密度碰撞中承担操作提示。",
-        "comment": "它将赌博的紧张感和弹球的速度放进同一套轻松造型里。可参考如何让高亮轨迹始终优先，并把风险放大交给桌面和结算演出。",
+        "observation": "弹球在弹幕和障碍间穿行，下注时又切回有企鹅和杯具的桌面。球和轨迹比周围的装饰亮，碰撞多时也能找得到。",
+        "comment": "桌面造型轻松，弹球一动起来仍能追上它的路线。做快节奏弹球时，可以把最亮的部分留给球和轨迹，把大演出放到结算时。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
@@ -36827,7 +38079,13 @@
           "highlight_excerpts": [
             "美术风格真的眼前一亮"
           ],
-          "full_text_sha256": "932e24588054951415d64c9974c1d550755aecaf3e189ecaf558f43a73aa2424"
+          "full_text_sha256": "932e24588054951415d64c9974c1d550755aecaf3e189ecaf558f43a73aa2424",
+          "highlight_ranges": [
+            [
+              13,
+              23
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -36836,9 +38094,15 @@
           "review_id": "235611928",
           "full_text": "画风和内容都相当不错。\n只可惜现在只有三关, 这应该作为一个Ealry Access 而不是一个完整的发售",
           "highlight_excerpts": [
-            "画风和内容都相当不错"
+            "画风"
           ],
-          "full_text_sha256": "662f24e2dc8a446c6e870dc5221d5712de80980de111376153282a0826b1607f"
+          "full_text_sha256": "662f24e2dc8a446c6e870dc5221d5712de80980de111376153282a0826b1607f",
+          "highlight_ranges": [
+            [
+              0,
+              2
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -36849,7 +38113,13 @@
           "highlight_excerpts": [
             "高规格美术"
           ],
-          "full_text_sha256": "6e2d92238cf2c3e4f5b1cbe23fcb2b95cc52fb25696c358dc8f03db491d65d46"
+          "full_text_sha256": "6e2d92238cf2c3e4f5b1cbe23fcb2b95cc52fb25696c358dc8f03db491d65d46",
+          "highlight_ranges": [
+            [
+              995,
+              1000
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -36860,7 +38130,13 @@
           "highlight_excerpts": [
             "给美术磕十个头都不为过"
           ],
-          "full_text_sha256": "27599ab72483d55658677f5c73bd7cb88bd28cf8562829e2e1690f416fe0b315"
+          "full_text_sha256": "27599ab72483d55658677f5c73bd7cb88bd28cf8562829e2e1690f416fe0b315",
+          "highlight_ranges": [
+            [
+              208,
+              219
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -36871,7 +38147,13 @@
           "highlight_excerpts": [
             "画风不赖"
           ],
-          "full_text_sha256": "03e30b81d0f5d90f0746bd80855d756f5adf7d9b7aa7f6112c9ab93cd54edb83"
+          "full_text_sha256": "03e30b81d0f5d90f0746bd80855d756f5adf7d9b7aa7f6112c9ab93cd54edb83",
+          "highlight_ranges": [
+            [
+              3,
+              7
+            ]
+          ]
         }
       ],
       "library_selection": {
@@ -37073,8 +38355,8 @@
         "score_basis": "值得入库的是让反差同时服务潜行判断与喜剧节奏的写法。可参考其中性日常空间、清楚残留痕迹与角色表情的配合，而非只复制狼人题材。"
       },
       "editorial_review": {
-        "observation": "夜班清洁、躲同事和处理狼人的失控都发生在办公楼。轴测房间让动线和视线可读，可爱的大头造型与鲜红痕迹反差强烈，把清洁任务变成黑色喜剧。",
-        "comment": "本作让反差同时服务潜行和喜剧。适合借鉴如何用中性的日常空间、清楚的残留痕迹和角色表情，让一次失控自然产生新任务。",
+        "observation": "夜班清洁工在办公室里躲同事、收拾狼人失控留下的血迹。从上往下看，房间里的路和同事的位置都很清楚。",
+        "comment": "普通办公室里出现血迹，可爱的小狼人还得赶紧清理，这个反差很好笑。俯视布局也让玩家能看见同事在哪里、哪条路能绕开。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
@@ -37139,7 +38421,13 @@
           "highlight_excerpts": [
             "好萌的画风"
           ],
-          "full_text_sha256": "b16601c16cffd87557926a34358753df14d5e6c1fd6267481cc56399a848e06a"
+          "full_text_sha256": "b16601c16cffd87557926a34358753df14d5e6c1fd6267481cc56399a848e06a",
+          "highlight_ranges": [
+            [
+              0,
+              5
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -37150,7 +38438,13 @@
           "highlight_excerpts": [
             "画风非常可爱"
           ],
-          "full_text_sha256": "60d3f547c3831d9462b23b02782f6b4239cb15ed6953e3d4e1fdbfeef746cee7"
+          "full_text_sha256": "60d3f547c3831d9462b23b02782f6b4239cb15ed6953e3d4e1fdbfeef746cee7",
+          "highlight_ranges": [
+            [
+              9,
+              15
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -37161,7 +38455,13 @@
           "highlight_excerpts": [
             "畫風可愛"
           ],
-          "full_text_sha256": "2e2bfaca052d02b80d340f672e3f6a634059e11fe862f82a4b341523bb25573c"
+          "full_text_sha256": "2e2bfaca052d02b80d340f672e3f6a634059e11fe862f82a4b341523bb25573c",
+          "highlight_ranges": [
+            [
+              42,
+              46
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -37172,7 +38472,13 @@
           "highlight_excerpts": [
             "很可爱的画风"
           ],
-          "full_text_sha256": "04b6d61ac604d62c121aff4010ef69fabbbae2e99f32ab195e71380f95f6c99d"
+          "full_text_sha256": "04b6d61ac604d62c121aff4010ef69fabbbae2e99f32ab195e71380f95f6c99d",
+          "highlight_ranges": [
+            [
+              6,
+              12
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -37183,7 +38489,13 @@
           "highlight_excerpts": [
             "小狼真的很可爱"
           ],
-          "full_text_sha256": "91f266e9440b58a964c6277439298f5e06744063d16af97a29452ed4c7074f4c"
+          "full_text_sha256": "91f266e9440b58a964c6277439298f5e06744063d16af97a29452ed4c7074f4c",
+          "highlight_ranges": [
+            [
+              9,
+              16
+            ]
+          ]
         }
       ],
       "library_selection": {
@@ -37383,8 +38695,8 @@
         "score_basis": "值得入库的是让画面密度本身表演构筑成形的做法。可参考其粗粝剪影、数值反馈与怪潮密度的同步，而非只复制幸存者玩法。"
       },
       "editorial_review": {
-        "observation": "开局在开阔地绕怪，随后随构筑成形进入满屏怪潮和伤害数字。低多边形大色块、略带顿挫的角色动作与滑板骷髅等形象，把强度增长变成持续的视觉笑料。",
-        "comment": "可借鉴的是让粗粝画风、角色剪影和夸张数值反馈一起服务夸张成长。后期画面密度本身就是构筑成形的表演。",
+        "observation": "开局是绕着零星的怪跑，升级后屏幕上挤满敌人和伤害数字。滑板骷髅和略带顿挫的动作，让打斗看起来有点滑稽。",
+        "comment": "角色轮廓很容易认出来，升级后弹幕和数字越来越夸张。做类似游戏时，可以让效果随成长放大，同时留意角色会不会被盖住。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
@@ -37639,7 +38951,7 @@
       },
       "editorial_review": {
         "observation": "玩家用瓶盖、纸片与生活旧物拼出题目，作品再被展示和猜测。旧物磨损、暖色篝火、卡纸和胶带贯通素材、工具与展板，物件的原用途也会成为猜题线索。",
-        "comment": "它把拼贴风格做成了社交规则。可参考如何用低门槛的可辨物件代替绘画技能，并让每局成品自然成为可展示内容。",
+        "comment": "用一眼能认出的旧物做拼贴，玩家不需要会画画也能做出有意思的东西。做派对创作时，可以让材料好摆弄，成品也方便展示给朋友。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
@@ -37701,10 +39013,9 @@
           "url": "https://steamcommunity.com/profiles/76561198875916954/recommended/3470550/",
           "review_id": "236696162",
           "full_text": "我很喜歡這遊戲的風格 但是 繁體中文太少人玩 多人匹配根本沒有 自己創房間也沒人進來 好慘 或是等更多人遊玩 不然就要自己攜家帶眷了 另外社群那邊好多漂亮作品 大家都好有藝術細胞 可能會買的受眾本身就都有插畫藝術底子的感覺XD",
-          "highlight_excerpts": [
-            "很喜歡這遊戲的風格"
-          ],
-          "full_text_sha256": "b0502d6765bf9db444955fc6234c9fab64f0eafb3de4e9dc7785d370f27273b3"
+          "highlight_excerpts": [],
+          "full_text_sha256": "b0502d6765bf9db444955fc6234c9fab64f0eafb3de4e9dc7785d370f27273b3",
+          "highlight_ranges": []
         },
         {
           "sentiment": "positive",
@@ -37715,7 +39026,13 @@
           "highlight_excerpts": [
             "画风很可爱"
           ],
-          "full_text_sha256": "7dabf00336c6218a46c6cf6e69845ecb035fd6d0579cc6f7818b8021d66849ca"
+          "full_text_sha256": "7dabf00336c6218a46c6cf6e69845ecb035fd6d0579cc6f7818b8021d66849ca",
+          "highlight_ranges": [
+            [
+              19,
+              24
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -37726,7 +39043,13 @@
           "highlight_excerpts": [
             "画风特别特别喜欢"
           ],
-          "full_text_sha256": "cd795b18b91b824ce48aa87755ecbb4f6e8895469c4d2d63927af1e59822f6e4"
+          "full_text_sha256": "cd795b18b91b824ce48aa87755ecbb4f6e8895469c4d2d63927af1e59822f6e4",
+          "highlight_ranges": [
+            [
+              71,
+              79
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -37737,7 +39060,13 @@
           "highlight_excerpts": [
             "色调审美非常高级"
           ],
-          "full_text_sha256": "a5f85890235dca4e846aa5a86a3d0297465a5571be2e2dce0222fb2d2641d14c"
+          "full_text_sha256": "a5f85890235dca4e846aa5a86a3d0297465a5571be2e2dce0222fb2d2641d14c",
+          "highlight_ranges": [
+            [
+              17,
+              25
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -37748,7 +39077,13 @@
           "highlight_excerpts": [
             "美术风格也很特别"
           ],
-          "full_text_sha256": "20c807b4759588607d6cc1fa940bce45737e3f2a3348e602639a31facae75f13"
+          "full_text_sha256": "20c807b4759588607d6cc1fa940bce45737e3f2a3348e602639a31facae75f13",
+          "highlight_ranges": [
+            [
+              3,
+              11
+            ]
+          ]
         }
       ],
       "library_selection": {
@@ -37960,8 +39295,8 @@
         "score_basis": "值得入库的是对日常秩序的精确改写：先建可辨城市，再有节制地改动重力与尺度。可参考其让探索方向与异象产生联系的方法，而非只复制扭曲都市奇观。"
       },
       "editorial_review": {
-        "observation": "曼哈顿先以街道、建筑和公共设施建立熟悉尺度，再通过道路翻转、空间折叠和悬浮人物打破方向感。战斗与移动延续这些异常，色光在失序空间里标明焦点。",
-        "comment": "它的奇观依赖对日常秩序的精确改写。可借鉴先建可辨的城市，再有节制地改动重力、尺度或可见性，使探索方向与异象本身产生联系。",
+        "observation": "熟悉的曼哈顿街道会突然翻转，人物也会悬在空中。地面变成墙以后，灯光和颜色帮玩家重新找到要去的位置。",
+        "comment": "先让街道和建筑像一座熟悉的城市，再让重力或空间突然失常。玩家认得原来的样子，变化一出现就能感到不对劲。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
@@ -38026,7 +39361,13 @@
           "highlight_excerpts": [
             "美术依然伟大无需多言"
           ],
-          "full_text_sha256": "ab76bddb76feeecca8bf63be341de65667bb29012e002a2cabfdae7d2cda867e"
+          "full_text_sha256": "ab76bddb76feeecca8bf63be341de65667bb29012e002a2cabfdae7d2cda867e",
+          "highlight_ranges": [
+            [
+              13,
+              23
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -38037,7 +39378,13 @@
           "highlight_excerpts": [
             "异象化城市的设计真挺震撼的"
           ],
-          "full_text_sha256": "ebe906eb96fd40ba7c2c2065d99e6c2f7949688794035bf43a490c3dc8557c60"
+          "full_text_sha256": "ebe906eb96fd40ba7c2c2065d99e6c2f7949688794035bf43a490c3dc8557c60",
+          "highlight_ranges": [
+            [
+              0,
+              13
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -38048,7 +39395,13 @@
           "highlight_excerpts": [
             "美术和视觉效果都极为突出"
           ],
-          "full_text_sha256": "3227bc49ff0f1b30cceaf5ca61a89af6770ea98778b2822c151d60d6b38b7687"
+          "full_text_sha256": "3227bc49ff0f1b30cceaf5ca61a89af6770ea98778b2822c151d60d6b38b7687",
+          "highlight_ranges": [
+            [
+              35,
+              47
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -38059,7 +39412,13 @@
           "highlight_excerpts": [
             "超长板的美术"
           ],
-          "full_text_sha256": "e55e3454ef6a0ad9613ee8701f617585c1c6877801e2054ed7532030188759aa"
+          "full_text_sha256": "e55e3454ef6a0ad9613ee8701f617585c1c6877801e2054ed7532030188759aa",
+          "highlight_ranges": [
+            [
+              15,
+              21
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -38070,7 +39429,13 @@
           "highlight_excerpts": [
             "炫酷的美术和风格"
           ],
-          "full_text_sha256": "428dbefecef42fc2d755880d43b4700e967813530861323ffe6e7d837309f516"
+          "full_text_sha256": "428dbefecef42fc2d755880d43b4700e967813530861323ffe6e7d837309f516",
+          "highlight_ranges": [
+            [
+              9,
+              17
+            ]
+          ]
         }
       ],
       "library_selection": {
@@ -38288,8 +39653,8 @@
         "score_basis": "值得入库的是同一地点同时承担安顿感与异常提示的复用写法。可参考其先建立地点信任再以变化制造不安的节奏，而非只复制田园经营题材。"
       },
       "editorial_review": {
-        "observation": "玩家在日常种植、走访与室内生活中熟悉乡村秩序，季节和时间改变同一地点的面貌，规则与异变又让平静场景带上悬疑。轴测远近和室内暖光维持日常的可辨性。",
-        "comment": "它以可重复的田园场景承接悬疑，先让玩家建立对地点的信任和记忆，再用变化制造不安。可参考同一地点如何承担安顿感和异常提示。",
+        "observation": "白天种地、串门，室内多用暖光。等光线变暗，平常走过的田地和房间也会显得陌生。",
+        "comment": "玩家先记住白天常走的田地和房间。等同一个地点的光线或摆设发生变化，哪怕变化很小，也容易让人觉得不安。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
@@ -38354,7 +39719,13 @@
           "highlight_excerpts": [
             "场景绘制精美"
           ],
-          "full_text_sha256": "0d88b859b498b6f97a5baab580cdd144291c1f15ccb524127a759790d63fb068"
+          "full_text_sha256": "0d88b859b498b6f97a5baab580cdd144291c1f15ccb524127a759790d63fb068",
+          "highlight_ranges": [
+            [
+              27,
+              33
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -38363,9 +39734,15 @@
           "review_id": "235609788",
           "full_text": "虽然种田和搜打撤很好玩，美术和音乐也很顶，但剧情就是一坨，伏笔回收老套且生硬，中期开始登味藏不住了充满各种令人厌烦的刻板印象和套路，一直在睡觉跳天数只想把这该死的拖沓的难看的主线完结。",
           "highlight_excerpts": [
-            "美术和音乐也很顶"
+            "美术"
           ],
-          "full_text_sha256": "2db289729f53b409cedbd80c4666a4254937978d86799aa9e1198c48e3009e70"
+          "full_text_sha256": "2db289729f53b409cedbd80c4666a4254937978d86799aa9e1198c48e3009e70",
+          "highlight_ranges": [
+            [
+              12,
+              14
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -38376,7 +39753,13 @@
           "highlight_excerpts": [
             "画风好看"
           ],
-          "full_text_sha256": "c9aeaf2cca581bc3fb944bfd11d2331a246b67635140bdaffcdea44bc35c8ae1"
+          "full_text_sha256": "c9aeaf2cca581bc3fb944bfd11d2331a246b67635140bdaffcdea44bc35c8ae1",
+          "highlight_ranges": [
+            [
+              5,
+              9
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -38387,7 +39770,13 @@
           "highlight_excerpts": [
             "可愛畫風"
           ],
-          "full_text_sha256": "9bf15962712b16b9f5dfff9b2897c05a0d5be9eb6316e39fdea70042cd5337cc"
+          "full_text_sha256": "9bf15962712b16b9f5dfff9b2897c05a0d5be9eb6316e39fdea70042cd5337cc",
+          "highlight_ranges": [
+            [
+              5,
+              9
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -38398,7 +39787,13 @@
           "highlight_excerpts": [
             "大爱夜廻的美术"
           ],
-          "full_text_sha256": "9e6c76ae87d4150c2e77766e7053dd59179bb49730ad26e11eb6d3055d7180cc"
+          "full_text_sha256": "9e6c76ae87d4150c2e77766e7053dd59179bb49730ad26e11eb6d3055d7180cc",
+          "highlight_ranges": [
+            [
+              85,
+              92
+            ]
+          ]
         }
       ],
       "library_selection": {
@@ -38597,8 +39992,8 @@
         "score_basis": "值得入库的是把增量游戏重复劳动转成可见反馈的桌面写法。可参考其操作对象世界内化与逐层揭晓的奖励预期，而非只复制刮刮卡题材。"
       },
       "editorial_review": {
-        "observation": "从手动刮票到升级和自动刮，票面、工具与账目集中在一个桌面。逐步露出的图案、碎屑和中奖演出把数字增长拆成可感知的动作与节奏。",
-        "comment": "它把增量游戏的重复劳动变成一连串可见反馈。适合参考将操作对象做成世界内物件，并通过逐层揭晓放大奖励预期。",
+        "observation": "票、刮票工具和账目都摆在桌上。刮动时能看到碎屑和一点点露出的图案，中奖后才会出现更大的动效。",
+        "comment": "刮开一张票就有图案和奖励出现，重复操作也能看见回报。做增量游戏时，可以把反馈放在玩家正在操作的物件上。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
@@ -38663,7 +40058,13 @@
           "highlight_excerpts": [
             "视觉冲击效果强"
           ],
-          "full_text_sha256": "83b51c24824906c7b12540bc7638a730e66cf7f946f682f8a3c511d0d01b67e4"
+          "full_text_sha256": "83b51c24824906c7b12540bc7638a730e66cf7f946f682f8a3c511d0d01b67e4",
+          "highlight_ranges": [
+            [
+              90,
+              97
+            ]
+          ]
         }
       ],
       "library_selection": {
@@ -38865,8 +40266,8 @@
         "score_basis": "值得入库的是用克制场景积累紧张、把表现力集中到失败与围观时刻的分配。可参考其灯光与空间先交代规则和位置的方法，而非只复制致命派对题材。"
       },
       "editorial_review": {
-        "observation": "多人在不同致命小游戏里应付规则，狭窄的设施、低照度和手电光控制能看到什么，失败时突然的动作演出把恐怖转成供其他人围观的黑色喜剧。",
-        "comment": "可借鉴它如何用克制的场景反复积累紧张，再把表现力集中到失败和旁观的时刻。灯光与空间应先把规则和人所在的位置交代清楚。",
+        "observation": "玩家在昏暗的设施里玩小游戏，主要靠手电看清附近的人和物件。有人失败时，突然的动作也成了其他人围观的一部分。",
+        "comment": "场景布置简单，玩家容易看清其他人站在哪儿。灯光和动效可以集中在失败揭晓的那一刻，让围观的人也看得明白。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
@@ -38931,7 +40332,13 @@
           "highlight_excerpts": [
             "美术风格不错"
           ],
-          "full_text_sha256": "20b372f10998db08ac900d667094569ee15d786c1b3d3d6227fd45b7b03fa670"
+          "full_text_sha256": "20b372f10998db08ac900d667094569ee15d786c1b3d3d6227fd45b7b03fa670",
+          "highlight_ranges": [
+            [
+              96,
+              102
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -38942,7 +40349,13 @@
           "highlight_excerpts": [
             "俄式残暴画风"
           ],
-          "full_text_sha256": "df3e8a6d50b80cb166f89dc578c6151291206d0d55c4d92873bcbbce9144f9a5"
+          "full_text_sha256": "df3e8a6d50b80cb166f89dc578c6151291206d0d55c4d92873bcbbce9144f9a5",
+          "highlight_ranges": [
+            [
+              35,
+              41
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -38953,7 +40366,13 @@
           "highlight_excerpts": [
             "画面还不错"
           ],
-          "full_text_sha256": "be829053a8e126f658f6ae9fc9eb7625a8c8ade421bbb97f68106601569cc5e1"
+          "full_text_sha256": "be829053a8e126f658f6ae9fc9eb7625a8c8ade421bbb97f68106601569cc5e1",
+          "highlight_ranges": [
+            [
+              46,
+              51
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -38964,7 +40383,13 @@
           "highlight_excerpts": [
             "画风很好看"
           ],
-          "full_text_sha256": "1d30032615a3c5874cb3d64cda34f81acc23f4bb7375789358a34af24796aa23"
+          "full_text_sha256": "1d30032615a3c5874cb3d64cda34f81acc23f4bb7375789358a34af24796aa23",
+          "highlight_ranges": [
+            [
+              5,
+              10
+            ]
+          ]
         }
       ],
       "library_selection": {
@@ -39170,7 +40595,7 @@
       },
       "editorial_review": {
         "observation": "江湖院落、雾中山水与重型机关空间交替出现，衣饰、兵器及机械化敌人延续同一种肃杀气质。近身交锋通过身段、刀路、格挡和处决体现功夫片的节奏。",
-        "comment": "传统武侠、工艺形态与机械压迫能在角色、环境和动作中互相印证。适合参考如何让武打镜头与场景结构共同保留方向感和动作辨识。",
+        "comment": "院落、山水和兵器保留武侠味，重型机关又给场景添了压力。拍近身交锋时，可以先让人看清双方的位置和刀从哪边过来，再加运镜。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
@@ -39235,7 +40660,13 @@
           "highlight_excerpts": [
             "恢弘的地图风景"
           ],
-          "full_text_sha256": "16b71f517ec8d0757d29ae98bd0aa05d3881511f4509b650a03b6810ef50dee0"
+          "full_text_sha256": "16b71f517ec8d0757d29ae98bd0aa05d3881511f4509b650a03b6810ef50dee0",
+          "highlight_ranges": [
+            [
+              0,
+              7
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -39246,7 +40677,13 @@
           "highlight_excerpts": [
             "演出很棒"
           ],
-          "full_text_sha256": "76da0e9615c70fce67241f271ee03912596a0090477bc393fbd4ec9122c32a76"
+          "full_text_sha256": "76da0e9615c70fce67241f271ee03912596a0090477bc393fbd4ec9122c32a76",
+          "highlight_ranges": [
+            [
+              152,
+              156
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -39257,7 +40694,13 @@
           "highlight_excerpts": [
             "场景刻画的太美了"
           ],
-          "full_text_sha256": "bc0ab3891a360b7d8486e40860d06516675d09791f197e127ed1b51dbbc5d79a"
+          "full_text_sha256": "bc0ab3891a360b7d8486e40860d06516675d09791f197e127ed1b51dbbc5d79a",
+          "highlight_ranges": [
+            [
+              165,
+              173
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -39268,7 +40711,13 @@
           "highlight_excerpts": [
             "前有美景"
           ],
-          "full_text_sha256": "9ea394f62e1904d58c441b50fdff598cbfa8a700918190e598833a151718b494"
+          "full_text_sha256": "9ea394f62e1904d58c441b50fdff598cbfa8a700918190e598833a151718b494",
+          "highlight_ranges": [
+            [
+              0,
+              4
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -39276,10 +40725,9 @@
           "url": "https://steamcommunity.com/profiles/76561199064848260/recommended/4115450/",
           "review_id": "239912171",
           "full_text": "大影境，小美学\r\n\r\n10/10",
-          "highlight_excerpts": [
-            "小美学"
-          ],
-          "full_text_sha256": "6783944a0c80d5aecd3e49ea816dc6f7bbea860b647778a2def1fbd3d29a5cb4"
+          "highlight_excerpts": [],
+          "full_text_sha256": "6783944a0c80d5aecd3e49ea816dc6f7bbea860b647778a2def1fbd3d29a5cb4",
+          "highlight_ranges": []
         }
       ],
       "library_selection": {
@@ -39500,8 +40948,8 @@
         "score_basis": "值得入库的是为可组合规则保留通用形状与颜色的长线解谜视觉秩序。可参考其用地形与地标帮助记忆不同世界的方法，而非只复制格子解谜题材。"
       },
       "editorial_review": {
-        "observation": "多个谜题世界用格状道路、高差和亮色节点区分可互动对象，角色能力、连通道路与机关关系让谜题可以跨场地组合。地貌和光色变化保留每个区域的身份。",
-        "comment": "本作让视觉秩序服务长线解谜。可借鉴为可组合规则保留通用的形状与颜色，同时用地形和地标帮玩家记住不同世界。",
+        "observation": "格状道路、台阶和亮色标记提示哪里能走、哪里能操作。不同区域有自己的地形和颜色，机关的基本样子则保持一致。",
+        "comment": "颜色和形状相同的机关，到了不同地图也容易认。地形和地标则可以变化，帮助玩家记住自己在哪个世界。",
         "review_date": "2026-11-11",
         "review_type": "整作美术分析",
         "basis": "结合官方游戏介绍、截图和动态片段，从玩法、场景与反馈归纳整体美术方向。"
@@ -39566,7 +41014,13 @@
           "highlight_excerpts": [
             "美术实在是太精致了"
           ],
-          "full_text_sha256": "48f619db873af6b84aa5526f2637fcd04139fc268b792690d6afc9ddf139e2d4"
+          "full_text_sha256": "48f619db873af6b84aa5526f2637fcd04139fc268b792690d6afc9ddf139e2d4",
+          "highlight_ranges": [
+            [
+              833,
+              842
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -39575,9 +41029,15 @@
           "review_id": "237641901",
           "full_text": "一个令人叹为观止的解谜游戏。量大管饱，美术与新鲜感同时在线。\n但我不得不说，在这个游戏你会遇到但不限于：\n堵死，溺死，烧死，撞死，打死.......\n死亡音效很提神，每次晚上玩都令人印象深刻。但那种解决后的喜悦与探索的动力能让你玩上百小时，相信我。",
           "highlight_excerpts": [
-            "美术与新鲜感同时在线"
+            "美术"
           ],
-          "full_text_sha256": "ad9126ca768a1834914bf94fbd21cd0df9ccb9505cd8cc81ff3d58437f3764c0"
+          "full_text_sha256": "ad9126ca768a1834914bf94fbd21cd0df9ccb9505cd8cc81ff3d58437f3764c0",
+          "highlight_ranges": [
+            [
+              19,
+              21
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -39586,9 +41046,15 @@
           "review_id": "238746662",
           "full_text": "真的能称作是3A级别的解密游戏了，无论是关卡设计还是美术设计，本来平时都喜欢一遍干活一边玩这种游戏的，这次我电脑居然带不动。。。",
           "highlight_excerpts": [
-            "无论是关卡设计还是美术设计"
+            "美术设计"
           ],
-          "full_text_sha256": "5729d88c5fbad2a03b3a01e04acb8c3a8252fdab00b6faf30ccf4e2024c09865"
+          "full_text_sha256": "5729d88c5fbad2a03b3a01e04acb8c3a8252fdab00b6faf30ccf4e2024c09865",
+          "highlight_ranges": [
+            [
+              26,
+              30
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -39599,7 +41065,13 @@
           "highlight_excerpts": [
             "游戏美术风格出色"
           ],
-          "full_text_sha256": "a7181295e7dbc646177b32873480a2cec4b62b363b6fa84e6c27cf3ae57fd57a"
+          "full_text_sha256": "a7181295e7dbc646177b32873480a2cec4b62b363b6fa84e6c27cf3ae57fd57a",
+          "highlight_ranges": [
+            [
+              673,
+              681
+            ]
+          ]
         },
         {
           "sentiment": "positive",
@@ -39608,9 +41080,15 @@
           "review_id": "238517141",
           "full_text": "关卡创意令人惊叹，美术音乐同样一流！",
           "highlight_excerpts": [
-            "美术音乐同样一流"
+            "美术"
           ],
-          "full_text_sha256": "b504038050fdf9f68d42200827076e7f4b33903518acffee17b6b1514a6edcdb"
+          "full_text_sha256": "b504038050fdf9f68d42200827076e7f4b33903518acffee17b6b1514a6edcdb",
+          "highlight_ranges": [
+            [
+              9,
+              11
+            ]
+          ]
         }
       ],
       "library_selection": {
@@ -39878,9 +41356,9 @@
       },
       "classification_version": "2.0",
       "display_policy": {
-        "visible": true,
+        "visible": false,
         "version": "2026-11-12-sample-display",
-        "basis": "沿用迁移前的收录及隐藏决定；样本统计不自动决定入库"
+        "basis": "用户要求暂时下架（2026-11-12）"
       },
       "semantic_quote_scope": "existing_sample"
     }
@@ -40401,10 +41879,10 @@
   },
   "display_counts": {
     "total": 69,
-    "visible": 59,
-    "qualified": 24,
+    "visible": 54,
+    "qualified": 21,
     "provisional": 3,
-    "requested_import": 32,
-    "excluded": 10
+    "requested_import": 30,
+    "excluded": 15
   }
 }

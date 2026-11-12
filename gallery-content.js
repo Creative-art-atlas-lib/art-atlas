@@ -3,7 +3,7 @@
 (() => {
   'use strict';
   let pending;
-  const load = () => pending || (pending = fetch('./data/cases.json?v=20261112-media-taxonomy').then(r => {
+  const load = () => pending || (pending = fetch('./data/cases.json?v=20261112-reviewed-highlights').then(r => {
     if (!r.ok) throw new Error('案例数据读取失败');
     return r.json();
   }).catch(e => { pending = null; throw e; }));
@@ -24,20 +24,18 @@
     const rate=s.related?' · 美术相关中纯正向 '+(s.positive/s.related*100).toFixed(2)+'%':' · 纯正向率暂无';
     return '样本 '+s.total.toLocaleString('zh-CN')+' 条 · 美术相关 '+s.related.toLocaleString('zh-CN')+' 条'+rate;
   };
-  // Render raw review text as Vue text nodes, never as HTML. Merge overlaps before highlighting.
-  const fullReviewNodes = (h,e) => {
-    const text=e.full_text || e.excerpt || '', ranges=[];
-    for(const fragment of e.highlight_excerpts || [e.excerpt]) {
-      if(!fragment)continue;
-      let at=0;
-      while((at=text.indexOf(fragment,at))!==-1){ranges.push([at,at+fragment.length]);at+=fragment.length;}
+  // Render only reviewed character ranges. The review itself remains plain text.
+  const fullReviewNodes = (h, review) => {
+    const text = review.full_text || review.excerpt || '';
+    const nodes = [];
+    let cursor = 0;
+    for (const [start, end] of review.highlight_ranges || []) {
+      if (start < cursor || end <= start || end > text.length) continue;
+      if (cursor < start) nodes.push(text.slice(cursor, start));
+      nodes.push(h('mark', {class:'case-review__highlight'}, text.slice(start, end)));
+      cursor = end;
     }
-    ranges.sort((a,b)=>a[0]-b[0]);
-    const merged=[];
-    for(const r of ranges){const last=merged[merged.length-1];if(last && r[0]<=last[1])last[1]=Math.max(last[1],r[1]);else merged.push([...r]);}
-    const nodes=[];let cursor=0;
-    for(const [start,end] of merged){if(start>cursor)nodes.push(text.slice(cursor,start));nodes.push(h('mark',{class:'case-review__highlight'},text.slice(start,end)));cursor=end;}
-    if(cursor<text.length)nodes.push(text.slice(cursor));
+    if (cursor < text.length) nodes.push(text.slice(cursor));
     return nodes;
   };
   const groups = [{name:'all', title:'全部案例', label:'ART CASES'}];
@@ -284,7 +282,7 @@
             ...artReviews.map(e=>h('blockquote',{class:'case-review'},[
               ...(e.date?[h('p',{class:'case-review__heading'},e.date)]:[]),
               h('p',{class:'case-review__original',attrs:{dir:'auto'}},fullReviewNodes(h,e)),
-              ...(e.translation_zh?[h('p',{class:'case-review__label'},'高亮片段中文译文（AI辅助翻译）'),h('p',{class:'case-review__translation'},e.translation_zh)]:[]),
+              ...(e.highlight_translation_zh?[h('p',{class:'case-review__label'},'高亮片段中文译文（AI辅助翻译）'),h('p',{class:'case-review__translation'},e.highlight_translation_zh)]:[]),
               link(c.youtube_review?'查看 YouTube 来源视频':'查看 Steam 原评论',e.url)
             ]))
           ])]:[]),
