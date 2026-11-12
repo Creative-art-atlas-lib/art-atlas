@@ -8143,11 +8143,11 @@
       ],
       "semantic_review": {
         "version": "V2",
-        "status": "partial",
+        "status": "complete",
         "scope": "all_purchase_sources",
         "coverage": "sample",
-        "completed": 991,
-        "pending": 9,
+        "completed": 1000,
+        "pending": 0,
         "target_sample_size": 1000,
         "sample_size": 1000,
         "population_size": 14031,
@@ -8156,9 +8156,35 @@
         "sampling_design": "fixed_seed_random",
         "collection_snapshot": "2026-11-02",
         "analysis_snapshot": "2026-11-12",
-        "source_snapshot": "atlas-unified-samples-20261112",
+        "source_snapshot": "atlas-unified-samples-20261112/completion",
         "source_sha256": "95f04328e99112540208276f4544d862bf778a4df8042e775a5a94682de3ad1a",
-        "sampling_note": "结果仅描述已采集快照，不代表全部玩家。沿用既有 V2 逐条标签，未重新进行独立语义复核。"
+        "sampling_note": "结果仅描述已采集快照，不代表全部玩家。复用既有 V2 逐条标签并补齐固定样本内缺失判读，未进行独立人工复核。",
+        "stats": {
+          "total": 1000,
+          "related": 197,
+          "unrelated": 515,
+          "uncertain": 288,
+          "positive": 125,
+          "negative": 19,
+          "mixed": 10,
+          "neutral": 43,
+          "unclear": 0,
+          "positive_rate": 63.45,
+          "uncertain_rate": 28.8
+        },
+        "steam_purchase_sample_stats": {
+          "total": 733,
+          "related": 139,
+          "unrelated": 384,
+          "uncertain": 210,
+          "positive": 86,
+          "negative": 12,
+          "mixed": 6,
+          "neutral": 35,
+          "unclear": 0,
+          "positive_rate": 61.87,
+          "uncertain_rate": 28.65
+        }
       },
       "library_selection": {
         "visible": true,
@@ -8169,7 +8195,48 @@
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "review_id": "179564078",
+          "sentiment": "positive",
+          "excerpt": "[h1] 毛茸茸统治世界 [/h1]\n好耶是章鱼送来的赛博小咪=^ ^=\n\n是非常可爱的猫猫模拟器，玩下来的整体手感很不错，猫猫的小动作、小表情都很现实化，例如碰到水会哈气炸毛，碰到黄瓜也会被吓一跳。小黑猫萌萌的样子更是让我想到了自己家的猫猫(´∀`)，成功治愈一枚玩游戏的两脚兽，猫猫队立大功！\n\n故事的主线很简单也很温暖，小黑猫不慎掉落窗台来到外面的世界，在回家的过程中遇见不同的动物朋友，拥有了猫生第一个待办清单，开心了就喵喵叫，捣蛋恶作剧的时候就随机绊倒一名人类。小猫为城市清洁垃圾，小猫好，人类低头看手机被绊倒，人类该hhh\n游戏里的对白也本土化得另类的有趣，在完成变色龙的任务时，最后变色龙吐槽说：[spoiler]“可我像颗青春痘一样明显啊！我根本是个显眼包，你为什么不早点告诉我。”[/spoiler]看到这句话的我真的笑得不行.....\n\n游戏大部分成就很好完成，对于成就党来说非常的友好。缺点大概就是个别成就很无聊，例如小小清洁工竟然要回收100个垃圾，谁知道我绊了多少次人类和撞了多少次饮料机，就为了得到几个易拉罐...（对不起了两脚兽，为了成就我化身邪恶毛茸茸）\n\n最后，和小猫度过了很愉快的几小时，这个游戏对我来说在冬季的夜晚就像被子一样温暖。毛茸茸的存在令人心软软。",
+          "language": "schinese",
+          "url": "https://steamcommunity.com/profiles/76561199059574402/recommended/1177980/",
+          "selection_note": "固定抽样内的正向美术评论摘录"
+        },
+        {
+          "review_id": "168388498",
+          "sentiment": "positive",
+          "excerpt": "香蕉猫好看",
+          "language": "schinese",
+          "url": "https://steamcommunity.com/profiles/76561198283062160/recommended/1177980/",
+          "selection_note": "固定抽样内的正向美术评论摘录"
+        },
+        {
+          "review_id": "167329056",
+          "sentiment": "positive",
+          "excerpt": "太可爱了啊啊啊啊！！！猫咪动画和交互动作设计得非常灵动，与场景和小物件的交互细节非常有趣，NPC的台词设计和任务也都非常可爱啊啊啊啊！！不足是可玩内容比较少，流程太短了玩不够啊啊啊啊啊！！我不做人了我要做猫！！！",
+          "language": "schinese",
+          "url": "https://steamcommunity.com/profiles/76561198312110865/recommended/1177980/",
+          "selection_note": "固定抽样内的正向美术评论摘录"
+        },
+        {
+          "review_id": "196240022",
+          "sentiment": "positive",
+          "excerpt": "有貓就推\r\n遊戲很好的展現了貓的動作與習性，能看出製作組對貓咪的喜愛\r\n關卡採小型開放式地圖，主線不長，忽略支線任務與成就的話很快就能通關\r\n但提示與引導稍弱，有時會不清楚下一步該做什麼\r\n加上玩法以攀爬跟解謎為主，經常要上下左右轉鏡頭找路或道具，有嚴重3D暈者容易產生不適\r\n撇開這點的話，扮演貓咪在街上閒晃，體驗小鎮風情還挺不錯的",
+          "language": "tchinese",
+          "url": "https://steamcommunity.com/profiles/76561197992407175/recommended/1177980/",
+          "selection_note": "固定抽样内的正向美术评论摘录"
+        },
+        {
+          "review_id": "164999312",
+          "sentiment": "positive",
+          "excerpt": "[h1] 《小猫咪大城市》赛博吸猫就在今日 [/h1]\n《小猫咪大城市》为玩家提供了一个化身为猫的机会，让你过足猫咪瘾。游戏中你将扮演一只从窗台失足坠落的小黑猫，在脚下陌生的城市中四处探索，寻找回家的道路。你将结识新朋友，帮助动物居民，调皮捣蛋，尽情释放猫的天性。\n绊倒路人、打破花盆、捕捉小鸟都是基操，抢走钓鱼佬的鱼、在日光最好的点位打盹，张开喉咙引吭高喵……\n可爱的画风，逼真的动作，还原出小猫灵动的神态和灵活的身姿，更有几十种帽子收藏品让你的猫萌上加萌。\n游戏的城市设计加深了纵向探索的乐趣，也很符合猫猫小巧的形态，穿梭后院小巷，跨越楼顶间隙，切身体会猫眼看世界，可以说是猫奴必备了。\n但也正是因为要与猫的大小相匹配，城市规模称不上“大”这个字，支线任务数量有限，游戏内容有限，快的话两三个小时就能通关，全成就也不会超过七小时（玩的时候建议先看一下成就列表，以免错过收集物品和任务道具）。\n游戏音乐异常寡淡，听着十分催眠，我都得单独开QQ音乐打才不至于睡着，看了一眼商店居然还单独出售OST，也不知道谁给的自信。\n简而言之这是一部质量合格的轻量级休闲游戏，喜欢猫猫的玩家值得一试，对猫无感的或者重度晕3D的玩家自行斟酌。\n\n[code] 点击关注[url=https://store.steampowered.com/curator/26214428] 電玩狂熱愛好者 [/url] ，以获取更多游戏评测、资讯、攻略 [/code]",
+          "language": "schinese",
+          "url": "https://steamcommunity.com/profiles/76561198154040649/recommended/1177980/",
+          "selection_note": "固定抽样内的正向美术评论摘录"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
@@ -26004,11 +26071,11 @@
       ],
       "semantic_review": {
         "version": "V2",
-        "status": "partial",
+        "status": "complete",
         "scope": "all_purchase_sources",
         "coverage": "sample",
-        "completed": 676,
-        "pending": 324,
+        "completed": 1000,
+        "pending": 0,
         "target_sample_size": 1000,
         "sample_size": 1000,
         "population_size": 10982,
@@ -26017,9 +26084,35 @@
         "sampling_design": "fixed_seed_random",
         "collection_snapshot": "2026-11-02",
         "analysis_snapshot": "2026-11-12",
-        "source_snapshot": "atlas-unified-samples-20261112",
+        "source_snapshot": "atlas-unified-samples-20261112/completion",
         "source_sha256": "df8eb8276c42b072d2a19d646fb6c2881a105a58790a2613239156793266bc16",
-        "sampling_note": "结果仅描述已采集快照，不代表全部玩家。沿用既有 V2 逐条标签，未重新进行独立语义复核。"
+        "sampling_note": "结果仅描述已采集快照，不代表全部玩家。复用既有 V2 逐条标签并补齐固定样本内缺失判读，未进行独立人工复核。",
+        "stats": {
+          "total": 1000,
+          "related": 498,
+          "unrelated": 399,
+          "uncertain": 103,
+          "positive": 412,
+          "negative": 15,
+          "mixed": 64,
+          "neutral": 6,
+          "unclear": 1,
+          "positive_rate": 82.73,
+          "uncertain_rate": 10.3
+        },
+        "steam_purchase_sample_stats": {
+          "total": 875,
+          "related": 440,
+          "unrelated": 345,
+          "uncertain": 90,
+          "positive": 364,
+          "negative": 14,
+          "mixed": 56,
+          "neutral": 5,
+          "unclear": 1,
+          "positive_rate": 82.73,
+          "uncertain_rate": 10.29
+        }
       },
       "library_selection": {
         "visible": true,
@@ -26030,7 +26123,48 @@
         "rule_version": "2026-11-11-requested-import",
         "grandfathered": false
       },
-      "semantic_quotes": [],
+      "semantic_quotes": [
+        {
+          "review_id": "177106680",
+          "sentiment": "positive",
+          "excerpt": "wonderful art",
+          "language": "schinese",
+          "url": "https://steamcommunity.com/profiles/76561199388540383/recommended/2420660/",
+          "selection_note": "固定抽样内的正向美术评论摘录"
+        },
+        {
+          "review_id": "193262191",
+          "sentiment": "positive",
+          "excerpt": "美术简直超一流",
+          "language": "schinese",
+          "url": "https://steamcommunity.com/profiles/76561198928640100/recommended/2420660/",
+          "selection_note": "固定抽样内的正向美术评论摘录"
+        },
+        {
+          "review_id": "180333720",
+          "sentiment": "positive",
+          "excerpt": "相同的画面制作方式，却给人不同的感受，仍然让人感到新鲜，我觉得很好。",
+          "language": "schinese",
+          "url": "https://steamcommunity.com/profiles/76561199670778657/recommended/2420660/",
+          "selection_note": "固定抽样内的正向美术评论摘录"
+        },
+        {
+          "review_id": "205690039",
+          "sentiment": "positive",
+          "excerpt": "大面积饱和纯色调十分突出",
+          "language": "schinese",
+          "url": "https://steamcommunity.com/profiles/76561199842553008/recommended/2420660/",
+          "selection_note": "固定抽样内的正向美术评论摘录"
+        },
+        {
+          "review_id": "202765892",
+          "sentiment": "positive",
+          "excerpt": "画面和音乐仍然保持高水准",
+          "language": "schinese",
+          "url": "https://steamcommunity.com/profiles/76561199073495176/recommended/2420660/",
+          "selection_note": "固定抽样内的正向美术评论摘录"
+        }
+      ],
       "gallery_media": [
         {
           "type": "video",
