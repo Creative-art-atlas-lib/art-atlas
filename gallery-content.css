@@ -71,7 +71,8 @@ html:has(.collection){scrollbar-gutter:stable}
 .detail--case .case-review__label{font-size:16px;font-weight:600}
 .detail--case .case-review__translation p{font-size:18px;line-height:1.85;margin:8px 0 0}
 .detail--case .case-review__source summary,.detail--case .case-review__stats summary{font-size:16px;font-weight:400;cursor:pointer}
-.detail--case .case-review__source p,.detail--case .case-review__stats p,.detail--case .case-reviews__note{font-size:16px;line-height:1.75}
+.detail--case .case-review__source p,.detail--case .case-review__stats p{font-size:16px;line-height:1.75}
+.detail--case .case-reviews__note{font-size:13px;line-height:1.7;opacity:.72}
 .detail--case .case-review__source{margin-top:16px}
 .detail--case .case-review__stats{border-top:1px solid #ffffff40;padding-top:20px}
 @media(max-width:700px){.detail--case .case-review__translation{padding-left:12px}.detail--case .case-review__translation p{font-size:16px}}
