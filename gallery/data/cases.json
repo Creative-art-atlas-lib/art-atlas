@@ -37274,7 +37274,10 @@
           "UI与平面视觉"
         ],
         "style_main": "写实与风格化混合",
-        "style_look": [],
+        "style_look": [
+          "插画／绘本风",
+          "复古录像风"
+        ],
         "tech_status": "待核实",
         "form_motion": [
           "未观察动态"
@@ -41390,14 +41393,33 @@
       "assessment": {
         "rule_id": "two-dimensions-20261101",
         "company_difference": null,
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 3,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "弹球盘面铺满卡通道具，命中时跳出黑底白边的金额牌；埃及、嘉年华、海底等主题盘面共用高饱和配色与粗描边，收益数字成为画面中最跳动的图形元素。",
+        "design_method": "功能可视化、元素重新组合",
+        "evidence_ids": [
+          "2667120-S1",
+          "2667120-S2",
+          "2667120-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "可参考把数值反馈直接画成画面主角的做法：金额牌随连锁滚动放大，阅读成本低且强化连锁爽感。图标化道具体系可持续扩展，适合休闲品类的长期内容更新。"
       },
       "admission": {
-        "status": "待美术评审",
+        "status": "待公司对照",
         "decision": null,
-        "approved": false,
-        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "display_policy": {
         "visible": true,
@@ -41413,22 +41435,46 @@
       },
       "classification": {
         "app_primary": "游戏视觉交互",
+        "app_secondary": [
+          "UI与平面视觉"
+        ],
+        "style_main": "风格化",
         "style_look": [
           "卡通风"
         ],
-        "form_color": [
-          "高饱和"
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "都市日常"
         ],
         "mood": [
           "幽默"
         ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "UI与信息呈现",
+          "视觉与玩法结合"
+        ],
         "creative_method": [
           "功能可视化"
         ],
+        "business_stage": "方向假设，尚未验证",
         "product_genre": [
           "休闲益智"
         ],
-        "style_main": "风格化"
+        "form_shape": [
+          "圆润"
+        ],
+        "form_color": [
+          "高饱和",
+          "大色块"
+        ],
+        "form_space": [
+          "扁平化",
+          "高信息密度"
+        ]
       },
       "cover_asset": "media/2667120/1.jpg",
       "visual_evidence": [
@@ -41676,14 +41722,33 @@
       "assessment": {
         "rule_id": "two-dimensions-20261101",
         "company_difference": null,
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 3,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "体素构成的森林与山体压着暗绿、紫红的夜色，巨大月亮占据天空；骷髅与魔物是可转向的平面像素贴片，成群涌来时与第一人称枪械形成材质反差。",
+        "design_method": "风格反差、材质迁移",
+        "evidence_ids": [
+          "881940-S1",
+          "881940-S2",
+          "881940-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "二维像素贴片与三维体素场景的混搭成本低且识别强，大批量敌人靠贴片重复即可成立。可参考其用单一巨大天体建立场景记忆点的方法。"
       },
       "admission": {
-        "status": "待美术评审",
+        "status": "待公司对照",
         "decision": null,
-        "approved": false,
-        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "display_policy": {
         "visible": true,
@@ -41699,22 +41764,44 @@
       },
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "场景环境"
+        ],
+        "style_main": "写实与风格化混合",
         "style_look": [
           "像素风"
         ],
-        "form_color": [
-          "冷暖对比"
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "魔法奇幻"
         ],
         "mood": [
           "紧张"
         ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "整体视觉系统",
+          "材质表达"
+        ],
         "creative_method": [
           "风格反差"
         ],
+        "business_stage": "方向假设，尚未验证",
         "product_genre": [
           "射击动作"
         ],
-        "style_main": "写实与风格化混合"
+        "form_color": [
+          "冷暖对比"
+        ],
+        "form_light": [
+          "暗部为主"
+        ],
+        "form_space": [
+          "第一人称视点"
+        ]
       },
       "cover_asset": "media/881940/1.jpg",
       "visual_evidence": [
@@ -41986,14 +42073,33 @@
       "assessment": {
         "rule_id": "two-dimensions-20261101",
         "company_difference": null,
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 4,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "写实渲染的美国街景上覆盖昭和风格广告牌，「NEO YOKOHAMA」字牌仿好莱坞标志立在野山坡；荒漠公路尽头矗立巨型石像，熟悉街景与异常尺度并置。",
+        "design_method": "日常与异常并置、尺度反差",
+        "evidence_ids": [
+          "1687540-S1",
+          "1687540-S2",
+          "1687540-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "值得参考的是用高精度写实场景承载文化错位符号：广告牌与标志物即世界观本身，截图自带话题性。巨型地标在开阔地貌中同时承担远景导航与记忆锚点。"
       },
       "admission": {
-        "status": "待美术评审",
+        "status": "待公司对照",
         "decision": null,
-        "approved": false,
-        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "display_policy": {
         "visible": true,
@@ -42009,22 +42115,44 @@
       },
       "classification": {
         "app_primary": "场景环境",
-        "style_look": [
-          "卡通风"
+        "app_secondary": [
+          "品牌与宣发视觉"
         ],
-        "form_shape": [
-          "夸张变形"
+        "style_main": "写实倾向",
+        "style_look": [
+          "电影式构图与布光"
+        ],
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "灾难末日",
+          "都市日常"
         ],
         "mood": [
           "荒诞"
         ],
-        "creative_method": [
-          "日常与异常并置"
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "题材视觉重构",
+          "场景空间"
         ],
+        "creative_method": [
+          "日常与异常并置",
+          "尺度反差"
+        ],
+        "business_stage": "方向假设，尚未验证",
         "product_genre": [
           "ARPG"
         ],
-        "style_main": "风格化"
+        "form_shape": [
+          "夸张变形"
+        ],
+        "form_space": [
+          "尺度反差",
+          "前后景分层"
+        ]
       },
       "cover_asset": "media/1687540/1.jpg",
       "visual_evidence": [
@@ -42247,14 +42375,33 @@
       "assessment": {
         "rule_id": "two-dimensions-20261101",
         "company_difference": null,
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 3,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "粉彩浮岛上长满肉感管状植物，角色经过时花草弯伏让路；水下段落中发光水母成群漂动，雾气把岛屿与天空隔出柔和的前后层次。",
+        "design_method": "动态变形、形体变异",
+        "evidence_ids": [
+          "3850290-S1",
+          "3850290-S2",
+          "3850290-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "植物对角色的实时避让与摆动让世界显得有生命，是低对抗探索游戏建立沉浸感的可复用手段；粉彩雾化配色适合需要长时间注视的慢节奏产品。"
       },
       "admission": {
-        "status": "待美术评审",
+        "status": "待公司对照",
         "decision": null,
-        "approved": false,
-        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "display_policy": {
         "visible": true,
@@ -42270,22 +42417,49 @@
       },
       "classification": {
         "app_primary": "场景环境",
+        "app_secondary": [
+          "动画与特效"
+        ],
+        "style_main": "风格化",
         "style_look": [
           "插画／绘本风"
         ],
-        "form_shape": [
-          "圆润"
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "自然生态"
         ],
         "mood": [
           "梦幻"
         ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "场景空间",
+          "动态表现"
+        ],
         "creative_method": [
           "动态变形"
         ],
+        "business_stage": "方向假设，尚未验证",
         "product_genre": [
           "探索冒险"
         ],
-        "style_main": "风格化"
+        "form_shape": [
+          "圆润",
+          "有机曲线"
+        ],
+        "form_color": [
+          "高明度"
+        ],
+        "form_light": [
+          "柔光",
+          "雾化光感"
+        ],
+        "form_space": [
+          "前后景分层"
+        ]
       },
       "cover_asset": "media/3850290/1.jpg",
       "visual_evidence": [
@@ -42566,14 +42740,33 @@
       "assessment": {
         "rule_id": "two-dimensions-20261101",
         "company_difference": null,
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 4,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "三维角色以赛璐璐色块和粗轮廓线呈现，动作抽帧模仿老动画节奏；太空段落的荧光黄轨迹与舱内橙色管线形成冷暖对照，双人分屏共享同一套视觉语言。",
+        "design_method": "材质迁移、风格反差",
+        "evidence_ids": [
+          "orbitals-S1",
+          "orbitals-S2",
+          "orbitals-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "用三维管线复刻上世纪科幻动画的色块与抽帧感，证明怀旧质感可以系统化为实时渲染规则而非贴图堆砌，对想复用动画语汇的团队有直接参考性。"
       },
       "admission": {
-        "status": "待美术评审",
+        "status": "待公司对照",
         "decision": null,
-        "approved": false,
-        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "display_policy": {
         "visible": true,
@@ -42589,22 +42782,43 @@
       },
       "classification": {
         "app_primary": "整体美术方向",
+        "app_secondary": [
+          "动画与特效"
+        ],
+        "style_main": "风格化",
         "style_look": [
           "动漫风"
         ],
-        "form_color": [
-          "大色块"
+        "tech_status": "待核实",
+        "form_motion": [
+          "定格感"
+        ],
+        "theme": [
+          "科幻"
         ],
         "mood": [
           "明快"
         ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "整体视觉系统",
+          "跨媒介组合"
+        ],
         "creative_method": [
           "材质迁移"
         ],
+        "business_stage": "方向假设，尚未验证",
         "product_genre": [
           "解谜冒险"
         ],
-        "style_main": "风格化"
+        "form_color": [
+          "大色块",
+          "高饱和"
+        ],
+        "form_light": [
+          "霓虹光",
+          "轮廓光"
+        ]
       },
       "cover_asset": "media/orbitals/1.jpg",
       "visual_evidence": [
@@ -42828,14 +43042,33 @@
       "assessment": {
         "rule_id": "two-dimensions-20261101",
         "company_difference": null,
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 3,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "角色以修长比例的动漫风三维模型登场，盔甲纹样与武器细节指向古典战争题材；战棋界面用半透明色块标示移动范围，两侧手绘立绘面板承担对峙叙事。",
+        "design_method": "符号重复与变奏",
+        "evidence_ids": [
+          "fire-emblem-S1",
+          "fire-emblem-S2",
+          "fire-emblem-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "角色家族化设计（同源盔甲的变体、阵营配色）支持大阵容快速扩展；战棋色块与立绘面板的组合是策略界面信息分层的成熟样本。"
       },
       "admission": {
-        "status": "待美术评审",
+        "status": "待公司对照",
         "decision": null,
-        "approved": false,
-        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "display_policy": {
         "visible": true,
@@ -42851,22 +43084,44 @@
       },
       "classification": {
         "app_primary": "角色设计",
+        "app_secondary": [
+          "UI与平面视觉"
+        ],
+        "style_main": "风格化",
         "style_look": [
           "动漫风"
         ],
-        "form_shape": [
-          "修长比例"
+        "tech_status": "待核实",
+        "form_motion": [
+          "未观察动态"
+        ],
+        "theme": [
+          "魔法奇幻"
         ],
         "mood": [
           "肃穆"
         ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "角色造型",
+          "角色家族"
+        ],
         "creative_method": [
           "符号重复与变奏"
         ],
+        "business_stage": "方向假设，尚未验证",
         "product_genre": [
           "策略"
         ],
-        "style_main": "风格化"
+        "form_shape": [
+          "修长比例"
+        ],
+        "form_color": [
+          "高饱和"
+        ],
+        "form_space": [
+          "轴测视角"
+        ]
       },
       "cover_asset": "media/fire-emblem/1.jpg",
       "visual_evidence": [
@@ -43113,14 +43368,33 @@
       "assessment": {
         "rule_id": "two-dimensions-20261101",
         "company_difference": null,
-        "visual_distinctiveness": null,
-        "creativity_established": null
+        "company_difference_status": "待完整网易对照集核定",
+        "visual_distinctiveness": 4,
+        "visual_status": "已完成静态素材初评",
+        "creativity_established": true,
+        "creativity_status": "是（初评），依据具体表达方法与素材观察",
+        "observation": "武器与设备用胶带、绳缆和废料现场拼装，墨汁以高饱和色块在地面铺开并带光泽流动；发型选择界面把触手发饰画成贴纸图标，延续涂鸦文化语言。",
+        "design_method": "功能可视化、材质迁移",
+        "evidence_ids": [
+          "splatoon-S1",
+          "splatoon-S2",
+          "splatoon-S3"
+        ],
+        "company_reference": {
+          "company": "网易（NetEase）",
+          "scope": "公开产品、在研及未公开项目",
+          "scope_source": "用户于2026-11-01确认：包含在研及未公开项目，公开搜索后再补内部清单",
+          "status": "公开初稿116条；跨语言与版本待去重，待补内部清单后冻结",
+          "frozen": false,
+          "public_registry": "网易公开产品对照清单.json"
+        },
+        "score_basis": "墨汁同时是玩法状态、领地标识与画面主色，一个系统承担三重职责；拼装感道具设计让新装备可以低成本融入世界观。"
       },
       "admission": {
-        "status": "待美术评审",
+        "status": "待公司对照",
         "decision": null,
-        "approved": false,
-        "reason": "已按确认纳入画廊，正式美术评分与公司对照待评。"
+        "reason": "内容已入库；正式评分仍需网易完整对照集，含在研及未公开项目。视觉分与创意结论为静态素材初评。",
+        "approved": false
       },
       "display_policy": {
         "visible": true,
@@ -43136,22 +43410,41 @@
       },
       "classification": {
         "app_primary": "道具资产",
+        "app_secondary": [
+          "角色设计"
+        ],
+        "style_main": "风格化",
         "style_look": [
           "卡通风"
         ],
-        "form_shape": [
-          "块状拼接"
+        "tech_status": "待核实",
+        "form_motion": [
+          "流体形变"
+        ],
+        "theme": [
+          "海洋航行"
         ],
         "mood": [
           "童趣"
         ],
+        "experience_basis": "仅素材观察，未验证",
+        "creative_locus": [
+          "视觉与玩法结合",
+          "材质表达"
+        ],
         "creative_method": [
           "功能可视化"
         ],
+        "business_stage": "方向假设，尚未验证",
         "product_genre": [
           "射击动作"
         ],
-        "style_main": "风格化"
+        "form_shape": [
+          "块状拼接"
+        ],
+        "form_color": [
+          "高饱和"
+        ]
       },
       "cover_asset": "media/splatoon/1.jpg",
       "visual_evidence": [
