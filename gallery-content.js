@@ -3,7 +3,7 @@
 (() => {
   'use strict';
   let pending;
-  const load = () => pending || (pending = fetch('./data/cases.json?v=20261112-sample-v2').then(r => {
+  const load = () => pending || (pending = fetch('./data/cases.json?v=20261112-full-reviews').then(r => {
     if (!r.ok) throw new Error('案例数据读取失败');
     return r.json();
   }).catch(e => { pending = null; throw e; }));
@@ -23,6 +23,22 @@
     if(!s || !isAnalyzed(c))return '';
     const rate=s.related?' · 美术相关中纯正向 '+(s.positive/s.related*100).toFixed(2)+'%':' · 纯正向率暂无';
     return '样本 '+s.total.toLocaleString('zh-CN')+' 条 · 美术相关 '+s.related.toLocaleString('zh-CN')+' 条'+rate;
+  };
+  // Render raw review text as Vue text nodes, never as HTML. Merge overlaps before highlighting.
+  const fullReviewNodes = (h,e) => {
+    const text=e.full_text || e.excerpt || '', ranges=[];
+    for(const fragment of e.highlight_excerpts || [e.excerpt]) {
+      if(!fragment)continue;
+      let at=0;
+      while((at=text.indexOf(fragment,at))!==-1){ranges.push([at,at+fragment.length]);at+=fragment.length;}
+    }
+    ranges.sort((a,b)=>a[0]-b[0]);
+    const merged=[];
+    for(const r of ranges){const last=merged[merged.length-1];if(last && r[0]<=last[1])last[1]=Math.max(last[1],r[1]);else merged.push([...r]);}
+    const nodes=[];let cursor=0;
+    for(const [start,end] of merged){if(start>cursor)nodes.push(text.slice(cursor,start));nodes.push(h('mark',{class:'case-review__highlight'},text.slice(start,end)));cursor=end;}
+    if(cursor<text.length)nodes.push(text.slice(cursor));
+    return nodes;
   };
   const groups = [{name:'all', title:'全部案例', label:'ART CASES'}];
   const displayName = c => c.game_name_en && c.game_name_zh ? c.game_name_en+' '+c.game_name_zh : c.game_name;
@@ -264,10 +280,11 @@
             link(e.source_title,e.source_url)
           ])),true)]:[]),
           ...(artReviews.length?[section('玩家评论原话',[
-            paragraph(c.youtube_review?'以下为本次YouTube视频评论分析的5条正向美术精选，不代表全部评论；视频观众并非已验证购买者。译文为AI辅助翻译，来源链接指向对应视频评论区。':'以下仅精选本次样本内确认的正向美术评语，不代表全部评论或整体好评率。外文配中文译文（AI辅助翻译）；原始完整评论可通过来源链接查看。'),
+            paragraph(c.youtube_review?'以下展示精选视频评论的完整原文，浅黄色标出已判读的美术相关片段；不代表全部评论，视频观众并非已验证购买者。来源链接指向对应视频。':'以下展示精选评论的完整原文，浅黄色标出已判读的美术相关片段；其余文字保留上下文。精选不代表全部评论或整体好评率。'),
             ...artReviews.map(e=>h('blockquote',{class:'case-review'},[
               ...(e.date?[h('p',{class:'case-review__heading'},e.date)]:[]),
-              ...(e.translation_zh?[h('p',{class:'case-review__label'},'中文译文'),h('p',{class:'case-review__translation'},e.translation_zh),h('details',{class:'case-review__source'},[h('summary','查看外文原话'),h('p',{class:'case-review__original'},e.excerpt)])]:[h('p',{class:'case-review__original'},e.excerpt)]),
+              h('p',{class:'case-review__original',attrs:{dir:'auto'}},fullReviewNodes(h,e)),
+              ...(e.translation_zh?[h('p',{class:'case-review__label'},'高亮片段中文译文（AI辅助翻译）'),h('p',{class:'case-review__translation'},e.translation_zh)]:[]),
               link(c.youtube_review?'查看 YouTube 来源视频':'查看 Steam 原评论',e.url)
             ]))
           ])]:[]),

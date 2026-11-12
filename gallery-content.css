@@ -128,3 +128,6 @@ html:has(.collection){scrollbar-gutter:stable}
 .atlas-loader__status{display:flex;align-items:center;gap:12px;margin-top:36px;font:400 15px/1.5 "Microsoft YaHei","PingFang SC",Arial,sans-serif;color:#ffffffb0}
 .atlas-loader__spinner{flex:none;width:18px;height:18px;border:2px solid #ffffff30;border-top-color:#fff;border-radius:50%;animation:atlas-loader-spin .8s linear infinite}
 @keyframes atlas-loader-spin{to{transform:rotate(1turn)}}
+
+.detail--case .case-review__highlight{background:#ffe6a3;color:#29251b;padding:2px 3px;border-radius:3px;box-decoration-break:clone;-webkit-box-decoration-break:clone;font-weight:600}
+.detail--case .case-review__original{white-space:pre-wrap;word-break:normal;overflow-wrap:anywhere}
