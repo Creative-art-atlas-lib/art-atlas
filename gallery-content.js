@@ -3,7 +3,7 @@
 (() => {
   'use strict';
   let pending;
-  const load = () => pending || (pending = fetch('./data/cases.json?v=20261112-art-editorial').then(r => {
+  const load = () => pending || (pending = fetch('./data/cases.json?v=20261113-method-taxonomy').then(r => {
     if (!r.ok) throw new Error('案例数据读取失败');
     return r.json();
   }).catch(e => { pending = null; throw e; }));

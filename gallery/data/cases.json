@@ -1430,7 +1430,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "人物的头、鼻、肢体和身高被刻意拉开比例，街铺招牌与生活杂物仍然具体；角色、建筑和局部空间都以清晰线条及平涂组织。",
-        "design_method": "比例夸张、日常与异常并置",
+        "design_method": "夸张与变形、日常与异常并置",
         "evidence_ids": [
           "2366980-S1",
           "2366980-S2",
@@ -1612,7 +1612,7 @@
           "整体视觉系统"
         ],
         "creative_method": [
-          "比例夸张",
+          "夸张与变形",
           "日常与异常并置"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -2161,7 +2161,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "紫、黄、红等高饱和色被用于武器、场景和击中特写；粗黑轮廓、图形化爆炸与随身设备界面重复出现，画面有明确的动漫分层感。",
-        "design_method": "风格反差、色光反差",
+        "design_method": "反差",
         "evidence_ids": [
           "2111190-S1",
           "2111190-S2",
@@ -2342,8 +2342,7 @@
           "UI与信息呈现"
         ],
         "creative_method": [
-          "风格反差",
-          "色光反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -6207,7 +6206,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "手套、鞋和夸张口鼻形成复古卡通轮廓，黑白灰贯穿战斗、案件板和升级面板；不同功能界面仍保留纸卡、照片与粗线条的时代观感。",
-        "design_method": "风格反差、符号重复与变奏",
+        "design_method": "反差、符号重复与变奏",
         "evidence_ids": [
           "2416450-S1",
           "2416450-S2",
@@ -6390,7 +6389,7 @@
           "跨媒介组合"
         ],
         "creative_method": [
-          "风格反差",
+          "反差",
           "符号重复与变奏"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -8308,7 +8307,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "黑猫的简洁轮廓与亮眼睛在明亮城市中突出；街道、汽车和围栏从较低观察位置形成更大的体量，动物伙伴沿用柔化造型。",
-        "design_method": "尺度反差、视点变化",
+        "design_method": "尺度与空间错位、视点变化",
         "evidence_ids": [
           "1177980-S1",
           "1177980-S2",
@@ -9006,7 +9005,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "人物采用近似玩偶的大头和短肢体，空间则塞入旧招牌、设备与暗色杂物；暖黄局部灯光和深黑背景强化微缩舞台感。",
-        "design_method": "风格反差、尺度反差",
+        "design_method": "反差、尺度与空间错位",
         "evidence_ids": [
           "1996010-S1",
           "1996010-S2",
@@ -9192,7 +9191,7 @@
           "场景空间"
         ],
         "creative_method": [
-          "风格反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -11030,7 +11029,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "厚重显示器、硬边控制台与狭窄工业结构重复出现，低照度和灰绿色环境削弱舒适感；手持设备屏幕嵌入第一人称操作画面。",
-        "design_method": "信息融入世界、色光反差",
+        "design_method": "信息融入世界、反差",
         "evidence_ids": [
           "606160-S1",
           "606160-S2",
@@ -11215,7 +11214,7 @@
         ],
         "creative_method": [
           "信息融入世界",
-          "色光反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -11742,7 +11741,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "小体量主角置于巨大动物和高密度洞穴构件之间；环境以暗底、发光线条和局部彩色像素显形，各区域在低分辨率语言中形成不同生态。",
-        "design_method": "尺度反差、色光反差",
+        "design_method": "尺度与空间错位、反差",
         "evidence_ids": [
           "813230-S1",
           "813230-S2",
@@ -11925,7 +11924,7 @@
           "整体视觉系统"
         ],
         "creative_method": [
-          "色光反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -12444,7 +12443,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "群岛、山体、地名和小型角色并置在类似地图的俯视空间中，海岸线清晰、陆地起伏被压成可读体块；洞穴仍保持圆润和暖色焦点。",
-        "design_method": "形体简化、尺度反差",
+        "design_method": "形体简化、尺度与空间错位",
         "evidence_ids": [
           "2305840-S1",
           "2305840-S2",
@@ -13137,7 +13136,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "钓者和船只在湖泊、山体、树林与天空之间占很小比例；水面反射、近景枝叶与远山形成层次，多个天气和时段共享风景画式构图。",
-        "design_method": "色光反差、尺度反差",
+        "design_method": "反差、尺度与空间错位",
         "evidence_ids": [
           "3483740-S1",
           "3483740-S2",
@@ -13317,7 +13316,7 @@
           "色彩与光影"
         ],
         "creative_method": [
-          "色光反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -15223,7 +15222,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "飞船与敌人被简化为几何轮廓，分叉电弧、光束和弹丸在紫黑太空背景上形成高亮图案；不同攻击以颜色和几何形状区分。",
-        "design_method": "色光反差、符号重复与变奏",
+        "design_method": "反差、符号重复与变奏",
         "evidence_ids": [
           "858210-S1",
           "858210-S2",
@@ -15404,7 +15403,7 @@
           "整体视觉系统"
         ],
         "creative_method": [
-          "色光反差",
+          "反差",
           "符号重复与变奏"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -16525,7 +16524,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "人物以较写实的身形和像素细节表现，街区、交通和游乐摊位有密集生活信息；近景放大面部与姿态，使低分辨率外观仍承载人物关系。",
-        "design_method": "视点变化、尺度反差",
+        "design_method": "视点变化、尺度与空间错位",
         "evidence_ids": [
           "1574820-S1",
           "1574820-S2",
@@ -17189,7 +17188,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "所选画面呈现书页边界、平涂轮廓与横向关卡，不同区域仍延续绘本色块和描线；官方说明明确角色可往返书页内外的二维与三维空间。",
-        "design_method": "风格反差、视点变化",
+        "design_method": "反差、视点变化",
         "evidence_ids": [
           "1627570-S1",
           "1627570-S2",
@@ -17373,7 +17372,7 @@
           "视觉与玩法结合"
         ],
         "creative_method": [
-          "风格反差",
+          "反差",
           "视点变化"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -18593,7 +18592,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "狭窄工业走廊采用金属结构、局部强光和大量暗部；手持探测屏幕及枪械在前景形成稳定信息点，人物装备用较写实的比例呈现。",
-        "design_method": "信息融入世界、色光反差",
+        "design_method": "信息融入世界、反差",
         "evidence_ids": [
           "2747330-S1",
           "2747330-S2",
@@ -18777,7 +18776,7 @@
         ],
         "creative_method": [
           "信息融入世界",
-          "色光反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -22028,7 +22027,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "人物与怪物通过黑白线面、密集排线和夸张面部呈现；字母槽、单词和下方角色头像融入同一高对比画面，色彩被大幅压缩。",
-        "design_method": "风格反差、信息融入世界",
+        "design_method": "反差、信息融入世界",
         "evidence_ids": [
           "1885110-S1",
           "1885110-S2",
@@ -22213,7 +22212,7 @@
           "UI与信息呈现"
         ],
         "creative_method": [
-          "风格反差",
+          "反差",
           "信息融入世界"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -22657,7 +22656,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "潜水角色、海龟居所和水母以小尺度像素形体表现；不同海域通过蓝绿水色、岩层轮廓和发光晶体区分，可收集对象在背景前保持亮色。",
-        "design_method": "符号重复与变奏、色光反差",
+        "design_method": "符号重复与变奏、反差",
         "evidence_ids": [
           "3862670-S1",
           "3862670-S2",
@@ -22843,7 +22842,7 @@
         ],
         "creative_method": [
           "符号重复与变奏",
-          "色光反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -24005,7 +24004,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "蓝色冰晶、断裂地块和简化植被构成战斗底层，技能以白、紫和橙色亮区覆盖其上；角色展示保留较强剪影与发光部件。",
-        "design_method": "色光反差、形体简化",
+        "design_method": "反差、形体简化",
         "evidence_ids": [
           "2444750-S1",
           "2444750-S2",
@@ -24190,7 +24189,7 @@
           "角色造型"
         ],
         "creative_method": [
-          "色光反差",
+          "反差",
           "形体简化"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -24667,7 +24666,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "地牢、树形物件和雕像被粗颗粒、低清晰度与偏色组织，画面右侧常驻细密状态面板；中心场景与边缘数值形成强烈年代感。",
-        "design_method": "材质迁移、色光反差",
+        "design_method": "材质迁移、反差",
         "evidence_ids": [
           "3525970-S1",
           "3525970-S2",
@@ -24852,7 +24851,7 @@
         ],
         "creative_method": [
           "材质迁移",
-          "色光反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -25298,7 +25297,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "近景人物以夸张面部、厚线条和块面阴影呈现，夜间建筑与室内场景使用同样克制的暗色关系；通缉海报延续人物绘制语言。",
-        "design_method": "风格反差、信息融入世界",
+        "design_method": "反差、信息融入世界",
         "evidence_ids": [
           "1411910-S1",
           "1411910-S2",
@@ -25481,7 +25480,7 @@
           "整体视觉系统"
         ],
         "creative_method": [
-          "风格反差",
+          "反差",
           "信息融入世界"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -26668,7 +26667,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "粉色头发、亮色服装和线条化人物与灯塔、公路等立体空间并置；节奏界面保留角色及图形线条，叙事画面用较强透视强化姿态。",
-        "design_method": "风格反差、视点变化",
+        "design_method": "反差、视点变化",
         "evidence_ids": [
           "2240620-S1",
           "2240620-S2",
@@ -26853,7 +26852,7 @@
           "整体视觉系统"
         ],
         "creative_method": [
-          "风格反差",
+          "反差",
           "视点变化"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -27364,7 +27363,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "小人物与白狼被放在大面积环境色和高大植物之间；前景剪影、远景层次与带笔触的树叶形成稳定结构，不同区域以明显不同的主色呈现。",
-        "design_method": "尺度反差、色光反差",
+        "design_method": "尺度与空间错位、反差",
         "evidence_ids": [
           "2420660-S1",
           "2420660-S2",
@@ -27548,7 +27547,7 @@
           "视觉叙事与象征"
         ],
         "creative_method": [
-          "色光反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -28061,7 +28060,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "暗灰地面与大量低亮度敌人构成底层，蓝白和橙色攻击在前景突出；红色生命球、窄侧栏及结算表延续复古动作RPG语气。",
-        "design_method": "色光反差、功能可视化",
+        "design_method": "反差、功能可视化",
         "evidence_ids": [
           "2218750-S1",
           "2218750-S2",
@@ -28243,7 +28242,7 @@
           "UI与信息呈现"
         ],
         "creative_method": [
-          "色光反差",
+          "反差",
           "功能可视化"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -28722,7 +28721,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "角色插画、俯视像素探索与文本选择采用不同表现密度，深色边框和装饰线条将它们连接；法术菜单用图像与大段说明并列。",
-        "design_method": "风格反差、信息融入世界",
+        "design_method": "反差、信息融入世界",
         "evidence_ids": [
           "1477070-S1",
           "1477070-S2",
@@ -28909,7 +28908,7 @@
           "UI与信息呈现"
         ],
         "creative_method": [
-          "风格反差",
+          "反差",
           "信息融入世界"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -30113,7 +30112,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "灰冷、近写实的街巷与工业内部同色彩鲜明的像素段落并列，修女形象在巨大建筑和异常尺度的工业物件前显得渺小。",
-        "design_method": "风格反差、日常与异常并置",
+        "design_method": "反差、日常与异常并置",
         "evidence_ids": [
           "1373960-S1",
           "1373960-S2",
@@ -30300,7 +30299,7 @@
           "视觉叙事与象征"
         ],
         "creative_method": [
-          "风格反差",
+          "反差",
           "日常与异常并置"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -32886,7 +32885,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "前景枝叶、远处树干和建筑遗迹形成多层像素空间，蓝绿背景与黄色光束分出层次；主角以较亮轮廓和局部暖色从环境中突出。",
-        "design_method": "色光反差、尺度反差",
+        "design_method": "反差、尺度与空间错位",
         "evidence_ids": [
           "1747760-S1",
           "1747760-S2",
@@ -33072,7 +33071,7 @@
           "色彩与光影"
         ],
         "creative_method": [
-          "色光反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -36980,7 +36979,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "低多边形地景铺上大色块植被，山顶与塔楼等高层地标始终可见；小体型角色与大尺度山野的对比让路线和目的地在远景中也可读。",
-        "design_method": "形体简化、尺度反差、功能可视化",
+        "design_method": "形体简化、尺度与空间错位、功能可视化",
         "evidence_ids": [
           "1055540-S1",
           "1055540-S2",
@@ -37298,8 +37297,7 @@
         ],
         "creative_method": [
           "符号重复与变奏",
-          "视觉隐喻",
-          "风格反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -37328,7 +37326,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "昏暗木屋中的牌桌占据画面中心，卡牌、烛光与木雕感对手维持桌游仪式感；起身调查与 CRT 雪花屏段落切换媒介质感，同一套符号在多种画面材质间延续。",
-        "design_method": "符号重复与变奏、视觉隐喻、风格反差",
+        "design_method": "符号重复与变奏、反差",
         "evidence_ids": [
           "1092790-S1",
           "1092790-S2",
@@ -37641,8 +37639,8 @@
         ],
         "creative_method": [
           "功能可视化",
-          "色光反差",
-          "形体变异"
+          "反差",
+          "夸张与变形"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -37667,7 +37665,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "灰冷寺院、山道与阴影维持时代剧基调，幻魔的畸变形体在其中突出；交锋的火花、血色与处决特写把读招与一闪标示为可见的动作节点。",
-        "design_method": "功能可视化、色光反差、形体变异",
+        "design_method": "功能可视化、反差、夸张与变形",
         "evidence_ids": [
           "2638890-S1",
           "2638890-S2",
@@ -38318,7 +38316,7 @@
         ],
         "creative_method": [
           "日常与异常并置",
-          "风格反差",
+          "反差",
           "功能可视化"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -38345,7 +38343,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "轴测办公楼用中性色家具和清晰动线建立日常秩序，大头小身的可爱角色与鲜红痕迹并置；残留痕迹既是黑色喜剧的笑料，也是新的任务目标。",
-        "design_method": "日常与异常并置、风格反差、功能可视化",
+        "design_method": "日常与异常并置、反差、功能可视化",
         "evidence_ids": [
           "2795000-S1",
           "2795000-S2",
@@ -38660,7 +38658,7 @@
           "角色造型"
         ],
         "creative_method": [
-          "比例夸张",
+          "夸张与变形",
           "功能可视化"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -38686,7 +38684,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "低多边形大色块场景中怪潮密度随波次膨胀，伤害数字与拾取物铺满画面；滑板骷髅等粗粝角色剪影把强度增长持续变成视觉笑料。",
-        "design_method": "比例夸张、功能可视化",
+        "design_method": "夸张与变形、功能可视化",
         "evidence_ids": [
           "3405340-S1",
           "3405340-S2",
@@ -38916,7 +38914,7 @@
         ],
         "creative_method": [
           "材质迁移",
-          "视觉隐喻"
+          "符号重复与变奏"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -38942,7 +38940,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "瓶盖、纸片与胶带等旧物以真实磨损质感拼成题目造型，暖色篝火与卡纸展板统一素材、工具与展示；物件原用途保留可辨，成为猜测线索。",
-        "design_method": "材质迁移、元素重新组合、视觉隐喻",
+        "design_method": "材质迁移、元素重新组合、符号重复与变奏",
         "evidence_ids": [
           "3470550-S1",
           "3470550-S2",
@@ -39255,7 +39253,7 @@
           "整体视觉系统"
         ],
         "creative_method": [
-          "空间错位",
+          "尺度与空间错位",
           "日常与异常并置"
         ],
         "business_stage": "方向假设，尚未验证",
@@ -39288,7 +39286,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "曼哈顿街景以照片级材质建立熟悉尺度，道路翻转、建筑折叠与悬浮人物在写实空间里制造方向失序；战斗色光在扭曲街区中标明焦点与威胁。",
-        "design_method": "空间错位、日常与异常并置、尺度反差",
+        "design_method": "尺度与空间错位、日常与异常并置",
         "evidence_ids": [
           "3669870-S1",
           "3669870-S2",
@@ -40236,7 +40234,7 @@
         ],
         "creative_method": [
           "功能可视化",
-          "风格反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -40262,7 +40260,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "狭窄工业设施压在低照度中，手电光圈决定可见范围，玩家位置与规则提示在黑暗里保持简短明确；失败瞬间的突发演出把恐怖转成供围观的黑色喜剧。",
-        "design_method": "功能可视化、风格反差",
+        "design_method": "功能可视化、反差",
         "evidence_ids": [
           "4108000-S1",
           "4108000-S2",
@@ -40563,7 +40561,7 @@
           "整体视觉系统"
         ],
         "creative_method": [
-          "风格反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -40591,7 +40589,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "雾中山水、江湖院落与重型机关空间共享灰冷肃杀基调，衣饰、冷兵器与机械化敌人并置；交锋的身段、刀光与处决特写保留功夫片的节奏与可读性。",
-        "design_method": "元素重新组合、风格反差",
+        "design_method": "元素重新组合、反差",
         "evidence_ids": [
           "4115450-S1",
           "4115450-S2",
@@ -40946,7 +40944,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "格状道路、高差地形与亮色节点把可互动对象从地貌中分离出来；不同谜题世界以标志性色光与地貌身份区分，连通道路让跨场地组合的规则保持可见。",
-        "design_method": "功能可视化、视觉规则参与玩法、符号重复与变奏",
+        "design_method": "功能可视化、符号重复与变奏",
         "evidence_ids": [
           "499170-S1",
           "499170-S2",
@@ -41741,7 +41739,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "体素构成的森林与山体压着暗绿、紫红的夜色，巨大月亮占据天空；骷髅与魔物是可转向的平面像素贴片，成群涌来时与第一人称枪械形成材质反差。",
-        "design_method": "风格反差、材质迁移",
+        "design_method": "反差、材质迁移",
         "evidence_ids": [
           "881940-S1",
           "881940-S2",
@@ -41800,7 +41798,7 @@
           "材质表达"
         ],
         "creative_method": [
-          "风格反差"
+          "反差"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -42093,7 +42091,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "写实渲染的美国街景上覆盖昭和风格广告牌，「NEO YOKOHAMA」字牌仿好莱坞标志立在野山坡；荒漠公路尽头矗立巨型石像，熟悉街景与异常尺度并置。",
-        "design_method": "日常与异常并置、尺度反差",
+        "design_method": "日常与异常并置、尺度与空间错位",
         "evidence_ids": [
           "1687540-S1",
           "1687540-S2",
@@ -42154,7 +42152,7 @@
         ],
         "creative_method": [
           "日常与异常并置",
-          "尺度反差"
+          "尺度与空间错位"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -42396,7 +42394,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "粉彩浮岛上长满肉感管状植物，角色经过时花草弯伏让路；水下段落中发光水母成群漂动，雾气把岛屿与天空隔出柔和的前后层次。",
-        "design_method": "动态变形、形体变异",
+        "design_method": "夸张与变形",
         "evidence_ids": [
           "3850290-S1",
           "3850290-S2",
@@ -42455,7 +42453,7 @@
           "动态表现"
         ],
         "creative_method": [
-          "动态变形"
+          "夸张与变形"
         ],
         "business_stage": "方向假设，尚未验证",
         "product_genre": [
@@ -42762,7 +42760,7 @@
         "creativity_established": true,
         "creativity_status": "是（初评），依据具体表达方法与素材观察",
         "observation": "三维角色以赛璐璐色块和粗轮廓线呈现，动作抽帧模仿老动画节奏；太空段落的荧光黄轨迹与舱内橙色管线形成冷暖对照，双人分屏共享同一套视觉语言。",
-        "design_method": "材质迁移、风格反差",
+        "design_method": "材质迁移、反差",
         "evidence_ids": [
           "orbitals-S1",
           "orbitals-S2",
@@ -44074,22 +44072,18 @@
               "creative_method"
             ],
             "options": [
+              "元素重新组合",
               "日常与异常并置",
-              "比例夸张",
+              "夸张与变形",
               "形体简化",
-              "形体变异",
-              "尖圆对比",
               "材质迁移",
-              "风格反差",
-              "色光反差",
+              "反差",
               "视点变化",
-              "空间错位",
+              "尺度与空间错位",
               "剖面展开",
               "符号重复与变奏",
-              "视觉隐喻",
               "功能可视化",
-              "信息融入世界",
-              "动态变形"
+              "信息融入世界"
             ],
             "id": "d7g2"
           }
