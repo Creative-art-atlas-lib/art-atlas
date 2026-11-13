@@ -14,7 +14,7 @@
   const visible = c => c.display_override?.hidden!==true && c.display_policy?.visible===true;
   const isAnalyzed = c => c.semantic_review?.version==='V2' && c.semantic_review?.status==='complete' && c.semantic_review?.coverage==='sample';
   const isPartialImport = c => c.semantic_review?.status==='partial' && c.semantic_review?.coverage==='sample';
-  const sampleScore = c => isAnalyzed(c) && c.semantic_review.stats?.total>0 ? c.semantic_review.stats.positive/c.semantic_review.stats.total : -1;
+  const sampleScore = c => isAnalyzed(c) && c.semantic_review.stats?.total>0 ? c.semantic_review.stats.positive : -1;
   const compareCases = (a,b) => sampleScore(b)-sampleScore(a) || (a.sequence||0)-(b.sequence||0) || a.case_id.localeCompare(b.case_id);
   const reviewLabel = c => c.youtube_review ? "YouTube 分析未完成" : ({pending:'待语义分析',partial:'语义分析未完成',collection_missing:'采集待核查',not_applicable:'角色案例 · 无评论分析'}[c.semantic_review?.status] || '待语义分析');
   const reviewMetric = c => {
